@@ -1,0 +1,10 @@
+.content--section {
+  display: flex;
+  align-items: center;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+  }
+}

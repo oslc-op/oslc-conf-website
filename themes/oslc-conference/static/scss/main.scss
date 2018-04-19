@@ -1,7 +1,12 @@
 //CORE
-@import "_core/_reset";
 @import "_core/_colors";
+@import "_core/_reset";
 @import "_core/_typography";
 
 //LAYOUT
 @import "_layout/_grid";
+@import "_layout/_header";
+@import "_layout/_layout";
+
+//TEMPLATES
+@import "_templates/_home";

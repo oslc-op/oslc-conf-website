@@ -2,10 +2,24 @@
 <html lang="{{ .Site.LanguageCode }}"></html>
 
   {{ partial "head.html" }}
-  
-  {{ partial "header.html" }}
 
   <body>
-    {{ .Content }}
+    {{ partial "header.html" }}
+
+    <main>
+      <section class="content--section landing">
+        <div class="bg-overlay"></div>
+        <div class="container landing">
+          <div>
+
+          </div>
+          <div class="section--info">
+            <h1>OSLC FEST</h1>
+            <h3>November 5 - 6</h3>
+            <h2>Stockholm</h2>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

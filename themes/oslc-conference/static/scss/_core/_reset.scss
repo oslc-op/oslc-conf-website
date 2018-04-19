@@ -1,13 +1,7 @@
 body {
 	margin: 0;
-	background: $white;
+	background: $main-white;
   transition: all .5s ease;
-}
-
-div:after, div:before{
-	content: '';
-	display: table;
-	clear: both;
 }
 
 ul{
