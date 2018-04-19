@@ -8,6 +8,32 @@
     width: 90%;
     max-width: 1600px;
     margin: 0 auto;
+
+    .section--image {
+      width: 56%;
+
+      img{
+        display: block;
+        width: 100%;
+      }
+    }
+
+    .section--info {
+      h1,h2,h3 {
+        color: $main-white;
+        margin: 0;
+      }
+      h1 {
+        font-size: 100px;
+      }
+      h2 {
+        font-size: 100px;
+      }
+      h3 {
+        font-size: 70px;
+        margin: 20px 0;
+      }
+    }
   }
 
   .bg-overlay {
@@ -15,22 +41,5 @@
     top: 0; right: 0; bottom: 0; left: 0;
 
     background: linear-gradient(180deg, rgba(14,2,74,0.7) 0%, rgba(67,166,232,0.6951155462184874) 100%);
-  }
-
-  .section--info {
-    h1,h2,h3 {
-      color: $main-white;
-      margin: 0;
-    }
-    h1 {
-      font-size: 100px;
-    }
-    h2 {
-      font-size: 100px;
-    }
-    h3 {
-      font-size: 70px;
-      margin: 20px 0;
-    }
   }
 }
