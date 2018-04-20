@@ -1,11 +1,46 @@
-.content--section {
+.content--section--wrapper {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  background-color: #151515;
 
-  .container {
+  .content--section {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    z-index: 10;
+    margin-bottom: 4px;
+    background-color: $main-white;
+    border: 1px solid #8A93B2;
+    box-sizing: border-box;
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 10;
+      width: 100%;
+
+      .section--title {
+        font-size: 45px;
+        margin-bottom: 15px;
+        font-weight: 400px;
+      }
+    }
+  
+    &.full {
+      padding-bottom: 35px;
+      width: 100%;
+    }
+
+    &.half {
+      width: calc(50% - 2px);
+      
+      &:nth-child(even) {
+        margin-right: 2px;
+      }
+      
+      &:nth-child(odd) {
+        margin-left: 2px;
+      }
+    }
   }
 }
