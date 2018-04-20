@@ -16,6 +16,7 @@ vendor/*/
 *.bench
 coverage*.out
 *.sh
+.vscode
 
 GoBuilds
 dist
