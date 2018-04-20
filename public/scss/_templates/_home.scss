@@ -1,45 +1,87 @@
-.content--section.landing {
-  height: 100vh;
-  background-image: url("/images/stockholm_sweden.jpg");
-  background-size: cover;
-  position: relative;
+.content--section{
+  &.landing {
+    height: 100vh;
+    background-image: url("/images/stockholm_sweden.jpg");
+    background-size: cover;
+    position: relative;
 
-  .container.landing {
-    width: 90%;
-    max-width: 1600px;
-    margin: 0 auto;
+    .container.landing {
+      width: 90%;
+      max-width: 1600px;
+      margin: 0 auto;
+      flex-direction: row;
 
-    .section--image {
-      width: 56%;
+      .section--image {
+        width: 56%;
 
-      img{
-        display: block;
-        width: 100%;
+        img{
+          display: block;
+          width: 100%;
+        }
+      }
+
+      .section--info {
+        h1,h2,h3 {
+          color: $main-white;
+          margin: 0;
+        }
+        h1 {
+          font-size: 100px;
+        }
+        h2 {
+          font-size: 100px;
+        }
+        h3 {
+          font-size: 70px;
+          margin: 20px 0;
+        }
+
+        .registration {
+          margin-top: 25px;
+          border: 1px solid $main-white;
+          background-color: rgba(255,255,255,0.25);
+
+          p {
+            text-align: center;
+            color: $main-white;
+            font-size: 30px;
+          }
+        }
       }
     }
 
-    .section--info {
-      h1,h2,h3 {
-        color: $main-white;
-        margin: 0;
-      }
-      h1 {
-        font-size: 100px;
-      }
-      h2 {
-        font-size: 100px;
-      }
-      h3 {
-        font-size: 70px;
-        margin: 20px 0;
-      }
+    .bg-overlay {
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+
+      background: linear-gradient(180deg, rgba(14,2,74,0.7) 0%, rgba(67,166,232,0.6951155462184874) 100%);
     }
   }
 
-  .bg-overlay {
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
+  &.image {
+    .container {
+      height: 400px;
+      justify-content: flex-end;
 
-    background: linear-gradient(180deg, rgba(14,2,74,0.7) 0%, rgba(67,166,232,0.6951155462184874) 100%);
+      .section--title {
+        width: 100%;
+        text-align: center;
+        color: #FB9807;
+        margin: 0;
+        padding: 75px 0 30px;
+        background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(14,2,74,0.7) 100%);
+      }
+    }
+
+    &.speaker {
+      background-image: url(/images/speaker.jpg);
+      background-size: cover;
+    }
+
+    &.direction {
+      background-image: url(/images/KTH-map.png);
+      background-size: cover;
+      background-position: 50%;  
+    }
   }
 }
