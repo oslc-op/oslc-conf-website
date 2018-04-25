@@ -76,12 +76,54 @@
     &.speaker {
       background-image: url(/images/speaker.jpg);
       background-size: cover;
+      background-position: 50%;
     }
 
     &.direction {
       background-image: url(/images/KTH-map.png);
       background-size: cover;
-      background-position: 50%;  
+      background-position: 50%;
+    }
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .content--section{
+    &.landing {
+  
+      .container.landing {
+        flex-direction: column;
+
+        .section--image {
+          display: none;
+        }
+        .section--info {
+          h1,h2,h3 {
+            text-align: center;
+          }
+          h1 {
+            font-size: 52px;
+          }
+          h2 {
+            font-size: 52px;
+          }
+          h3 {
+            font-size: 37px;
+          }
+
+          .registration {
+            p { font-size: 18px; }
+          }
+        }
+      }
+    }
+  }
+
+  &.image {
+    .container {
+      .section--title {
+        padding: 50px 0 15px;
+      }
     }
   }
 }
