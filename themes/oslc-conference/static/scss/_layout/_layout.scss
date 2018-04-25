@@ -17,7 +17,10 @@
       justify-content: space-between;
       align-items: center;
       z-index: 10;
-      width: 100%;
+
+      &.bg {
+        width: 100%;
+      }
 
       .section--title {
         font-size: 45px;
@@ -27,7 +30,6 @@
     }
   
     &.full {
-      padding-bottom: 35px;
       width: 100%;
     }
 
@@ -40,6 +42,32 @@
       
       &:nth-child(odd) {
         margin-left: 2px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .content--section--wrapper {
+    .content--section {
+      .container {
+        flex-direction: column;
+
+        .section--title {
+          font-size: 28px;
+        }
+      }
+
+      &.half {
+        width: 100%;
+      
+        &:nth-child(even) {
+          margin-right: 0;
+        }
+        
+        &:nth-child(odd) {
+          margin-left: 0;
+        }
       }
     }
   }
