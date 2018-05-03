@@ -1,8 +1,6 @@
 .content--section{
   &.landing {
     height: 100vh;
-    background-image: url("/images/stockholm_sweden.jpg");
-    background-size: cover;
     position: relative;
 
     .container.landing {
@@ -10,6 +8,8 @@
       max-width: 1600px;
       margin: 0 auto;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
 
       .section--image {
         width: 56%;
@@ -21,68 +21,31 @@
       }
 
       .section--info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
         h1,h2,h3 {
-          color: $main-white;
+          text-align: center;
+          font-weight: normal;
           margin: 0;
         }
         h1 {
-          font-size: 100px;
+          font-size: 120px;
         }
         h2 {
-          font-size: 100px;
+          font-size: 58px;
         }
         h3 {
-          font-size: 70px;
+          font-size: 52px;
           margin: 20px 0;
         }
 
         .registration {
-          margin-top: 25px;
-          border: 1px solid $main-white;
-          background-color: rgba(255,255,255,0.25);
-
-          p {
-            text-align: center;
-            color: $main-white;
-            font-size: 30px;
-          }
+          margin-top: 55px;
         }
       }
-    }
-
-    .bg-overlay {
-      position: absolute;
-      top: 0; right: 0; bottom: 0; left: 0;
-
-      background: linear-gradient(180deg, rgba(14,2,74,0.7) 0%, rgba(67,166,232,0.6951155462184874) 100%);
-    }
-  }
-
-  &.image {
-    .container {
-      height: 400px;
-      justify-content: flex-end;
-
-      .section--title {
-        width: 100%;
-        text-align: center;
-        color: #FB9807;
-        margin: 0;
-        padding: 75px 0 30px;
-        background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(14,2,74,0.7) 100%);
-      }
-    }
-
-    &.speaker {
-      background-image: url(/images/speaker.jpg);
-      background-size: cover;
-      background-position: 50%;
-    }
-
-    &.direction {
-      background-image: url(/images/KTH-map.png);
-      background-size: cover;
-      background-position: 50%;
     }
   }
 }
@@ -115,14 +78,6 @@
             p { font-size: 18px; }
           }
         }
-      }
-    }
-  }
-
-  &.image {
-    .container {
-      .section--title {
-        padding: 50px 0 15px;
       }
     }
   }

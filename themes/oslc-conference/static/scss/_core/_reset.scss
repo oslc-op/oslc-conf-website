@@ -1,7 +1,11 @@
 body {
 	margin: 0;
 	background: $main-white;
-  transition: all .5s ease;
+	transition: all .5s ease;
+	
+	&.main {
+		background: $main;
+	}
 }
 
 ul{
