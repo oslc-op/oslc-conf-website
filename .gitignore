@@ -12,7 +12,6 @@ cover.out
 *.swo
 .DS_Store
 *~
-vendor/*/
 *.bench
 coverage*.out
 *.sh
