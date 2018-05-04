@@ -14,7 +14,6 @@ cover.out
 *~
 *.bench
 coverage*.out
-*.sh
 .vscode
 
 GoBuilds
