@@ -18,6 +18,28 @@
     font-weight: 500;
   }
 
+  .menu {
+
+    ul {
+      display: flex;
+
+      li {
+        margin-right: 40px;
+
+        a {
+          font-size: 22px;
+          color: $main-white;
+          text-decoration: none;
+          cursor: pointer;
+
+          &:hover {
+            color: $alt;
+          }
+        }
+      }
+    }
+  }
+
   .menu-toggle {
     display: flex;
     flex-direction: column;
@@ -51,9 +73,5 @@
         margin-bottom: 0
       }
     }
-  }
-
-  .menu {
-    display: none;
   }
 }
