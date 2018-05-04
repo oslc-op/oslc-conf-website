@@ -7,8 +7,8 @@
   border: 1px solid $main-black;
   color: $main-black;
   background: transparent;
-  padding: 6px 18px;
-  font-size: 16px;
+  padding: 15px 25px;
+  font-size: 18px;
   transition: all 200ms ease-in;
   cursor: pointer;
   
@@ -17,6 +17,7 @@
   &.white {
     border-color: $main-white;
     color: $main-white;
+    background-color: rgba(255,255,255,0.25);
   }
 
   &.main {
@@ -35,8 +36,31 @@
     }
   }
 
+  &.hover--white {
+    &:hover {
+      color: $main;
+      border-color: $main-white;
+    }
+
+    &:before {
+      border-bottom-color: $main-white;
+    }
+  }
+
+  &.disabled {
+    cursor: not-allowed;
+    &:hover {
+      color: $main-white;
+
+      &::before {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+      }
+    }
+  }
+
   &:hover {
-    color: white;
+    color: $main-white;
 
     &::before {
       -webkit-transform: translateX(0);
