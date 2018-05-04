@@ -1,13 +1,26 @@
 body {
 	margin: 0;
 	background: $main-white;
-  transition: all .5s ease;
+	transition: all .5s ease;
+	
+	&.main {
+		background: $main;
+	}
 }
 
 ul{
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
+}
+
+img {
+	width: 100%;
+	display: block;
+
+	&.round {
+		border-radius: 100%;
+	}
 }
 
 a{
