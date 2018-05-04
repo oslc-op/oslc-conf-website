@@ -23,4 +23,4 @@ git push origin production
 
 echo "Updating server code"
 SCRIPT="cd ../var/www/oslcfest.org; git pull; exit"
-ssh -A root@165.227.5.255 "${SCRIPT}"
+ssh -A root@167.99.229.27 "${SCRIPT}"
