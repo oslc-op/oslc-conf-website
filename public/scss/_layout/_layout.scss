@@ -179,6 +179,19 @@
         .section--title {
           font-size: 28px;
         }
+
+        .section--gallery {
+          flex-direction: column;
+
+          .gallery--item {
+            margin-right: 0;
+            margin-bottom: 40px;
+
+            img {
+              width: 80%;
+            }
+          }
+        }
       }
 
       &.half {
