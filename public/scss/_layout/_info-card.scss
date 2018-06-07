@@ -1,0 +1,156 @@
+.info-card {
+  width: 90%;
+  max-width: 1200px;
+  position: fixed;
+  top: calc(50% + 75px); left: 50%;
+  transform: translate(-200%, -50%);
+  background: white;
+  z-index: 200;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
+  opacity: 0;
+  transition: 350ms opacity ease-in-out;
+  
+  &.active {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+
+  .info--titles-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .info--image-wrap {
+      width: 250px;
+      margin-top: -125px;
+
+      img {
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
+      }
+    }
+
+    h4 {
+      margin: 0.6em 0 0.2em;
+      font-size: 26px;
+    }
+
+    .titles {
+      font-size: 20px;
+    }
+  }
+
+  .info--bio-wrap {
+    padding: 40px;
+    padding-top: 0;
+
+    .social-icons {
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 34px;
+        height: 34px;
+        border-radius: 100%;
+        margin-right: 15px;
+        background: $main;
+
+        font-size: 20px;
+        color: $main-white;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 28px; height: 28px;
+    padding: 4px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    .line {
+      position: absolute;
+      top: 15px; left: 4px;
+      display: inline-block;
+      height: 4px;
+      width: 28px;
+      border-radius: 2px;
+      background: #343434;
+      transform: rotate(-45deg);
+
+      &:first-child {
+        transform: rotate(45deg)
+      }
+    }
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: #545454;
+  opacity: .5;
+  z-index: 100;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .info-card {
+    top: 50%;
+
+    .info--titles-wrap {
+      .info--image-wrap {
+        display: none;
+      }
+
+      h4 {
+        font-size: 18px;
+      }
+
+      .titles {
+        font-size: 16px;
+        margin-bottom: 0;
+      }
+    }
+
+    .info--bio-wrap {
+      padding: 0 10px 15px;
+      p {
+        font-size: 14px;
+      }
+
+      .social-icons {
+        margin-top: 10px;
+        a {
+          width: 28px;
+          height: 28px;
+          font-size: 16px;
+        }
+      }
+    }
+
+    .close-btn {
+      .line {
+        top: 13px;
+        left: 9px;
+        height: 3px;
+        width: 22px;
+      }
+    }
+  }
+}
