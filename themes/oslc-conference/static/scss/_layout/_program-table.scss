@@ -38,26 +38,48 @@
         padding: 10px 0;
       }
     }
+
+    &.day {
+      label {
+        margin-bottom: 25px;
+      }
+    }
   }
 
   .program-item {
     margin: 8px 0;
 
-    &.one-hour {
+    .program-item--inner {
+      height: 76px;
+    }
+
+    &.one-quarter-hour {
       .program-item--inner {
-        height: 77px;
+        height: 24px;
       }
     }
 
-    &.one-half-hour {
+    &.three-quarter-hour {
       .program-item--inner {
         height: 128px;
       }
     }
 
-    &.two-hour {
+    &.one-hour {
       .program-item--inner {
         height: 180px;
+      }
+    }
+
+    &.one-half-hour {
+      .program-item--inner {
+        height: 284px;
+      }
+    }
+
+    &.two-hour {
+      .program-item--inner {
+        height: 250px;
       }
     }
   }
@@ -78,6 +100,10 @@
       margin: 0;
       text-align: left;
     }
+  }
+
+  &.blank {
+    background-color: transparent;
   }
 
   &.keynote {
@@ -101,6 +127,12 @@
   &.qa {
     .program-item--inner {
       border-color: $oslc-green;
+    }
+  }
+
+  &.break {
+    .program-item--inner {
+      border-color: $main-white;
     }
   }
 }
