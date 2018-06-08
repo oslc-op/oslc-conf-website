@@ -50,30 +50,30 @@
     margin: 8px 0;
 
     .program-item--inner {
-      height: 76px;
+      height: 88px;
     }
 
     &.one-quarter-hour {
       .program-item--inner {
-        height: 24px;
+        height: 36px;
       }
     }
 
     &.three-quarter-hour {
       .program-item--inner {
-        height: 128px;
+        height: 140px;
       }
     }
 
     &.one-hour {
       .program-item--inner {
-        height: 180px;
+        height: 192px;
       }
     }
 
     &.one-half-hour {
       .program-item--inner {
-        height: 284px;
+        height: 296px;
       }
     }
 
@@ -86,13 +86,13 @@
 }
 
 .program-item {
-  padding: 6px 18px 6px 12px;
+  padding-right: 18px;
   background-color: $program-light-gray;
 
   .program-item--inner {
     display: flex;
     padding: 4px 0 4px 8px;
-    border-left: 2px solid transparent;
+    border-left: 5px solid transparent;
     align-items: center;
 
     p {
@@ -118,21 +118,15 @@
     }
   }
 
-  &.usecase {
+  &.break {
     .program-item--inner {
       border-color: $oslc-orange;
     }
   }
 
-  &.qa {
+  &.tutorial {
     .program-item--inner {
       border-color: $oslc-green;
-    }
-  }
-
-  &.break {
-    .program-item--inner {
-      border-color: $main-white;
     }
   }
 }
