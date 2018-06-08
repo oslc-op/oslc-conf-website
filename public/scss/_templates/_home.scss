@@ -1,45 +1,102 @@
-.content--section.landing {
-  height: 100vh;
-  background-image: url("/images/stockholm_sweden.jpg");
-  background-size: cover;
-  position: relative;
+.content--section{
+  &.landing {
+    height: 100vh;
+    background-image: url("/images/stockholm_sweden.jpg");
+    background-size: cover;
+    position: relative;
 
-  .container.landing {
-    width: 90%;
-    max-width: 1600px;
-    margin: 0 auto;
+    .container.landing {
+      width: 90%;
+      max-width: 1600px;
+      margin: 0 auto;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
 
-    .section--image {
-      width: 56%;
+      .section--image {
+        width: 52%;
 
-      img{
-        display: block;
-        width: 100%;
+        img{
+          display: block;
+          width: 100%;
+        }
+      }
+
+      .section--info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        h1,h2,h3 {
+          color: $main-white;
+          font-weight: normal;
+          margin: 0;
+        }
+        h1 {
+          font-size: 100px;
+        }
+        h2 {
+          font-size: 52px;
+        }
+        h3 {
+          font-size: 44px;
+          margin: 20px 0;
+        }
+
+        .subtitle {
+          font-size: 30px;
+          margin-bottom: 30px;
+        }
+
+        .registration {
+          margin-top: 55px;
+          text-shadow: 0 1px 2px rgba(0,0,0,.5);
+        }
       }
     }
 
-    .section--info {
-      h1,h2,h3 {
-        color: $main-white;
-        margin: 0;
-      }
-      h1 {
-        font-size: 100px;
-      }
-      h2 {
-        font-size: 100px;
-      }
-      h3 {
-        font-size: 70px;
-        margin: 20px 0;
-      }
+    .bg-overlay {
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+
+      background: linear-gradient(180deg, rgba(14,2,74,0.7) 0%, rgba(67,166,232,0.6951155462184874) 100%);
     }
   }
+}
 
-  .bg-overlay {
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
+@media screen and (max-width: 769px) {
+  .content--section{
+    &.landing {
+  
+      .container.landing {
+        flex-direction: column;
 
-    background: linear-gradient(180deg, rgba(14,2,74,0.7) 0%, rgba(67,166,232,0.6951155462184874) 100%);
+        .section--image {
+          display: none;
+        }
+        .section--info {
+          h1,h2,h3 {
+            text-align: center;
+          }
+          h1 {
+            font-size: 54px;
+          }
+          h2 {
+            font-size: 28px;
+          }
+          .subtitle {
+            font-size: 22px;
+          }
+          h3 {
+            font-size: 28px;
+          }
+
+          .registration {
+            p { font-size: 18px; }
+          }
+        }
+      }
+    }
   }
 }
