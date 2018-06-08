@@ -1,0 +1,167 @@
+.table-legend--title {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 1em 0;
+}
+
+.table-legend--wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .program-item {
+    margin-right: 15px;
+  }
+}
+
+.program-table--wrap {
+  display: flex;
+  width: 100%;
+  margin: 50px 0 30px;
+
+  .column {
+    flex: 3;
+    margin-right: 35px;
+    text-align: center;
+
+    label {
+      font-size: 22px;
+      display: block;
+      margin-bottom: 15px;
+    }
+
+    &.date {
+      flex: 1;
+      p{
+        font-size: 20px;
+        margin: 8px 0;
+        padding: 10px 0;
+      }
+    }
+
+    &.day {
+      label {
+        margin-bottom: 25px;
+      }
+    }
+  }
+
+  .program-item {
+    margin: 8px 0;
+
+    .program-item--inner {
+      height: 76px;
+    }
+
+    &.one-quarter-hour {
+      .program-item--inner {
+        height: 24px;
+      }
+    }
+
+    &.three-quarter-hour {
+      .program-item--inner {
+        height: 128px;
+      }
+    }
+
+    &.one-hour {
+      .program-item--inner {
+        height: 180px;
+      }
+    }
+
+    &.one-half-hour {
+      .program-item--inner {
+        height: 284px;
+      }
+    }
+
+    &.two-hour {
+      .program-item--inner {
+        height: 250px;
+      }
+    }
+  }
+}
+
+.program-item {
+  padding: 6px 18px 6px 12px;
+  background-color: $program-light-gray;
+
+  .program-item--inner {
+    display: flex;
+    padding: 4px 0 4px 8px;
+    border-left: 2px solid transparent;
+    align-items: center;
+
+    p {
+      font-size: 20px;
+      margin: 0;
+      text-align: left;
+    }
+  }
+
+  &.blank {
+    background-color: transparent;
+  }
+
+  &.keynote {
+    .program-item--inner {
+      border-color: $oslc-light-blue;
+    }
+  }
+
+  &.techtalk {
+    .program-item--inner {
+      border-color: $oslc-dark-blue;
+    }
+  }
+
+  &.usecase {
+    .program-item--inner {
+      border-color: $oslc-orange;
+    }
+  }
+
+  &.qa {
+    .program-item--inner {
+      border-color: $oslc-green;
+    }
+  }
+
+  &.break {
+    .program-item--inner {
+      border-color: $main-white;
+    }
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .table-legend--wrap {
+    flex-wrap: wrap;
+
+    .program-item {
+      margin-bottom: 15px;
+    }
+  }
+
+  .program-table--wrap {
+    flex-wrap: wrap;
+
+    .column {
+      margin-bottom: 30px;
+      
+      &.date {
+        width: calc(30% - 35px);
+        flex: none;
+      }
+
+      &.day {
+        width: 70%;
+        flex: none;
+        margin-right: 0;
+      }
+    }
+  }
+}
