@@ -8,7 +8,7 @@
   width: 100%;
   box-sizing: border-box;
 
-  padding: 20px 25px;
+  padding: 10px 25px;
 
   transition: 350ms all ease-in-out;
   z-index: 11;
@@ -23,6 +23,7 @@
 
     ul {
       display: flex;
+      align-items: center;
 
       li {
         margin-right: 40px;
@@ -35,6 +36,20 @@
 
           &:hover {
             color: $alt;
+          }
+
+          &.button {
+            border-color: $main-white;
+            color: $main-white;
+
+            &::before {
+              border-right: 50px solid transparent;
+              border-bottom: 56px solid $main-white;
+            }
+
+            &:hover {
+              color: $main-black;
+            }
           }
         }
       }
@@ -86,6 +101,20 @@
 
     .menu ul li a{
       color: $main;
+      
+      &.button {
+        border-color: $main-black;
+        color: $main-black;
+
+        &::before {
+          border-bottom-color: $oslc-light-blue;
+        }
+
+        &:hover {
+          color: $main-white;
+          border-color: $oslc-light-blue;
+        }
+      }
     }
   }
 }
@@ -132,6 +161,17 @@
     &.scrolled {
       .menu-toggle .bar {
         background: $main;
+      }
+      .menu ul li a{
+
+        &.button {
+          border-color: $main-white;
+          color: $main-white;
+
+          &::before {
+            border-bottom-color: transparent;
+          }
+        }
       }
     }
 
