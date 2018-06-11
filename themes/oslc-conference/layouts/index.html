@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}"></html>
+<html lang="{{ .Site.LanguageCode }}">
 
-  {{ partial "head.html" }}
+  {{ partial "head.html" . }}
 
   <body>
-    {{ partial "header.html" }}
-
+    <header>
+      {{ partial "header.html" . }}
+    </header>
     <main>
       <div class="content--section--wrapper">
         <section class="content--section full landing">
@@ -564,6 +565,8 @@
         </section>
       </div>
     </main>
-    {{ partial "footer.html" }}
+    <footer>
+      {{ partial "footer.html" . }}
+    </footer>
   </body>
 </html>
