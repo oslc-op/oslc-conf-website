@@ -63,6 +63,23 @@
       background: linear-gradient(180deg, rgba(14,2,74,0.7) 0%, rgba(67,166,232,0.6951155462184874) 100%);
     }
   }
+
+  .register-btn {
+    padding-top: 20px !important;
+    &::after {
+      content: none !important;
+    }
+
+    .button {
+      font-size: 44px;
+      padding: 20px 60px;
+
+      &::before {
+        border-right-width: 50px;
+        border-bottom-width: 92px;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 769px) {
@@ -95,6 +112,23 @@
           .registration {
             p { font-size: 18px; }
           }
+        }
+      }
+    }
+
+    .register-btn {
+      padding-top: 20px !important;
+      &::after {
+        content: none !important;
+      }
+  
+      .button {
+        font-size: 28px;
+        padding: 15px 30px;
+  
+        &::before {
+          border-right-width: 50px;
+          border-bottom-width: 92px;
         }
       }
     }
