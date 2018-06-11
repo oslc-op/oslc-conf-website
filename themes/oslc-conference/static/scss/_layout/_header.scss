@@ -27,9 +27,10 @@
 
       li {
         margin-right: 40px;
+        display: flex;
 
         a {
-          font-size: 22px;
+          font-size: 20px;
           color: $main-white;
           text-decoration: none;
           cursor: pointer;
@@ -37,18 +38,25 @@
           &:hover {
             color: $alt;
           }
-
+          
           &.button {
             border-color: $main-white;
-            color: $main-white;
+            color: $main-black;
 
             &::before {
+              -webkit-transform: translateX(0);
+              transform: translateX(0);
               border-right: 50px solid transparent;
               border-bottom: 56px solid $main-white;
             }
 
             &:hover {
-              color: $main-black;
+              color: $main-white;
+    
+              &::before {
+                -webkit-transform: translateX(-100%);
+                transform: translateX(-100%);
+              }
             }
           }
         }
@@ -103,16 +111,16 @@
       color: $main;
       
       &.button {
-        border-color: $main-black;
-        color: $main-black;
+        border-color: $oslc-light-blue;
+        color: $main-white;
 
         &::before {
           border-bottom-color: $oslc-light-blue;
         }
 
         &:hover {
-          color: $main-white;
-          border-color: $oslc-light-blue;
+          color: $main-black;
+          border-color: $main-black;
         }
       }
     }
@@ -166,10 +174,10 @@
 
         &.button {
           border-color: $main-white;
-          color: $main-white;
+          color: $main-black;
 
           &::before {
-            border-bottom-color: transparent;
+            border-bottom-color: $main-white;
           }
         }
       }
