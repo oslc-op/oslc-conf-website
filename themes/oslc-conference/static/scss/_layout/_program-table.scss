@@ -91,14 +91,23 @@
 
   .program-item--inner {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 4px 0 4px 8px;
     border-left: 5px solid transparent;
-    align-items: center;
 
     p {
-      font-size: 20px;
+      font-size: 18px;
       margin: 0;
       text-align: left;
+      font-weight: 500;
+
+      &.talk-speaker {
+        margin-top: 6px;
+        font-size: 17px;
+        font-weight: normal;
+        text-transform: uppercase;
+      }
     }
   }
 
@@ -137,6 +146,10 @@
 
     .program-item {
       margin-bottom: 15px;
+
+      p {
+        font-size: 16px;
+      }
     }
   }
 
@@ -147,14 +160,23 @@
       margin-bottom: 30px;
       
       &.date {
-        width: calc(30% - 35px);
+        width: calc(26% - 15px);
+        margin-right: 15px;
         flex: none;
       }
 
       &.day {
-        width: 70%;
+        width: 74%;
         flex: none;
         margin-right: 0;
+
+        p {
+          font-size: 16px;
+
+          &.talk-speaker {
+            font-size: 15px;
+          }
+        }
       }
     }
   }
