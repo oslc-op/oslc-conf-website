@@ -41,16 +41,17 @@
 
         &.smaller--gallery {
           .gallery--item {
-            width: 24%;
+            width: 20%;
             img {
               width: 100%;
+            }
   
-              &.circle {
-                width: 85%;
-              }
+            .circle {
+              width: 65%;
             }
   
             a {
+              width: 95%;
               text-align: center;
             }
           }
