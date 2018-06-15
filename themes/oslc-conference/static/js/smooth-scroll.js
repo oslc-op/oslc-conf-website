@@ -3,12 +3,14 @@ $(document).ready(function(){
   var nav = {items: []};
   for (i = 0; i < $(".nav--item").length; i++) {
     element = $(".nav--item")[i];
-    nav.items.push (
-      {
-        target: element.hash,
-        position: $(element.hash+"-anchor").offset().top - 80
-      }
-    )
+    if(element.hash.startsWith('#')) {
+      nav.items.push (
+        {
+          target: element.hash,
+          position: $(element.hash+"-anchor").offset().top - 80
+        }
+      )
+    }
   }
 
   if (location.hash) {
