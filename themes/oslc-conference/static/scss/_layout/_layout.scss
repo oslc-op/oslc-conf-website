@@ -40,6 +40,11 @@
         margin: 80px 0 60px;
 
         &.smaller--gallery {
+          &.five {
+            .gallery--item {
+              width: 18%;
+            }
+          }
           .gallery--item {
             width: 22%;
             img {
