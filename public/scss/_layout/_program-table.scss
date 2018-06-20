@@ -11,16 +11,25 @@
 
   .program-item {
     margin-right: 15px;
+
+    .program-item--inner {
+      padding: 8px;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
   }
 }
 
 .program-table--wrap {
   display: flex;
   width: 100%;
+  max-width: 850px;
   margin: 50px 0 30px;
 
   .column {
-    flex: 3;
+    flex: 5;
     margin-right: 35px;
     text-align: center;
 
@@ -40,6 +49,7 @@
     }
 
     &.day {
+      margin-right: 0;
       label {
         margin-bottom: 31px;
       }
@@ -47,68 +57,35 @@
   }
 
   .program-item {
-    margin: 8px 0;
-
-    .program-item--inner {
-      height: 112px;
-    }
-
-    &.one-quarter-hour {
-      .program-item--inner {
-        height: 48px;
-
-        p.talk-speaker {
-          margin-top: 4px;
-        }
-      }
-    }
-
-    &.three-quarter-hour {
-      .program-item--inner {
-        height: 176px;
-      }
-    }
-
-    &.one-hour {
-      .program-item--inner {
-        height: 240px;
-      }
-    }
-
-    &.one-half-hour {
-      .program-item--inner {
-        height: 372px;
-      }
-    }
-
-    &.two-hour {
-      .program-item--inner {
-        height: 250px;
-      }
-    }
+    margin: 30px 0;
   }
 }
 
 .program-item {
-  padding-right: 18px;
   background-color: $program-light-gray;
 
   .program-item--inner {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 4px 0 4px 8px;
-    border-left: 5px solid transparent;
+    padding: 16px 8px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
 
     p {
-      font-size: 18px;
+      font-size: 20px;
       margin: 0;
-      text-align: left;
+      text-align: center;
       font-weight: 500;
 
+      &.program-time {
+        margin-top: 14px;
+        font-size: 18px;
+      }
+
       &.talk-speaker {
-        margin-top: 6px;
-        font-size: 17px;
+        margin-top: 14px;
+        font-size: 18px;
         font-weight: 500;
         opacity: 0.7;
       }
@@ -122,30 +99,50 @@
   &.keynote {
     .program-item--inner {
       border-color: $oslc-light-blue;
+
+      .program-time {
+        color: $oslc-light-blue;
+      }
     }
   }
 
   &.techtalk {
     .program-item--inner {
       border-color: $oslc-dark-blue;
+
+      .program-time {
+        color: $oslc-dark-blue;
+      }
     }
   }
 
   &.break {
     .program-item--inner {
       border-color: $oslc-orange;
+
+      .program-time {
+        color: $oslc-orange;
+      }
     }
   }
 
   &.discussion {
     .program-item--inner {
       border-color: $oslc-green;
+
+      .program-time {
+        color: #1f9467;
+      }
     }
   }
 
   &.vendor {
     .program-item--inner {
       border-color: #ffbc00;
+
+      .program-time {
+        color: #e0a708;
+      }
     }
   }
 }
@@ -176,7 +173,7 @@
       }
 
       &.day {
-        width: 74%;
+        width: 100%;
         flex: none;
         margin-right: 0;
 
