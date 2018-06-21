@@ -255,6 +255,19 @@
             .gallery--item {
               width: 80%;
             }
+
+            &.five {
+              .gallery--item {
+                width: 100%;
+              }
+            }
+
+            &.logos {
+              .gallery--item {
+                width: 40%;
+                min-width: 150px;
+              }
+            }
           }
           
           &.align-top {
@@ -272,6 +285,13 @@
 
             img {
               width: 80%;
+              max-width: 280px;
+            }
+
+            .hover-wrap {
+              img {
+                width: 100%;
+              }
             }
           }
         }
