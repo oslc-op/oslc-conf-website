@@ -76,18 +76,17 @@
 
     p {
       text-align: left;
-      margin-bottom: 8px;
+      margin: 0;
     }
 
     .program-duration {
-      margin-top: 0;
       font-size: 14px;
       opacity: .5;
       
       position: absolute;
       width: auto;
       right: 5px;
-      bottom: 0px;
+      bottom: 5px;
     }
   }
 
