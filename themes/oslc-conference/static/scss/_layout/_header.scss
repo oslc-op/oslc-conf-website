@@ -8,13 +8,13 @@
   width: 100%;
   box-sizing: border-box;
 
-  padding: 10px 25px;
+  padding: 10px 15px;
 
   transition: 350ms all ease-in-out;
   z-index: 11;
 
   .logo {
-    font-size: 30px;
+    font-size: 26px;
     color: $main-white;
     font-weight: 500;
   }
@@ -30,7 +30,7 @@
         display: flex;
 
         a {
-          font-size: 20px;
+          font-size: 18px;
           color: $main-white;
           text-decoration: none;
           cursor: pointer;
@@ -59,6 +59,10 @@
               }
             }
           }
+        }
+
+        &:last-child {
+          margin-right: 0;
         }
       }
     }
@@ -127,7 +131,13 @@
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (min-width: 770px) and (max-width: 1240px) {
+  .main-header .menu ul li {
+    margin-right: 25px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
   .main-header {
     padding: 10px 16px;
     &.scrolled .menu, .menu {
@@ -135,7 +145,7 @@
       justify-content: center;
       background: $main;
       position: fixed;
-      top: 55px;
+      top: 50px;
       left: 0; right: 0;
       height: 0;
       overflow-y: hidden;
