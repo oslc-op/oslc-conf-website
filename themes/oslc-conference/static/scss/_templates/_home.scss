@@ -93,6 +93,42 @@
 }
 
 
+@media screen and (min-width: 770px) and (max-width: 1240px) {
+  .content--section{
+    &.landing {
+  
+      .container.landing {
+        flex-direction: column;
+
+        .section--image {
+          display: none;
+        }
+        .section--info {
+          h1,h2,h3 {
+            text-align: center;
+          }
+          h1 {
+            font-size: 76px;
+          }
+          h2 {
+            font-size: 40px;
+          }
+          .subtitle {
+            font-size: 34px;
+          }
+          h3 {
+            font-size: 40px;
+          }
+
+          .registration {
+            p { font-size: 24px; }
+          }
+        }
+      }
+    }
+  }
+}
+
 
 @media screen and (max-width: 769px) {
   .content--section{
