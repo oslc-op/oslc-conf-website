@@ -63,6 +63,23 @@
           }
         }
 
+        &.authors--gallery {
+          margin: 20px 0 0;
+          .gallery--item {
+            width: 22%;
+            margin-bottom: 20px;
+
+            img {
+              width: 80%;
+            }
+
+            h4 {
+              font-size: 18px;
+            }
+            p{font-size: 16px;}
+          }
+        }
+
         &.align-top {
           align-items: flex-start;
         }

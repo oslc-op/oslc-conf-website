@@ -56,6 +56,13 @@
   background-color: $program-light-gray;
   display: flex;
   position: relative;
+  transition: 300ms opacity ease-in-out;
+
+  &.has-abstract {
+    &:hover {
+      opacity: .4;
+    }
+  }
 
   .program-item--time-wrap {
     width: 60px;
@@ -111,50 +118,42 @@
   &.keynote {
     .program-item--inner {
       border-color: $oslc-light-blue;
-
-      .program-time {
-        color: $oslc-light-blue;
-      }
     }
   }
 
+  // &.techtalk {
+  //   .program-item--inner {
+  //     border-color: $oslc-dark-blue;
+  //   }
+  // }
+
+  // &.break {
+  //   .program-item--inner {
+  //     border-color: $oslc-orange;
+  //   }
+  // }
+
   &.techtalk {
     .program-item--inner {
-      border-color: $oslc-dark-blue;
-
-      .program-time {
-        color: $oslc-dark-blue;
-      }
+      border-color: $oslc-orange;
     }
   }
 
   &.break {
     .program-item--inner {
-      border-color: $oslc-orange;
-
-      .program-time {
-        color: $oslc-orange;
-      }
+      border-color: #aaaaaa;
     }
   }
 
   &.discussion {
     .program-item--inner {
       border-color: $oslc-green;
-
-      .program-time {
-        color: #1f9467;
-      }
     }
   }
 
   &.vendor {
     .program-item--inner {
       border-color: #ffbc00;
-
-      .program-time {
-        color: #e0a708;
-      }
     }
   }
 }
