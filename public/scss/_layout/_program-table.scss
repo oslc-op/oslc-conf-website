@@ -39,15 +39,6 @@
       margin-bottom: 15px;
     }
 
-    &.date {
-      flex: 1;
-      p{
-        font-size: 20px;
-        margin: 8px 0;
-        padding: 16px 0;
-      }
-    }
-
     &.day {
       margin-right: 0;
       label {
@@ -186,12 +177,6 @@
 
     .column {
       margin-bottom: 30px;
-      
-      &.date {
-        width: calc(26% - 15px);
-        margin-right: 15px;
-        flex: none;
-      }
 
       &.day {
         width: 100%;
@@ -203,6 +188,20 @@
 
           &.talk-speaker {
             font-size: 15px;
+          }
+        }
+
+        
+  
+        .program-item {
+          .program-item--time-wrap {
+            .program-duration {
+              font-size: 13px;
+            }
+          }
+
+          .program-item--inner {
+            padding: 20px 8px;
           }
         }
       }
