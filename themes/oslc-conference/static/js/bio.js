@@ -66,6 +66,20 @@ var bio = {
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  'jimA' : {
+    'name' : 'Jim Amsden',
+    'title' : 'Senior Technical Staff at IBM',
+    'picturePath' : '/images/speakers/jim_amsden.jpg',
+    'bio' : [
+      'Jim Amsden is an IBM Senior Technical Staff Member in IBM Watson IoT. Jim has worked on a broad range of solutions incorporating IBM products for strategic planning; solution analysis, design and construction; continuous delivery; and quality management - tying these together into a comprehensive offerings, accessible through the Cloud and applicable to a wide range of industries. Jim is currently the technical lead for Open-Services for Lifecycle Collaboration (OSLC) development, focused on enabling and supporting lifecycle tool integration.'
+    ],
+    'contact' : [
+      {
+        'link':'mailto:jamsden@us.ibm.com',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };
 

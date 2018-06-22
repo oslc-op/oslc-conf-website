@@ -78,6 +78,7 @@
             .hover-wrap {
               position: relative;
               display: flex;
+              width: 100%;
               align-items: center;
               justify-content: center;
 
@@ -293,7 +294,7 @@
 
             .hover-wrap {
               img {
-                width: 100%;
+                width: 80%;
               }
             }
           }
