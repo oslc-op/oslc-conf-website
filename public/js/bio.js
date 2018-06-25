@@ -95,6 +95,20 @@ var bio = {
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  'andrewB' : {
+    'name' : 'Andrew Berezovskyi',
+    'title' : 'PhD Student, KTH',
+    'picturePath' : '/images/speakers/andrew_berezovskyi.jpg',
+    'bio' : [
+      'Andrew Berezovskyi is a PhD student at KTH. His research is centred around using linked data to enable interoperability and autonomy of Cyber-Phisical Systems. Andrew is a project lead of Eclipse Lyo that provides OSLC4J SDK for developing OSLC applications, Lyo Designer environment for model-based engineering of OSLC systems, and complementary libraries. He is also a voting member of the OSLC Core & Domains TCs.'
+    ],
+    'contact' : [
+      {
+        'link':'andriib@kth.se',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };
 
