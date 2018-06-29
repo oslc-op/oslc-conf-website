@@ -109,6 +109,20 @@ var bio = {
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  'sofiaC' : {
+    'name' : 'Sofia Cassel',
+    'title' : 'Architect, Scania',
+    'picturePath' : '/images/speakers/sofia_cassel.jpg',
+    'bio' : [
+      'Sofia Cassel holds a Ph.D. in theoretical computer science from Uppsala University, Sweden.  She is currently employed by Scania, where she works as an architect focusing on strategic development of the Embedded Systems toolchain.  Her academic background is in formal methods, computational linguistics, and most recently, functional safety for heavy vehicles.  She is passionate about balancing customer/user requirements with intelligent and future-proof technical solutions as well as industry standards and legal requirements.'
+    ],
+    'contact' : [
+      {
+        'link':'sofia.cassel@scania.com',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };
 
