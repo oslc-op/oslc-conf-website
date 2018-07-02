@@ -123,6 +123,20 @@ var bio = {
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  'fredericL' : {
+    'name' : 'Frederic Loiret',
+    'title' : 'Senior Researcher, KTH',
+    'picturePath' : '/images/speakers/frederic_loiret.png',
+    'bio' : [
+      'Frédéric Loiret is a senior researcher and cooperative R&D project manager at KTH (Royal Institute of Technology, Stockholm, Sweden). His interests are focused on providing tailored tools, design methods and development environments in order to increase the efficiency of software development processes for Software-Intensive Systems Engineering.'
+    ],
+    'contact' : [
+      {
+        'link':'mailto:floiret@kth.se',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };
 
