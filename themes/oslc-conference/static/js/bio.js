@@ -137,6 +137,20 @@ var bio = {
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  'billC' : {
+    'name' : 'Bill Chown',
+    'title' : 'Product Line Director, Mentor Graphics',
+    'picturePath' : '/images/speakers/bill_chown.jpg',
+    'bio' : [
+      'Bill Chown is product line director for the System Level Engineering division at Mentor Graphics, working on new tools for systems life cycle management, and responsible for OSLC-based integrated tool solutions for electronic system design, and more. A thirty-plus year EDA industry veteran, Bill specializes in system-level design and analysis across technology disciplines and has a particular interest in standards for systems engineering and design. He is currently also CIO of INCOSE, and Chair of the OASIS OSLC Steering Committee.'
+    ],
+    'contact' : [
+      {
+        'link':'mailto:bill_chown@mentor.com',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };
 
