@@ -91,7 +91,7 @@ var bio = {
     ],
     'contact' : [
       {
-        'link':'szymon.klarman@gmail.com',
+        'link':'mailto:szymon.klarman@gmail.com',
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
@@ -105,7 +105,7 @@ var bio = {
     ],
     'contact' : [
       {
-        'link':'andriib@kth.se',
+        'link':'mailto:andriib@kth.se',
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
@@ -119,7 +119,7 @@ var bio = {
     ],
     'contact' : [
       {
-        'link':'sofia.cassel@scania.com',
+        'link':'mailto:sofia.cassel@scania.com',
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
