@@ -151,6 +151,20 @@ var bio = {
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  'axelR' : {
+    'name' : 'Axel Reichwein',
+    'title' : 'OSLC and Linked Data Consultant, Koneksys',
+    'picturePath' : '/images/speakers/axel.png',
+    'bio' : [
+      'Developer of multiple data integration solutions based on Open Services for Lifecycle Collaboration (OSLC) and CEO of Koneksys, helping organizations create data integration solutions using Linked Data, Open Services for Lifecycle Collaboration (OSLC), big data frameworks and graph databases. Axel Reichwein was Co-chair of the OMG OSLC4MBSE working group, where he investigated how OSLC can be used for Model-Based Systems Engineering (MBSE). He received a Ph.D. in Aerospace Engineering from the University of Stuttgart, Germany, and performed postdoctoral research at the Georgia Institute of Technology in system architecture modeling and multidisciplinary data integration.'
+    ],
+    'contact' : [
+      {
+        'link':'mailto:axel.reichwein@koneksys.com',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };
 
