@@ -14,37 +14,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>OSLC Fest</title>
 
-  <!-- <meta property="og:title" content="{{ .Title }}" />
-  <meta property="og:description" content="{{ .Description }}" />
-  <meta property="og:image" content="https://koneksys.com/img/koneksys-logo_white.png" />
-  <meta property="twitter:card" content="summary" />
-  <meta property="twitter:description" content="{{ .Description }}" />
-  <meta property="twitter:title" content="{{ .Title }}" />
-  <meta property="twitter:image" content="http://koneksys.com{{ .Params.banner }}" />
-  -->
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@oslcfest">
+  <meta name="twitter:title" content="OSLC Fest Sweden September 5 - 6, 2018">
+  <meta name="twitter:description" content="The first conference on OSLC & LinkedData (OSLCFest) will take place in Stockholm on November 5th & 6th, 2018 at the KTH Royal Institute of Technology">
+  <meta name="twitter:image" content="http://oslcfest.org/images/email/email-banner.png">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="OSLC Fest Sweden September 5 - 6, 2018" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="http://oslcfest.org/" />
+  <meta property="og:image" content="http://oslcfest.org/images/email/email-banner.png" />
+  <meta property="og:description" content="The first conference on OSLC & LinkedData (OSLCFest) will take place in Stockholm on November 5th & 6th, 2018 at the KTH Royal Institute of Technology" /> 
+  
   <link href="/favicon.ico" rel="shortcut icon" />
   <link href="/favicon.ico" rel="shortcut" />
   <link href="/favicon.ico" rel="icon" />
   <link href="/favicon.png" rel="apple-touch-icon" />
   <link href="/favicon.png" rel="apple-touch-icon-precomposed" />
   <link href="/favicon.ico" rel="image_src" />
-  <!-- 
-  <meta name="author" content="{{ .Site.Author.name }}" />
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@koneksys">
-  <meta name="twitter:title" content="{{- .Title -}}">
-  <meta name="twitter:image" content="http://koneksys.com{{- .Params.banner -}}">
-  {{ if .Keywords }}
-  <meta name="keywords" content="{{ delimit .Keywords ", " }}">
-  {{ else if .Site.Params.DefaultKeywords }}
-  <meta name="keywords" content="{{ delimit .Site.Params.DefaultKeywords ", " }}">
-  {{ end }}
-
-  {{ if .Description }}
-  <meta name="description" content="{{ .Description }}">
-  {{ else if .Site.Params.DefaultDescription }}
-  <meta name="description" content="{{ .Site.Params.DefaultDescription }}">
-  {{ end }} -->
 
   {{ .Hugo.Generator }}
 
@@ -59,11 +48,5 @@
   <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}img/apple-touch-icon.png" />
 
   <link rel="alternate" href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
-
-  <!-- Facebook OpenGraph tags -->
-  <!-- <meta property="og:title" content="{{ .Title }}" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="{{ .URL }}/" />
-  <meta property="og:image" content="{{ .Site.Params.logo }}" /> -->
   
 </head>
