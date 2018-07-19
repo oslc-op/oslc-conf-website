@@ -93,6 +93,23 @@
           width: 30%;
           margin-bottom: 30px;
 
+          .image-wrap {
+            width: 70%;
+            height: auto;
+            transition: 350ms opacity ease-in-out;
+
+            .circular-image {
+              position: relative;
+              background-size: cover;
+              border-radius: 50%;
+              width: 100%;
+              height: 0;
+              padding-top: 100%;
+              box-sizing: border-box;
+              border: 1px solid white;
+            }
+          }
+
           &.has-info {
             .hover-wrap {
               position: relative;
@@ -121,7 +138,7 @@
             &:hover {
               cursor: pointer;
               .hover-wrap {
-                img {
+                .image-wrap {
                   opacity: .4;
                 }
                 span {
