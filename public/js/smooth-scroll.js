@@ -3,7 +3,7 @@ $(document).ready(function(){
   if(!$('.main-header').hasClass('alt')) {
     for (i = 0; i < $(".nav--item").length; i++) {
       element = $(".nav--item")[i];
-      if(element.hash.startsWith('#')) {
+      if(element.hash.charAt(0) == '#') {
         nav.items.push (
           {
             target: element.hash,
