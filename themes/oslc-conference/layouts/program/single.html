@@ -18,11 +18,16 @@
                 {{ $title := index $.Params.authors_title $index }}
                 {{ $key := index $.Params.authors_key $index }}
                 {{ $image := index $.Params.authors_image $index }}
+                {{ if eq $key ""}}
+                <div class="gallery--item">
+                  <img class="round" data-src="{{ $image }}"/>
+                {{ else }}
                 <div class="gallery--item has-info" data-bio="{{ $key }}" onclick="openInfo(this)">
                   <div class="hover-wrap">
                     <img class="round" data-src="{{ $image }}"/>
                     <span>Bio</span>
                   </div>
+                {{ end }}
                   <h4 class="item-title">{{ $author }}</h4>
                   <p class="text-center">{{ $title }}</p>
                 </div>
