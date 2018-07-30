@@ -67,6 +67,8 @@
 
         &.authors--gallery {
           margin: 20px 0 0;
+          align-items: flex-start;
+          
           .gallery--item {
             width: 22%;
             margin-bottom: 20px;
