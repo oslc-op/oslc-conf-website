@@ -6,9 +6,9 @@ authors = [
   'Nora Tazir'
 ]
 authors_title = [
-  'Senior Research Scientist',
-  'Head of Data Exchange & Integration',
-  'PLM Strategy and Processes'
+  'Senior Research Scientist, Siemens',
+  'Head of Data Exchange & Integration, Schaeffler',
+  'PLM Strategy and Processes, ProSTEP'
 ]
 authors_key = [
   '',
