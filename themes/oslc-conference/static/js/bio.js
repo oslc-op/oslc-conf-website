@@ -165,6 +165,20 @@ var bio = {
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  'frankP' : {
+    'name' : 'Frank Patz-Brockmann',
+    'title' : 'Director R&D at Contact Software',
+    'picturePath' : '/images/speakers/frank-patz.png',
+    'bio' : [
+      "Frank Patz-Brockmann is Director R&D at Contact Software. Frank is leading the team responsible for Contact's Elements technology-platform, and the PLM and IoT-solutions based on it. He looks back on more than 25 years of experience in enterprise and engineering software, helping to define Contact's product strategy and advising key customers in automotive and other industries."
+    ],
+    'contact' : [
+      {
+        'link':'mailto:frank.patz-brockmann@contact-software.com',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };
 
