@@ -179,6 +179,37 @@ var bio = {
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  'holgerP' : {
+    'name' : 'Holger Papajewski',
+    'title' : 'CTO at pure-systems GmbH',
+    'picturePath' : '/images/speakers/holger_papajewski.jpg',
+    'bio' : [
+      "Holger Papajewski is CTO of pure-systems GmbH. pure-systems is a software company specialized  in services and tool development for the application of product line technologies in embedded software intensive systems. He started to work in the field of embedded operating systems and software families by the end of 90's at the University of Magdeburg.",
+      "He was one of the founder of pure-systems in 2001. At pure-systems he is responsible for the development of the pure::variants variant management suite."
+    ],
+    'contact' : [
+      {
+        'link':'mailto:holger.papajewski@pure-systems.com',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  'stephenD' : {
+    'name' : 'Stephen Denman',
+    'title' : 'Owner/Consultant at Stephen D. Denman Consulting',
+    'picturePath' : '/images/speakers/stephen_denman.png',
+    'bio' : [
+      "Steve Denman is a freelance consultant working with organizations to bring the systems, hardware, and software engineering practices together by addressing the gaps in their respective processes and supporting tool platforms. He has 35 years of experience working in systems, software, and hardware engineering, with a recurring focus on engineering process and tool improvement, including tool chain optimization and integration.",
+      "Steve began his professional life in the early ‘80s as an electrical engineer, focused on digital systems and large-scale integrated circuit architecture and design approaches. Like some other EE’s, he soon found his way into software development and initially worked on a custom tool for integrated circuit layout. This began his long-standing interest and focus on engineering tools and processes. Since then, he has worked at: Texas Instruments; Sandia National Laboratories; Rational Software Corporation; the Emphasys group, a consulting firm he founded; MKS; PTC; IBM; and has most recently started yet another consulting firm (it’s true that some people don’t learn from experience), where he is focusing on systems and requirements engineering, holistic product configuration management, ALM-PLM integration, digital transformation, digital twin, digital thread, and cognitive engineering.",
+      "Steve holds Bachelor and Master of Science degrees in Electrical Engineering from Texas A&M University and is active in the Institute of Electrical and Electronics Engineers (IEEE), the International Council on Systems Engineering (INCOSE), and the OSLC community."
+    ],
+    'contact' : [
+      {
+        'link':'mailto:stephen@sddenmanconsulting.com',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };
 
