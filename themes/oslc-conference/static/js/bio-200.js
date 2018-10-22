@@ -81,21 +81,6 @@ var bio = {
       }
     ]
   },
-  'szymonK' : {
-    'name' : 'Szymon Klarman',
-    'title' : 'Knowledge Architect, EPISTEMIK',
-    'picturePath' : '/images/speakers/szymon_klarman.jpg',
-    'bio' : [
-      'An R&D specialist in knowledge representation and reasoning with over 10 years experience. He obtained his PhD degree from the VU University Amsterdam in 2013 and has worked as an academic researcher in several international institutes in the Netherlands, UK, South Africa, and others, publishing predominantly on logical foundations of Semantic Web technologies.',
-      'Outside the academia, he has been involved as an R&D engineer and a knowledge architect in a number of projects within the start-up and linked data consultancy space, leveraging modern knowledge engineering techniques to help develop smarter, innovative tools. Most recently, he has initiated and lead the open-source HyperGraphQL project, aiming to extend GraphQL towards the linked data paradigm.'
-    ],
-    'contact' : [
-      {
-        'link':'mailto:szymon.klarman@gmail.com',
-        'icon':'<i class="fas fa-envelope"></i>'
-      }
-    ]
-  },
   'andrewB' : {
     'name' : 'Andrew Berezovskyi',
     'title' : 'PhD Student, KTH',
@@ -106,20 +91,6 @@ var bio = {
     'contact' : [
       {
         'link':'mailto:andriib@kth.se',
-        'icon':'<i class="fas fa-envelope"></i>'
-      }
-    ]
-  },
-  'sofiaC' : {
-    'name' : 'Sofia Cassel',
-    'title' : 'Architect, Scania',
-    'picturePath' : '/images/speakers/sofia_cassel.jpg',
-    'bio' : [
-      'Sofia Cassel holds a Ph.D. in theoretical computer science from Uppsala University, Sweden.  She is currently employed by Scania, where she works as an architect focusing on strategic development of the Embedded Systems toolchain.  Her academic background is in formal methods, computational linguistics, and most recently, functional safety for heavy vehicles.  She is passionate about balancing customer/user requirements with intelligent and future-proof technical solutions as well as industry standards and legal requirements.'
-    ],
-    'contact' : [
-      {
-        'link':'mailto:sofia.cassel@scania.com',
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
