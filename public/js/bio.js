@@ -210,6 +210,21 @@ var bio = {
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  'philipC' : {
+    'name' : 'Philip Coates',
+    'title' : 'Co-founder and Director of Semantic Integration',
+    'picturePath' : '/images/speakers/philip_coates.jpg',
+    'bio' : [
+      "Phil Coates is one of the founders of Semantic Integration, a software consultancy specialising in Semantic Web and Linked Data solutions, where he has worked on a number of large-scale data integration projects and provided R&D and architectural expertise for a range of clients, within the fields of finance, life sciences, publishing and media.",
+      "Prior to this, he had many years in industry working in various software engineering roles for companies ranging from tiny start-ups to massive multinationals, gaining a lot of insight into building production-quality systems and the practical and industrial applications of academic computer science research."
+    ],
+    'contact' : [
+      {
+        'link':'mailto:philip.coates@semanticintegration.co.uk',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };
 
