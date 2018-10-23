@@ -210,6 +210,20 @@ var bio = {
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  'rubenV' : {
+    'name' : 'Dr. Ruben Verborgh',
+    'title' : 'Professor at Ghent University – imec, research affiliate at Decentralized Information Group at MIT',
+    'picturePath' : '/images/speakers/ruben_verborgh.jpg',
+    'bio' : [
+      "Ruben Verborgh is a professor of Semantic Web technology at Ghent University – imec and a research affiliate at the Decentralized Information Group at MIT. He aims to build a more intelligent generation of clients for a decentralized Web at the intersection of Linked Data and hypermedia-driven Web APIs."
+    ],
+    'contact' : [
+      {
+        'link':'mailto:josemaria.alvarez@uc3m.es',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };
 
