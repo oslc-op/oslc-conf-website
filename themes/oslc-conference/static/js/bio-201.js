@@ -196,6 +196,20 @@ var bio = {
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  'joseM' : {
+    'name' : 'Dr. Jose Maria Alvarez Rodriguez',
+    'title' : 'Associate Professor within the Computer Science and Engineering Department of Universidad Carlos III de Madrid',
+    'picturePath' : '/images/speakers/jose_maria.png',
+    'bio' : [
+      "Associate Professor within the Computer Science and Engineering Department of Universidad Carlos III de Madrid. His main research interests are semantic-based technologies, linked (open) data, knowledge engineering, software reuse, large scale architectures and graph analysis techniques applied to Systems and Software Engineering, the Media sector or e-Procurement. He has participated in more than 30 research projects in different competitive programs. He is also the author of more than 60 publications and other research works in the main international venues and impact factor journals in which he also participates as reviewer, editorial board member and guest editor. Currently, he is leading the Interoperability, Linked Data and Big Data cluster within the Knowledge Reuse research group lead by Prof. Juan Llorens and participating as associate researcher within The Reuse Company. Finally, he is member of INCOSE, AEIS, OMG, ISO (Big Data  Blockchain) and OSLC RM (Requirements Management."
+    ],
+    'contact' : [
+      {
+        'link':'mailto:josemaria.alvarez@uc3m.es',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };
 
