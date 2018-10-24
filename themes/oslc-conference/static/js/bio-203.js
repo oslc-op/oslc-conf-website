@@ -220,7 +220,21 @@ var bio = {
     ],
     'contact' : [
       {
-        'link':'mailto:josemaria.alvarez@uc3m.es',
+        'link':'mailto:Ruben.Verborgh@UGent.be',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  'sebastienB' : {
+    'name' : 'Sebastien Boucard',
+    'title' : 'Director of R&D at Sodius',
+    'picturePath' : '/images/speakers/sebastien_boucard.jpg',
+    'bio' : [
+      "Sebastien Boucard is Director R&D at Sodius, leading development of OSLC-based products for integrating engineering data, for automotive and defense customers. He has 20 years of experience developing solutions for automating engineering flows and integrating applications and is an OSLC enthusiast for 7 years."
+    ],
+    'contact' : [
+      {
+        'link':'mailto:sboucard@sodius.com',
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
