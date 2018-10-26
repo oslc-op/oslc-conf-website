@@ -238,6 +238,36 @@ var bio = {
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  'peterG' : {
+    'name' : 'Peter Gerber',
+    'title' : 'Head of External Data Exchange at Schaeffler Technologies',
+    'picturePath' : '/images/img-placeholder.png',
+    'bio' : [
+      "Peter Gerber started  as a consultant for optimization of business processes. He engaged in standardization bodies and supported many small and medium-sized enterprises to prepare  for quality and environment certification.",
+      "At Schaeffler Group, Peter Gerber was responsible for the standardization of products, the harmonization of design standards and the technical merger of the Schaeffler brands INA, LuK and FAG and was also responsible for development and implementation of Engineering Methods.",
+      "Today, he is the Head of External Data Exchange for Schaeffler and the Engineering Data Management. He is Chairman of the prostep IVIP CDLC (Cross Discipline Lifecycle Collaboration) and the SysML Workflow Forum."
+    ],
+    'contact' : [
+      {
+        'link':'mailto:gerbepte@schaeffler.com',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  'christianB' : {
+    'name' : 'Christian Bühler',
+    'title' : 'Consultant at PROSTEP',
+    'picturePath' : '/images/speakers/christian_buehler.jpg',
+    'bio' : [
+      "Christian Bühler is a consultant working for PROSTEP AG in the field of autonomous driving. Christian is also part of the PROSTEP ivip Cross-Discipline Lifecycle Collaboration Forum working group aiming on engineering collaboration and the traceability of artefacts created during an engineering change process. Besides the Cross-Discipline Lifecycle Collaboration Forum he is involved in further PROSTEP ivip projects focussing on the use of SysML during different product lifecycle stages to support a MBSE approach."
+    ],
+    'contact' : [
+      {
+        'link':'mailto:Christian.Buehler@PROSTEP.com',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };
 
