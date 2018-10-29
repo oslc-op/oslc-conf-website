@@ -3,22 +3,22 @@ title = 'Cross-Discipline Lifecycle Collaboration Forum – a linked Systems Eng
 authors = [
   'Rainer Esrch',
   'Peter Gerber',
-  'Nora Tazir'
+  'Christian Bühler'
 ]
 authors_title = [
   'Senior Research Scientist, Siemens',
-  'Head of Data Exchange & Integration, Schaeffler',
-  'PLM Strategy and Processes, ProSTEP'
+  'Head of External Data Exchange at Schaeffler Technologies',
+  'Consultant at PROSTEP'
 ]
 authors_key = [
   '',
-  '',
-  ''
+  'peterG',
+  'christianB'
 ]
 authors_image = [
   '/images/img-placeholder.png',
   '/images/img-placeholder.png',
-  '/images/img-placeholder.png'
+  '/images/speakers/christian_buehler.jpg'
 ]
 +++
 
