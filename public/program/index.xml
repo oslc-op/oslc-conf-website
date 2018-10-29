@@ -73,5 +73,14 @@
       <description>Solid is an ecosystem in which people can store data wherever they choose, while still using the applications they want. Such a decentralized approach requires interoperability, which in turn requires standards. Like OSLC, Solid has adopted the Linked Data Platform. An important question is how much we need to standardize, and how much freedom the network gets. Interestingly, Solid and OSLC share the same background and standards, but do we also share the same goals?</description>
     </item>
     
+    <item>
+      <title>What can OSLC Configuration Management do for me?</title>
+      <link>/program/what-can-oslc-configuration-management-do-for-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/program/what-can-oslc-configuration-management-do-for-me/</guid>
+      <description>This talk gives a brief introduction to the scope and status of OSLC Configuration Management, then explains why this is an important specification, why you should push your vendors to adopt it, and the benefits you gain when they do. We will look at some current implementations, and discuss some of the potential areas of improvement.</description>
+    </item>
+    
   </channel>
 </rss>
