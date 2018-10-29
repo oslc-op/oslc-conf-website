@@ -20,6 +20,15 @@
     </item>
     
     <item>
+      <title>OSLC and configuration-aware links between ALM and PLM systems</title>
+      <link>/program/oslc-and-configuration-aware-links-between-alm-and-plm-systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/program/oslc-and-configuration-aware-links-between-alm-and-plm-systems/</guid>
+      <description>OSLC has gained a strong position in the integration of systems, platforms, and tools in the ALM space, but ALM is not an island in industries that manufacture and construct physical products and systems. Product Lifecycle Management (PLM) systems remain the standard for managing the hardware engineering lifecycle, and the two, ALM and PLM, simply do not communicate well, if at all, in nearly every one of those organizations. Engineering, manufacturing, service, and operations organizations have tolerated the engineering domains being isolated in different practitioner tools and lifecycle management systems for many years but strong evidence is emerging that this tolerance is evaporating and being replaced by a range of emotions that tend to frighten ALM and PLM vendors alike, as well they should.</description>
+    </item>
+    
+    <item>
       <title>OSLC through the formative years</title>
       <link>/program/oslc-through-the-formative-years/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -30,11 +39,38 @@
     
     <item>
       <title>Open Services, Interoperability, and Hypermedia: A possible Future</title>
+      <link>/program/elevating-the-meaning-of-data-and-operation-within-the-toolchain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/program/elevating-the-meaning-of-data-and-operation-within-the-toolchain/</guid>
+      <description>The use of different techniques and tools is a common practice to cover all stages in the systems development lifecycle, generating a very good number of system artefacts. Moreover, these artefacts are commonly encoded in different formats and can only be accessed, in most cases, through proprietary and non-standard protocols. In this context, the OSLC (Open Services for Lifecycle Collaboration) initiative pursues the creation of public specifications (data shapes) to exchange any artefact generated during the development lifecycle.</description>
+    </item>
+    
+    <item>
+      <title>Open Services, Interoperability, and Hypermedia: A possible Future</title>
       <link>/program/open-services-interoperability-and-hypermedia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/program/open-services-interoperability-and-hypermedia/</guid>
       <description>This talk will focus on what it means to design and support &amp;ldquo;Open Services&amp;rdquo; and the role hypermedia might play in advancing open systems. Author, speaker, and trainer Mike Amundsen will pose a series of questions aimed at identifying characteristics of open, collaborative ecosystems. For example, what are the pillars of open, interoperable systems and what can the last 20 years of the WWW teach us about what works &amp;ndash; and what does not work &amp;ndash; when creating specifications for an open, collaborative system?</description>
+    </item>
+    
+    <item>
+      <title>Search &amp; Browse and Lyo Validation</title>
+      <link>/program/search-browse-and-lyo-validation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/program/search-browse-and-lyo-validation/</guid>
+      <description>Search and Browse is a cross domain data exploration web application for searching and exploring linked data. The main purposes of S&amp;amp;B is to textually and graphically explore data, view results of automated data analysis done on Linked data layer (eg. safety case exploration, progress monitoring, data quality etc), defining custom pages for merging use cases based on Linked Data etc. Lyo Validation is a Java based library that is used for validating RDF resources against constraints defined either in OSLC or SHACL Resource shapes.</description>
+    </item>
+    
+    <item>
+      <title>Solid and OSLC: similar stack, similar goals?</title>
+      <link>/program/solid-and-oslc-similar-stack-similar-goals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/program/solid-and-oslc-similar-stack-similar-goals/</guid>
+      <description>Solid is an ecosystem in which people can store data wherever they choose, while still using the applications they want. Such a decentralized approach requires interoperability, which in turn requires standards. Like OSLC, Solid has adopted the Linked Data Platform. An important question is how much we need to standardize, and how much freedom the network gets. Interestingly, Solid and OSLC share the same background and standards, but do we also share the same goals?</description>
     </item>
     
   </channel>
