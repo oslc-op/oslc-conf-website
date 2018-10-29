@@ -268,6 +268,20 @@ var bio = {
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  'yashK' : {
+    'name' : 'Yash Khatri',
+    'title' : 'Consultant Research and Development Engineer at Scania',
+    'picturePath' : '/images/speakers/yash_khatri.png',
+    'bio' : [
+      "Yash is a Software Developer currently working as a Research and Development Engineer at Scania. Yash has worked with large set of technologies with major focus on Java. In last few months he has been working with Eclipse RCP applications. Yash is also a committer at Eclipse Lyo, that provides OSLC4J SDK for developing OSLC applications. He is actively involved in Eclipse Lyo Designer (environment for model-based engineering of OSLC systems) and Lyo Validation."
+    ],
+    'contact' : [
+      {
+        'link':'mailto:yash.khatri@scania.com',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };
 
