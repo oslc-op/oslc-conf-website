@@ -52,6 +52,16 @@
         .registration {
           margin-top: 55px;
           text-shadow: 0 1px 2px rgba(0,0,0,.5);
+          
+          &::before {
+            border-right-width: 50px;
+            border-bottom-width: 51px;
+          }
+
+          &:hover {
+            color: $oslc-dark-blue;
+            text-shadow: none;
+          }
         }
       }
     }
@@ -63,7 +73,62 @@
       background: linear-gradient(180deg, rgba(14,2,74,0.7) 0%, rgba(67,166,232,0.6951155462184874) 100%);
     }
   }
+
+  .register-btn {
+    padding-top: 20px !important;
+    &::after {
+      content: none !important;
+    }
+
+    .button {
+      font-size: 44px;
+      padding: 20px 60px;
+
+      &::before {
+        border-right-width: 50px;
+        border-bottom-width: 92px;
+      }
+    }
+  }
 }
+
+
+@media screen and (min-width: 770px) and (max-width: 1240px) {
+  .content--section{
+    &.landing {
+  
+      .container.landing {
+        flex-direction: column;
+
+        .section--image {
+          display: none;
+        }
+        .section--info {
+          h1,h2,h3 {
+            text-align: center;
+          }
+          h1 {
+            font-size: 76px;
+          }
+          h2 {
+            font-size: 40px;
+          }
+          .subtitle {
+            font-size: 34px;
+          }
+          h3 {
+            font-size: 40px;
+          }
+
+          .registration {
+            p { font-size: 24px; }
+          }
+        }
+      }
+    }
+  }
+}
+
 
 @media screen and (max-width: 769px) {
   .content--section{
@@ -95,6 +160,23 @@
           .registration {
             p { font-size: 18px; }
           }
+        }
+      }
+    }
+
+    .register-btn {
+      padding-top: 20px !important;
+      &::after {
+        content: none !important;
+      }
+  
+      .button {
+        font-size: 28px;
+        padding: 15px 30px;
+  
+        &::before {
+          border-right-width: 50px;
+          border-bottom-width: 92px;
         }
       }
     }

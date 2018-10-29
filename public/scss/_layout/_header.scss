@@ -8,13 +8,13 @@
   width: 100%;
   box-sizing: border-box;
 
-  padding: 20px 25px;
+  padding: 10px 15px;
 
   transition: 350ms all ease-in-out;
   z-index: 11;
 
   .logo {
-    font-size: 30px;
+    font-size: 26px;
     color: $main-white;
     font-weight: 500;
   }
@@ -23,12 +23,14 @@
 
     ul {
       display: flex;
+      align-items: center;
 
       li {
         margin-right: 40px;
+        display: flex;
 
         a {
-          font-size: 22px;
+          font-size: 18px;
           color: $main-white;
           text-decoration: none;
           cursor: pointer;
@@ -36,6 +38,31 @@
           &:hover {
             color: $alt;
           }
+          
+          &.button {
+            border-color: $main-white;
+            color: $main-black;
+
+            &::before {
+              -webkit-transform: translateX(0);
+              transform: translateX(0);
+              border-right: 50px solid transparent;
+              border-bottom: 56px solid $main-white;
+            }
+
+            &:hover {
+              color: $main-white;
+    
+              &::before {
+                -webkit-transform: translateX(-100%);
+                transform: translateX(-100%);
+              }
+            }
+          }
+        }
+
+        &:last-child {
+          margin-right: 0;
         }
       }
     }
@@ -76,7 +103,7 @@
     }
   }
 
-  &.scrolled {
+  &.scrolled, &.alt {
     background-color: $main-white;
     box-shadow: 0 1px 2px rgba(0, 0, 0, .25);
 
@@ -86,11 +113,31 @@
 
     .menu ul li a{
       color: $main;
+      
+      &.button {
+        border-color: $oslc-light-blue;
+        color: $main-white;
+
+        &::before {
+          border-bottom-color: $oslc-light-blue;
+        }
+
+        &:hover {
+          color: $main-black;
+          border-color: $main-black;
+        }
+      }
     }
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (min-width: 770px) and (max-width: 1240px) {
+  .main-header .menu ul li {
+    margin-right: 25px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
   .main-header {
     padding: 10px 16px;
     &.scrolled .menu, .menu {
@@ -98,7 +145,7 @@
       justify-content: center;
       background: $main;
       position: fixed;
-      top: 55px;
+      top: 50px;
       left: 0; right: 0;
       height: 0;
       overflow-y: hidden;
@@ -132,6 +179,17 @@
     &.scrolled {
       .menu-toggle .bar {
         background: $main;
+      }
+      .menu ul li a{
+
+        &.button {
+          border-color: $main-white;
+          color: $main-black;
+
+          &::before {
+            border-bottom-color: $main-white;
+          }
+        }
       }
     }
 
