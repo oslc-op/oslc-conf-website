@@ -29,7 +29,8 @@
   <meta property="og:image:width" content="1200px" />
   <meta property="og:image:height" content="640px" />
   <meta property="og:description" content="The first conference on OSLC & LinkedData (OSLCFest) will take place in Stockholm on November 5th & 6th, 2018 at the KTH Royal Institute of Technology" /> 
-  
+
+  <!-- Favicon and apple touch icons-->
   <link href="/favicon.ico" rel="shortcut icon" />
   <link href="/favicon.ico" rel="shortcut" />
   <link href="/favicon.ico" rel="icon" />
@@ -39,15 +40,11 @@
 
   {{ .Hugo.Generator }}
 
-  <link href="https://fonts.googleapis.com/css?Roboto:400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 
   <!-- own styles -->
   <link href="{{ .Site.BaseURL }}css/main.css" rel="stylesheet">
-
-  <!-- Favicon and apple touch icons-->
-  <link rel="shortcut icon" href="{{ .Site.BaseURL }}img/logo_petite.png" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}img/apple-touch-icon.png" />
 
   <link rel="alternate" href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
   
