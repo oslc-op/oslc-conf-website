@@ -24,6 +24,22 @@
   </url>
   
   <url>
+    <loc>/program/eclipse-lyo-2-4-0-and-beyond/</loc>
+  </url>
+  
+  <url>
+    <loc>/program/how-product-line-engineering-can-benefit-from-oslc/</loc>
+  </url>
+  
+  <url>
+    <loc>/program/lifecycle-integration-patterns/</loc>
+  </url>
+  
+  <url>
+    <loc>/program/elevating-the-meaning-of-data-and-operation-within-the-toolchain/</loc>
+  </url>
+  
+  <url>
     <loc>/program/oslc-and-configuration-aware-links-between-alm-and-plm-systems/</loc>
   </url>
   
@@ -32,7 +48,7 @@
   </url>
   
   <url>
-    <loc>/program/elevating-the-meaning-of-data-and-operation-within-the-toolchain/</loc>
+    <loc>/program/oslc4js-open-source-javascript-client-and-server-components/</loc>
   </url>
   
   <url>
@@ -50,10 +66,6 @@
   <url>
     <loc>/tags/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/program/eclipse-lyo-2-4-0-and-beyond/</loc>
   </url>
   
   <url>
