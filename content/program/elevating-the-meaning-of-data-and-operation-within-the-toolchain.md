@@ -1,5 +1,5 @@
 +++
-title = 'Open Services, Interoperability, and Hypermedia: A possible Future'
+title = 'OSLC KM: elevating the meaning of data and operations within the toolchain'
 authors = [
   "Dr. Jose Maria Alvarez Rodriguez"
 ]

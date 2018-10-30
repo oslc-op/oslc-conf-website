@@ -242,7 +242,7 @@ var bio = {
   'peterG' : {
     'name' : 'Peter Gerber',
     'title' : 'Head of External Data Exchange at Schaeffler Technologies',
-    'picturePath' : '/images/img-placeholder.png',
+    'picturePath' : '/images/speakers/peter_gerber.jpg',
     'bio' : [
       "Peter Gerber started  as a consultant for optimization of business processes. He engaged in standardization bodies and supported many small and medium-sized enterprises to prepare  for quality and environment certification.",
       "At Schaeffler Group, Peter Gerber was responsible for the standardization of products, the harmonization of design standards and the technical merger of the Schaeffler brands INA, LuK and FAG and was also responsible for development and implementation of Engineering Methods.",

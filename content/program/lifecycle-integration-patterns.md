@@ -1,5 +1,5 @@
 +++
-title = 'Open Services, Interoperability, and Hypermedia: A possible Future'
+title = 'Lifecycle Integration Patterns'
 authors = [
   "Wesley Coelho"
 ]
