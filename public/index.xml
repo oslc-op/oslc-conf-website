@@ -75,6 +75,16 @@
     
     <item>
       <title>What can OSLC Configuration Management do for me?</title>
+      <link>/program/eclipse-lyo-2-4-0-and-beyond/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/program/eclipse-lyo-2-4-0-and-beyond/</guid>
+      <description>Eclipse Lyo provides a reference SDK for implementing OSLC Servers and Clients. In the first part of the talk, we will introduce Lyo in general and present its latest components such as:
+ Lyo Designer as a model-based software engineering (MBSE) approach to modelling and generating code of the OSLC-based solutions Lyo Store, an object-resource mapping (OR*M) framework Lyo Validation, a library for validating RDF resources according to the OSLC Shapes &amp;amp; SHACL Shapes (presented in detail on Day 1 by Yash Khatri) Lyo TRS Client &amp;amp; Server to keep resources up-to-date across OSLC Servers  In the second part of the talk, we would like to engage with the community regarding the future of Eclipse Lyo:</description>
+    </item>
+    
+    <item>
+      <title>What can OSLC Configuration Management do for me?</title>
       <link>/program/what-can-oslc-configuration-management-do-for-me/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
