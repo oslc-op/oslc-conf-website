@@ -242,7 +242,7 @@ var bio = {
   'peterG' : {
     'name' : 'Peter Gerber',
     'title' : 'Head of External Data Exchange at Schaeffler Technologies',
-    'picturePath' : '/images/img-placeholder.png',
+    'picturePath' : '/images/speakers/peter_gerber.jpg',
     'bio' : [
       "Peter Gerber started  as a consultant for optimization of business processes. He engaged in standardization bodies and supported many small and medium-sized enterprises to prepare  for quality and environment certification.",
       "At Schaeffler Group, Peter Gerber was responsible for the standardization of products, the harmonization of design standards and the technical merger of the Schaeffler brands INA, LuK and FAG and was also responsible for development and implementation of Engineering Methods.",
@@ -293,6 +293,34 @@ var bio = {
     'contact' : [
       {
         'link':'mailto:gray_bachelor@uk.ibm.com',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  'rainerE' : {
+    'name' : 'Rainer Ersch',
+    'title' : 'Senior Research Scientist at Siemens',
+    'picturePath' : '/images/speakers/rainer_ersch.jpg',
+    'bio' : [
+      "Rainer Ersch is a Senior Research Scientist for Siemens, where he has worked for over 33 years. He has worked as a director of SW Development Tools Enterpise Communications as well as serving as a consultant and coach for System and Software Development Environments. He has been active with the OSLC community as a member of the Steering Committee for over two years and as the workgroup lead of the ALM-PLM Interoperability Workgroup."
+    ],
+    'contact' : [
+      {
+        'link':'mailto:rainer.ersch@siemens.com',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  'celineS' : {
+    'name' : 'Céline Sauvaget',
+    'title' : 'Project Lead and R&T at Airbus',
+    'picturePath' : '/images/speakers/celine_sauvaget.jpg',
+    'bio' : [
+      "Céline Sauvaget is working for Methods and Tools for Systems at Airbus Operations. After 10 years within design office on different A/C programs, she joined Methods and Tools to make best use of her experience as a system designer for developing platforms of the future. As project leader, she is accountable for providing integrated and interoperable Multi-Systems Modelling and Simulation frameworks. Her participation to Crystal project led her to interoperability standards and to OSLC. She is now promoting the deployment of those Engineering Platforms based on OSLC and linked data concepts for the Systems Community at Airbus."
+    ],
+    'contact' : [
+      {
+        'link':'mailto:celine.sauvaget@airbus.com',
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]

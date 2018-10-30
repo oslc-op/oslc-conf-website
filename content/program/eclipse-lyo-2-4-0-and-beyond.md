@@ -1,5 +1,5 @@
 +++
-title = 'What can OSLC Configuration Management do for me?'
+title = 'Eclipse Lyo 2.4.0 and beyond'
 authors = [
   "Andrew Berezovskyi",
   "Jad El-Khoury"
