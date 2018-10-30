@@ -282,6 +282,20 @@ var bio = {
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  'grayB' : {
+    'name' : 'Gray Bachelor',
+    'title' : 'Solution Architect in IBM Watson IOT Worldwide development organisation',
+    'picturePath' : '/images/speakers/gray_bachelor.png',
+    'bio' : [
+      "Gray has nearly 35 years in IBM specialising only on engineering and product lifecycle challenges - he worked as technical specialist, consultant, industry solution leader for high-tech electronics and more recently solution architect in the Watson IoT CTO office. He has been active in OSLC for close on 10 years and is joint chair of the OSLC Domains workgroup. Gray works today on the latest applications of technology to process improvement for different branches of engineering - he advises multiple global account teams, technical leaders and customers on aspects of their integration including working with 3rd parties of all shapes and sizes. recent work has been with customers in Auto, Aero, Industrial Products and High-tech electronics."
+    ],
+    'contact' : [
+      {
+        'link':'mailto:gray_bachelor@uk.ibm.com',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };
 
