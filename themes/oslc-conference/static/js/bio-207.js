@@ -310,6 +310,20 @@ var bio = {
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  'celineS' : {
+    'name' : 'Céline Sauvaget',
+    'title' : 'Project Lead and R&T at Airbus',
+    'picturePath' : '/images/speakers/celine_sauvaget.jpg',
+    'bio' : [
+      "Céline Sauvaget is working for Methods and Tools for Systems at Airbus Operations. After 10 years within design office on different A/C programs, she joined Methods and Tools to make best use of her experience as a system designer for developing platforms of the future. As project leader, she is accountable for providing integrated and interoperable Multi-Systems Modelling and Simulation frameworks. Her participation to Crystal project led her to interoperability standards and to OSLC. She is now promoting the deployment of those Engineering Platforms based on OSLC and linked data concepts for the Systems Community at Airbus."
+    ],
+    'contact' : [
+      {
+        'link':'mailto:celine.sauvaget@airbus.com',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };
 
