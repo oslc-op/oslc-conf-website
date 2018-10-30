@@ -324,6 +324,20 @@ var bio = {
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  'wesleyC' : {
+    'name' : 'Wesley Coelho',
+    'title' : 'Senior Director of Business Development at Tasktop Technologies',
+    'picturePath' : '/images/speakers/wesley_coelho.jpg',
+    'bio' : [
+      "Wesley Coelho is the Senior Director of Business Development at Tasktop Technologies. At Tasktop, Wesley has taken a leading role in creating an extensive network of ALM integration partners including ten OEM distribution partnerships with companies such as IBM, HP, and CA Technologies. In this role, Wesley is deeply involved in addressing the challenges of delivering interoperability across the diverse technologies of more than 20 organizations. Prior to Tasktop, Wesley led a software development team pioneering a new generation of e-commerce technology at Elastic Path Software. Wesley holds an undergraduate degree in Commerce from the University of Victoria and an M.Sc. in Computer Science from the University of British Columbia, Canada."
+    ],
+    'contact' : [
+      {
+        'link':'mailto:wesley.coelho@tasktop.com',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };
 
