@@ -296,6 +296,20 @@ var bio = {
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  'rainerE' : {
+    'name' : 'Rainer Ersch',
+    'title' : 'Senior Research Scientist at Siemens',
+    'picturePath' : '/images/speakers/rainer_ersch.jpg',
+    'bio' : [
+      "Rainer Ersch is a Senior Research Scientist for Siemens, where he has worked for over 33 years. He has worked as a director of SW Development Tools Enterpise Communications as well as serving as a consultant and coach for System and Software Development Environments. He has been active with the OSLC community as a member of the Steering Committee for over two years and as the workgroup lead of the ALM-PLM Interoperability Workgroup."
+    ],
+    'contact' : [
+      {
+        'link':'mailto:rainer.ersch@siemens.com',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };
 
