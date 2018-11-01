@@ -338,6 +338,21 @@ var bio = {
         'icon':'<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  'jadE' : {
+    'name' : 'Jad El-Khoury',
+    'title' : 'Consultant and Researcher at the Royal Institute of Technology (KTH)',
+    'picturePath' : '/images/speakers/jad_el.jpg',
+    'bio' : [
+      "Jad works as a consultant and researcher at the Royal Institute of Technology (KTH), Sweden. His research deals with tool interoperability, and integrated development environments for embedded systems. Topics of interest also include model-based development and systems engineering.",
+      "Jad is a committer and contributor to Eclipse Lyo. He is behind Lyo Designer – the environment for model-based engineering of OSLC systems. He is an active member of the OASIS OSLC Technical Committees."
+    ],
+    'contact' : [
+      {
+        'link':'mailto:jad@kth.se',
+        'icon':'<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };
 
