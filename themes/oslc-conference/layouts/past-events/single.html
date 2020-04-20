@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+{{ partial "head.html" . }}
+
+<body>
+  <header>
+    {{ partial "header-past-event.html" . }}
+  </header>
+  <main>
+    <div class="content--section--wrapper">
+      <section class="content--section full landing"
+        style="background-image: url({{ .Params.bannerBackgroundImage }});">
+        <div class="bg-overlay"></div>
+        <div class="container landing">
+          <div class="section--image">
+            <img data-src="{{ .Params.bannerSideImage }}" />
+          </div>
+          <div class="section--info">
+            <h1 class="text-shadow big">{{ .Params.bannerTitle1 }}</h1>
+            <h2 class="text-shadow big subtitle">{{ .Params.bannerTitle2 }}</h2>
+            <h2 class="text-shadow big">{{ .Params.bannerTitle3 }}</h2>
+            <h3 class="text-shadow big alt">{{ .Params.bannerTitle4 }}</h3>
+            <a href="#program" class="section--button registration button white hover--white">
+              {{ .Params.bannerActionText }}
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="content--section--wrapper">
+      <section id="about-anchor" class="content--section full connected">
+        <div class="container wrapper wrapper-default">
+          <h3 class="section--title">What is OSLC FEST</h3>
+          {{ range $index, $strong := .Params.aboutParagraphsBold }}
+          {{ $paragraph := index $.Params.aboutParagraphs $index }}
+          <p><strong>{{ $strong }} </strong>{{ $paragraph }}</p>
+          {{ end }}
+        </div>
+      </section>
+      <section class="content--section full connected">
+        <div class="container wrapper wrapper-default">
+          <h3 class="section--title">Who should join?</h3>
+          <div class="section--gallery smaller--gallery">
+            {{ range $index, $icon := .Params.whoIcon }}
+            {{ $title := index $.Params.whoTitle $index }}
+            {{ $description := index $.Params.whoDescription $index }}
+            <div class="gallery--item">
+              <i class="item-icon {{ $icon }}"></i>
+              <h4 class="item-title">{{ $title }}</h4>
+              <p class="item-text">{{ $description }}</p>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+      <section id="speakers-anchor" class="content--section full connected">
+        <div class="container wrapper wrapper-default">
+          <h3 class="section--title">Keynote Speakers</h3>
+          <div class="section--gallery align-top">
+            {{ range $index, $name := .Params.keynoteName }}
+            {{ $title := index $.Params.keynoteTitle $index }}
+            {{ $image := index $.Params.keynoteImage $index }}
+            {{ $bio := index $.Params.keynoteBio $index }}
+            <div class="gallery--item has-info" data-bio="{{ $bio }}" onclick="openInfo(this)">
+              <div class="hover-wrap">
+                <div class="image-wrap">
+                  <div class="circular-image" style="background-image: url({{ $image }})"></div>
+                </div>
+                <span>Bio</span>
+              </div>
+              <h4 class="item-title">{{ $name }}</h4>
+              <p class="text-center">{{ $title }}</p>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+      <section class="content--section full connected">
+        <div class="container wrapper wrapper-default">
+          <h3 class="section--title">Speakers</h3>
+          <div class="section--gallery">
+            {{ range $index, $name := .Params.speakersName }}
+            {{ $title := index $.Params.speakersTitle $index }}
+            {{ $image := index $.Params.speakersImage $index }}
+            {{ $bio := index $.Params.speakersBio $index }}
+            <div class="gallery--item has-info" data-bio="{{ $bio }}" onclick="openInfo(this)">
+              <div class="hover-wrap">
+                <div class="image-wrap">
+                  <div class="circular-image" style="background-image: url({{ $image }})"></div>
+                </div>
+                <span>Bio</span>
+              </div>
+              <h4 class="item-title">{{ $name }}</h4>
+              <p class="text-center">{{ $title }}</p>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+      <section id="program-anchor" class="content--section full connected">
+        {{ partial "program-table.html" . }}
+      </section>
+      <section id="sponsors-anchor" class="content--section full connected">
+        <div class="container wrapper wrapper-default">
+          <h3 class="section--title">Sponsors</h3>
+          <div class="section--gallery smaller--gallery logos">
+            {{ range $index, $image := .Params.sponsors }}
+            {{ $link := index $.Params.sponsorsLink $index }}
+            {{ $class := index $.Params.sponsorsClass $index }}
+            <div class="gallery--item" style="margin: 60px 0">
+              <a href="{{ $link }}" target="_blank" class="{{ $class }}">
+                <img data-src="{{ $image }}" />
+              </a>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+      <section class="content--section full connected">
+        <div class="container wrapper wrapper-default">
+          <h3 class="section--title">Associated Partners</h3>
+          <div class="section--gallery smaller--gallery logos">
+            {{ range $index, $image := .Params.partners }}
+            {{ $link := index $.Params.partnersLink $index }}
+            {{ $class := index $.Params.partnersClass $index }}
+            <div class="gallery--item">
+              <a href="{{ $link }}" target="_blank" class="{{ $class }}">
+                <img data-src="{{ $image }}" />
+              </a>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+      <section id="organizers-anchor" class="content--section full connected">
+        <div class="container wrapper wrapper-default">
+          <h3 class="section--title">Organizers</h3>
+          <div class="section--gallery smaller--gallery logos five">
+            {{ range $index, $image := .Params.organizers }}
+            {{ $link := index $.Params.organizersLink $index }}
+            {{ $class := index $.Params.organizersClass $index }}
+            <div class="gallery--item">
+              <a href="{{ $link }}" target="_blank" class="{{ $class }}">
+                <img data-src="{{ $image }}" />
+              </a>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+      <section id="related-anchor" class="content--section full connected">
+        <div class="container wrapper wrapper-default">
+          <h3 class="section--title">Related Events</h3>
+          {{ range $index, $related := .Params.related }}
+          {{ $link := index $.Params.relatedLink $index }}
+          <p class="text-center">
+            <a href="{{ $link }}" target="_blank">{{ $related }}</a>
+          </p>
+          {{ end }}
+        </div>
+      </section>
+    </div>
+  </main>
+  <div id="infoCard" class="info-card">
+    <div class="close-btn toggle-btn" data-select="#infoCard">
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <div class="info--titles-wrap">
+      <div class="info--image-wrap">
+        <img class="round" data-src="" />
+      </div>
+      <h4 class="item-title"></h4>
+      <p class="text-center titles"></p>
+    </div>
+    <div class="info--bio-wrap">
+      <div class="info--bio">
+      </div>
+      <div class="social-icons">
+      </div>
+    </div>
+  </div>
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+</body>
+
+</html>
