@@ -49,13 +49,18 @@
       {{ $authors := index $.Params.authors1 $index }}
       {{ $presentation := index $.Params.presentationLink1 $index }}
       {{ $video := index $.Params.videoLink1 $index }}
+      {{ $panel := index $.Params.panelVariable1 $index }}
       <div class="program-item {{ $type }}">
         <div class="program-item--time-wrap">
           <p>{{ $time }}</p>
           <p class="program-duration"><i class="far fa-clock"></i> {{ $duration }}</p>
         </div>
         <div class="info-wrap">
-          <div class="program-item--inner has-abstract">
+          {{with $panel}}
+          <div class="program-item--inner has-abstract" data-bio="{{ $panel }}" onclick="openPanel(this)">
+          {{else}}
+          <div class="program-item--inner">
+          {{end}}
             <p>{{ $title }}</p>
             {{with $authors}}
             <p class="talk-speaker">{{ $authors }}</p>
@@ -92,6 +97,7 @@
       {{ $authors := index $.Params.authors2 $index }}
       {{ $presentation := index $.Params.presentationLink2 $index }}
       {{ $video := index $.Params.videoLink2 $index }}
+      {{ $panel := index $.Params.panelVariable2 $index }}
       <div class="program-item {{ $type }}">
         <div class="program-item--time-wrap">
           <p>{{ $time }}</p>

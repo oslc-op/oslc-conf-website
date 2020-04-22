@@ -279,7 +279,7 @@ authors1 = [
     "Wesley Coelho (Tasktop)",
     "",
     "Stephen Denman (Stephen D. Denman Consulting)",
-    "Peter Gerber (Schaeffler) and Christian Bühler (PROSTEP AG)",
+    "Peter Gerber (Schaeffler), Christian Bühler (PROSTEP AG) and Reiner (Siemens)",
     "Bill Chown (Mentor Graphics)",
     "",
 ]
@@ -333,6 +333,23 @@ videoLink1 = [
     "https://www.facebook.com/oslcfest/videos/471951849878625/",
     "https://www.facebook.com/oslcfest/videos/420802201784715/",
     "",
+]
+panelVariable1 = [
+    "",
+    "PjohnW",
+    "PmikeA",
+    "",
+    "",
+    "",
+    "",
+    "PyashK",
+    "",
+    "PwesleyC",
+    "",
+    "PstephenD",
+    "PpeterG",
+    "",
+    ""
 ]
 start2 = [
     "9:00",
@@ -459,5 +476,23 @@ videoLink2 = [
     "",
     "",
     ""
+]
+panelVariable2 = [
+    "",
+    "",
+    "PrubenV",
+    "",
+    "",
+    "PjoseM",
+    "PholgerP",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "PandrewB",
+    "PnickC",
+    "PjimA",
+    "",
 ]
 +++
