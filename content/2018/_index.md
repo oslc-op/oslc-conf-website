@@ -385,7 +385,7 @@ title2 = [
     "Coffee Break",
     "Eclipse Lyo 2.4.0 and beyond",
     "What can OSLC Configuration Management do for me? (Remotely)",
-    "OSLC4JS Open Source JavaScript Client and Server Components",
+    "OSLC4JS Open Source JavaScript Client and Server Components (Remotely)",
     "Summary, Closing Remarks, Feedback for Next OSLCFest"
 ]
 authors2 = [
