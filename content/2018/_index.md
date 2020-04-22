@@ -1,4 +1,5 @@
 +++
+bannerOverlay = "bg-overlay1"
 bannerTitle1 = "OSLC FEST"
 bannerTitle2 = "OSLC and Linked Data Unconference"
 bannerTitle3 = "November 5 - 6, 2018"
