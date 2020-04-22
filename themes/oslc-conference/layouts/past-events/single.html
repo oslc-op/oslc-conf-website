@@ -9,6 +9,30 @@
   </header>
   <main>
     <div class="content--section--wrapper">
+<<<<<<< HEAD
+      {{ partial "content/landing.html" . }}
+    </div>
+    <div class="content--section--wrapper">
+
+      {{ partial "content/about.html" . }}
+
+      {{ partial "content/speakers.html" . }}
+
+      <section id="program-anchor" class="content--section full connected">
+        {{ partial "program-table.html" . }}
+      </section>
+
+      {{ partial "content/sponsors.html" . }}
+
+      {{ partial "content/organizers.html" . }}
+
+      {{ partial "content/related.html" . }}
+    </div>
+  </main>
+
+  {{ partial "content/info-card.html" . }}
+
+=======
       <section class="content--section full landing"
         style="background-image: url({{ .Params.bannerBackgroundImage }});">
         <div class="bg-overlay"></div>
@@ -181,6 +205,7 @@
       </div>
     </div>
   </div>
+>>>>>>> 9829bd0b851ffd3e6d5711596c5b0a71d99b4078
   <footer>
     {{ partial "footer.html" . }}
   </footer>
