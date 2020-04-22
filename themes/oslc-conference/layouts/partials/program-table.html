@@ -104,7 +104,11 @@
           <p class="program-duration"><i class="far fa-clock"></i> {{ $duration }}</p>
         </div>
         <div class="info-wrap">
-          <div class="program-item--inner has-abstract">
+          {{with $panel}}
+          <div class="program-item--inner has-abstract" data-bio="{{ $panel }}" onclick="openPanel(this)">
+          {{else}}
+          <div class="program-item--inner">
+          {{end}}
             <p>{{ $title }}</p>
             {{with $authors}}
             <p class="talk-speaker">{{ $authors }}</p>
@@ -132,3 +136,5 @@
     </div>
   </div>
 </div>
+
+{{ partial "content/info-panel.html" . }}
