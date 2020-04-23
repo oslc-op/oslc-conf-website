@@ -49,7 +49,7 @@
       .section--gallery {
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
         flex-wrap: wrap;
         width: 100%;
         height: 100%;
@@ -64,8 +64,10 @@
           }
 
           &.logos {
+
             .gallery--item {
               width: 26.5%;
+              margin: 0 3%;
             }
           }
 
@@ -96,6 +98,7 @@
           .gallery--item {
             width: 22%;
             margin-bottom: 20px;
+            margin: 0 3%;
 
             img {
               width: 80%;
@@ -120,12 +123,19 @@
           flex-direction: column;
           align-items: center;
           width: 30%;
+          margin: 0 1.6%;
           margin-bottom: 30px;
+
+          &.no-margin {
+            margin: 0 0 0 30px;
+          }
 
           .image-wrap {
             width: 70%;
             height: auto;
             transition: 350ms opacity ease-in-out;
+            border-radius: 200px;
+            overflow: hidden;
 
             .circular-image {
               position: relative;
@@ -148,21 +158,27 @@
               align-items: center;
               justify-content: center;
 
-              img {
-                transition: 350ms opacity ease-in-out;
+              .circular-image {
+                transition: 350ms all ease-in-out;
               }
 
-              span {
-                opacity: 0;
+              .bio-circle {
                 position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                padding: 10px 20px;
-                background: rgba(65, 142, 235, 0.85);
-                color: white;
-                font-size: 20px;
-                transition: 350ms opacity ease-in-out;
+                width: 70%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                span {
+                  opacity: 0;
+                  padding: 10px 20px;
+                  border-radius: 30px;
+                  background: rgba(65, 142, 235, 0.85);
+                  color: white;
+                  font-size: 20px;
+                  transition: 350ms opacity ease-in-out;
+                }
               }
             }
 
@@ -171,7 +187,11 @@
 
               .hover-wrap {
                 .image-wrap {
-                  opacity: .4;
+                  opacity: .8;
+
+                  .circular-image {
+                    transform: scale(1.05);
+                  }
                 }
 
                 span {

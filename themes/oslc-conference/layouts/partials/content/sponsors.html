@@ -5,7 +5,7 @@
       {{ range $index, $image := .Params.sponsors }}
       {{ $link := index $.Params.sponsorsLink $index }}
       {{ $class := index $.Params.sponsorsClass $index }}
-      <div class="gallery--item" style="margin: 60px 0">
+      <div class="gallery--item">
         <a href="{{ $link }}" target="_blank" class="{{ $class }}">
           <img data-src="{{ $image }}" />
         </a>
