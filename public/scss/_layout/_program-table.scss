@@ -1,6 +1,6 @@
 .table-legend--title {
   font-size: 24px;
-  font-weight: normal;
+  font-weight: 300;
   margin: 1em 0;
 }
 
@@ -42,8 +42,10 @@
 
     &.day {
       margin-right: 0;
+
       label {
         margin-bottom: 31px;
+        font-weight: 300;
       }
     }
   }
@@ -82,7 +84,7 @@
     .program-duration {
       font-size: 14px;
       opacity: .5;
-      
+
       position: absolute;
       width: auto;
       right: 5px;
@@ -101,18 +103,19 @@
       font-size: 18px;
       margin: 0;
       text-align: left;
-      font-weight: 600;
+      font-weight: 500;
 
       &.talk-speaker {
         margin-top: 14px;
         font-size: 16px;
-        font-weight: 500;
-        opacity: 0.7;
+        font-weight: 300;
+        opacity: 0.8;
       }
     }
 
     &.has-abstract {
       &:hover {
+        cursor: pointer;
         opacity: .4;
       }
     }
@@ -126,9 +129,11 @@
 
     a {
       font-weight: 500;
+
       :visited {
         color: $main-black;
       }
+
       color: $main-black;
     }
 
@@ -218,8 +223,8 @@
           }
         }
 
-        
-  
+
+
         .program-item {
           .program-item--time-wrap {
             .program-duration {
