@@ -5,13 +5,13 @@
 
 <body>
   <header>
-    {{ partial "header.html" . }}
+    {{ partial "header-past-event.html" . }}
   </header>
   <main>
     <div class="content--section--wrapper">
       {{ partial "content/landing.html" . }}
     </div>
-    <!-- <div class="content--section--wrapper">
+    <div class="content--section--wrapper">
 
       {{ partial "content/about.html" . }}
 
@@ -25,9 +25,12 @@
 
       {{ partial "content/organizers.html" . }}
 
-      {{ partial "content/related.html" . }} -->
+      {{ partial "content/related.html" . }}
     </div>
   </main>
+
+  {{ partial "content/info-card.html" . }}
+
   <footer>
     {{ partial "footer.html" . }}
   </footer>
