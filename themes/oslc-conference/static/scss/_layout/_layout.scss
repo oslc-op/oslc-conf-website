@@ -124,6 +124,10 @@
           margin: 0 1.6%;
           margin-bottom: 30px;
 
+          &.no-margin {
+            margin: 0 0 0 30px;
+          }
+
           .image-wrap {
             width: 70%;
             height: auto;
