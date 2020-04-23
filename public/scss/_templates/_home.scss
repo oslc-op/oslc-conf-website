@@ -1,7 +1,6 @@
-.content--section{
+.content--section {
   &.landing {
     height: 100vh;
-    background-image: url("/images/stockholm_sweden.jpg");
     background-size: cover;
     position: relative;
 
@@ -16,7 +15,7 @@
       .section--image {
         width: 52%;
 
-        img{
+        img {
           display: block;
           width: 100%;
         }
@@ -27,18 +26,23 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        
-        h1,h2,h3 {
+
+        h1,
+        h2,
+        h3 {
           color: $main-white;
           font-weight: normal;
           margin: 0;
         }
+
         h1 {
           font-size: 100px;
         }
+
         h2 {
           font-size: 52px;
         }
+
         h3 {
           font-size: 44px;
           margin: 20px 0;
@@ -51,8 +55,8 @@
 
         .registration {
           margin-top: 55px;
-          text-shadow: 0 1px 2px rgba(0,0,0,.5);
-          
+          text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+
           &::before {
             border-right-width: 50px;
             border-bottom-width: 51px;
@@ -66,16 +70,30 @@
       }
     }
 
-    .bg-overlay {
+    .bg-overlay1 {
       position: absolute;
-      top: 0; right: 0; bottom: 0; left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
 
-      background: linear-gradient(180deg, rgba(14,2,74,0.7) 0%, rgba(67,166,232,0.6951155462184874) 100%);
+      background: linear-gradient(180deg, rgba(14, 2, 74, 0.7) 0%, rgba(67, 166, 232, 0.7) 100%);
+    }
+
+    .bg-overlay2 {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+
+      background: linear-gradient(180deg, rgba(74, 120, 206, 1) 0%, rgba(10, 5, 47, 1) 100%);
     }
   }
 
   .register-btn {
     padding-top: 20px !important;
+
     &::after {
       content: none !important;
     }
@@ -94,34 +112,44 @@
 
 
 @media screen and (min-width: 770px) and (max-width: 1240px) {
-  .content--section{
+  .content--section {
     &.landing {
-  
+
       .container.landing {
         flex-direction: column;
 
         .section--image {
           display: none;
         }
+
         .section--info {
-          h1,h2,h3 {
+
+          h1,
+          h2,
+          h3 {
             text-align: center;
           }
+
           h1 {
             font-size: 76px;
           }
+
           h2 {
             font-size: 40px;
           }
+
           .subtitle {
             font-size: 34px;
           }
+
           h3 {
             font-size: 40px;
           }
 
           .registration {
-            p { font-size: 24px; }
+            p {
+              font-size: 24px;
+            }
           }
         }
       }
@@ -131,34 +159,44 @@
 
 
 @media screen and (max-width: 769px) {
-  .content--section{
+  .content--section {
     &.landing {
-  
+
       .container.landing {
         flex-direction: column;
 
         .section--image {
           display: none;
         }
+
         .section--info {
-          h1,h2,h3 {
+
+          h1,
+          h2,
+          h3 {
             text-align: center;
           }
+
           h1 {
             font-size: 54px;
           }
+
           h2 {
             font-size: 28px;
           }
+
           .subtitle {
             font-size: 22px;
           }
+
           h3 {
             font-size: 28px;
           }
 
           .registration {
-            p { font-size: 18px; }
+            p {
+              font-size: 18px;
+            }
           }
         }
       }
@@ -166,14 +204,15 @@
 
     .register-btn {
       padding-top: 20px !important;
+
       &::after {
         content: none !important;
       }
-  
+
       .button {
         font-size: 28px;
         padding: 15px 30px;
-  
+
         &::before {
           border-right-width: 50px;
           border-bottom-width: 92px;
