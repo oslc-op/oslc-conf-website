@@ -1,22 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/2018/</loc>
+  </url>
   
   <url>
     <loc>/</loc>
   </url>
   
   <url>
+    <loc>/past-events/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/program/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/save-the-date/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -36,11 +46,15 @@
   </url>
   
   <url>
-    <loc>/program/elevating-the-meaning-of-data-and-operation-within-the-toolchain/</loc>
+    <loc>/program/open-services-interoperability-and-hypermedia/</loc>
   </url>
   
   <url>
     <loc>/program/oslc-and-configuration-aware-links-between-alm-and-plm-systems/</loc>
+  </url>
+  
+  <url>
+    <loc>/program/elevating-the-meaning-of-data-and-operation-within-the-toolchain/</loc>
   </url>
   
   <url>
@@ -49,10 +63,6 @@
   
   <url>
     <loc>/program/oslc4js-open-source-javascript-client-and-server-components/</loc>
-  </url>
-  
-  <url>
-    <loc>/program/open-services-interoperability-and-hypermedia/</loc>
   </url>
   
   <url>
@@ -65,7 +75,6 @@
   
   <url>
     <loc>/tags/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
