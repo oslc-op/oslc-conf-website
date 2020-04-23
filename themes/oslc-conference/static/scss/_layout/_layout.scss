@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     box-sizing: border-box;
-  
+
     .container {
       display: flex;
       flex-direction: column;
@@ -36,10 +36,9 @@
       }
 
       .section--title {
-        font-size: 41px;
+        font-size: 40px;
         margin-bottom: 15px;
         text-align: center;
-        font-weight: normal;
       }
 
       .section--image {
@@ -63,21 +62,24 @@
               width: 18%;
             }
           }
+
           &.logos {
             .gallery--item {
               width: 26.5%;
             }
           }
+
           .gallery--item {
             width: 22%;
+
             img {
               width: 100%;
             }
-  
+
             .circle {
               width: 65%;
             }
-  
+
             a {
               width: 85%;
               height: 100%;
@@ -90,7 +92,7 @@
         &.authors--gallery {
           margin: 20px 0 0;
           align-items: flex-start;
-          
+
           .gallery--item {
             width: 22%;
             margin-bottom: 20px;
@@ -102,7 +104,10 @@
             h4 {
               font-size: 18px;
             }
-            p{font-size: 16px;}
+
+            p {
+              font-size: 16px;
+            }
           }
         }
 
@@ -150,21 +155,25 @@
               span {
                 opacity: 0;
                 position: absolute;
-                top: 50%; left: 50%;
-                transform: translate(-50%,-50%);
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
                 padding: 10px 20px;
                 background: rgba(65, 142, 235, 0.85);
-                color:white;
+                color: white;
                 font-size: 20px;
                 transition: 350ms opacity ease-in-out;
               }
             }
+
             &:hover {
               cursor: pointer;
+
               .hover-wrap {
                 .image-wrap {
                   opacity: .4;
                 }
+
                 span {
                   opacity: 1;
                 }
@@ -184,12 +193,18 @@
 
           .item-title {
             text-align: center;
-            font-size: 18px;
+            font-size: 20px;
             margin-bottom: 0;
           }
 
           .item-text {
+            font-size: 16px;
             text-align: center;
+          }
+
+          p {
+            font-size: 16px;
+            margin-top: 10px;
           }
         }
       }
@@ -226,22 +241,22 @@
         position: absolute;
         left: calc(50% - 1px);
         top: 0;
-  
+
         width: 2px;
         height: 20px;
-  
+
         background: $main;
       }
-  
+
       &::after {
         content: '';
         position: absolute;
         left: calc(50% - 1px);
         bottom: 0;
-  
+
         width: 2px;
         height: 160px;
-  
+
         background: $main;
       }
 
@@ -249,14 +264,14 @@
         position: relative;
         padding-top: 20px;
 
-        &::before{
+        &::before {
           content: '';
           position: absolute;
           -webkit-transform: translateX(-10px);
           transform: translateX(-10px);
           left: 50%;
           top: 0;
-    
+
           height: 20px;
           width: 20px;
           border: 2px solid $main;
@@ -266,27 +281,29 @@
 
         .section--title {
           position: relative;
-          width:100%;
+          width: 100%;
           text-align: center;
           margin: 0;
           padding: 30px 0 50px;
-          &::before, &::after {
+
+          &::before,
+          &::after {
             content: '';
             position: absolute;
             -webkit-transform: translateX(-1px);
             transform: translateX(-1px);
             left: 50%;
-      
+
             width: 2px;
-      
+
             background: $main;
           }
 
-          &::before{ 
+          &::before {
             top: 0;
             height: 20px;
           }
-          
+
           &::after {
             bottom: 0;
             height: 40px;
@@ -294,7 +311,7 @@
         }
       }
     }
-  
+
     &.full {
       width: 100%;
     }
@@ -340,7 +357,7 @@
               }
             }
           }
-          
+
           &.align-top {
             align-items: center;
           }
