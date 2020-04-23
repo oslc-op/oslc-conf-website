@@ -38,7 +38,7 @@
           &:hover {
             color: $alt;
           }
-          
+
           &.button {
             border-color: $main-white;
             color: $main-black;
@@ -52,7 +52,7 @@
 
             &:hover {
               color: $main-white;
-    
+
               &::before {
                 -webkit-transform: translateX(-100%);
                 transform: translateX(-100%);
@@ -73,16 +73,16 @@
     flex-direction: column;
 
     &.active {
-      .bar{
-        &.top{
+      .bar {
+        &.top {
           transform: translateY(9px) rotate(45deg);
         }
 
-        &.middle{
+        &.middle {
           width: 0
         }
 
-        &.bottom{
+        &.bottom {
           transform: translateY(-9px) rotate(-45deg)
         }
       }
@@ -90,20 +90,21 @@
 
     .bar {
       display: inline-block;
-      height: 4px;
+      height: 2px;
       width: 28px;
       border-radius: 2px;
-      margin-bottom: 5px;
+      margin-bottom: 7px;
       background: $main-white;
       transition: all 300ms ease-in-out;
 
-      &:last-child{
+      &:last-child {
         margin-bottom: 0
       }
     }
   }
 
-  &.scrolled, &.alt {
+  &.scrolled,
+  &.alt {
     background-color: $main-white;
     box-shadow: 0 1px 2px rgba(0, 0, 0, .25);
 
@@ -111,9 +112,9 @@
       color: $main;
     }
 
-    .menu ul li a{
+    .menu ul li a {
       color: $main;
-      
+
       &.button {
         border-color: $oslc-light-blue;
         color: $main-white;
@@ -140,13 +141,16 @@
 @media screen and (max-width: 1024px) {
   .main-header {
     padding: 10px 16px;
-    &.scrolled .menu, .menu {
+
+    &.scrolled .menu,
+    .menu {
       display: flex;
       justify-content: center;
       background: $main;
       position: fixed;
       top: 50px;
-      left: 0; right: 0;
+      left: 0;
+      right: 0;
       height: 0;
       overflow-y: hidden;
       transition: 350ms all ease-in-out;
@@ -180,7 +184,8 @@
       .menu-toggle .bar {
         background: $main;
       }
-      .menu ul li a{
+
+      .menu ul li a {
 
         &.button {
           border-color: $main-white;
