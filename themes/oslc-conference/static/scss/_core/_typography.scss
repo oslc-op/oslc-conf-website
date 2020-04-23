@@ -1,5 +1,5 @@
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 
 	&.main {
 		p, h1, h2, h3, h4, h5, span {
@@ -16,19 +16,31 @@ p {
 	margin-bottom: 1em;
 	color: $main-black;
 	transition: all .5s ease;
-  font-size: 18px;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+strong {
+	font-weight: 500;
 }
 
 h1 {
+	font-weight: 600;
 	font-size: 35px;
 }
 
 h2 {
+	font-weight: 600;
 	font-size: 30px;
 }
 
 h3 {
+	font-weight: 600;
 	font-size: 25px;
+}
+
+h4 {
+	font-weight: 500;
 }
 
 .text-center {
@@ -54,12 +66,12 @@ h3 {
 
 	h2{
     font-size: 25px
-  }  
+  }
 
 	h3{
     font-size: 20px;
 	}
-	
+
 	p {
 		font-size: 16px;
 	}

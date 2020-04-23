@@ -19,9 +19,26 @@
       align-items: center;
       z-index: 10;
 
+      &.align-left {
+        align-items: flex-start;
+
+        h3 {
+          text-align: center;
+          width: 100%;
+        }
+
+        ul {
+          li {
+            font-size: 18px;
+            margin: 4px 0;
+          }
+        }
+      }
+
       .section--title {
         font-size: 41px;
         margin-bottom: 15px;
+        text-align: center;
         font-weight: normal;
       }
 
