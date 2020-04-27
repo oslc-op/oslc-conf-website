@@ -357,6 +357,7 @@
 
         .section--gallery {
           flex-direction: row;
+          align-items: baseline;
 
           &.smaller--gallery {
             .gallery--item {
@@ -385,6 +386,10 @@
             margin-right: 0;
             margin-bottom: 40px;
             width: 40%;
+
+            &.no-margin {
+              margin: 0 0 40px;
+            }
 
             a {
               display: contents;
@@ -423,6 +428,7 @@
 
         .section--gallery {
           flex-direction: column;
+          flex-wrap: nowrap;
 
           &.smaller--gallery {
             .gallery--item {
@@ -451,6 +457,10 @@
             margin-right: 0;
             margin-bottom: 40px;
             width: 80%;
+
+            &.no-margin {
+              margin: 0 40px 0;
+            }
 
             a {
               display: contents;
