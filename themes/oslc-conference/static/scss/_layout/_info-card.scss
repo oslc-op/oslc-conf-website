@@ -182,7 +182,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media (min-width: 481px) and (max-width: 1024px) {
   .info-card {
     .info--authors-wrap {
       .gallery--item {
@@ -192,7 +192,7 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .info-card {
     top: 50%;
 
