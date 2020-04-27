@@ -247,3 +247,13 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .info-card {
+    .info--authors-wrap {
+      .gallery--item {
+        width: 40%;
+      }
+    }
+  }
+}
