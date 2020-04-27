@@ -1,6 +1,8 @@
 .info-card {
   width: 90%;
   max-width: 1200px;
+  max-height: 90vh;
+  overflow-y: auto;
   position: fixed;
   top: calc(25% + 75px);
   left: -300%;
@@ -34,6 +36,8 @@
   }
 
   .info--titles-wrap {
+    margin: 0 auto;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -190,6 +194,10 @@
   .info-card {
     top: 50%;
 
+    &.active {
+      left: calc(100vw - 95%);
+    }
+
     .info--titles-wrap {
       .info--image-wrap {
         display: none;
@@ -206,7 +214,7 @@
     }
 
     .info--bio-wrap {
-      padding: 0 10px 15px;
+      padding: 0 20px 15px !important;
 
       p {
         font-size: 14px;
@@ -223,12 +231,28 @@
       }
     }
 
+    .info--authors-wrap {
+      .gallery--item {
+        width: 80%;
+      }
+    }
+
     .close-btn {
       .line {
         top: 13px;
         left: 9px;
         height: 3px;
         width: 22px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .info-card {
+    .info--authors-wrap {
+      .gallery--item {
+        width: 40%;
       }
     }
   }

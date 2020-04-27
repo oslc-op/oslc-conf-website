@@ -216,7 +216,7 @@
         margin-right: 0;
 
         p {
-          font-size: 16px;
+          font-size: 14px;
 
           &.talk-speaker {
             font-size: 15px;
@@ -227,6 +227,8 @@
 
         .program-item {
           .program-item--time-wrap {
+            width: 40px;
+
             .program-duration {
               font-size: 13px;
             }

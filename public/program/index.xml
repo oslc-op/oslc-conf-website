@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OSLC Fest</title>
@@ -48,12 +48,12 @@
     </item>
     
     <item>
-      <title>OSLC KM: elevating the meaning of data and operations within the toolchain</title>
-      <link>/program/elevating-the-meaning-of-data-and-operation-within-the-toolchain/</link>
+      <title>Open Services, Interoperability, and Hypermedia: A possible Future</title>
+      <link>/program/open-services-interoperability-and-hypermedia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/program/elevating-the-meaning-of-data-and-operation-within-the-toolchain/</guid>
-      <description>The use of different techniques and tools is a common practice to cover all stages in the systems development lifecycle, generating a very good number of system artefacts. Moreover, these artefacts are commonly encoded in different formats and can only be accessed, in most cases, through proprietary and non-standard protocols. In this context, the OSLC (Open Services for Lifecycle Collaboration) initiative pursues the creation of public specifications (data shapes) to exchange any artefact generated during the development lifecycle.</description>
+      <guid>/program/open-services-interoperability-and-hypermedia/</guid>
+      <description>This talk will focus on what it means to design and support &amp;ldquo;Open Services&amp;rdquo; and the role hypermedia might play in advancing open systems. Author, speaker, and trainer Mike Amundsen will pose a series of questions aimed at identifying characteristics of open, collaborative ecosystems. For example, what are the pillars of open, interoperable systems and what can the last 20 years of the WWW teach us about what works &amp;ndash; and what does not work &amp;ndash; when creating specifications for an open, collaborative system?</description>
     </item>
     
     <item>
@@ -63,6 +63,15 @@
       
       <guid>/program/oslc-and-configuration-aware-links-between-alm-and-plm-systems/</guid>
       <description>OSLC has gained a strong position in the integration of systems, platforms, and tools in the ALM space, but ALM is not an island in industries that manufacture and construct physical products and systems. Product Lifecycle Management (PLM) systems remain the standard for managing the hardware engineering lifecycle, and the two, ALM and PLM, simply do not communicate well, if at all, in nearly every one of those organizations. Engineering, manufacturing, service, and operations organizations have tolerated the engineering domains being isolated in different practitioner tools and lifecycle management systems for many years but strong evidence is emerging that this tolerance is evaporating and being replaced by a range of emotions that tend to frighten ALM and PLM vendors alike, as well they should.</description>
+    </item>
+    
+    <item>
+      <title>OSLC KM: elevating the meaning of data and operations within the toolchain</title>
+      <link>/program/elevating-the-meaning-of-data-and-operation-within-the-toolchain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/program/elevating-the-meaning-of-data-and-operation-within-the-toolchain/</guid>
+      <description>The use of different techniques and tools is a common practice to cover all stages in the systems development lifecycle, generating a very good number of system artefacts. Moreover, these artefacts are commonly encoded in different formats and can only be accessed, in most cases, through proprietary and non-standard protocols. In this context, the OSLC (Open Services for Lifecycle Collaboration) initiative pursues the creation of public specifications (data shapes) to exchange any artefact generated during the development lifecycle.</description>
     </item>
     
     <item>
@@ -82,15 +91,6 @@
       <guid>/program/oslc4js-open-source-javascript-client-and-server-components/</guid>
       <description>OSLC4JS is an open source project that is intended to provide Express.js middleware components to simplify the development of Web applications that utilize OSLC for integration. The project has the following subcomponents:
  OSLC Browser - Multi-column navigator and graphic explorer React Web app to efficiently navigate and explore any OSLC resources OSLC Client - A JavaScript client API supporting jazz.net apps (rootservices) and OSLC Discovery OSLC Service - Express middleware component to add OSLC REST API to a Web application OSLC Server - Sample OSLC server using OSLC Service and LDP Service LDP Service - Express middleware comnponent to add LDP REST API to a Web application LDP App - Sample Web application using LDP Service  This talk will summarize some of the integration challenges you may be facing, how OSLC4JS may help, and the goals and intended outcomes of the project.</description>
-    </item>
-    
-    <item>
-      <title>Open Services, Interoperability, and Hypermedia: A possible Future</title>
-      <link>/program/open-services-interoperability-and-hypermedia/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/program/open-services-interoperability-and-hypermedia/</guid>
-      <description>This talk will focus on what it means to design and support &amp;ldquo;Open Services&amp;rdquo; and the role hypermedia might play in advancing open systems. Author, speaker, and trainer Mike Amundsen will pose a series of questions aimed at identifying characteristics of open, collaborative ecosystems. For example, what are the pillars of open, interoperable systems and what can the last 20 years of the WWW teach us about what works &amp;ndash; and what does not work &amp;ndash; when creating specifications for an open, collaborative system?</description>
     </item>
     
     <item>
