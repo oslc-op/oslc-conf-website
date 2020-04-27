@@ -182,15 +182,17 @@
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1024px) {
   .info-card {
-    &.active {
-      left: calc(100vw - 90%);
+    .info--authors-wrap {
+      .gallery--item {
+        width: 40%;
+      }
     }
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 700px) {
   .info-card {
     top: 50%;
 
@@ -243,16 +245,6 @@
         left: 9px;
         height: 3px;
         width: 22px;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 770px) and (max-width: 1024px) {
-  .info-card {
-    .info--authors-wrap {
-      .gallery--item {
-        width: 40%;
       }
     }
   }
