@@ -15,7 +15,6 @@ cover.out
 *.bench
 coverage*.out
 .vscode
-*.sh
 
 GoBuilds
 dist
