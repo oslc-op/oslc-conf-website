@@ -25,6 +25,28 @@
     color: $main;
   }
 
+  &.no--hover {
+    color: $main;
+    border-color: $main-white;
+    margin-left: 20px;
+
+    i {
+      margin-right: 5px;
+    }
+    
+    &::before {
+      border-right-width: 50px;
+      border-bottom-width: 52px;
+      border-bottom-color: $main-white;
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+
+    &:hover {
+      color: $main;
+    }
+  }
+
   &.hover--main {
     &:hover {
       color: $main-white;
