@@ -7,6 +7,7 @@ bannerTitle4 = "Virtual Conference"
 bannerActionText = "More information coming soon!"
 bannerSideImage = "/images/connections.svg"
 bannerBackgroundImage = ""
+bannerSaveTheDate = "/calendar/OSLC-FEST-2020.ics"
 
 start1 = [
     "14:00",

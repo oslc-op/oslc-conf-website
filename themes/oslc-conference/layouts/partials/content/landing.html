@@ -9,9 +9,16 @@
       <h2 class="text-shadow big subtitle">{{ .Params.bannerTitle2 }}</h2>
       <h2 class="text-shadow big">{{ .Params.bannerTitle3 }}</h2>
       <h3 class="text-shadow big alt">{{ .Params.bannerTitle4 }}</h3>
-      <a href="#program" class="section--button registration button white hover--white">
-        {{ .Params.bannerActionText }}
-      </a>
+      <div>
+        <a href="#program" class="section--button registration button white hover--white">
+          {{ .Params.bannerActionText }}
+        </a>
+        {{if .Params.bannerSaveTheDate }}
+          <a href="{{ .Params.bannerSaveTheDate }}"class="section--button button white no--hover">
+            <i class="far fa-calendar-plus"></i> Save the Date!
+          </a>
+        {{ end }}
+      </div>
     </div>
   </div>
 </section>
