@@ -1,11 +1,11 @@
 var bio = {
-  'mikeA': {
+  mikeA: {
     'name': 'Mike Amundsen',
     'title': 'Lead API Architect, API Academy, CA Technologies',
     'picturePath': '/images/speakers/mike_amundsen.png',
     'bio': [
-      'An internationally known author and speaker, Mike Amundsen travels the world consulting and talking about network architecture, Web development, and other subjects. As Lead API Architect for the API Academy, he works with companies to provide insight on how best to capitalize on the opportunities APIs present to both consumers and the enterprise\.',
-      'Amundsen has authored numerous books and papers. His most recent book, "RESTful Web Clients", was published by O\'Reilly in February 2017 and he co-authored "Microservice Architecture" (June 2016). Amundsen\'s 2013 collaboration with Leonard Richardson "RESTful Web APIs" and his 2011 book, “Building Hypermedia APIs with HTML5 and Node”, are common references for building adaptable Web applications.'],
+      'An internationally known author and speaker, Mike Amundsen consults with organizations around the world on network architecture, Web development, and the intersection of technology & society. He works with companies large and small to help them capitalize on the opportunities provided by APIs, Microservices, and Digital Transformation.',
+      'Amundsen has authored numerous books and papers. He contributed to the O\'Reilly book, "Continuous API Management" (2018).  His "RESTful Web Clients", was published by O\'Reilly in February 2017 and he co-authored "Microservice Architecture" (June 2016). His latest book -- "Design and Build Great APIs" -- for Pragmatic Publishing is scheduled for release in early 2020. '],
     'contact': [
       {
         'link': 'mailto:mca@amundsen.com',
@@ -25,7 +25,7 @@ var bio = {
       }
     ]
   },
-  'soerenA': {
+  soerenA: {
     'name': 'Prof. Soeren Auer',
     'title': 'Director of the German National Library of Science and Technology',
     'picturePath': '/images/speakers/soeren_auer.jpg',
@@ -39,7 +39,7 @@ var bio = {
       }
     ]
   },
-  'johnW': {
+  johnW: {
     'name': 'John Wiegand',
     'title': 'Distinguished Engineer and Rational Chief Architect at IBM (retired)',
     'picturePath': '/images/speakers/john_wiegand.jpg',
@@ -53,7 +53,7 @@ var bio = {
       }
     ]
   },
-  'nickC': {
+  nickC: {
     'name': 'Nick Crossley',
     'title': 'Senior Technical Staff at IBM',
     'picturePath': '/images/speakers/nick_crossley.jpg',
@@ -67,7 +67,7 @@ var bio = {
       }
     ]
   },
-  'jimA': {
+  jimA: {
     'name': 'Jim Amsden',
     'title': 'Senior Technical Staff at IBM',
     'picturePath': '/images/speakers/jim_amsden.jpg',
@@ -81,7 +81,7 @@ var bio = {
       }
     ]
   },
-  'andrewB': {
+  andrewB: {
     'name': 'Andrew Berezovskyi',
     'title': 'PhD Student, KTH',
     'picturePath': '/images/speakers/andrew_berezovskyi.jpg',
@@ -95,7 +95,7 @@ var bio = {
       }
     ]
   },
-  'fredericL': {
+  fredericL: {
     'name': 'Frederic Loiret',
     'title': 'Senior Researcher, KTH',
     'picturePath': '/images/speakers/frederic_loiret.png',
@@ -109,7 +109,7 @@ var bio = {
       }
     ]
   },
-  'billC': {
+  billC: {
     'name': 'Bill Chown',
     'title': 'Product Line Director, Mentor Graphics',
     'picturePath': '/images/speakers/bill_chown.jpg',
@@ -123,7 +123,7 @@ var bio = {
       }
     ]
   },
-  'axelR': {
+  axelR: {
     'name': 'Axel Reichwein',
     'title': 'OSLC and Linked Data Consultant, Koneksys',
     'picturePath': '/images/speakers/axel.png',
@@ -137,7 +137,7 @@ var bio = {
       }
     ]
   },
-  'frankP': {
+  frankP: {
     'name': 'Frank Patz-Brockmann',
     'title': 'Director R&D at Contact Software',
     'picturePath': '/images/speakers/frank-patz.png',
@@ -151,7 +151,7 @@ var bio = {
       }
     ]
   },
-  'holgerP': {
+  holgerP: {
     'name': 'Holger Papajewski',
     'title': 'CTO at pure-systems GmbH',
     'picturePath': '/images/speakers/holger_papajewski.jpg',
@@ -166,7 +166,7 @@ var bio = {
       }
     ]
   },
-  'stephenD': {
+  stephenD: {
     'name': 'Stephen Denman',
     'title': 'Owner/Consultant at Stephen D. Denman Consulting',
     'picturePath': '/images/speakers/stephen_denman.png',
@@ -182,7 +182,7 @@ var bio = {
       }
     ]
   },
-  'philipC': {
+  philipC: {
     'name': 'Philip Coates',
     'title': 'Co-founder and Director of Semantic Integration',
     'picturePath': '/images/speakers/philip_coates.jpg',
@@ -197,7 +197,7 @@ var bio = {
       }
     ]
   },
-  'joseM': {
+  joseM: {
     'name': 'Dr. Jose Maria Alvarez Rodriguez',
     'title': 'Associate Professor within the Computer Science and Engineering Department of Universidad Carlos III de Madrid',
     'picturePath': '/images/speakers/jose_maria.png',
@@ -211,7 +211,7 @@ var bio = {
       }
     ]
   },
-  'rubenV': {
+  rubenV: {
     'name': 'Dr. Ruben Verborgh',
     'title': 'Professor at Ghent University – imec, research affiliate at Decentralized Information Group at MIT',
     'picturePath': '/images/speakers/ruben_verborgh.jpg',
@@ -225,7 +225,7 @@ var bio = {
       }
     ]
   },
-  'sebastienB': {
+  sebastienB: {
     'name': 'Sebastien Boucard',
     'title': 'Director of R&D at Sodius',
     'picturePath': '/images/speakers/sebastien_boucard.jpg',
@@ -239,7 +239,7 @@ var bio = {
       }
     ]
   },
-  'peterG': {
+  peterG: {
     'name': 'Peter Gerber',
     'title': 'Head of External Data Exchange at Schaeffler Technologies',
     'picturePath': '/images/speakers/peter_gerber.jpg',
@@ -255,7 +255,7 @@ var bio = {
       }
     ]
   },
-  'christianB': {
+  christianB: {
     'name': 'Christian Bühler',
     'title': 'Consultant at PROSTEP',
     'picturePath': '/images/speakers/christian_buehler.jpg',
@@ -269,7 +269,7 @@ var bio = {
       }
     ]
   },
-  'yashK': {
+  yashK: {
     'name': 'Yash Khatri',
     'title': 'Consultant Research and Development Engineer at Scania',
     'picturePath': '/images/speakers/yash_khatri.png',
@@ -283,7 +283,7 @@ var bio = {
       }
     ]
   },
-  'rainerE': {
+  rainerE: {
     'name': 'Rainer Ersch',
     'title': 'Senior Research Scientist at Siemens',
     'picturePath': '/images/speakers/rainer_ersch.jpg',
@@ -297,7 +297,7 @@ var bio = {
       }
     ]
   },
-  'celineS': {
+  celineS: {
     'name': 'Céline Sauvaget',
     'title': 'Project Lead and R&T at Airbus',
     'picturePath': '/images/speakers/celine_sauvaget.jpg',
@@ -311,7 +311,7 @@ var bio = {
       }
     ]
   },
-  'wesleyC': {
+  wesleyC: {
     'name': 'Wesley Coelho',
     'title': 'Senior Director of Business Development at Tasktop Technologies',
     'picturePath': '/images/speakers/wesley_coelho.jpg',
@@ -325,7 +325,7 @@ var bio = {
       }
     ]
   },
-  'jadE': {
+  jadE: {
     'name': 'Jad El-Khoury',
     'title': 'Consultant and Researcher at the Royal Institute of Technology (KTH)',
     'picturePath': '/images/speakers/jad_el.jpg',
@@ -336,6 +336,122 @@ var bio = {
     'contact': [
       {
         'link': 'mailto:jad@kth.se',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  lutzL: {
+    'name': 'Lutz Laemmer',
+    'title': 'Head of BU PLM Projects and Solutions',
+    'picturePath': '/images/speakers/lutz_l.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+      {
+        'link': 'mailto:Lutz.Laemmer@PROSTEP.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  juanS: {
+    'name': 'Juan Sequeda',
+    'title': 'Principal Scientist at data.world',
+    'picturePath': '/images/speakers/juan_s.jpg',
+    'bio': [
+      "Juan F. Sequeda is the Principal Scientist at data.world. He joined through the acquisition of Capsenta, a company he founded as a spin-off from his research. He holds a PhD in Computer Science from The University of Texas at Austin.",
+      "Juan is the recipient of the NSF Graduate Research Fellowship, received 2nd Place in the 2013 Semantic Web Challenge for his work on ConstituteProject.org, Best Student Research Paper at the 2014 International Semantic Web Conference and the 2015 Best Transfer and Innovation Project awarded by the Institute for Applied Informatics. Juan is on the Editorial Board of the Journal of Web Semantics, member of multiple program committees (ISWC, ESWC, WWW, AAAI, IJCAI). He was the General Chair of AMW2018, PC chair of ISWC 2017 In-Use track, co-creator of COLD workshop (7 years co-located at ISWC). He has served as a bridge between academia and industry as the current chair of the Property Graph Schema Working Group, member of the Graph Query Languages task force of the Linked Data Benchmark Council (LDBC) and past invited expert member and standards editor at the World Wide Web Consortium (W3C).",
+      "Wearing his scientific hat, Juan's goal is to reliably create knowledge from inscrutable data. His research interests are on the intersection of Logic and Data for (ontology-based) data integration and semantic/graph data management, and what now is called Knowledge Graphs.",
+      "Wearing his business hat, Juan is a product manager, does business development and strategy, technical sales and works with customers to understand their problems to translated back to R&D."
+    ],
+    'contact': [
+      {
+        'link': 'mailto:juan@data.world',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  ahmedE: {
+    'name': 'Ahmed EL-BERDHI',
+    'title': 'MBSE Practice Engineer at SII France',
+    'picturePath': '/images/speakers/ahmed.jpg',
+    'bio': [
+      "Ahmed is a freshly graduated engineer from the University of Lorraine, who works as an MBSE practice engineer at SII.",
+      "During his internship at Safran Landing Systems, he joined the Methods and Tools department, he developed an OSLC-based plug-in for Capella, to integrate it with IBM Jazz."
+    ],
+    'contact': [
+      {
+        'link': 'mailto:ahmed.el-berdhi@sii.fr',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  robertB: {
+    'name': 'Robert Baillargeon',
+    'title': 'Chief Product Officer at SodiusWillert',
+    'picturePath': '/images/speakers/robert_b.jpg',
+    'bio': [
+      "Robert Baillargeon is the Chief Product Officer at SodiusWillert, where they make compelling interoperability tools for engineers. Before his role at SodiusWillert, Robert has led engineering and research teams developing systems and deploying tools in the Automotive industry. Robert is a provisional ASPICE assessor and has a Masters of Science degree in Software Engineering from Carnegie Mellon University."
+    ],
+    'contact': [
+      {
+        'link': 'mailto:rbaillargeon@sodius.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  horstK: {
+    'name': 'Horst Kargl',
+    'title': 'Principal Consultant at Sparx Systems Central Europe',
+    'picturePath': '/images/speakers/horst_k.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+      {
+        'link': 'mailto:Horst.Kargl@sparxsystems.eu',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  peterL: {
+    'name': 'Peter Lieber',
+    'title': 'Business Owner of Sparx Systems Central Europe',
+    'picturePath': '/images/img-placeholder.png',
+    'bio': [
+      ""
+    ],
+    'contact': [
+      {
+        'link': 'mailto:Peter.Lieber@sparxsystems.eu',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  nicolasF: {
+    'name': 'Nicolas Figay',
+    'title': '',
+    'picturePath': '/images/speakers/nicolas_f.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+      {
+        'link': 'mailto:nicolas.figay@gmail.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  rubenT: {
+    'name': 'Ruben Taelman',
+    'title': 'Post-doctoral Web Researcher at IDLab, Ghent University – imec',
+    'picturePath': '/images/speakers/ruben_t.jpg',
+    'bio': [
+      "Ruben Taelman is a Postdoctoral Researcher at IDLab, Ghent University – imec, Belgium. His research concerns the decentralized publication and querying of Linked Data on the Web, and investigating the trade-offs that exist between server and client."
+    ],
+    'contact': [
+      {
+        'link': 'mailto:ruben.taelman@ugent.be',
         'icon': '<i class="fas fa-envelope"></i>'
       }
     ]

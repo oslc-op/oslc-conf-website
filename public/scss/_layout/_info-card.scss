@@ -2,7 +2,6 @@
   width: 90%;
   max-width: 1200px;
   max-height: 90vh;
-  overflow-y: auto;
   position: fixed;
   top: calc(25% + 75px);
   left: -300%;
@@ -12,6 +11,10 @@
   opacity: 0;
   transition: 350ms opacity ease-in-out;
   -webkit-font-smoothing: subpixel-antialiased;
+
+  &.program {
+    overflow-y: auto;
+  }
 
   &.active {
     left: calc((100vw - 1200px)/2);
