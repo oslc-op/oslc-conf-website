@@ -230,7 +230,7 @@ type2 = [
   "techtalk",
   "vendor",
   "vendor",
-  "techtalk",
+  "vendor",
 ]
 presentationLink2 = [
   "",
@@ -282,8 +282,8 @@ title3 = [
   "Prolog OSLC SDK",
   "SAAB",
   "SCANIA",
-  "Airbus",
-  "Safran",
+  "Establishing Digital Continuity for End to End Collaboration",
+  "Proof of Concept: Capella & IBM Jazz Integration based on OSLC",
   "Getting started with Solid using GraphQL and React",
   "Title TBD",
 ]
@@ -291,8 +291,8 @@ authors3 = [
   "Speaker TBD",
   "Speaker TBD",
   "Speaker TBD",
-  "Speaker TBD",
-  "Speaker TBD",
+  "Nicolas Figay (Airbus)",
+  "Ahmed EL-BERDHI (Safran)",
   "Ruben Taelman (Ghent University)",
   "Speaker TBD",
 ]
@@ -300,7 +300,7 @@ type3 = [
   "techtalk",
   "vendor",
   "vendor",
-  "vendor",
+  "discussion",
   "vendor",
   "techtalk",
   "vendor",
@@ -327,8 +327,8 @@ panelVariable3 = [
   "",
   "",
   "",
-  "",
-  "",
+  "PNicolasF",
+  "Pahmed",
   "PRubenT",
   "",
 ]
