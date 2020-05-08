@@ -47,19 +47,15 @@ whoDescription = [
 
 keynoteName = [
   "Juan Sequeda",
-  "Mike Amundsen",
 ]
 keynoteTitle = [
   "Principal Scientist at data.world",
-  "Lead API Architect, API Academy, CA Technologies",
 ]
 keynoteImage = [
   "/images/speakers/juan_s.jpg",
-  "/images/speakers/mike_amundsen.png",
 ]
 keynoteBio = [
   "juanS",
-  "mikeA",
 ]
 
 
@@ -72,7 +68,8 @@ speakersName = [
   "Robert Baillargeon",
   "Horst Kargl",
   "Peter Lieber",
-  "Nicolas Figay"
+  "Nicolas Figay",
+  "Mike Amundsen",
 ]
 speakersTitle = [
   "KTH",
@@ -84,6 +81,7 @@ speakersTitle = [
   "Sparx Systems",
   "Sparx Systems",
   "",
+  "Lead API Architect, API Academy, CA Technologies",
 ]
 speakersImage = [
   "/images/speakers/jad_el.jpg",
@@ -95,6 +93,7 @@ speakersImage = [
   "/images/speakers/horst_k.jpg",
   "/images/img-placeholder.png",
   "/images/speakers/nicolas_f.jpg",
+  "/images/speakers/mike_amundsen.png",
 ]
 speakersBio = [
   "jadE",
@@ -106,6 +105,7 @@ speakersBio = [
   "",
   "",
   "",
+  "mikeA",
 ]
 
 legendTitle = [
@@ -224,7 +224,7 @@ authors2 = [
   "Lutz Laemmer (ProSTEP)",
 ]
 type2 = [
-  "keynote",
+  "techtalk",
   "techtalk",
   "techtalk",
   "techtalk",
