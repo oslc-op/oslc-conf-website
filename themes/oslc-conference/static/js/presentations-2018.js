@@ -132,5 +132,97 @@ var presentations = {
     'authors': [
       bio.jimA
     ]
+  }, 
+  // 2020 Presentation Abstracts add year at end if speaker is the same
+  'PMikeA2020': {
+    'title': 'Hypermedia Made Easy',
+    'description': [
+      '<p>The success of the Web is due, in large part, to its reliance on hypermedia as the primary way to connect and access arbitrary content on unrelated servers along with two principles established at the start of the Web: up-front agreement plus open-ended standards. The up-front agreement of a message format (HTML) delivered over a standard protocol (HTTP) sparked an exponential growth pattern that has continued over the last thirty years. Both HTML and HTTP are open-ended standards. People are free to add new elements to the format and new methods to the protocol without harming existing implementations.</p>',
+      '<p>While the hyperlinked document web has been a huge success, this has not been the case for the application web. So far, the wide-scale attempts for the application web have relied upon up-front agreement but failed to support open-ended standards that allow creative additions without breaking existing applications.</p>',
+      '<p>However, hypermedia applications are totally possible and, for the most part, quite easy to implement. This short talk will illustrate a working browser-based single-page app (SPA) that uses the Collection+JSON hypermedia format and shows how both servers and clients can "follow the rules" to build loosely-coupled, highly-extensible web applications.</p>'
+    ],
+    'authors': [
+      bio.mikeA
+    ]
+  },
+  'PLutzL': {
+    'title': 'OSLC as enabler for seamless application integration',
+    'description': [
+      '<p>OSLC capabilities are offered by an increasing number of products. In real life scenarios, the integration of legacy software, usually not OSLC aware but valuable data provider, requires special attention. PROSTEP provides a general solution. Our approach comprises an OSLC provider for OpenPDM, our flagship integration product bundled with OpenPDM integrate and a large number of industry proven PLM, ALM and ERP connectors.</p>'
+    ],
+    'authors': [
+      bio.lutzL
+    ]
+  },
+  'PJuanS': {
+    'title': 'Knowledge Graphs: History of the Main Ideas',
+    'description': [
+      '<p>Knowledge Graphs can be considered as fulfilling an early vision in Computer Science of creating intelligent systems that integrate knowledge and data at large scale. Stemming from scientific advancements in research areas of Semantic Web, Databases, Knowledge representation, NLP, Machine Learning, among others, Knowledge Graphs have rapidly gained popularity in academia and industry in the past years. The integration of such disparate disciplines and techniques give the richness to Knowledge Graphs, but also present the challenge to practitioners and theoreticians to know how current advances develop from early techniques in order, on one hand, take full advantage of them, and on the other, avoid reinventing the wheel. This talk will provide a historical context on the roots of Knowledge Graphs grounded in the advancements of Logic, Data and the combination thereof.</p>'
+    ],
+    'authors': [
+      bio.juanS
+    ]
+  },
+  'Pahmed': {
+    'title': 'Proof of Concept: Capella & IBM Jazz Integration based on OSLC',
+    'description': [
+      '<p>The presentation focuses on a prototype of a client-type OSLC connector, which allows traceability from the Capella modeling tool to IBM DNG, in a multi-configuration context.</p>',
+      '<p>This solution consists of allocating a project area on IBM DNG that will be dedicated to containing artefacts (Model Elements) projected from Capella to be able to trace them to the artefacts (Requirements) from Jazz\'s other domains.</p>'
+    ],
+    'authors': [
+      bio.ahmedE
+    ]
+  },
+  'ProbertB': {
+    'title': 'Bridging to PLM with OSLC',
+    'description': [
+      '<p>OSLC provides a critical foundation for integrating tools in the enterprise without moving data. While Product Lifecycle Management (PLM) tools have traditionally been aggregators/warehouses of assets, a PLM-ALM bridge is critical to realizing the digital thread. We have a pragmatic approach to creating the interoperability of ALM and PLM via OSLC demonstrated with our OSLC Connect for Windchill. In this talk, we present user scenarios and how the OSLC standard enables the linking of enterprise systems.</p>'
+    ],
+    'authors': [
+      bio.robertB
+    ]
+  },
+  'Psparx': {
+    'title': 'OSLC the silver bullet for modelling interoperability?',
+    'description': [
+      '<p>Sparx Systems Enterprise Architect’s complete middleware named Sparx ProCloud Server is based on OSLC.</p>',
+      '<p>Enterprise Architect complies with these Architecture Management 2.0 base requirements, as specified in the Architecture Management 2.0 specification:</p>',
+      '<ul><li>Service Provider Resource</li>',
+      '<li>Absolute URIs</li>',
+      '<li>RDF/XML Representations</li>',
+      '<li>HTTP Rest Services</li>',
+      '<li>Resource Creation Factory</li>',
+      '<li>Resource Query Capability</li>',
+      '<li>Link Type Query Capability</li>',
+      '<li>Partial Resource Update</li>',
+      '<li>Resource Removal</li>',
+      '<li>Selective Properties</li>',
+      '<li>Error Responses</li>',
+      '<li>Authentication (Form and OAuth (OpenID Connect) Authentication)</li></ul>',
+      '<p>This will be a deep-tech session to show the capabilities of using OSLC to interact with model repositories on servers.</p>'
+    ],
+    'authors': [
+      bio.horstK,
+      bio.peterL
+    ]
+  },
+  'PNicolasF': {
+    'title': 'Establishing Digital Continuity for End to End Collaboration',
+    'description': [
+      '<p>Relying on the experience gained on Airbus strategic governance of PLM standards and applied research on interoperability of technical enterprise applications, Dr Nicolas Figay will describe strengths and weaknesses of OSLC, and discussing opportunities of future evolutions for making  it one of  the building block supporting the establishing of the digital continuity required for end to end collaboration within the Aeronautic, Space and Defense digital business ecosystem.</p>',
+    ],
+    'authors': [
+      bio.nicolasF
+    ]
+  },
+  'PRubenT': {
+    'title': 'Getting started with Solid using GraphQL and React',
+    'description': [
+      '<p>Solid is an ecosystem that gives users full control on how and where they want to store their data. The level of decentralization that Solid introduces, requires a different way of building applications. In this talk, we will demonstrate how to get started with Solid application development by making use of GraphQL and React.</p>',
+    ],
+    'authors': [
+      bio.rubenT
+    ]
   }
+
 };
