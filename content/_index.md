@@ -332,4 +332,15 @@ panelVariable3 = [
   "PRubenT",
   "",
 ]
+
+
+organizers = [
+    "/images/oasis_logo.png",
+]
+organizersLink = [
+    "https://www.oasis-open.org/",
+]
+organizersClass = [
+    "",
+]
 +++
