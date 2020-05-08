@@ -4,50 +4,332 @@ bannerTitle1 = "OSLC FEST"
 bannerTitle2 = "OSLC and Linked Data Unconference"
 bannerTitle3 = "May 18 - 20, 2020"
 bannerTitle4 = "Virtual Conference"
-bannerActionText = "More information coming soon!"
+bannerActionText = "Check our Preliminary Program!"
 bannerSideImage = "/images/connections.svg"
 bannerBackgroundImage = ""
 bannerSaveTheDate = "/calendar/OSLC-FEST-2020.ics"
 
+aboutParagraphsBold = [
+  "Organizations are using OSLC to eliminate data silos by connecting data across their business to achieve the digital thread.",
+  "Open Services for Lifecycle Collaboration (OSLC) is an initiative to standardize the backbone for the Web of data.",
+  "Open Services for Lifecycle Collaboration (OSLC) merges concepts of Linked Data and Hypermedia REST APIs",
+  "OSLC is supported by products of many vendors",
+  "The OSLC and Linked Data Unconference is the place to learn first hand from OSLC experts",
+  "The OSLC and Linked Data Unconference is the #1 meeting of the year related to OSLC."
+]
+aboutParagraphs = [
+  "OSLC has been used to support Application Lifecycle Management (ALM), integrated Model-Based Systems Engineering (MBSE) and Product Lifecycle Management (PLM).",
+  "How can we achieve a Google for data? How can we query seamlessly data from different databases seamlessly as if it were in one big global database? How can we establish links between data of different databases and how should we manage them? Similar questions have already been solved for documents by the World Wide Web. But what about data? The Web has radically changed how we find and consume information in the form of documents. The next step in this evolution is a Web of data.",
+  "to enable the Web of data. OSLC provides open standards to achieve a uniform interface to different data sources (e.g. different databases, repositories, applications, files) and enable the connectivity of data between different data sources.",
+  "such as IBM, Mentor Graphics, PTC, Tasktop, Kovair, Sodius, Maplessoft, smartfacts, and many more. These solutions amongst others radically improve requirements traceability and collaboration in the design of complex systems.",
+  "everything about existing and upcoming OSLC solutions, open-source projects and standards. In contrast to a traditional conference, this unconference will facilitate the informal exchange of information and ideas between participants!",
+  "The inaugural OSLCFest will take place November 5 – 6, 2018 at the KTH Royal Institute of Technology in Stockholm, Sweden - get your tickets today!"
+]
+
+whoIcon = [
+  "fas fa-code",
+  "fas fa-user-cog",
+  "far fa-lightbulb",
+  "fas fa-power-off"
+]
+whoTitle = [
+  "Developers",
+  "Product Managers",
+  "Innovation Leaders",
+  "Tech Enthusiasts"
+]
+whoDescription = [
+  "Engineers, Programmers, Architects, Analysts",
+  "UI/UX researchers and designers",
+  "CTOs, CIOs, Innovation Directors",
+  "Startups, Students, Investors, Thought leaders"
+]
+
+keynoteName = [
+  "Juan Sequeda",
+  "Mike Amundsen",
+]
+keynoteTitle = [
+  "Principal Scientist at data.world",
+  "Lead API Architect, API Academy, CA Technologies",
+]
+keynoteImage = [
+  "/images/speakers/juan_s.jpg",
+  "/images/speakers/mike_amundsen.png",
+]
+keynoteBio = [
+  "juanS",
+  "mikeA",
+]
+
+
+speakersName = [
+  "Jad El-Khoury",
+  "Ruben Taelman",
+  "Andy Lapping",
+  "Lutz Laemmer",
+  "Ahmed EL-BERDHI",
+  "Robert Baillargeon",
+  "Horst Kargl",
+  "Peter Lieber",
+  "Nicolas Figay"
+]
+speakersTitle = [
+  "KTH",
+  "Ghent University",
+  "",
+  "ProSTEP",
+  "SII France",
+  "SodiusWillert",
+  "Sparx Systems",
+  "Sparx Systems",
+  "",
+]
+speakersImage = [
+  "/images/speakers/jad_el.jpg",
+  "/images/speakers/ruben_t.jpg",
+  "/images/img-placeholder.png",
+  "/images/speakers/lutz_l.jpg",
+  "/images/speakers/ahmed.jpg",
+  "/images/speakers/robert_b.jpg",
+  "/images/speakers/horst_k.jpg",
+  "/images/img-placeholder.png",
+  "/images/speakers/nicolas_f.jpg",
+]
+speakersBio = [
+  "jadE",
+  "rubenT",
+  "",
+  "",
+  "ahmedE",
+  "robertB",
+  "",
+  "",
+  "",
+]
+
+legendTitle = [
+  "Keynote",
+  "Technical Talk",
+  "End User Organization",
+  "Vendor Demo",
+]
+legendStyle = [
+  "keynote",
+  "techtalk",
+  "discussion",
+  "vendor",
+]
+
+day1 = "Day 1# May 18, 2020"
 start1 = [
-    "14:00",
-    "14:30",
-    "15:00",
-    "15:30",
-    "16:00",
+  "13:00",
+  "13:40",
+  "14:00",
+  "14:20",
+  "14:40",
+  "15:00",
 ]
 duration1 = [
-    "30min",
-    "45min",
-    "45min",
-    "30min",
+  "40min",
+  "20min",
+  "20min",
+  "20min",
+  "20min",
+  "20min",
 ]
 title1 = [
-    "Welcome and Conference Overview",
-    "OSLC through the formative years",
-    "Open Services, Interoperability, and Hypermedia: A possible Future",
-    "Coffee Break"
+  "Knowledge Graphs: History of the Main Ideas",
+  "State of OSLC Report",
+  "RELM LQE TRS demo",
+  "OSLC OP specs talk",
+  "OSLC the silver bullet for modelling interoperability?",
+  "Bridging to PLM with OSLC",
 ]
 authors1 = [
-    "Frederic Loiret (KTH Royal Institute of Technology)",
-    "John Wiegand (IBM, retired)",
-    "Mike Amundsen (CA Technologies)",
-    "",
+  "Juan Sequeda (data.world)",
+  "Jad El-Khoury (KTH)",
+  "Andy Lapping",
+  "Speaker TBD",
+  "Peter Lieber (Sparx Systems), Horst Kargl (Sparx Systems)",
+  "Robert Baillargeon (SodiusWillert)",
 ]
 type1 = [
-    "break",
-    "keynote",
-    "keynote",
-    "break"
+  "keynote",
+  "techtalk",
+  "techtalk",
+  "techtalk",
+  "vendor",
+  "vendor",
 ]
 presentationLink1 = [
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
 ]
 videoLink1 = [
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
 ]
 panelVariable1 = [
-    "",
-    "",
-    "",
-    ""
+  "PJuanS",
+  "",
+  "",
+  "",
+  "Psparx",
+  "ProbertB",
+]
+day2 = "Day 2# May 19, 2020"
+start2 = [
+  "13:00",
+  "13:20",
+  "13:40",
+  "14:00",
+  "14:20",
+  "14:40",
+  "15:00",
+]
+duration2 = [
+  "20min",
+  "20min",
+  "20min",
+  "20min",
+  "20min",
+  "20min",
+  "20min",
+]
+title2 = [
+  "Hypermedia Made Easy",
+  "Lyo Introduction",
+  "Lyo Designer Introduction",
+  "OSLC Extensions for OpenAPI",
+  "Contact Software",
+  "Smartfacts",
+  "OSLC as enabler for seamless application integration",
+]
+authors2 = [
+  "Mike Amundsen (CA Technologies)",
+  "Speaker TBD",
+  "Speaker TBD",
+  "Speaker TBD",
+  "Speaker TBD",
+  "Speaker TBD",
+  "Lutz Laemmer (ProSTEP)",
+]
+type2 = [
+  "keynote",
+  "techtalk",
+  "techtalk",
+  "techtalk",
+  "vendor",
+  "vendor",
+  "techtalk",
+]
+presentationLink2 = [
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+]
+videoLink2 = [
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+]
+panelVariable2 = [
+  "PMikeA2020",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "PLutzL",
+]
+day3 = "Day 3# May 20, 2020"
+start3 = [
+  "13:00",
+  "13:20",
+  "13:40",
+  "14:00",
+  "14:20",
+  "14:40",
+  "15:00",
+]
+duration3 = [
+  "20min",
+  "20min",
+  "20min",
+  "20min",
+  "20min",
+  "20min",
+  "20min",
+]
+title3 = [
+  "Prolog OSLC SDK",
+  "SAAB",
+  "SCANIA",
+  "Airbus",
+  "Safran",
+  "Getting started with Solid using GraphQL and React",
+  "Title TBD",
+]
+authors3 = [
+  "Speaker TBD",
+  "Speaker TBD",
+  "Speaker TBD",
+  "Speaker TBD",
+  "Speaker TBD",
+  "Ruben Taelman (Ghent University)",
+  "Speaker TBD",
+]
+type3 = [
+  "techtalk",
+  "vendor",
+  "vendor",
+  "vendor",
+  "vendor",
+  "techtalk",
+  "vendor",
+]
+presentationLink3 = [
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+]
+videoLink3 = [
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+]
+panelVariable3 = [
+  "",
+  "",
+  "",
+  "",
+  "",
+  "PRubenT",
+  "",
 ]
 +++

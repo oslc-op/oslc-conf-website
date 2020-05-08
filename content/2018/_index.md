@@ -215,7 +215,21 @@ relatedLink = [
     "http://www.crystal-artemis.eu/events/final-dissemination-event.html",
 ]
 
-
+legendTitle = [
+  "Keynote",
+  "Technical Talk",
+  "Break/Networking",
+  "Panel Discussion",
+  "Vendor Demo",
+]
+legendStyle = [
+  "keynote",
+  "techtalk",
+  "break",
+  "discussion",
+  "vendor",
+]
+day1 = "Day 1# November 5, 2018"
 start1 = [
     "8:30",
     "9:00",
@@ -352,6 +366,8 @@ panelVariable1 = [
     "",
     ""
 ]
+
+day2 = "Day 2# November 6, 2018"
 start2 = [
     "9:00",
     "9:30",
