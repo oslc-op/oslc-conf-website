@@ -17,6 +17,9 @@
   <div class="program-table--wrap">
     <div class="day column">
       <label>{{ .Params.day1 }}</label>
+      {{if .Params.time}}
+      <h4>{{.Params.time}}</h4>
+      {{end}}
       {{ range $index, $time := .Params.start1 }}
       {{ $duration := index $.Params.duration1 $index }}
       {{ $type := index $.Params.type1 $index }}
@@ -66,6 +69,9 @@
   <div class="program-table--wrap">
     <div class="day column">
       <label>{{ .Params.day2 }}</label>
+      {{if .Params.time}}
+      <h4>{{.Params.time}}</h4>
+      {{end}}
       {{ range $index, $time := .Params.start2 }}
       {{ $duration := index $.Params.duration2 $index }}
       {{ $type := index $.Params.type2 $index }}
@@ -117,6 +123,9 @@
   <div class="program-table--wrap">
     <div class="day column">
       <label>{{ .Params.day3 }}</label>
+      {{if .Params.time}}
+      <h4>{{.Params.time}}</h4>
+      {{end}}
       {{ range $index, $time := .Params.start3 }}
       {{ $duration := index $.Params.duration3 $index }}
       {{ $type := index $.Params.type3 $index }}
