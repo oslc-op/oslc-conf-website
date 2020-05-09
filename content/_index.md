@@ -14,8 +14,8 @@ aboutParagraphsBold = [
   "Open Services for Lifecycle Collaboration (OSLC) is an initiative to standardize the backbone for the Web of data.",
   "Open Services for Lifecycle Collaboration (OSLC) merges concepts of Linked Data and Hypermedia REST APIs",
   "OSLC is supported by products of many vendors",
-  "The OSLC and Linked Data Unconference is the place to learn first hand from OSLC experts",
-  "The OSLC and Linked Data Unconference is the #1 meeting of the year related to OSLC."
+  "The OSLCFest is the place to learn first hand from OSLC experts",
+  "The OSLCFest is the #1 meeting of the year related to OSLC."
 ]
 aboutParagraphs = [
   "OSLC has been used to support Application Lifecycle Management (ALM), integrated Model-Based Systems Engineering (MBSE) and Product Lifecycle Management (PLM).",
@@ -23,7 +23,7 @@ aboutParagraphs = [
   "to enable the Web of data. OSLC provides open standards to achieve a uniform interface to different data sources (e.g. different databases, repositories, applications, files) and enable the connectivity of data between different data sources.",
   "such as IBM, Mentor Graphics, PTC, Tasktop, Kovair, Sodius, Maplessoft, smartfacts, and many more. These solutions amongst others radically improve requirements traceability and collaboration in the design of complex systems.",
   "everything about existing and upcoming OSLC solutions, open-source projects and standards. In contrast to a traditional conference, this unconference will facilitate the informal exchange of information and ideas between participants!",
-  "The inaugural OSLCFest will take place November 5 – 6, 2018 at the KTH Royal Institute of Technology in Stockholm, Sweden - get your tickets today!"
+  "The 2nd OSLCFest will take place virtually on May 18-20, 2020. The event will be broadcast on YouTubeLive. More info about the broadcast will be shared soon"
 ]
 
 whoIcon = [
@@ -70,6 +70,8 @@ speakersName = [
   "Peter Lieber",
   "Nicolas Figay",
   "Mike Amundsen",
+  "Andrew Berezowsky",
+  "Jim Amsden",
 ]
 speakersTitle = [
   "KTH",
@@ -80,8 +82,10 @@ speakersTitle = [
   "SodiusWillert",
   "Sparx Systems",
   "Sparx Systems",
-  "",
+  "Airbus",
   "Lead API Architect, API Academy, CA Technologies",
+  "KTH",
+  "IBM",
 ]
 speakersImage = [
   "/images/speakers/jad_el.jpg",
@@ -94,6 +98,8 @@ speakersImage = [
   "/images/img-placeholder.png",
   "/images/speakers/nicolas_f.jpg",
   "/images/speakers/mike_amundsen.png",
+  "/images/speakers/andrew_berezovskyi.jpg",
+  "/images/speakers/jim_amsden.jpg",
 ]
 speakersBio = [
   "jadE",
@@ -106,6 +112,8 @@ speakersBio = [
   "",
   "",
   "mikeA",
+  "andrewB",
+  "jimA",
 ]
 
 legendTitle = [
@@ -120,16 +128,16 @@ legendStyle = [
   "discussion",
   "vendor",
 ]
-time = "Program in UTC time"
+time = "All times are in the Central European Summer Time (CEST)"
 
 day1 = "Day 1# May 18, 2020"
 start1 = [
-  "13:00",
-  "13:40",
-  "14:00",
-  "14:20",
-  "14:40",
   "15:00",
+  "15:40",
+  "16:00",
+  "16:20",
+  "16:40",
+  "17:00",
 ]
 duration1 = [
   "40min",
@@ -151,7 +159,7 @@ authors1 = [
   "Juan Sequeda (data.world)",
   "Jad El-Khoury (KTH)",
   "Andy Lapping",
-  "Speaker TBD",
+  "Jim Amsden (IBM)",
   "Peter Lieber (Sparx Systems), Horst Kargl (Sparx Systems)",
   "Robert Baillargeon (SodiusWillert)",
 ]
@@ -189,13 +197,13 @@ panelVariable1 = [
 ]
 day2 = "Day 2# May 19, 2020"
 start2 = [
-  "13:00",
-  "13:20",
-  "13:40",
-  "14:00",
-  "14:20",
-  "14:40",
   "15:00",
+  "15:20",
+  "15:40",
+  "16:00",
+  "16:20",
+  "16:40",
+  "17:00",
 ]
 duration2 = [
   "20min",
@@ -217,8 +225,8 @@ title2 = [
 ]
 authors2 = [
   "Mike Amundsen (CA Technologies)",
-  "Speaker TBD",
-  "Speaker TBD",
+  "Andrew Berezowsky (KTH)",
+  "Andrew Berezowsky (KTH)",
   "Speaker TBD",
   "Speaker TBD",
   "Speaker TBD",
@@ -262,13 +270,13 @@ panelVariable2 = [
 ]
 day3 = "Day 3# May 20, 2020"
 start3 = [
-  "13:00",
-  "13:20",
-  "13:40",
-  "14:00",
-  "14:20",
-  "14:40",
   "15:00",
+  "15:20",
+  "15:40",
+  "16:00",
+  "16:20",
+  "16:40",
+  "17:00",
 ]
 duration3 = [
   "20min",
