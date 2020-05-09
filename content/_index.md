@@ -120,6 +120,7 @@ legendStyle = [
   "discussion",
   "vendor",
 ]
+time = "Program in UTC time"
 
 day1 = "Day 1# May 18, 2020"
 start1 = [
