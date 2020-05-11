@@ -419,7 +419,7 @@ var bio = {
     'title': 'Business Owner of Sparx Systems Central Europe',
     'picturePath': '/images/speakers/peter_l.jpg',
     'bio': [
-      "Peter Lieber is a Serial Entrepreneur in Software Industry www.sparxsystems.eu/www.sparxsystems.de www.lieberlieber.com and president of the Austrian Association of Software Industry (www.voesi.or.at) His focus is model based systems and software engineering."
+      'Peter Lieber is a Serial Entrepreneur in Software Industry <a href="www.sparxsystems.eu">www.sparxsystems.eu</a> <a href="www.sparxsystems.de">www.sparxsystems.de</a> <a href="www.lieberlieber.com">www.lieberlieber.com</a> and president of the Austrian Association of Software Industry (<a href="www.voesi.or.at">www.voesi.or.at</a>) His focus is model based systems and software engineering.'
     ],
     'contact': [
       {

@@ -95,7 +95,7 @@ speakersImage = [
   "/images/speakers/ahmed.jpg",
   "/images/speakers/robert_b.jpg",
   "/images/speakers/horst_k.jpg",
-  "/images/speakers/peter_l.jpg"",
+  "/images/speakers/peter_l.jpg",
   "/images/speakers/nicolas_f.jpg",
   "/images/speakers/mike_amundsen.png",
   "/images/speakers/andrew_berezovskyi.jpg",
