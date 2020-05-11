@@ -20,33 +20,33 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20200511T193921Z
+CREATED:20200511T203417Z
 DESCRIPTION:Hello to all OSLC friends around the globe!\nWe are glad to inv
 	ite you to the OSLCFest 2020\, which will take place virtually on May 18-2
-	0\, with 2-hour and 20-minutes slots each day starting at 15:00 Central Eu
-	ropean Summer Time (CEST). We have received a wide range of talk proposals
-	 from the enterprise OSLC users\, vendors\, SDK and spec authors. The fina
-	lised schedule will soon be available on OSLCfest  <http://oslcfest.org/> 
-	website.\nThe OSLC project has been working hard to engage the community o
-	ver the last few years. Starting with a successful OSLCfest in 2018 <http:
-	//oslcfest.org/2018/> \, we set out on a course of more open process and a
-	 quicker specification development.\nLast year we officially migrated <htt
-	ps://open-services.net/news/0903-open-project/>  from an org structure wit
-	h multiple committees\, a governing board\, and a member section with comp
-	lex membership options to a simple OSLC Open Project where anyone can join
-	 and contribute without barriers or complex committee structures to naviga
-	te. Since the migration\, the project has published three <https://oslc-op
-	.github.io/oslc-specs/specs/qm/quality-management-spec.html>  different <h
-	ttps://oslc-op.github.io/oslc-specs/specs/cm/change-mgt-spec.html>  specif
-	ication <https://oslc-op.github.io/oslc-specs/specs/rm/requirements-manage
-	ment-spec.html>  drafts and has even more ambitious goals for 2020!\nPleas
-	e join us for the event on May 18 on our youtube channel <https://www.yout
-	ube.com/channel/UCO09R3FGcxbMudDIc3htdKQ>  for the live broadcast!\nBest r
-	egards\,\nOSLC Open Project contributors\n \n\n\n\n \n
+	0\, with 2h20min slots each day starting at 15:00 Central European Summer 
+	Time (CEST). We have received a wide range of talk proposals from the ente
+	rprise OSLC users\, vendors\, SDK and spec authors. The finalised schedule
+	 will soon be available on OSLCfest  <http://oslcfest.org/> website.\nThe 
+	OSLC project has been working hard to engage the community over the last f
+	ew years. Starting with a successful OSLCfest in 2018 <http://oslcfest.org
+	/2018/> \, we set out on a course of more open process and a quicker speci
+	fication development.\nLast year we officially migrated <https://open-serv
+	ices.net/news/0903-open-project/>  from an org structure with multiple com
+	mittees\, a governing board\, and a member section with complex membership
+	 options to a simple OSLC Open Project where anyone can join and contribut
+	e without barriers or complex committee structures to navigate. Since the 
+	migration\, the project has published three <https://oslc-op.github.io/osl
+	c-specs/specs/qm/quality-management-spec.html>  different <https://oslc-op
+	.github.io/oslc-specs/specs/cm/change-mgt-spec.html>  specification <https
+	://oslc-op.github.io/oslc-specs/specs/rm/requirements-management-spec.html
+	>  drafts and has even more ambitious goals for 2020!\nPlease join us for 
+	the event on May 18 on our youtube channel <https://www.youtube.com/channe
+	l/UCO09R3FGcxbMudDIc3htdKQ>  for the live broadcast!\nBest regards\,\nOSLC
+	 Open Project contributors\n \n\n\n\n \n
 DTEND;TZID="W. Europe Standard Time":20200518T182000
 DTSTAMP:20200505T224233Z
 DTSTART;TZID="W. Europe Standard Time":20200518T160000
-LAST-MODIFIED:20200511T193921Z
+LAST-MODIFIED:20200511T203417Z
 LOCATION:https://www.youtube.com/channel/UCO09R3FGcxbMudDIc3htdKQ
 PRIORITY:5
 RRULE:FREQ=DAILY;COUNT=3
@@ -61,7 +61,7 @@ X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"
 	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head><meta name=ProgId c
 	ontent=Word.Document><meta name=Generator content="Microsoft Word 15"><met
 	a name=Originator content="Microsoft Word 15"><link rel=File-List href="ci
-	d:filelist.xml@01D627DC.7F519630"><!--[if gte mso 9]><xml>\n<o:OfficeDocum
+	d:filelist.xml@01D627BA.55D597B0"><!--[if gte mso 9]><xml>\n<o:OfficeDocum
 	entSettings>\n<o:AllowPNG/>\n</o:OfficeDocumentSettings>\n</xml><![endif]-
 	-><!--[if gte mso 9]><xml>\n<w:WordDocument>\n<w:SpellingState>Clean</w:Sp
 	ellingState>\n<w:DocumentKind>DocumentEmail</w:DocumentKind>\n<w:TrackMove
@@ -587,63 +587,62 @@ X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"
 	ion-style: initial\;text-decoration-color: initial\;word-spacing:0px'><spa
 	n style='font-size:14.0pt\;mso-bidi-font-family:"Times New Roman"\;color:#
 	222222'>We are glad to invite you to the <span class=SpellE>OSLCFest</span
-	> 2020\, which will take place virtually on May 18-20\, with 2-hour and 20
-	-minutes slots each day starting at 15:00 Central European Summer Time (CE
-	ST). We have received a wide range of talk proposals from the enterprise O
-	SLC users\, vendors\, SDK and spec authors. The <span class=SpellE>finalis
-	ed</span> schedule will soon be available on&nbsp\;<span class=SpellE><a h
-	ref="http://oslcfest.org/"><span style='mso-fareast-font-family:Calibri\;c
-	olor:#0088CC'>OSLCfest</span><span style='mso-fareast-font-family:Calibri\
-	;color:#0088CC'>&nbsp\;</span></a></span>website.<o:p></o:p></span></p><p 
-	style='background:white\;font-variant-ligatures: normal\;font-variant-caps
-	: normal\;orphans: 2\;text-align:start\;widows: 2\;-webkit-text-stroke-wid
-	th: 0px\;text-decoration-style: initial\;text-decoration-color: initial\;w
-	ord-spacing:0px'><span style='font-size:14.0pt\;mso-bidi-font-family:"Time
-	s New Roman"\;color:#222222'>The OSLC project has been working hard to eng
-	age the community over the last few years. Starting with a successful&nbsp
-	\;<span class=SpellE><a href="http://oslcfest.org/2018/"><span style='mso-
-	fareast-font-family:Calibri\;color:#0088CC'>OSLCfest</span><span style='ms
-	o-fareast-font-family:Calibri\;color:#0088CC'> in 2018</span></a></span>\,
-	 we set out on a course of more open process and a quicker specification d
-	evelopment.<o:p></o:p></span></p><p style='background:white\;font-variant-
-	ligatures: normal\;font-variant-caps: normal\;orphans: 2\;text-align:start
-	\;widows: 2\;-webkit-text-stroke-width: 0px\;text-decoration-style: initia
-	l\;text-decoration-color: initial\;word-spacing:0px'><span style='font-siz
-	e:14.0pt\;mso-bidi-font-family:"Times New Roman"\;color:#222222'>Last year
-	 we officially&nbsp\;<a href="https://open-services.net/news/0903-open-pro
-	ject/"><span style='mso-fareast-font-family:Calibri\;color:#0088CC'>migrat
-	ed</span></a>&nbsp\;from an org structure with multiple committees\, a gov
-	erning board\, and a member section with complex membership options to a s
-	imple OSLC Open Project where anyone can join and contribute without barri
-	ers or complex committee structures to navigate. Since the migration\, the
-	 project has published&nbsp\;<a href="https://oslc-op.github.io/oslc-specs
-	/specs/qm/quality-management-spec.html"><span style='mso-fareast-font-fami
-	ly:Calibri\;color:#0088CC'>three</span></a>&nbsp\;<a href="https://oslc-op
-	.github.io/oslc-specs/specs/cm/change-mgt-spec.html"><span style='mso-fare
-	ast-font-family:Calibri\;color:#0088CC'>different</span></a>&nbsp\;<a href
-	="https://oslc-op.github.io/oslc-specs/specs/rm/requirements-management-sp
-	ec.html"><span style='mso-fareast-font-family:Calibri\;color:#0088CC'>spec
-	ification</span></a>&nbsp\;drafts and has even more ambitious goals for 20
-	20!<o:p></o:p></span></p><p style='background:white\;font-variant-ligature
+	> 2020\, which will take place virtually on May 18-20\, with 2h20min slots
+	 each day starting at 15:00 Central European Summer Time (CEST). We have r
+	eceived a wide range of talk proposals from the enterprise OSLC users\, ve
+	ndors\, SDK and spec authors. The <span class=SpellE>finalised</span> sche
+	dule will soon be available on&nbsp\;<span class=SpellE><a href="http://os
+	lcfest.org/"><span style='mso-fareast-font-family:Calibri\;color:#0088CC'>
+	OSLCfest</span><span style='mso-fareast-font-family:Calibri\;color:#0088CC
+	'>&nbsp\;</span></a></span>website.<o:p></o:p></span></p><p style='backgro
+	und:white\;font-variant-ligatures: normal\;font-variant-caps: normal\;orph
+	ans: 2\;text-align:start\;widows: 2\;-webkit-text-stroke-width: 0px\;text-
+	decoration-style: initial\;text-decoration-color: initial\;word-spacing:0p
+	x'><span style='font-size:14.0pt\;mso-bidi-font-family:"Times New Roman"\;
+	color:#222222'>The OSLC project has been working hard to engage the commun
+	ity over the last few years. Starting with a successful&nbsp\;<span class=
+	SpellE><a href="http://oslcfest.org/2018/"><span style='mso-fareast-font-f
+	amily:Calibri\;color:#0088CC'>OSLCfest</span><span style='mso-fareast-font
+	-family:Calibri\;color:#0088CC'> in 2018</span></a></span>\, we set out on
+	 a course of more open process and a quicker specification development.<o:
+	p></o:p></span></p><p style='background:white\;font-variant-ligatures: nor
+	mal\;font-variant-caps: normal\;orphans: 2\;text-align:start\;widows: 2\;-
+	webkit-text-stroke-width: 0px\;text-decoration-style: initial\;text-decora
+	tion-color: initial\;word-spacing:0px'><span style='font-size:14.0pt\;mso-
+	bidi-font-family:"Times New Roman"\;color:#222222'>Last year we officially
+	&nbsp\;<a href="https://open-services.net/news/0903-open-project/"><span s
+	tyle='mso-fareast-font-family:Calibri\;color:#0088CC'>migrated</span></a>&
+	nbsp\;from an org structure with multiple committees\, a governing board\,
+	 and a member section with complex membership options to a simple OSLC Ope
+	n Project where anyone can join and contribute without barriers or complex
+	 committee structures to navigate. Since the migration\, the project has p
+	ublished&nbsp\;<a href="https://oslc-op.github.io/oslc-specs/specs/qm/qual
+	ity-management-spec.html"><span style='mso-fareast-font-family:Calibri\;co
+	lor:#0088CC'>three</span></a>&nbsp\;<a href="https://oslc-op.github.io/osl
+	c-specs/specs/cm/change-mgt-spec.html"><span style='mso-fareast-font-famil
+	y:Calibri\;color:#0088CC'>different</span></a>&nbsp\;<a href="https://oslc
+	-op.github.io/oslc-specs/specs/rm/requirements-management-spec.html"><span
+	 style='mso-fareast-font-family:Calibri\;color:#0088CC'>specification</spa
+	n></a>&nbsp\;drafts and has even more ambitious goals for 2020!<o:p></o:p>
+	</span></p><p style='background:white\;font-variant-ligatures: normal\;fon
+	t-variant-caps: normal\;orphans: 2\;text-align:start\;widows: 2\;-webkit-t
+	ext-stroke-width: 0px\;text-decoration-style: initial\;text-decoration-col
+	or: initial\;word-spacing:0px'><span style='font-size:14.0pt\;mso-bidi-fon
+	t-family:"Times New Roman"\;color:#222222'>Please join us for the event on
+	 May 18 on our <a href="https://www.youtube.com/channel/UCO09R3FGcxbMudDIc
+	3htdKQ"><span class=SpellE>youtube</span> channel</a> for the live broadca
+	st!<o:p></o:p></span></p><p style='background:white\;font-variant-ligature
 	s: normal\;font-variant-caps: normal\;orphans: 2\;text-align:start\;widows
 	: 2\;-webkit-text-stroke-width: 0px\;text-decoration-style: initial\;text-
 	decoration-color: initial\;word-spacing:0px'><span style='font-size:14.0pt
-	\;mso-bidi-font-family:"Times New Roman"\;color:#222222'>Please join us fo
-	r the event on May 18 on our <a href="https://www.youtube.com/channel/UCO0
-	9R3FGcxbMudDIc3htdKQ"><span class=SpellE>youtube</span> channel</a> for th
-	e live broadcast!<o:p></o:p></span></p><p style='background:white\;font-va
-	riant-ligatures: normal\;font-variant-caps: normal\;orphans: 2\;text-align
-	:start\;widows: 2\;-webkit-text-stroke-width: 0px\;text-decoration-style: 
-	initial\;text-decoration-color: initial\;word-spacing:0px'><span style='fo
-	nt-size:14.0pt\;mso-bidi-font-family:"Times New Roman"\;color:#222222'>Bes
-	t regards\,<br>OSLC Open Project contributors<o:p></o:p></span></p><p><spa
-	n style='font-size:11.5pt\;font-family:"Helvetica"\,sans-serif\;color:#222
-	222'><o:p>&nbsp\;</o:p></span></p></td></tr></table><p style='background:w
-	hite'><span style='font-size:11.5pt\;font-family:"Helvetica"\,sans-serif\;
-	color:#222222'><br style='mso-special-character:line-break'><![if !support
-	LineBreakNewLine]><br style='mso-special-character:line-break'><![endif]><
-	o:p></o:p></span></p><p class=MsoNormal><o:p>&nbsp\;</o:p></p></div></body
-	></html>
+	\;mso-bidi-font-family:"Times New Roman"\;color:#222222'>Best regards\,<br
+	>OSLC Open Project contributors<o:p></o:p></span></p><p><span style='font-
+	size:11.5pt\;font-family:"Helvetica"\,sans-serif\;color:#222222'><o:p>&nbs
+	p\;</o:p></span></p></td></tr></table><p style='background:white'><span st
+	yle='font-size:11.5pt\;font-family:"Helvetica"\,sans-serif\;color:#222222'
+	><br style='mso-special-character:line-break'><![if !supportLineBreakNewLi
+	ne]><br style='mso-special-character:line-break'><![endif]><o:p></o:p></sp
+	an></p><p class=MsoNormal><o:p>&nbsp\;</o:p></p></div></body></html>
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
