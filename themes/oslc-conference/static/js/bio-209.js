@@ -405,7 +405,7 @@ var bio = {
     'title': 'Principal Consultant at Sparx Systems Central Europe',
     'picturePath': '/images/speakers/horst_k.jpg',
     'bio': [
-      ""
+      "Dr. Horst Kargl, Trainer, Consultant and author, has been working with OO-modelling since 2000, joining SparxSystems in 2008. His focus is on software architecture, code generation and the customization and extension possibilities of Enterprise Architect."
     ],
     'contact': [
       {
@@ -419,7 +419,7 @@ var bio = {
     'title': 'Business Owner of Sparx Systems Central Europe',
     'picturePath': '/images/img-placeholder.png',
     'bio': [
-      ""
+      "Peter Lieber is a Serial Entrepreneur in Software Industry www.sparxsystems.eu/www.sparxsystems.de www.lieberlieber.com and president of the Austrian Association of Software Industry (www.voesi.or.at) His focus is model based systems and software engineering."
     ],
     'contact': [
       {
