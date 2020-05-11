@@ -1,7 +1,7 @@
 +++
 bannerOverlay = "bg-overlay2"
 bannerTitle1 = "OSLC FEST"
-bannerTitle2 = "OSLC and Linked Data Unconference"
+bannerTitle2 = ""
 bannerTitle3 = "May 18 - 20, 2020"
 bannerTitle4 = "Virtual Conference"
 bannerActionText = "Check our Preliminary Program!"
@@ -23,7 +23,7 @@ aboutParagraphs = [
   "to enable the Web of data. OSLC provides open standards to achieve a uniform interface to different data sources (e.g. different databases, repositories, applications, files) and enable the connectivity of data between different data sources.",
   "such as IBM, Mentor Graphics, PTC, Tasktop, Kovair, Sodius, Maplessoft, smartfacts, and many more. These solutions amongst others radically improve requirements traceability and collaboration in the design of complex systems.",
   "everything about existing and upcoming OSLC solutions, open-source projects and standards. In contrast to a traditional conference, this unconference will facilitate the informal exchange of information and ideas between participants!",
-  "The 2nd OSLCFest will take place virtually on May 18-20, 2020. The event will be broadcast on YouTubeLive. More info about the broadcast will be shared soon"
+  "The 2nd OSLCFest will take place virtually on May 18-20, 2020. The event will be broadcast on YouTubeLive. More info about the broadcast will be shared soon."
 ]
 
 whoIcon = [

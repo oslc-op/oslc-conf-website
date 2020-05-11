@@ -6,7 +6,9 @@
     </div>
     <div class="section--info">
       <h1 class="text-shadow big">{{ .Params.bannerTitle1 }}</h1>
+      {{ if .Params.bannerTitle2 }}
       <h2 class="text-shadow big subtitle">{{ .Params.bannerTitle2 }}</h2>
+      {{ end }}
       <h2 class="text-shadow big">{{ .Params.bannerTitle3 }}</h2>
       <h3 class="text-shadow big alt">{{ .Params.bannerTitle4 }}</h3>
       <div>
