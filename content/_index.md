@@ -76,7 +76,7 @@ speakersName = [
 speakersTitle = [
   "KTH",
   "Ghent University",
-  "",
+  "IBM UK",
   "ProSTEP",
   "SII France",
   "SodiusWillert",
@@ -90,7 +90,7 @@ speakersTitle = [
 speakersImage = [
   "/images/speakers/jad_el.jpg",
   "/images/speakers/ruben_t.jpg",
-  "/images/img-placeholder.png",
+  "/images/speakers/andy_l.jpg",
   "/images/speakers/lutz_l.jpg",
   "/images/speakers/ahmed.jpg",
   "/images/speakers/robert_b.jpg",
@@ -104,7 +104,7 @@ speakersImage = [
 speakersBio = [
   "jadE",
   "rubenT",
-  "",
+  "andyL",
   "lutzL",
   "ahmedE",
   "robertB",
@@ -158,7 +158,7 @@ title1 = [
 authors1 = [
   "Juan Sequeda (data.world)",
   "Jad El-Khoury (KTH)",
-  "Andy Lapping",
+  "Andy Lapping (IBM UK)",
   "Jim Amsden (IBM)",
   "Peter Lieber (Sparx Systems), Horst Kargl (Sparx Systems)",
   "Robert Baillargeon (SodiusWillert)",
@@ -190,7 +190,7 @@ videoLink1 = [
 panelVariable1 = [
   "PJuanS",
   "",
-  "",
+  "PAndyL",
   "",
   "Psparx",
   "ProbertB",

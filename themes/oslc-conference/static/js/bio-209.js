@@ -455,5 +455,19 @@ var bio = {
         'icon': '<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  andyL: {
+    'name': 'Andy Lapping',
+    'title': ' Technical Enablement Specialist at IBM',
+    'picturePath': '/images/speakers/andy_l.jpg',
+    'bio': [
+      "Andy Lapping is an IBM Technical Enablement Specialist and has over 20 years experience in Model-Based Systems and Software Engineering. A subject matter expert in UML and SysML, he is an official content developer for the OMG SysML OSCMP Certification examinations. He is an expert in the application and customization of IBM’s Engineering portfolio and more recently the IBM Watson IoT Platform. He holds a BEng Hons degree in Electrical and Electronic Engineering. Prior to joining IBM via Telelogic and I-Logix he spent 12 years testing and commissioning railway signalling systems. He is an excellent public speaker but also a very modest chap. Seriously - if there was a prize for modesty he would definitely win it."
+    ],
+    'contact': [
+      {
+        'link': 'mailto:andy.lapping@uk.ibm.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };

@@ -226,6 +226,15 @@ var presentations = {
     'authors': [
       bio.rubenT
     ]
-  }
+  },
+  'PAndyL': {
+    'title': 'RELM LQE TRS demo',
+    'description': [
+      '<p>In this session Andy will present how OSLC connected engineering data from across the lifecycle may be visualized and analyzed using Engineering Insights, part of the IBM Engineering Lifecycle Management suite.</p>'
+    ],
+    'authors': [
+      bio.andyL
+    ]
+  },
 
 };
