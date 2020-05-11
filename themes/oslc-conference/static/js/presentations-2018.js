@@ -216,9 +216,12 @@ var presentations = {
     ]
   },
   'PRubenT': {
-    'title': 'Getting started with Solid using GraphQL and React',
+    'title': 'A Technical View on the Solid Ecosystem',
     'description': [
-      '<p>Solid is an ecosystem that gives users full control on how and where they want to store their data. The level of decentralization that Solid introduces, requires a different way of building applications. In this talk, we will demonstrate how to get started with Solid application development by making use of GraphQL and React.</p>',
+      '<p>Solid is an ecosystem that gives users full control on how and where they want to store their data.</p>',
+      '<p>The level of decentralization that Solid introduces, requires a different way of building applications.</p>',
+      '<p>In this talk, an overview will be given on the different standards that Solid makes use of.</p>',
+      '<p>Furthermore, several tools that implement these standards will be discussed.</p>',
     ],
     'authors': [
       bio.rubenT
