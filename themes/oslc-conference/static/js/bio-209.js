@@ -405,7 +405,7 @@ var bio = {
     'title': 'Principal Consultant at Sparx Systems Central Europe',
     'picturePath': '/images/speakers/horst_k.jpg',
     'bio': [
-      ""
+      "Dr. Horst Kargl, Trainer, Consultant and author, has been working with OO-modelling since 2000, joining SparxSystems in 2008. His focus is on software architecture, code generation and the customization and extension possibilities of Enterprise Architect."
     ],
     'contact': [
       {
@@ -417,9 +417,9 @@ var bio = {
   peterL: {
     'name': 'Peter Lieber',
     'title': 'Business Owner of Sparx Systems Central Europe',
-    'picturePath': '/images/img-placeholder.png',
+    'picturePath': '/images/speakers/peter_l.jpg',
     'bio': [
-      ""
+      'Peter Lieber is a Serial Entrepreneur in Software Industry <a href="www.sparxsystems.eu">www.sparxsystems.eu</a> <a href="www.sparxsystems.de">www.sparxsystems.de</a> <a href="www.lieberlieber.com">www.lieberlieber.com</a> and president of the Austrian Association of Software Industry (<a href="www.voesi.or.at">www.voesi.or.at</a>) His focus is model based systems and software engineering.'
     ],
     'contact': [
       {
@@ -452,6 +452,34 @@ var bio = {
     'contact': [
       {
         'link': 'mailto:ruben.taelman@ugent.be',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  andyL: {
+    'name': 'Andy Lapping',
+    'title': ' Technical Enablement Specialist at IBM',
+    'picturePath': '/images/speakers/andy_l.jpg',
+    'bio': [
+      "Andy Lapping is an IBM Technical Enablement Specialist and has over 20 years experience in Model-Based Systems and Software Engineering. A subject matter expert in UML and SysML, he is an official content developer for the OMG SysML OSCMP Certification examinations. He is an expert in the application and customization of IBM’s Engineering portfolio and more recently the IBM Watson IoT Platform. He holds a BEng Hons degree in Electrical and Electronic Engineering. Prior to joining IBM via Telelogic and I-Logix he spent 12 years testing and commissioning railway signalling systems. He is an excellent public speaker but also a very modest chap. Seriously - if there was a prize for modesty he would definitely win it."
+    ],
+    'contact': [
+      {
+        'link': 'mailto:andy.lapping@uk.ibm.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  christophB: {
+    'name': 'Christoph Bergner',
+    'title': ' Owner MID GmbH, Germany',
+    'picturePath': '/images/speakers/christoph_b.png',
+    'bio': [
+      ""
+    ],
+    'contact': [
+      {
+        'link': 'mailto:c.bergner@mid.de',
         'icon': '<i class="fas fa-envelope"></i>'
       }
     ]

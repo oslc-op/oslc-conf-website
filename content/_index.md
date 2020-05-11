@@ -72,11 +72,12 @@ speakersName = [
   "Mike Amundsen",
   "Andrew Berezowsky",
   "Jim Amsden",
+  "Christoph Bergner",
 ]
 speakersTitle = [
   "KTH",
   "Ghent University",
-  "",
+  "IBM UK",
   "ProSTEP",
   "SII France",
   "SodiusWillert",
@@ -86,34 +87,37 @@ speakersTitle = [
   "Lead API Architect, API Academy, CA Technologies",
   "KTH",
   "IBM",
+  "MID GmbH"
 ]
 speakersImage = [
   "/images/speakers/jad_el.jpg",
   "/images/speakers/ruben_t.jpg",
-  "/images/img-placeholder.png",
+  "/images/speakers/andy_l.jpg",
   "/images/speakers/lutz_l.jpg",
   "/images/speakers/ahmed.jpg",
   "/images/speakers/robert_b.jpg",
   "/images/speakers/horst_k.jpg",
-  "/images/img-placeholder.png",
+  "/images/speakers/peter_l.jpg",
   "/images/speakers/nicolas_f.jpg",
   "/images/speakers/mike_amundsen.png",
   "/images/speakers/andrew_berezovskyi.jpg",
   "/images/speakers/jim_amsden.jpg",
+  "/images/speakers/christoph_b.png",
 ]
 speakersBio = [
   "jadE",
   "rubenT",
-  "",
+  "andyL",
   "lutzL",
   "ahmedE",
   "robertB",
-  "",
-  "",
+  "horstK",
+  "peterL",
   "",
   "mikeA",
   "andrewB",
   "jimA",
+  ""
 ]
 
 legendTitle = [
@@ -158,7 +162,7 @@ title1 = [
 authors1 = [
   "Juan Sequeda (data.world)",
   "Jad El-Khoury (KTH)",
-  "Andy Lapping",
+  "Andy Lapping (IBM UK)",
   "Jim Amsden (IBM)",
   "Peter Lieber (Sparx Systems), Horst Kargl (Sparx Systems)",
   "Robert Baillargeon (SodiusWillert)",
@@ -190,7 +194,7 @@ videoLink1 = [
 panelVariable1 = [
   "PJuanS",
   "",
-  "",
+  "PAndyL",
   "",
   "Psparx",
   "ProbertB",
@@ -220,7 +224,7 @@ title2 = [
   "Lyo Designer Introduction",
   "OSLC Extensions for OpenAPI",
   "Contact Software",
-  "Smartfacts",
+  "Beyond linking artifacts: “Federated Authoring” and “Dashboards” based on OSLC",
   "OSLC as enabler for seamless application integration",
 ]
 authors2 = [
@@ -229,7 +233,7 @@ authors2 = [
   "Andrew Berezowsky (KTH)",
   "Speaker TBD",
   "Speaker TBD",
-  "Speaker TBD",
+  "Christoph Bergner (Smartfacts)",
   "Lutz Laemmer (ProSTEP)",
 ]
 type2 = [
@@ -265,7 +269,7 @@ panelVariable2 = [
   "",
   "",
   "",
-  "",
+  "PChristophB",
   "PLutzL",
 ]
 day3 = "Day 3# May 20, 2020"
