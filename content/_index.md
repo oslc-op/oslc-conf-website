@@ -224,7 +224,7 @@ title2 = [
   "Lyo Designer Introduction",
   "OSLC Extensions for OpenAPI",
   "Contact Software",
-  "Smartfacts",
+  "Beyond linking artifacts: “Federated Authoring” and “Dashboards” based on OSLC",
   "OSLC as enabler for seamless application integration",
 ]
 authors2 = [
@@ -233,7 +233,7 @@ authors2 = [
   "Andrew Berezowsky (KTH)",
   "Speaker TBD",
   "Speaker TBD",
-  "Speaker TBD",
+  "Christoph Bergner (Smartfacts)",
   "Lutz Laemmer (ProSTEP)",
 ]
 type2 = [
@@ -269,7 +269,7 @@ panelVariable2 = [
   "",
   "",
   "",
-  "",
+  "PChristophB",
   "PLutzL",
 ]
 day3 = "Day 3# May 20, 2020"
