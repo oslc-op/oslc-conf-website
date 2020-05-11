@@ -233,7 +233,7 @@ authors2 = [
   "Andrew Berezowsky (KTH)",
   "Speaker TBD",
   "Speaker TBD",
-  "Christoph Bergner (Smartfacts)",
+  "Christoph Bergner (MID)",
   "Lutz Laemmer (ProSTEP)",
 ]
 type2 = [
