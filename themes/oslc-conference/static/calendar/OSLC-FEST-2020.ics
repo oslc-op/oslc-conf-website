@@ -4,41 +4,49 @@ VERSION:2.0
 METHOD:PUBLISH
 X-MS-OLK-FORCEINSPECTOROPEN:TRUE
 BEGIN:VTIMEZONE
-TZID:E. South America Standard Time
+TZID:W. Europe Standard Time
 BEGIN:STANDARD
-DTSTART:16010101T000000
-TZOFFSETFROM:-0300
-TZOFFSETTO:-0300
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
 END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20200505T225823Z
+CREATED:20200511T193921Z
 DESCRIPTION:Hello to all OSLC friends around the globe!\nWe are glad to inv
-	ite you to the OSLCfest 2020\, which will take place virtually on May 18-2
-	0\, with 2-hour slots each day starting at 14:00 UTC. We have received a w
-	ide range of talk proposals from the enterprise OSLC users\, vendors\, SDK
-	 and spec authors. The finalised schedule will soon be available on OSLCfe
-	st  <http://oslcfest.org/> website.\nThe OSLC project has been working har
-	d to engage the community over the last few years. Starting with a success
-	ful OSLCfest in 2018 <http://oslcfest.org/2018/> \, we set out on a course
-	 of more open process and a quicker specification development.\nLast year 
-	we officially migrated <https://open-services.net/news/0903-open-project/>
-	  from an org structure with multiple committees\, a governing board\, and
-	 a member section with complex membership options to a simple OSLC Open Pr
-	oject where anyone can join and contribute without barriers or complex com
-	mittee structures to navigate. Since the migration\, the project has publi
-	shed three <https://oslc-op.github.io/oslc-specs/specs/qm/quality-manageme
-	nt-spec.html>  different <https://oslc-op.github.io/oslc-specs/specs/cm/ch
-	ange-mgt-spec.html>  specification <https://oslc-op.github.io/oslc-specs/s
-	pecs/rm/requirements-management-spec.html>  drafts and has even more ambit
-	ious goals for 2020!\nPlease join us for the event on May 18 in our youtub
-	e channel <https://www.youtube.com/channel/UCO09R3FGcxbMudDIc3htdKQ> !\nBe
-	st regards\,\nOSLC Open Project contributors\n \n\n\n\n \n
-DTEND;TZID="E. South America Standard Time":20200518T133000
+	ite you to the OSLCFest 2020\, which will take place virtually on May 18-2
+	0\, with 2-hour and 20-minutes slots each day starting at 15:00 Central Eu
+	ropean Summer Time (CEST). We have received a wide range of talk proposals
+	 from the enterprise OSLC users\, vendors\, SDK and spec authors. The fina
+	lised schedule will soon be available on OSLCfest  <http://oslcfest.org/> 
+	website.\nThe OSLC project has been working hard to engage the community o
+	ver the last few years. Starting with a successful OSLCfest in 2018 <http:
+	//oslcfest.org/2018/> \, we set out on a course of more open process and a
+	 quicker specification development.\nLast year we officially migrated <htt
+	ps://open-services.net/news/0903-open-project/>  from an org structure wit
+	h multiple committees\, a governing board\, and a member section with comp
+	lex membership options to a simple OSLC Open Project where anyone can join
+	 and contribute without barriers or complex committee structures to naviga
+	te. Since the migration\, the project has published three <https://oslc-op
+	.github.io/oslc-specs/specs/qm/quality-management-spec.html>  different <h
+	ttps://oslc-op.github.io/oslc-specs/specs/cm/change-mgt-spec.html>  specif
+	ication <https://oslc-op.github.io/oslc-specs/specs/rm/requirements-manage
+	ment-spec.html>  drafts and has even more ambitious goals for 2020!\nPleas
+	e join us for the event on May 18 on our youtube channel <https://www.yout
+	ube.com/channel/UCO09R3FGcxbMudDIc3htdKQ>  for the live broadcast!\nBest r
+	egards\,\nOSLC Open Project contributors\n \n\n\n\n \n
+DTEND;TZID="W. Europe Standard Time":20200518T182000
 DTSTAMP:20200505T224233Z
-DTSTART;TZID="E. South America Standard Time":20200518T110000
-LAST-MODIFIED:20200505T225823Z
+DTSTART;TZID="W. Europe Standard Time":20200518T160000
+LAST-MODIFIED:20200511T193921Z
 LOCATION:https://www.youtube.com/channel/UCO09R3FGcxbMudDIc3htdKQ
 PRIORITY:5
 RRULE:FREQ=DAILY;COUNT=3
@@ -53,7 +61,7 @@ X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"
 	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head><meta name=ProgId c
 	ontent=Word.Document><meta name=Generator content="Microsoft Word 15"><met
 	a name=Originator content="Microsoft Word 15"><link rel=File-List href="ci
-	d:filelist.xml@01D62317.806C4ED0"><!--[if gte mso 9]><xml>\n<o:OfficeDocum
+	d:filelist.xml@01D627DC.7F519630"><!--[if gte mso 9]><xml>\n<o:OfficeDocum
 	entSettings>\n<o:AllowPNG/>\n</o:OfficeDocumentSettings>\n</xml><![endif]-
 	-><!--[if gte mso 9]><xml>\n<w:WordDocument>\n<w:SpellingState>Clean</w:Sp
 	ellingState>\n<w:DocumentKind>DocumentEmail</w:DocumentKind>\n<w:TrackMove
@@ -517,124 +525,125 @@ X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"
 	o-font-pitch:variable\;\n	mso-font-signature:-536858881 -1073711013 9 0 51
 	1 0\;}\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 5 3 5 4 
 	6 3 2 4\;\n	mso-font-charset:0\;\n	mso-generic-font-family:roman\;\n	mso-f
-	ont-pitch:variable\;\n	mso-font-signature:-536869121 1107305727 33554432 0
-	 415 0\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 2 2 2 4 3
-	 2 4\;\n	mso-font-charset:0\;\n	mso-generic-font-family:swiss\;\n	mso-font
-	-pitch:variable\;\n	mso-font-signature:-469750017 -1073732485 9 0 511 0\;}
-	\n/* Style Definitions */\np.MsoNormal\, li.MsoNormal\, div.MsoNormal\n	{m
-	so-style-unhide:no\;\n	mso-style-qformat:yes\;\n	mso-style-parent:""\;\n	m
-	argin:0in\;\n	margin-bottom:.0001pt\;\n	mso-pagination:widow-orphan\;\n	fo
+	ont-pitch:variable\;\n	mso-font-signature:3 0 0 0 1 0\;}\n@font-face\n	{fo
+	nt-family:Calibri\;\n	panose-1:2 15 5 2 2 2 4 3 2 4\;\n	mso-font-charset:0
+	\;\n	mso-generic-font-family:swiss\;\n	mso-font-pitch:variable\;\n	mso-fon
+	t-signature:-469750017 -1073732485 9 0 511 0\;}\n/* Style Definitions */\n
+	p.MsoNormal\, li.MsoNormal\, div.MsoNormal\n	{mso-style-unhide:no\;\n	mso-
+	style-qformat:yes\;\n	mso-style-parent:""\;\n	margin:0in\;\n	margin-bottom
+	:.0001pt\;\n	mso-pagination:widow-orphan\;\n	font-size:11.0pt\;\n	font-fam
+	ily:"Calibri"\,sans-serif\;\n	mso-fareast-font-family:Calibri\;\n	mso-bidi
+	-font-family:"Times New Roman"\;}\na:link\, span.MsoHyperlink\n	{mso-style
+	-noshow:yes\;\n	mso-style-priority:99\;\n	color:#0563C1\;\n	text-decoratio
+	n:underline\;\n	text-underline:single\;}\na:visited\, span.MsoHyperlinkFol
+	lowed\n	{mso-style-noshow:yes\;\n	mso-style-priority:99\;\n	color:#954F72\
+	;\n	text-decoration:underline\;\n	text-underline:single\;}\np.msonormal0\,
+	 li.msonormal0\, div.msonormal0\n	{mso-style-name:msonormal\;\n	mso-style-
+	unhide:no\;\n	mso-margin-top-alt:auto\;\n	margin-right:0in\;\n	mso-margin-
+	bottom-alt:auto\;\n	margin-left:0in\;\n	mso-pagination:widow-orphan\;\n	fo
 	nt-size:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;\n	mso-fareast-font-
-	family:Calibri\;\n	mso-bidi-font-family:"Times New Roman"\;}\na:link\, spa
-	n.MsoHyperlink\n	{mso-style-priority:99\;\n	color:#0563C1\;\n	text-decorat
-	ion:underline\;\n	text-underline:single\;}\na:visited\, span.MsoHyperlinkF
-	ollowed\n	{mso-style-noshow:yes\;\n	mso-style-priority:99\;\n	color:#954F7
-	2\;\n	text-decoration:underline\;\n	text-underline:single\;}\np.msonormal0
-	\, li.msonormal0\, div.msonormal0\n	{mso-style-name:msonormal\;\n	mso-styl
-	e-unhide:no\;\n	mso-margin-top-alt:auto\;\n	margin-right:0in\;\n	mso-margi
-	n-bottom-alt:auto\;\n	margin-left:0in\;\n	mso-pagination:widow-orphan\;\n	
-	font-size:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;\n	mso-fareast-fon
-	t-family:Calibri\;}\nspan.EmailStyle18\n	{mso-style-type:personal-compose\
-	;\n	mso-style-noshow:yes\;\n	mso-style-unhide:no\;\n	mso-ansi-font-size:11
-	.0pt\;\n	mso-bidi-font-size:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;
-	\n	mso-ascii-font-family:Calibri\;\n	mso-fareast-font-family:Calibri\;\n	m
-	so-hansi-font-family:Calibri\;\n	mso-bidi-font-family:"Times New Roman"\;\
-	n	color:windowtext\;}\nspan.badge\n	{mso-style-name:badge\;\n	mso-style-un
-	hide:no\;}\nspan.SpellE\n	{mso-style-name:""\;\n	mso-spl-e:yes\;}\n.MsoChp
-	Default\n	{mso-style-type:export-only\;\n	mso-default-props:yes\;\n	font-s
-	ize:10.0pt\;\n	mso-ansi-font-size:10.0pt\;\n	mso-bidi-font-size:10.0pt\;\n
-		font-family:"Calibri"\,sans-serif\;\n	mso-ascii-font-family:Calibri\;\n	m
-	so-fareast-font-family:Calibri\;\n	mso-hansi-font-family:Calibri\;\n	mso-b
-	idi-font-family:Calibri\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	ma
-	rgin:1.0in 1.0in 1.0in 1.0in\;\n	mso-header-margin:.5in\;\n	mso-footer-mar
-	gin:.5in\;\n	mso-paper-source:0\;}\ndiv.WordSection1\n	{page:WordSection1\
-	;}\n--></style><!--[if gte mso 10]><style>/* Style Definitions */\ntable.M
-	soNormalTable\n	{mso-style-name:"Table Normal"\;\n	mso-tstyle-rowband-size
-	:0\;\n	mso-tstyle-colband-size:0\;\n	mso-style-noshow:yes\;\n	mso-style-pr
-	iority:99\;\n	mso-style-parent:""\;\n	mso-padding-alt:0in 5.4pt 0in 5.4pt\
-	;\n	mso-para-margin:0in\;\n	mso-para-margin-bottom:.0001pt\;\n	mso-paginat
-	ion:widow-orphan\;\n	font-size:10.0pt\;\n	font-family:"Calibri"\,sans-seri
-	f\;}\ntable.MsoTableGrid\n	{mso-style-name:"Table Grid"\;\n	mso-tstyle-row
-	band-size:0\;\n	mso-tstyle-colband-size:0\;\n	mso-style-priority:39\;\n	ms
-	o-style-unhide:no\;\n	border:solid windowtext 1.0pt\;\n	mso-border-alt:sol
-	id windowtext .5pt\;\n	mso-padding-alt:0in 5.4pt 0in 5.4pt\;\n	mso-border-
-	insideh:.5pt solid windowtext\;\n	mso-border-insidev:.5pt solid windowtext
-	\;\n	mso-para-margin:0in\;\n	mso-para-margin-bottom:.0001pt\;\n	mso-pagina
-	tion:widow-orphan\;\n	font-size:11.0pt\;\n	font-family:"Calibri"\,sans-ser
-	if\;\n	mso-bidi-font-family:"Times New Roman"\;}\n</style><![endif]--><!--
-	[if gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidmax="1026" />\n</x
-	ml><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext="edit">\n<o:
-	idmap v:ext="edit" data="1" />\n</o:shapelayout></xml><![endif]--></head><
-	body lang=EN-US link="#0563C1" vlink="#954F72" style='tab-interval:.5in'><
-	div class=WordSection1><table class=MsoTableGrid border=0 cellspacing=0 ce
-	llpadding=0 style='border-collapse:collapse\;border:none\;mso-yfti-tbllook
-	:1184\;mso-padding-alt:0in 5.4pt 0in 5.4pt\;mso-border-insideh:none\;mso-b
-	order-insidev:none'><tr style='mso-yfti-irow:0\;mso-yfti-firstrow:yes\;mso
-	-yfti-lastrow:yes'><td width=803 valign=top style='width:602.6pt\;padding:
-	0in 5.4pt 0in 5.4pt'><p style='background:white'><span style='font-size:14
-	.0pt\;mso-bidi-font-family:"Times New Roman"\;color:#222222'>Hello to all 
-	OSLC friends around the globe!<o:p></o:p></span></p><p style='background:w
-	hite\;font-variant-ligatures: normal\;font-variant-caps: normal\;orphans: 
-	2\;text-align:start\;widows: 2\;-webkit-text-stroke-width: 0px\;text-decor
-	ation-style: initial\;text-decoration-color: initial\;word-spacing:0px'><s
-	pan style='font-size:14.0pt\;mso-bidi-font-family:"Times New Roman"\;color
-	:#222222'>We are glad to invite you to the <span class=SpellE>OSLCfest</sp
-	an> 2020\, which will take place virtually on May 18-20\, with 2-hour slot
-	s each day starting at 14:00 UTC. We have received a wide range of talk pr
-	oposals from the enterprise OSLC users\, vendors\, SDK and spec authors. T
-	he <span class=SpellE>finalised</span> schedule will soon be available on&
-	nbsp\;<span class=SpellE><a href="http://oslcfest.org/"><span style='mso-f
-	areast-font-family:Calibri\;color:#0088CC'>OSLCfest</span><span style='mso
-	-fareast-font-family:Calibri\;color:#0088CC'>&nbsp\;</span></a></span>webs
-	ite.<o:p></o:p></span></p><p style='background:white\;font-variant-ligatur
-	es: normal\;font-variant-caps: normal\;orphans: 2\;text-align:start\;widow
-	s: 2\;-webkit-text-stroke-width: 0px\;text-decoration-style: initial\;text
-	-decoration-color: initial\;word-spacing:0px'><span style='font-size:14.0p
-	t\;mso-bidi-font-family:"Times New Roman"\;color:#222222'>The OSLC project
-	 has been working hard to engage the community over the last few years. St
-	arting with a successful&nbsp\;<span class=SpellE><a href="http://oslcfest
-	.org/2018/"><span style='mso-fareast-font-family:Calibri\;color:#0088CC'>O
-	SLCfest</span><span style='mso-fareast-font-family:Calibri\;color:#0088CC'
-	> in 2018</span></a></span>\, we set out on a course of more open process 
-	and a quicker specification development.<o:p></o:p></span></p><p style='ba
-	ckground:white\;font-variant-ligatures: normal\;font-variant-caps: normal\
-	;orphans: 2\;text-align:start\;widows: 2\;-webkit-text-stroke-width: 0px\;
-	text-decoration-style: initial\;text-decoration-color: initial\;word-spaci
-	ng:0px'><span style='font-size:14.0pt\;mso-bidi-font-family:"Times New Rom
-	an"\;color:#222222'>Last year we officially&nbsp\;<a href="https://open-se
-	rvices.net/news/0903-open-project/"><span style='mso-fareast-font-family:C
-	alibri\;color:#0088CC'>migrated</span></a>&nbsp\;from an org structure wit
-	h multiple committees\, a governing board\, and a member section with comp
-	lex membership options to a simple OSLC Open Project where anyone can join
-	 and contribute without barriers or complex committee structures to naviga
-	te. Since the migration\, the project has published&nbsp\;<a href="https:/
-	/oslc-op.github.io/oslc-specs/specs/qm/quality-management-spec.html"><span
-	 style='mso-fareast-font-family:Calibri\;color:#0088CC'>three</span></a>&n
-	bsp\;<a href="https://oslc-op.github.io/oslc-specs/specs/cm/change-mgt-spe
-	c.html"><span style='mso-fareast-font-family:Calibri\;color:#0088CC'>diffe
-	rent</span></a>&nbsp\;<a href="https://oslc-op.github.io/oslc-specs/specs/
-	rm/requirements-management-spec.html"><span style='mso-fareast-font-family
-	:Calibri\;color:#0088CC'>specification</span></a>&nbsp\;drafts and has eve
-	n more ambitious goals for 2020!<o:p></o:p></span></p><p style='background
-	:white\;font-variant-ligatures: normal\;font-variant-caps: normal\;orphans
-	: 2\;text-align:start\;widows: 2\;-webkit-text-stroke-width: 0px\;text-dec
-	oration-style: initial\;text-decoration-color: initial\;word-spacing:0px'>
-	<span style='font-size:14.0pt\;mso-bidi-font-family:"Times New Roman"\;col
-	or:#222222'>Please join us for the event on May 18 in our <a href="https:/
-	/www.youtube.com/channel/UCO09R3FGcxbMudDIc3htdKQ"><span class=SpellE>yout
-	ube</span> channel</a>!<o:p></o:p></span></p><p style='background:white\;f
-	ont-variant-ligatures: normal\;font-variant-caps: normal\;orphans: 2\;text
-	-align:start\;widows: 2\;-webkit-text-stroke-width: 0px\;text-decoration-s
-	tyle: initial\;text-decoration-color: initial\;word-spacing:0px'><span sty
-	le='font-size:14.0pt\;mso-bidi-font-family:"Times New Roman"\;color:#22222
-	2'>Best regards\,<br>OSLC Open Project contributors<o:p></o:p></span></p><
-	p><span style='font-size:11.5pt\;font-family:"Helvetica"\,sans-serif\;colo
-	r:#222222'><o:p>&nbsp\;</o:p></span></p></td></tr></table><p style='backgr
-	ound:white'><span style='font-size:11.5pt\;font-family:"Helvetica"\,sans-s
-	erif\;color:#222222'><br style='mso-special-character:line-break'><![if !s
-	upportLineBreakNewLine]><br style='mso-special-character:line-break'><![en
-	dif]><o:p></o:p></span></p><p class=MsoNormal><o:p>&nbsp\;</o:p></p></div>
-	</body></html>
+	family:Calibri\;}\nspan.EmailStyle18\n	{mso-style-type:personal-compose\;\
+	n	mso-style-noshow:yes\;\n	mso-style-unhide:no\;\n	mso-ansi-font-size:11.0
+	pt\;\n	mso-bidi-font-size:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;\n
+		mso-ascii-font-family:Calibri\;\n	mso-fareast-font-family:Calibri\;\n	mso
+	-hansi-font-family:Calibri\;\n	mso-bidi-font-family:"Times New Roman"\;\n	
+	color:windowtext\;}\nspan.badge\n	{mso-style-name:badge\;\n	mso-style-unhi
+	de:no\;}\nspan.SpellE\n	{mso-style-name:""\;\n	mso-spl-e:yes\;}\n.MsoChpDe
+	fault\n	{mso-style-type:export-only\;\n	mso-default-props:yes\;\n	font-siz
+	e:10.0pt\;\n	mso-ansi-font-size:10.0pt\;\n	mso-bidi-font-size:10.0pt\;\n	f
+	ont-family:"Calibri"\,sans-serif\;\n	mso-ascii-font-family:Calibri\;\n	mso
+	-fareast-font-family:Calibri\;\n	mso-hansi-font-family:Calibri\;\n	mso-bid
+	i-font-family:Calibri\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	marg
+	in:1.0in 1.0in 1.0in 1.0in\;\n	mso-header-margin:.5in\;\n	mso-footer-margi
+	n:.5in\;\n	mso-paper-source:0\;}\ndiv.WordSection1\n	{page:WordSection1\;}
+	\n--></style><!--[if gte mso 10]><style>/* Style Definitions */\ntable.Mso
+	NormalTable\n	{mso-style-name:"Table Normal"\;\n	mso-tstyle-rowband-size:0
+	\;\n	mso-tstyle-colband-size:0\;\n	mso-style-noshow:yes\;\n	mso-style-prio
+	rity:99\;\n	mso-style-parent:""\;\n	mso-padding-alt:0in 5.4pt 0in 5.4pt\;\
+	n	mso-para-margin:0in\;\n	mso-para-margin-bottom:.0001pt\;\n	mso-paginatio
+	n:widow-orphan\;\n	font-size:10.0pt\;\n	font-family:"Calibri"\,sans-serif\
+	;}\ntable.MsoTableGrid\n	{mso-style-name:"Table Grid"\;\n	mso-tstyle-rowba
+	nd-size:0\;\n	mso-tstyle-colband-size:0\;\n	mso-style-priority:39\;\n	mso-
+	style-unhide:no\;\n	border:solid windowtext 1.0pt\;\n	mso-border-alt:solid
+	 windowtext .5pt\;\n	mso-padding-alt:0in 5.4pt 0in 5.4pt\;\n	mso-border-in
+	sideh:.5pt solid windowtext\;\n	mso-border-insidev:.5pt solid windowtext\;
+	\n	mso-para-margin:0in\;\n	mso-para-margin-bottom:.0001pt\;\n	mso-paginati
+	on:widow-orphan\;\n	font-size:11.0pt\;\n	font-family:"Calibri"\,sans-serif
+	\;\n	mso-bidi-font-family:"Times New Roman"\;}\n</style><![endif]--><!--[i
+	f gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidmax="1026" />\n</xml
+	><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext="edit">\n<o:id
+	map v:ext="edit" data="1" />\n</o:shapelayout></xml><![endif]--></head><bo
+	dy lang=EN-US link="#0563C1" vlink="#954F72" style='tab-interval:.5in'><di
+	v class=WordSection1><table class=MsoTableGrid border=0 cellspacing=0 cell
+	padding=0 style='border-collapse:collapse\;border:none\;mso-yfti-tbllook:1
+	184\;mso-padding-alt:0in 5.4pt 0in 5.4pt\;mso-border-insideh:none\;mso-bor
+	der-insidev:none'><tr style='mso-yfti-irow:0\;mso-yfti-firstrow:yes\;mso-y
+	fti-lastrow:yes'><td width=803 valign=top style='width:602.6pt\;padding:0i
+	n 5.4pt 0in 5.4pt'><p style='background:white'><span style='font-size:14.0
+	pt\;mso-bidi-font-family:"Times New Roman"\;color:#222222'>Hello to all OS
+	LC friends around the globe!<o:p></o:p></span></p><p style='background:whi
+	te\;font-variant-ligatures: normal\;font-variant-caps: normal\;orphans: 2\
+	;text-align:start\;widows: 2\;-webkit-text-stroke-width: 0px\;text-decorat
+	ion-style: initial\;text-decoration-color: initial\;word-spacing:0px'><spa
+	n style='font-size:14.0pt\;mso-bidi-font-family:"Times New Roman"\;color:#
+	222222'>We are glad to invite you to the <span class=SpellE>OSLCFest</span
+	> 2020\, which will take place virtually on May 18-20\, with 2-hour and 20
+	-minutes slots each day starting at 15:00 Central European Summer Time (CE
+	ST). We have received a wide range of talk proposals from the enterprise O
+	SLC users\, vendors\, SDK and spec authors. The <span class=SpellE>finalis
+	ed</span> schedule will soon be available on&nbsp\;<span class=SpellE><a h
+	ref="http://oslcfest.org/"><span style='mso-fareast-font-family:Calibri\;c
+	olor:#0088CC'>OSLCfest</span><span style='mso-fareast-font-family:Calibri\
+	;color:#0088CC'>&nbsp\;</span></a></span>website.<o:p></o:p></span></p><p 
+	style='background:white\;font-variant-ligatures: normal\;font-variant-caps
+	: normal\;orphans: 2\;text-align:start\;widows: 2\;-webkit-text-stroke-wid
+	th: 0px\;text-decoration-style: initial\;text-decoration-color: initial\;w
+	ord-spacing:0px'><span style='font-size:14.0pt\;mso-bidi-font-family:"Time
+	s New Roman"\;color:#222222'>The OSLC project has been working hard to eng
+	age the community over the last few years. Starting with a successful&nbsp
+	\;<span class=SpellE><a href="http://oslcfest.org/2018/"><span style='mso-
+	fareast-font-family:Calibri\;color:#0088CC'>OSLCfest</span><span style='ms
+	o-fareast-font-family:Calibri\;color:#0088CC'> in 2018</span></a></span>\,
+	 we set out on a course of more open process and a quicker specification d
+	evelopment.<o:p></o:p></span></p><p style='background:white\;font-variant-
+	ligatures: normal\;font-variant-caps: normal\;orphans: 2\;text-align:start
+	\;widows: 2\;-webkit-text-stroke-width: 0px\;text-decoration-style: initia
+	l\;text-decoration-color: initial\;word-spacing:0px'><span style='font-siz
+	e:14.0pt\;mso-bidi-font-family:"Times New Roman"\;color:#222222'>Last year
+	 we officially&nbsp\;<a href="https://open-services.net/news/0903-open-pro
+	ject/"><span style='mso-fareast-font-family:Calibri\;color:#0088CC'>migrat
+	ed</span></a>&nbsp\;from an org structure with multiple committees\, a gov
+	erning board\, and a member section with complex membership options to a s
+	imple OSLC Open Project where anyone can join and contribute without barri
+	ers or complex committee structures to navigate. Since the migration\, the
+	 project has published&nbsp\;<a href="https://oslc-op.github.io/oslc-specs
+	/specs/qm/quality-management-spec.html"><span style='mso-fareast-font-fami
+	ly:Calibri\;color:#0088CC'>three</span></a>&nbsp\;<a href="https://oslc-op
+	.github.io/oslc-specs/specs/cm/change-mgt-spec.html"><span style='mso-fare
+	ast-font-family:Calibri\;color:#0088CC'>different</span></a>&nbsp\;<a href
+	="https://oslc-op.github.io/oslc-specs/specs/rm/requirements-management-sp
+	ec.html"><span style='mso-fareast-font-family:Calibri\;color:#0088CC'>spec
+	ification</span></a>&nbsp\;drafts and has even more ambitious goals for 20
+	20!<o:p></o:p></span></p><p style='background:white\;font-variant-ligature
+	s: normal\;font-variant-caps: normal\;orphans: 2\;text-align:start\;widows
+	: 2\;-webkit-text-stroke-width: 0px\;text-decoration-style: initial\;text-
+	decoration-color: initial\;word-spacing:0px'><span style='font-size:14.0pt
+	\;mso-bidi-font-family:"Times New Roman"\;color:#222222'>Please join us fo
+	r the event on May 18 on our <a href="https://www.youtube.com/channel/UCO0
+	9R3FGcxbMudDIc3htdKQ"><span class=SpellE>youtube</span> channel</a> for th
+	e live broadcast!<o:p></o:p></span></p><p style='background:white\;font-va
+	riant-ligatures: normal\;font-variant-caps: normal\;orphans: 2\;text-align
+	:start\;widows: 2\;-webkit-text-stroke-width: 0px\;text-decoration-style: 
+	initial\;text-decoration-color: initial\;word-spacing:0px'><span style='fo
+	nt-size:14.0pt\;mso-bidi-font-family:"Times New Roman"\;color:#222222'>Bes
+	t regards\,<br>OSLC Open Project contributors<o:p></o:p></span></p><p><spa
+	n style='font-size:11.5pt\;font-family:"Helvetica"\,sans-serif\;color:#222
+	222'><o:p>&nbsp\;</o:p></span></p></td></tr></table><p style='background:w
+	hite'><span style='font-size:11.5pt\;font-family:"Helvetica"\,sans-serif\;
+	color:#222222'><br style='mso-special-character:line-break'><![if !support
+	LineBreakNewLine]><br style='mso-special-character:line-break'><![endif]><
+	o:p></o:p></span></p><p class=MsoNormal><o:p>&nbsp\;</o:p></p></div></body
+	></html>
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
