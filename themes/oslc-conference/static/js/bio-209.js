@@ -417,7 +417,7 @@ var bio = {
   peterL: {
     'name': 'Peter Lieber',
     'title': 'Business Owner of Sparx Systems Central Europe',
-    'picturePath': '/images/img-placeholder.png',
+    'picturePath': '/images/speakers/peter_l.jpg',
     'bio': [
       "Peter Lieber is a Serial Entrepreneur in Software Industry www.sparxsystems.eu/www.sparxsystems.de www.lieberlieber.com and president of the Austrian Association of Software Industry (www.voesi.or.at) His focus is model based systems and software engineering."
     ],
