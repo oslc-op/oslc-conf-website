@@ -105,7 +105,7 @@ speakersBio = [
   "jadE",
   "rubenT",
   "",
-  "",
+  "lutzL",
   "ahmedE",
   "robertB",
   "",

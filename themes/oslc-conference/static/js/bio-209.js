@@ -345,7 +345,7 @@ var bio = {
     'title': 'Head of BU PLM Projects and Solutions',
     'picturePath': '/images/speakers/lutz_l.jpg',
     'bio': [
-      ""
+      "Lutz Lämmer is Head of Business Unit Product Lifecycle Management Projects and Solutions and for more than 20 years with PROSTEP AG. Currently, Lutz  is leading the team in charge of developing and implementing PROSTEP's leading PLM, ALM and ERP integration solutions OpenDPM and GlobalX/OpenDXM. He started his PLM career with assignments in STEP OMG harmonization initiative and implementing web-based product data management solutions. He helped shaping the OMG PLM services specification. He has experience in implementing PLM data exchange and federation solutions for large automotive and aerospace customers. He holds an PhD in computer science in civil engineering from TU Dresden and TU Darmstadt."
     ],
     'contact': [
       {
