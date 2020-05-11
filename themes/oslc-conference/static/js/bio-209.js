@@ -469,5 +469,19 @@ var bio = {
         'icon': '<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  christophB: {
+    'name': 'Christoph Bergner',
+    'title': ' Owner MID GmbH, Germany',
+    'picturePath': '/images/speakers/christoph_b.png',
+    'bio': [
+      ""
+    ],
+    'contact': [
+      {
+        'link': 'mailto:c.bergner@mid.de',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };

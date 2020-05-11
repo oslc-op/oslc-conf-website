@@ -236,5 +236,14 @@ var presentations = {
       bio.andyL
     ]
   },
+  'PChristophB': {
+    'title': 'Beyond linking artifacts: “Federated Authoring” and “Dashboards” based on OSLC',
+    'description': [
+      '<p>In this session Andy will present how OSLC connected engineering data from across the lifecycle may be visualized and analyzed using Engineering Insights, part of the IBM Engineering Lifecycle Management suite.</p>'
+    ],
+    'authors': [
+      bio.christophB
+    ]
+  },
 
 };

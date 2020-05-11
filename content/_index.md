@@ -72,6 +72,7 @@ speakersName = [
   "Mike Amundsen",
   "Andrew Berezowsky",
   "Jim Amsden",
+  "Christoph Bergner",
 ]
 speakersTitle = [
   "KTH",
@@ -86,6 +87,7 @@ speakersTitle = [
   "Lead API Architect, API Academy, CA Technologies",
   "KTH",
   "IBM",
+  "MID GmbH"
 ]
 speakersImage = [
   "/images/speakers/jad_el.jpg",
@@ -100,6 +102,7 @@ speakersImage = [
   "/images/speakers/mike_amundsen.png",
   "/images/speakers/andrew_berezovskyi.jpg",
   "/images/speakers/jim_amsden.jpg",
+  "/images/speakers/christoph_b.png",
 ]
 speakersBio = [
   "jadE",
@@ -114,6 +117,7 @@ speakersBio = [
   "mikeA",
   "andrewB",
   "jimA",
+  ""
 ]
 
 legendTitle = [
