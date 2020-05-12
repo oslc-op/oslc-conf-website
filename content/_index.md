@@ -139,8 +139,8 @@ speakersBio = [
   "erikH",
   "asaL",
   "",
-  "",
-  "",
+  "luisR",
+  "marioC",
   "tarikM"
 ]
 
