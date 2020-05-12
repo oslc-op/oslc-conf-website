@@ -73,6 +73,7 @@ speakersName = [
   "Andrew Berezowsky",
   "Jim Amsden",
   "Christoph Bergner",
+  "Erik Herzog",
 ]
 speakersTitle = [
   "KTH",
@@ -87,7 +88,8 @@ speakersTitle = [
   "Lead API Architect, API Academy, CA Technologies",
   "KTH",
   "IBM",
-  "MID GmbH"
+  "MID GmbH",
+  "Saab Aeronautics"
 ]
 speakersImage = [
   "/images/speakers/jad_el.jpg",
@@ -103,6 +105,7 @@ speakersImage = [
   "/images/speakers/andrew_berezovskyi.jpg",
   "/images/speakers/jim_amsden.jpg",
   "/images/speakers/christoph_b.png",
+  "/images/img-placeholder.png",
 ]
 speakersBio = [
   "jadE",
@@ -117,6 +120,7 @@ speakersBio = [
   "mikeA",
   "andrewB",
   "jimA",
+  "",
   ""
 ]
 
@@ -293,7 +297,7 @@ duration3 = [
 ]
 title3 = [
   "Prolog OSLC SDK",
-  "SAAB",
+  "The Role of OSLC in the Enterprise PLM Landscape",
   "SCANIA",
   "Establishing Digital Continuity for End to End Collaboration",
   "Proof of Concept: Capella & IBM Jazz Integration based on OSLC",
@@ -302,7 +306,7 @@ title3 = [
 ]
 authors3 = [
   "Speaker TBD",
-  "Speaker TBD",
+  "Erik Herzog (Saab Aeronautics)",
   "Speaker TBD",
   "Nicolas Figay (Airbus)",
   "Ahmed EL-BERDHI (Safran)",
@@ -338,7 +342,7 @@ videoLink3 = [
 ]
 panelVariable3 = [
   "",
-  "",
+  "PErikH",
   "",
   "PNicolasF",
   "Pahmed",

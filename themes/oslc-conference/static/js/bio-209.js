@@ -483,5 +483,19 @@ var bio = {
         'icon': '<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  erikH: {
+    'name': 'Erik Herzog',
+    'title': '',
+    'picturePath': '/images/img-placeholder.png',
+    'bio': [
+      ""
+    ],
+    'contact': [
+      {
+        'link': 'mailto:erik.herzog@saabgroup.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };

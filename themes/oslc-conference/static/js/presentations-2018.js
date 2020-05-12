@@ -245,5 +245,16 @@ var presentations = {
       bio.christophB
     ]
   },
+  'PErikH': {
+    'title': 'The Role of OSLC in the Enterprise PLM Landscape',
+    'description': [
+      '<p>Building and maintaining an enterprise PLM capability is a strategic undertaking. In this presentation we discuss how Saab Aeronautics view its future PLM Landscape and the role we see for OSLC in realizing the landscape.</p>',
+      '<p>We introduce a PLM landscape model that focuses on exploiting the strengths of engineering discipline specific integrated development environments (e.g., a software or systems engineering development environment) and using linking to enable traceability across engineering disciplines. Four traceability dimensions are identified for enabling product lifecycle support, namely requirements management, configuration item structure, change management, and realisations.</p>',
+      '<p>We discuss the merits of the model and the applicability of OSLC as integration middleware for realizing the desired interoperability.</p>'
+    ],
+    'authors': [
+      bio.erikH
+    ]
+  },
 
 };
