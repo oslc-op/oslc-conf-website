@@ -511,5 +511,33 @@ var bio = {
         'icon': '<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  luisR: {
+    'name': 'Luis Ramirez',
+    'title': ' Full-Stack Software Engineer at Koneksys',
+    'picturePath': '/images/speakers/luis_r.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+      {
+        'link': 'mailto:luis.ramirez@koneksys.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  marioC: {
+    'name': 'Mario Carrasco',
+    'title': ' Senior Developer at Koneksys',
+    'picturePath': '/images/img-placeholder.png',
+    'bio': [
+      ""
+    ],
+    'contact': [
+      {
+        'link': 'mailto:mario.carrasco@koneksys.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };

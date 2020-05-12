@@ -75,6 +75,8 @@ speakersName = [
   "Christoph Bergner",
   "Erik Herzog",
   "Jonas Westman",
+  "Luis Ramirez",
+  "Mario Carrasco",
 ]
 speakersTitle = [
   "KTH",
@@ -91,7 +93,9 @@ speakersTitle = [
   "IBM",
   "MID GmbH",
   "Saab Aeronautics",
-  "Scania"
+  "Scania",
+  "Koneksys",
+  "Koneksys"
 ]
 speakersImage = [
   "/images/speakers/jad_el.jpg",
@@ -109,6 +113,8 @@ speakersImage = [
   "/images/speakers/christoph_b.png",
   "/images/img-placeholder.png",
   "/images/img-placeholder.png",
+  "/images/speakers/luis_r.jpg",
+  "/images/img-placeholder.png",
 ]
 speakersBio = [
   "jadE",
@@ -123,6 +129,8 @@ speakersBio = [
   "mikeA",
   "andrewB",
   "jimA",
+  "",
+  "",
   "",
   "",
   ""
@@ -230,7 +238,7 @@ title2 = [
   "Hypermedia Made Easy",
   "Lyo Introduction",
   "Lyo Designer Introduction",
-  "OSLC Extensions for OpenAPI",
+  "OpenAPI Extensions for OSLC",
   "Contact Software",
   "Beyond linking artifacts: “Federated Authoring” and “Dashboards” based on OSLC",
   "OSLC as enabler for seamless application integration",
@@ -239,7 +247,7 @@ authors2 = [
   "Mike Amundsen (CA Technologies)",
   "Andrew Berezowsky (KTH)",
   "Andrew Berezowsky (KTH)",
-  "Speaker TBD",
+  "Luis Ramirez (Koneksys), Mario Carrasco (Koneksys)",
   "Speaker TBD",
   "Christoph Bergner (MID)",
   "Lutz Laemmer (ProSTEP)",
@@ -275,7 +283,7 @@ panelVariable2 = [
   "PMikeA2020",
   "",
   "",
-  "",
+  "PKoneksys",
   "",
   "PChristophB",
   "PLutzL",
