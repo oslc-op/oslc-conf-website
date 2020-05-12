@@ -77,6 +77,7 @@ speakersName = [
   "Jonas Westman",
   "Luis Ramirez",
   "Mario Carrasco",
+  "Tarik Mlahi"
 ]
 speakersTitle = [
   "KTH",
@@ -95,7 +96,8 @@ speakersTitle = [
   "Saab Aeronautics",
   "Scania",
   "Koneksys",
-  "Koneksys"
+  "Koneksys",
+  "UNITE"
 ]
 speakersImage = [
   "/images/speakers/jad_el.jpg",
@@ -115,6 +117,7 @@ speakersImage = [
   "/images/img-placeholder.png",
   "/images/speakers/luis_r.jpg",
   "/images/img-placeholder.png",
+  "/images/speakers/tarik_m.png",
 ]
 speakersBio = [
   "jadE",
@@ -133,7 +136,8 @@ speakersBio = [
   "",
   "",
   "",
-  ""
+  "",
+  "tarikM"
 ]
 
 legendTitle = [
@@ -314,7 +318,7 @@ title3 = [
   "Establishing Digital Continuity for End to End Collaboration",
   "Proof of Concept: Capella & IBM Jazz Integration based on OSLC",
   "Getting started with Solid using GraphQL and React",
-  "Title TBD",
+  "Persistent UNITE: State of the Art OSLC Integrations",
 ]
 authors3 = [
   "Speaker TBD",
@@ -323,7 +327,7 @@ authors3 = [
   "Nicolas Figay (Airbus)",
   "Ahmed EL-BERDHI (Safran)",
   "Ruben Taelman (Ghent University)",
-  "Speaker TBD",
+  "Tarik Mlahi (UNITE)",
 ]
 type3 = [
   "techtalk",
@@ -359,7 +363,7 @@ panelVariable3 = [
   "PNicolasF",
   "Pahmed",
   "PRubenT",
-  "",
+  "PTarikM",
 ]
 
 

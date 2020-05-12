@@ -539,5 +539,20 @@ var bio = {
         'icon': '<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  tarikM: {
+    'name': 'Tarik Mlahi',
+    'title': ' Solution Architect at UNITE',
+    'picturePath': '/images/speakers/tarik_m.png',
+    'bio': [
+      "Tarik Mlahi joined Persistent Systems as a solution architect at the start of 2018 to help grow customer engagement in France. He is engaging with clients and leveraging Persistent’s deep technical expertise to provide tailored solutions for clients as well as helping them improve efficiency and control in ELM areas and integrations.",
+      "Prior to this he spent 3 years at Rational Software and 17 years at IBM working directly with clients in across a range of industries such as automotive, aerospace and defense, energy & utilities, insurance and finance."
+    ],
+    'contact': [
+      {
+        'link': 'mailto:tarik.mlahi@persistent.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };

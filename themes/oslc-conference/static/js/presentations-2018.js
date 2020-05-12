@@ -275,5 +275,18 @@ var presentations = {
       bio.marioC
     ]
   },
+  'PTarikM': {
+    'title': 'OpenAPI Extensions for OSLC',
+    'description': [
+      '<p>The Persistent UNITE integration foundation is a family of lightweight integration plugins created for industrial organizations looking to accelerate their digital journeys. UNITE elegantly brings together IBM Enterprise Lifecycle Management (ELM), one of the leading ALM solutions on the market, with a growing portfolio of enterprise development tools, including:</p>',
+      '<ul><li>UNITE for Jira®</li>',
+      '<li>UNITE for Git, including GitLab and BitBucket</li>',
+      '<li>UNITE for ENOVIA® PLM</li></ul>',
+      '<p>UNITE leverages Open Services for Lifecycle Collaboration (OSLC) to create relationships between artifacts, enabling integrations with IBM ELM tools without data synchronization.</p>'
+    ],
+    'authors': [
+      bio.tarikM
+    ]
+  },
 
 };
