@@ -531,7 +531,8 @@ var bio = {
     'title': ' Full-Stack Software Engineer at Koneksys',
     'picturePath': '/images/speakers/luis_r.jpg',
     'bio': [
-      ""
+      "Luis is a Software Engineer with over eight years of experience in the field. He works at Koneksys, where he has developed web API projects that involve technologies such as OSLC, OpenAPI and Swagger and integration with the IBM Jazz CLM platform applications.",
+      "In 2013 Luis co-founded SISU Technologies, a software consultancy company based in Mexico City, where he assumed the role of Technical Lead. During his tenure, he developed and managed several projects across multiple industries: pharmaceutical, financial, marketing and startups. He holds a B.S. in Computer Science and Technology from Monterrey Institute of Technology and Higher Education. In his spare time, Luis likes to research topics related to cryptocurrencies and cybersecurity and play bullet hell shooters and FPS games."
     ],
     'contact': [
       {
