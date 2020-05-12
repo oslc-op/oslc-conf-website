@@ -119,7 +119,7 @@ speakersImage = [
   "/images/speakers/asa_l.jpg",
   "/images/img-placeholder.png",
   "/images/speakers/luis_r.jpg",
-  "/images/img-placeholder.png",
+  "/images/speakers/mario_c.jpg",
   "/images/speakers/tarik_m.png",
 ]
 speakersBio = [
