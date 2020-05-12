@@ -543,7 +543,7 @@ var bio = {
   marioC: {
     'name': 'Mario Carrasco',
     'title': ' Senior Developer at Koneksys',
-    'picturePath': '/images/speakers/mario_c.jpg',
+    'picturePath': '/images/speakers/mario.png',
     'bio': [
       "Experience as software engineer and project manager, mostly working as a backend developer, developing web applications and REST services, recently working at Koneksys in OSLC and Linked Data solutions for creating generic OSLC APIs to expose RDF resources through a REST API based on a given schema defined in SHACL. Also working on integrations with IBM CLM applications such as DNG, RQM and RTC using OSLC. Currently working in the development of an OSLC API reference implementation in Python."
     ],
