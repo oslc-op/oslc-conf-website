@@ -228,7 +228,7 @@ var presentations = {
     ]
   },
   'PAndyL': {
-    'title': 'RELM LQE TRS demo',
+    'title': 'Using OSLC to gain Insight into your connected engineering data',
     'description': [
       '<p>In this session Andy will present how OSLC connected engineering data from across the lifecycle may be visualized and analyzed using Engineering Insights, part of the IBM Engineering Lifecycle Management suite.</p>'
     ],
