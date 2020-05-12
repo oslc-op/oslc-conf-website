@@ -253,7 +253,8 @@ var presentations = {
       '<p>We discuss the merits of the model and the applicability of OSLC as integration middleware for realizing the desired interoperability.</p>'
     ],
     'authors': [
-      bio.erikH
+      bio.erikH,
+      bio.asaL
     ]
   },
   'PJonasW': {
@@ -271,9 +272,30 @@ var presentations = {
       '<p>OpenAPI is a popular specification for defining Web APIs. The specification originated from Swagger, an open-source set of tools to generate API documentation and code. The customizable nature of the Swagger tools, combined with the capability to extend OpenAPI, provides several opportunities for expanding the code generation capabilities of Lyo Designer and OSLC service documentation. In this presentation, I will talk about these opportunities and propose a set of OpenAPI extensions to support OSLC concepts. I will also show how to add these extensions to an existing OpenAPI specification file and how Swagger Code Generator can process them to generate an OSLC server.</p>'
     ],
     'authors': [
-      bio.luisR,
+      bio.luisR
+    ]
+  },
+  'PTarikM': {
+    'title': 'OpenAPI Extensions for OSLC',
+    'description': [
+      '<p>The Persistent UNITE integration foundation is a family of lightweight integration plugins created for industrial organizations looking to accelerate their digital journeys. UNITE elegantly brings together IBM Enterprise Lifecycle Management (ELM), one of the leading ALM solutions on the market, with a growing portfolio of enterprise development tools, including:</p>',
+      '<ul><li>UNITE for Jira®</li>',
+      '<li>UNITE for Git, including GitLab and BitBucket</li>',
+      '<li>UNITE for ENOVIA® PLM</li></ul>',
+      '<p>UNITE leverages Open Services for Lifecycle Collaboration (OSLC) to create relationships between artifacts, enabling integrations with IBM ELM tools without data synchronization.</p>'
+    ],
+    'authors': [
+      bio.tarikM
+    ]
+  },
+  'PMarioC': {
+    'title': 'PyOSLC the Python SDK for OSLC APIs',
+    'description': [
+      '<p>In the last years Python has become so popular among web developers and specifically API developers, the creation of an API is very easy using Python through different frameworks with some extensions. Until now for creating an OSLC API there are some frameworks or libraries mainly for Java, then why not leverage the popularity of Python for creating OSLC APIs?</p>',
+      '<p>The PyOSLC project aim to create a SDK for having the required elements for developing OSLC APIs in Python meeting the OSLC specs and having the capability to extend the features for other specific-domain applications.</p>'
+    ],
+    'authors': [
       bio.marioC
     ]
   },
-
 };
