@@ -486,7 +486,7 @@ var bio = {
   },
   erikH: {
     'name': 'Erik Herzog',
-    'title': '',
+    'title': 'Åsa Nordling Larsson, Saab Aeronautics',
     'picturePath': '/images/img-placeholder.png',
     'bio': [
       ""
@@ -494,6 +494,20 @@ var bio = {
     'contact': [
       {
         'link': 'mailto:erik.herzog@saabgroup.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  jonasW: {
+    'name': 'Jonas Westman',
+    'title': ' Information Architect, Scania',
+    'picturePath': '/images/img-placeholder.png',
+    'bio': [
+      ""
+    ],
+    'contact': [
+      {
+        'link': 'mailto:jonas.westman@scania.com',
         'icon': '<i class="fas fa-envelope"></i>'
       }
     ]

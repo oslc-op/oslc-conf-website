@@ -74,6 +74,7 @@ speakersName = [
   "Jim Amsden",
   "Christoph Bergner",
   "Erik Herzog",
+  "Jonas Westman",
 ]
 speakersTitle = [
   "KTH",
@@ -89,7 +90,8 @@ speakersTitle = [
   "KTH",
   "IBM",
   "MID GmbH",
-  "Saab Aeronautics"
+  "Saab Aeronautics",
+  "Scania"
 ]
 speakersImage = [
   "/images/speakers/jad_el.jpg",
@@ -106,6 +108,7 @@ speakersImage = [
   "/images/speakers/jim_amsden.jpg",
   "/images/speakers/christoph_b.png",
   "/images/img-placeholder.png",
+  "/images/img-placeholder.png",
 ]
 speakersBio = [
   "jadE",
@@ -120,6 +123,7 @@ speakersBio = [
   "mikeA",
   "andrewB",
   "jimA",
+  "",
   "",
   ""
 ]
@@ -298,7 +302,7 @@ duration3 = [
 title3 = [
   "Prolog OSLC SDK",
   "The Role of OSLC in the Enterprise PLM Landscape",
-  "SCANIA",
+  "Journey to be data driven",
   "Establishing Digital Continuity for End to End Collaboration",
   "Proof of Concept: Capella & IBM Jazz Integration based on OSLC",
   "Getting started with Solid using GraphQL and React",
@@ -307,7 +311,7 @@ title3 = [
 authors3 = [
   "Speaker TBD",
   "Erik Herzog (Saab Aeronautics)",
-  "Speaker TBD",
+  "Jonas Westman (Scania)",
   "Nicolas Figay (Airbus)",
   "Ahmed EL-BERDHI (Safran)",
   "Ruben Taelman (Ghent University)",
@@ -343,7 +347,7 @@ videoLink3 = [
 panelVariable3 = [
   "",
   "PErikH",
-  "",
+  "PJonasW",
   "PNicolasF",
   "Pahmed",
   "PRubenT",

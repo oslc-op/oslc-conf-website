@@ -256,5 +256,14 @@ var presentations = {
       bio.erikH
     ]
   },
+  'PJonasW': {
+    'title': 'Journey to be data driven',
+    'description': [
+      '<p>One of the main and current focus areas for Scania is on digitalizing the tool-chain supporting the development process. Digitalization is considered to be needed to comply with requirements on traceability from standards such as ISO 262626, but also to manage the increasing system and organizational complexity in general. One of the main challenges is integrating data and information distributed across a heterogeneous landscape of tools and databases. The primary target solution for this challenge for the last couple of year has been, and still is, linked data. In this presentation, I will share Scania’s vision for using linked data and present some major obstacles (both organizational and technical) we have faced when working towards such a vision.</p>'
+    ],
+    'authors': [
+      bio.jonasW
+    ]
+  },
 
 };
