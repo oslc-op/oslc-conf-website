@@ -170,7 +170,7 @@ duration1 = [
 title1 = [
   "Knowledge Graphs: History of the Main Ideas",
   "State of OSLC Report",
-  "RELM LQE TRS demo",
+  "Using OSLC to gain Insight into your connected engineering data",
   "OSLC OP specs talk",
   "OSLC the silver bullet for modelling interoperability?",
   "Bridging to PLM with OSLC",
