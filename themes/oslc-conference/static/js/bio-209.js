@@ -483,5 +483,61 @@ var bio = {
         'icon': '<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  erikH: {
+    'name': 'Erik Herzog',
+    'title': 'Åsa Nordling Larsson, Saab Aeronautics',
+    'picturePath': '/images/img-placeholder.png',
+    'bio': [
+      ""
+    ],
+    'contact': [
+      {
+        'link': 'mailto:erik.herzog@saabgroup.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  jonasW: {
+    'name': 'Jonas Westman',
+    'title': ' Information Architect, Scania',
+    'picturePath': '/images/img-placeholder.png',
+    'bio': [
+      ""
+    ],
+    'contact': [
+      {
+        'link': 'mailto:jonas.westman@scania.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  luisR: {
+    'name': 'Luis Ramirez',
+    'title': ' Full-Stack Software Engineer at Koneksys',
+    'picturePath': '/images/speakers/luis_r.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+      {
+        'link': 'mailto:luis.ramirez@koneksys.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  marioC: {
+    'name': 'Mario Carrasco',
+    'title': ' Senior Developer at Koneksys',
+    'picturePath': '/images/img-placeholder.png',
+    'bio': [
+      ""
+    ],
+    'contact': [
+      {
+        'link': 'mailto:mario.carrasco@koneksys.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };

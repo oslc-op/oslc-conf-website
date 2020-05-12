@@ -73,6 +73,10 @@ speakersName = [
   "Andrew Berezowsky",
   "Jim Amsden",
   "Christoph Bergner",
+  "Erik Herzog",
+  "Jonas Westman",
+  "Luis Ramirez",
+  "Mario Carrasco",
 ]
 speakersTitle = [
   "KTH",
@@ -87,7 +91,11 @@ speakersTitle = [
   "Lead API Architect, API Academy, CA Technologies",
   "KTH",
   "IBM",
-  "MID GmbH"
+  "MID GmbH",
+  "Saab Aeronautics",
+  "Scania",
+  "Koneksys",
+  "Koneksys"
 ]
 speakersImage = [
   "/images/speakers/jad_el.jpg",
@@ -103,6 +111,10 @@ speakersImage = [
   "/images/speakers/andrew_berezovskyi.jpg",
   "/images/speakers/jim_amsden.jpg",
   "/images/speakers/christoph_b.png",
+  "/images/img-placeholder.png",
+  "/images/img-placeholder.png",
+  "/images/speakers/luis_r.jpg",
+  "/images/img-placeholder.png",
 ]
 speakersBio = [
   "jadE",
@@ -117,6 +129,10 @@ speakersBio = [
   "mikeA",
   "andrewB",
   "jimA",
+  "",
+  "",
+  "",
+  "",
   ""
 ]
 
@@ -222,7 +238,7 @@ title2 = [
   "Hypermedia Made Easy",
   "Lyo Introduction",
   "Lyo Designer Introduction",
-  "OSLC Extensions for OpenAPI",
+  "OpenAPI Extensions for OSLC",
   "Contact Software",
   "Beyond linking artifacts: “Federated Authoring” and “Dashboards” based on OSLC",
   "OSLC as enabler for seamless application integration",
@@ -231,7 +247,7 @@ authors2 = [
   "Mike Amundsen (CA Technologies)",
   "Andrew Berezowsky (KTH)",
   "Andrew Berezowsky (KTH)",
-  "Speaker TBD",
+  "Luis Ramirez (Koneksys), Mario Carrasco (Koneksys)",
   "Speaker TBD",
   "Christoph Bergner (MID)",
   "Lutz Laemmer (ProSTEP)",
@@ -267,7 +283,7 @@ panelVariable2 = [
   "PMikeA2020",
   "",
   "",
-  "",
+  "PKoneksys",
   "",
   "PChristophB",
   "PLutzL",
@@ -293,8 +309,8 @@ duration3 = [
 ]
 title3 = [
   "Prolog OSLC SDK",
-  "SAAB",
-  "SCANIA",
+  "The Role of OSLC in the Enterprise PLM Landscape",
+  "Journey to be data driven",
   "Establishing Digital Continuity for End to End Collaboration",
   "Proof of Concept: Capella & IBM Jazz Integration based on OSLC",
   "Getting started with Solid using GraphQL and React",
@@ -302,8 +318,8 @@ title3 = [
 ]
 authors3 = [
   "Speaker TBD",
-  "Speaker TBD",
-  "Speaker TBD",
+  "Erik Herzog (Saab Aeronautics)",
+  "Jonas Westman (Scania)",
   "Nicolas Figay (Airbus)",
   "Ahmed EL-BERDHI (Safran)",
   "Ruben Taelman (Ghent University)",
@@ -338,8 +354,8 @@ videoLink3 = [
 ]
 panelVariable3 = [
   "",
-  "",
-  "",
+  "PErikH",
+  "PJonasW",
   "PNicolasF",
   "Pahmed",
   "PRubenT",

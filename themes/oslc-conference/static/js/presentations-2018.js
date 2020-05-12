@@ -245,5 +245,35 @@ var presentations = {
       bio.christophB
     ]
   },
+  'PErikH': {
+    'title': 'The Role of OSLC in the Enterprise PLM Landscape',
+    'description': [
+      '<p>Building and maintaining an enterprise PLM capability is a strategic undertaking. In this presentation we discuss how Saab Aeronautics view its future PLM Landscape and the role we see for OSLC in realizing the landscape.</p>',
+      '<p>We introduce a PLM landscape model that focuses on exploiting the strengths of engineering discipline specific integrated development environments (e.g., a software or systems engineering development environment) and using linking to enable traceability across engineering disciplines. Four traceability dimensions are identified for enabling product lifecycle support, namely requirements management, configuration item structure, change management, and realisations.</p>',
+      '<p>We discuss the merits of the model and the applicability of OSLC as integration middleware for realizing the desired interoperability.</p>'
+    ],
+    'authors': [
+      bio.erikH
+    ]
+  },
+  'PJonasW': {
+    'title': 'Journey to be data driven',
+    'description': [
+      '<p>One of the main and current focus areas for Scania is on digitalizing the tool-chain supporting the development process. Digitalization is considered to be needed to comply with requirements on traceability from standards such as ISO 262626, but also to manage the increasing system and organizational complexity in general. One of the main challenges is integrating data and information distributed across a heterogeneous landscape of tools and databases. The primary target solution for this challenge for the last couple of year has been, and still is, linked data. In this presentation, I will share Scania’s vision for using linked data and present some major obstacles (both organizational and technical) we have faced when working towards such a vision.</p>'
+    ],
+    'authors': [
+      bio.jonasW
+    ]
+  },
+  'PKoneksys': {
+    'title': 'OpenAPI Extensions for OSLC',
+    'description': [
+      '<p>OpenAPI is a popular specification for defining Web APIs. The specification originated from Swagger, an open-source set of tools to generate API documentation and code. The customizable nature of the Swagger tools, combined with the capability to extend OpenAPI, provides several opportunities for expanding the code generation capabilities of Lyo Designer and OSLC service documentation. In this presentation, I will talk about these opportunities and propose a set of OpenAPI extensions to support OSLC concepts. I will also show how to add these extensions to an existing OpenAPI specification file and how Swagger Code Generator can process them to generate an OSLC server.</p>'
+    ],
+    'authors': [
+      bio.luisR,
+      bio.marioC
+    ]
+  },
 
 };
