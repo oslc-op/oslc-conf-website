@@ -486,14 +486,28 @@ var bio = {
   },
   erikH: {
     'name': 'Erik Herzog',
-    'title': 'Åsa Nordling Larsson, Saab Aeronautics',
-    'picturePath': '/images/img-placeholder.png',
+    'title': 'Technical Fellow at Saab Aeronautics',
+    'picturePath': '/images/speakers/erik_h.png',
     'bio': [
-      ""
+      "Erik Herzog is a Technical Fellow at Saab Aeronautics. He received his Ph.D. at the Department of Computer and Information Sciences at Linköping University, Sweden. His professional interests include development and introduction of Systems engineering processes, specification methods, information modelling, tool integration techniques and change leadership."
     ],
     'contact': [
       {
         'link': 'mailto:erik.herzog@saabgroup.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  asaL: {
+    'name': 'Åsa Nordling Larsson',
+    'title': 'Business Development in System Engineering Methodology at Saab Aeronautics',
+    'picturePath': '/images/speakers/asa_l.jpg',
+    'bio': [
+      "Åsa Nordling Larsson has worked professionally with education for over 20 years. At Saab Aeronautics her professional profile is business development in System Engineering Methodology. She has a special interest in Configuration Management, Product data management, Integrated Logistics support and Change Leadership. She has a bachelor degree in Systems Analysis from Linköping University."
+    ],
+    'contact': [
+      {
+        'link': 'mailto:Asa.Nordling-Larsson@saabgroup.com',
         'icon': '<i class="fas fa-envelope"></i>'
       }
     ]
@@ -531,11 +545,26 @@ var bio = {
     'title': ' Senior Developer at Koneksys',
     'picturePath': '/images/img-placeholder.png',
     'bio': [
-      ""
+      "Experience as software engineer and project manager, mostly working as a backend developer, developing web applications and REST services, recently working at Koneksys in OSLC and Linked Data solutions for creating generic OSLC APIs to expose RDF resources through a REST API based on a given schema defined in SHACL. Also working on integrations with IBM CLM applications such as DNG, RQM and RTC using OSLC. Currently working in the development of an OSLC API reference implementation in Python."
     ],
     'contact': [
       {
         'link': 'mailto:mario.carrasco@koneksys.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  tarikM: {
+    'name': 'Tarik Mlahi',
+    'title': ' Solution Architect at UNITE',
+    'picturePath': '/images/speakers/tarik_m.png',
+    'bio': [
+      "Tarik Mlahi joined Persistent Systems as a solution architect at the start of 2018 to help grow customer engagement in France. He is engaging with clients and leveraging Persistent’s deep technical expertise to provide tailored solutions for clients as well as helping them improve efficiency and control in ELM areas and integrations.",
+      "Prior to this he spent 3 years at Rational Software and 17 years at IBM working directly with clients in across a range of industries such as automotive, aerospace and defense, energy & utilities, insurance and finance."
+    ],
+    'contact': [
+      {
+        'link': 'mailto:tarik.mlahi@persistent.com',
         'icon': '<i class="fas fa-envelope"></i>'
       }
     ]

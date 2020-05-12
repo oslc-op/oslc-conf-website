@@ -74,9 +74,11 @@ speakersName = [
   "Jim Amsden",
   "Christoph Bergner",
   "Erik Herzog",
+  "Åsa Nordling Larsson",
   "Jonas Westman",
   "Luis Ramirez",
   "Mario Carrasco",
+  "Tarik Mlahi"
 ]
 speakersTitle = [
   "KTH",
@@ -93,9 +95,11 @@ speakersTitle = [
   "IBM",
   "MID GmbH",
   "Saab Aeronautics",
+  "Saab Aeronautics",
   "Scania",
   "Koneksys",
-  "Koneksys"
+  "Koneksys",
+  "UNITE"
 ]
 speakersImage = [
   "/images/speakers/jad_el.jpg",
@@ -111,10 +115,12 @@ speakersImage = [
   "/images/speakers/andrew_berezovskyi.jpg",
   "/images/speakers/jim_amsden.jpg",
   "/images/speakers/christoph_b.png",
-  "/images/img-placeholder.png",
+  "/images/speakers/erik_h.png",
+  "/images/speakers/asa_l.jpg",
   "/images/img-placeholder.png",
   "/images/speakers/luis_r.jpg",
   "/images/img-placeholder.png",
+  "/images/speakers/tarik_m.png",
 ]
 speakersBio = [
   "jadE",
@@ -130,10 +136,12 @@ speakersBio = [
   "andrewB",
   "jimA",
   "",
+  "erikH",
+  "asaL",
   "",
   "",
   "",
-  ""
+  "tarikM"
 ]
 
 legendTitle = [
@@ -239,7 +247,7 @@ title2 = [
   "Lyo Introduction",
   "Lyo Designer Introduction",
   "OpenAPI Extensions for OSLC",
-  "Contact Software",
+  "PyOSLC the Python SDK for OSLC APIs",
   "Beyond linking artifacts: “Federated Authoring” and “Dashboards” based on OSLC",
   "OSLC as enabler for seamless application integration",
 ]
@@ -247,8 +255,8 @@ authors2 = [
   "Mike Amundsen (CA Technologies)",
   "Andrew Berezowsky (KTH)",
   "Andrew Berezowsky (KTH)",
-  "Luis Ramirez (Koneksys), Mario Carrasco (Koneksys)",
-  "Speaker TBD",
+  "Luis Ramirez (Koneksys)",
+  "Mario Carrasco (Koneksys)",
   "Christoph Bergner (MID)",
   "Lutz Laemmer (ProSTEP)",
 ]
@@ -284,7 +292,7 @@ panelVariable2 = [
   "",
   "",
   "PKoneksys",
-  "",
+  "PMarioC",
   "PChristophB",
   "PLutzL",
 ]
@@ -314,7 +322,7 @@ title3 = [
   "Establishing Digital Continuity for End to End Collaboration",
   "Proof of Concept: Capella & IBM Jazz Integration based on OSLC",
   "Getting started with Solid using GraphQL and React",
-  "Title TBD",
+  "Persistent UNITE: State of the Art OSLC Integrations",
 ]
 authors3 = [
   "Speaker TBD",
@@ -323,7 +331,7 @@ authors3 = [
   "Nicolas Figay (Airbus)",
   "Ahmed EL-BERDHI (Safran)",
   "Ruben Taelman (Ghent University)",
-  "Speaker TBD",
+  "Tarik Mlahi (UNITE)",
 ]
 type3 = [
   "techtalk",
@@ -359,7 +367,7 @@ panelVariable3 = [
   "PNicolasF",
   "Pahmed",
   "PRubenT",
-  "",
+  "PTarikM",
 ]
 
 
