@@ -486,14 +486,28 @@ var bio = {
   },
   erikH: {
     'name': 'Erik Herzog',
-    'title': 'Åsa Nordling Larsson, Saab Aeronautics',
-    'picturePath': '/images/img-placeholder.png',
+    'title': 'Technical Fellow at Saab Aeronautics',
+    'picturePath': '/images/speakers/erik_h.png',
     'bio': [
-      ""
+      "Erik Herzog is a Technical Fellow at Saab Aeronautics. He received his Ph.D. at the Department of Computer and Information Sciences at Linköping University, Sweden. His professional interests include development and introduction of Systems engineering processes, specification methods, information modelling, tool integration techniques and change leadership."
     ],
     'contact': [
       {
         'link': 'mailto:erik.herzog@saabgroup.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  asaL: {
+    'name': 'Åsa Nordling Larsson',
+    'title': 'Business Development in System Engineering Methodology at Saab Aeronautics',
+    'picturePath': '/images/speakers/asa_l.jpg',
+    'bio': [
+      "Åsa Nordling Larsson has worked professionally with education for over 20 years. At Saab Aeronautics her professional profile is business development in System Engineering Methodology. She has a special interest in Configuration Management, Product data management, Integrated Logistics support and Change Leadership. She has a bachelor degree in Systems Analysis from Linköping University."
+    ],
+    'contact': [
+      {
+        'link': 'mailto:Asa.Nordling-Larsson@saabgroup.com',
         'icon': '<i class="fas fa-envelope"></i>'
       }
     ]

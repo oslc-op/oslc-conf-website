@@ -253,7 +253,8 @@ var presentations = {
       '<p>We discuss the merits of the model and the applicability of OSLC as integration middleware for realizing the desired interoperability.</p>'
     ],
     'authors': [
-      bio.erikH
+      bio.erikH,
+      bio.asaL
     ]
   },
   'PJonasW': {
