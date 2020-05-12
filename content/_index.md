@@ -243,7 +243,7 @@ title2 = [
   "Lyo Introduction",
   "Lyo Designer Introduction",
   "OpenAPI Extensions for OSLC",
-  "Contact Software",
+  "PyOSLC the Python SDK for OSLC APIs",
   "Beyond linking artifacts: “Federated Authoring” and “Dashboards” based on OSLC",
   "OSLC as enabler for seamless application integration",
 ]
@@ -251,8 +251,8 @@ authors2 = [
   "Mike Amundsen (CA Technologies)",
   "Andrew Berezowsky (KTH)",
   "Andrew Berezowsky (KTH)",
-  "Luis Ramirez (Koneksys), Mario Carrasco (Koneksys)",
-  "Speaker TBD",
+  "Luis Ramirez (Koneksys)",
+  "Mario Carrasco (Koneksys)",
   "Christoph Bergner (MID)",
   "Lutz Laemmer (ProSTEP)",
 ]
@@ -288,7 +288,7 @@ panelVariable2 = [
   "",
   "",
   "PKoneksys",
-  "",
+  "PMarioC",
   "PChristophB",
   "PLutzL",
 ]

@@ -271,8 +271,7 @@ var presentations = {
       '<p>OpenAPI is a popular specification for defining Web APIs. The specification originated from Swagger, an open-source set of tools to generate API documentation and code. The customizable nature of the Swagger tools, combined with the capability to extend OpenAPI, provides several opportunities for expanding the code generation capabilities of Lyo Designer and OSLC service documentation. In this presentation, I will talk about these opportunities and propose a set of OpenAPI extensions to support OSLC concepts. I will also show how to add these extensions to an existing OpenAPI specification file and how Swagger Code Generator can process them to generate an OSLC server.</p>'
     ],
     'authors': [
-      bio.luisR,
-      bio.marioC
+      bio.luisR
     ]
   },
   'PTarikM': {
@@ -288,5 +287,14 @@ var presentations = {
       bio.tarikM
     ]
   },
-
+  'PMarioC': {
+    'title': 'PyOSLC the Python SDK for OSLC APIs',
+    'description': [
+      '<p>In the last years Python has become so popular among web developers and specifically API developers, the creation of an API is very easy using Python through different frameworks with some extensions. Until now for creating an OSLC API there are some frameworks or libraries mainly for Java, then why not leverage the popularity of Python for creating OSLC APIs?</p>',
+      '<p>The PyOSLC project aim to create a SDK for having the required elements for developing OSLC APIs in Python meeting the OSLC specs and having the capability to extend the features for other specific-domain applications.</p>'
+    ],
+    'authors': [
+      bio.marioC
+    ]
+  },
 };
