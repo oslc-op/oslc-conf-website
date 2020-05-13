@@ -85,7 +85,7 @@ speakersTitle = [
   "Ghent University",
   "IBM UK",
   "ProSTEP",
-  "SII France",
+  "SII Group",
   "SodiusWillert",
   "Sparx Systems",
   "Sparx Systems",
@@ -329,7 +329,7 @@ authors3 = [
   "Erik Herzog (Saab Aeronautics)",
   "Jonas Westman (Scania)",
   "Nicolas Figay (Airbus)",
-  "Ahmed EL-BERDHI (Safran)",
+  "Ahmed EL-BERDHI (SII Group)",
   "Ruben Taelman (Ghent University)",
   "Tarik Mlahi (UNITE)",
 ]
