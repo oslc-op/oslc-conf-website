@@ -228,7 +228,7 @@ var presentations = {
     ]
   },
   'PAndyL': {
-    'title': 'Using OSLC to gain Insight into your connected engineering data',
+    'title': 'Using OSLC to gain Insight into your Connected Engineering Data',
     'description': [
       '<p>In this session Andy will present how OSLC connected engineering data from across the lifecycle may be visualized and analyzed using Engineering Insights, part of the IBM Engineering Lifecycle Management suite.</p>'
     ],
