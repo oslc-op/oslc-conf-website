@@ -178,7 +178,7 @@ duration1 = [
 title1 = [
   "Knowledge Graphs: History of the Main Ideas",
   "State of OSLC Report",
-  "Using OSLC to gain Insight into your connected engineering data",
+  "Using OSLC to gain Insight into your Connected Engineering Data",
   "OSLC OP specs talk",
   "OSLC the silver bullet for modelling interoperability?",
   "Bridging to PLM with OSLC",
@@ -373,9 +373,11 @@ panelVariable3 = [
 
 organizers = [
     "/images/oasis_logo.png",
+    "/images/oslc_logo_labled.png",
 ]
 organizersLink = [
     "https://www.oasis-open.org/",
+    "https://open-services.net/",
 ]
 organizersClass = [
     "",
