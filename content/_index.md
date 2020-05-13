@@ -71,14 +71,15 @@ speakersName = [
   "Nicolas Figay",
   "Mike Amundsen",
   "Andrew Berezowsky",
-  "Jim Amsden",
   "Christoph Bergner",
   "Erik Herzog",
   "Åsa Nordling Larsson",
   "Jonas Westman",
   "Luis Ramirez",
   "Mario Carrasco",
-  "Tarik Mlahi"
+  "Tarik Mlahi",
+  "Leonid Mokrushin",
+  "Andreas Korff"
 ]
 speakersTitle = [
   "KTH Royal Institute of Technology",
@@ -92,14 +93,15 @@ speakersTitle = [
   "Airbus",
   "Lead API Architect, API Academy, CA Technologies",
   "KTH Royal Institute of Technology",
-  "IBM",
   "MID GmbH",
   "Saab Aeronautics",
   "Saab Aeronautics",
   "Scania",
   "Koneksys",
   "Koneksys",
-  "UNITE"
+  "UNITE",
+  "Ericsson",
+  "PTC"
 ]
 speakersImage = [
   "/images/speakers/jad_el.jpg",
@@ -113,7 +115,6 @@ speakersImage = [
   "/images/speakers/nicolas_f.jpg",
   "/images/speakers/mike_amundsen.png",
   "/images/speakers/andrew_berezovskyi.jpg",
-  "/images/speakers/jim_amsden.jpg",
   "/images/speakers/christoph_b.png",
   "/images/speakers/erik_h.png",
   "/images/speakers/asa_l.jpg",
@@ -121,6 +122,8 @@ speakersImage = [
   "/images/speakers/luis_r.jpg",
   "/images/speakers/mario.png",
   "/images/speakers/tarik_m.png",
+  "/images/speakers/leo_m.jpg",
+  "/images/speakers/andreas_k.jpg"
 ]
 speakersBio = [
   "jadE",
@@ -134,14 +137,15 @@ speakersBio = [
   "",
   "mikeA",
   "andrewB",
-  "jimA",
   "",
   "erikH",
   "asaL",
   "",
   "luisR",
   "marioC",
-  "tarikM"
+  "tarikM",
+  "leoM",
+  "andreasK"
 ]
 
 legendTitle = [
@@ -179,7 +183,7 @@ title1 = [
   "Knowledge Graphs: History of the Main Ideas",
   "State of OSLC Report",
   "Using OSLC to gain Insight into your Connected Engineering Data",
-  "OSLC OP specs talk",
+  "Enabling the Federated Single Source of truth using OSLC as standard in between Engineering tools",
   "OSLC the silver bullet for modelling interoperability?",
   "Bridging to PLM with OSLC",
 ]
@@ -187,7 +191,7 @@ authors1 = [
   "Juan Sequeda (data.world)",
   "Jad El-Khoury (KTH Royal Institute of Technology)",
   "Andy Lapping (IBM UK)",
-  "Jim Amsden (IBM)",
+  "Andreas Korff (PTC)",
   "Peter Lieber (Sparx Systems), Horst Kargl (Sparx Systems)",
   "Robert Baillargeon (SodiusWillert)",
 ]
@@ -195,7 +199,7 @@ type1 = [
   "keynote",
   "techtalk",
   "techtalk",
-  "techtalk",
+  "vendor",
   "vendor",
   "vendor",
 ]
@@ -219,7 +223,7 @@ panelVariable1 = [
   "PJuanS",
   "",
   "PAndyL",
-  "",
+  "PAndreasK",
   "Psparx",
   "ProbertB",
 ]
@@ -325,7 +329,7 @@ title3 = [
   "Persistent UNITE: State of the Art OSLC Integrations",
 ]
 authors3 = [
-  "Speaker TBD",
+  "Leonid Mokrushin (Ericsson)",
   "Erik Herzog (Saab Aeronautics)",
   "Jonas Westman (Scania)",
   "Nicolas Figay (Airbus)",
@@ -334,7 +338,7 @@ authors3 = [
   "Tarik Mlahi (UNITE)",
 ]
 type3 = [
-  "techtalk",
+  "vendor",
   "vendor",
   "vendor",
   "discussion",
@@ -361,7 +365,7 @@ videoLink3 = [
   "",
 ]
 panelVariable3 = [
-  "",
+  "PLeoM",
   "PErikH",
   "PJonasW",
   "PNicolasF",

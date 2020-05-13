@@ -298,4 +298,22 @@ var presentations = {
       bio.marioC
     ]
   },
+  PLeoM: {
+    'title': 'Prolog OSLC SDK',
+    'description': [
+      '<p>Prolog is an elegant programming language based on classical logic, which can be very powerful at solving many practical problems. Modern SWI-Prolog implementation provides native RDF support, efficient triple store, and convenient stack for building web applications making it an ideal platform for building OSLC services. In this talk I will present an open source OSCL SDK for Prolog created to simplify development of knowledge intensive applications.</p>'
+    ],
+    'authors': [
+      bio.leoM
+    ]
+  },
+  PAndreasK: {
+    'title': 'Enabling the Federated Single Source of truth using OSLC as standard in between Engineering tools',
+    'description': [
+      '<p>Complex and connected Systems Engineering requires a lot of people in different domains to collaborate efficiently without losing the details and capabilities of the tools used in these domains. This challenge in the engineering infrastructure can be solved in the same way like connecting systems of systems: The use of standards like OSLC allows to concentrate on one connector per tool or perpective instead of building up  and maintaining a interfaces in this n to m setup. At PTC, we have integrated OSLC as base technology for the engineering digital thread, and we will show the usage of in linking requirements, SysML model views and BOM elements using OSLC in an efficient way.</p>'
+    ],
+    'authors': [
+      bio.andreasK
+    ]
+  }
 };
