@@ -22,7 +22,7 @@ aboutParagraphs = [
   "How can we achieve a Google for data? How can we query seamlessly data from different databases seamlessly as if it were in one big global database? How can we establish links between data of different databases and how should we manage them? Similar questions have already been solved for documents by the World Wide Web. But what about data? The Web has radically changed how we find and consume information in the form of documents. The next step in this evolution is a Web of data.",
   "to enable the Web of data. OSLC provides open standards to achieve a uniform interface to different data sources (e.g. different databases, repositories, applications, files) and enable the connectivity of data between different data sources.",
   "such as IBM, Mentor Graphics, PTC, Tasktop, Kovair, Sodius, Maplessoft, smartfacts, and many more. These solutions amongst others radically improve requirements traceability and collaboration in the design of complex systems.",
-  "everything about existing and upcoming OSLC solutions, open-source projects and standards. In contrast to a traditional conference, this unconference will facilitate the informal exchange of information and ideas between participants!",
+  "everything about existing and upcoming OSLC solutions, open-source projects and standards. In contrast to a traditional conference, this conference will facilitate the informal exchange of information and ideas between participants!",
   "The 2nd OSLCFest will take place virtually on May 18-20, 2020. The event will be broadcast on YouTubeLive. More info about the broadcast will be shared soon."
 ]
 
@@ -81,7 +81,7 @@ speakersName = [
   "Tarik Mlahi"
 ]
 speakersTitle = [
-  "KTH",
+  "KTH Royal Institute of Technology",
   "Ghent University",
   "IBM UK",
   "ProSTEP",
@@ -91,7 +91,7 @@ speakersTitle = [
   "Sparx Systems",
   "Airbus",
   "Lead API Architect, API Academy, CA Technologies",
-  "KTH",
+  "KTH Royal Institute of Technology",
   "IBM",
   "MID GmbH",
   "Saab Aeronautics",
@@ -185,7 +185,7 @@ title1 = [
 ]
 authors1 = [
   "Juan Sequeda (data.world)",
-  "Jad El-Khoury (KTH)",
+  "Jad El-Khoury (KTH Royal Institute of Technology)",
   "Andy Lapping (IBM UK)",
   "Jim Amsden (IBM)",
   "Peter Lieber (Sparx Systems), Horst Kargl (Sparx Systems)",
@@ -253,8 +253,8 @@ title2 = [
 ]
 authors2 = [
   "Mike Amundsen (CA Technologies)",
-  "Andrew Berezowsky (KTH)",
-  "Andrew Berezowsky (KTH)",
+  "Andrew Berezowsky (KTH Royal Institute of Technology)",
+  "Andrew Berezowsky (KTH Royal Institute of Technology)",
   "Luis Ramirez (Koneksys)",
   "Mario Carrasco (Koneksys)",
   "Christoph Bergner (MID)",
