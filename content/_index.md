@@ -373,9 +373,11 @@ panelVariable3 = [
 
 organizers = [
     "/images/oasis_logo.png",
+    "/images/oslc_logo_labled.png",
 ]
 organizersLink = [
     "https://www.oasis-open.org/",
+    "https://open-services.net/",
 ]
 organizersClass = [
     "",
