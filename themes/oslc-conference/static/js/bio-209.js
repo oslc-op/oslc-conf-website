@@ -569,5 +569,33 @@ var bio = {
         'icon': '<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  leoM: {
+    'name': 'Leonid Mokrushin',
+    'title': ' Principal Researcher at Ericsson',
+    'picturePath': '/images/speakers/leo_m.jpg',
+    'bio': [
+      "Leonid Mokrushin is a Principal Researcher at Ericsson specializing in the area of cognitive systems. His current focus is on investigating new opportunities artificial intelligence can bring to telecom industry. He joined Ericsson Research in 2007 after postgraduate studies at Uppsala University in Sweden, with background in formal methods and real-time systems. He has Master of Science degree in software engineering from Peter the Great St. Petersburg Polytechnic University in Russia."
+    ],
+    'contact': [
+      {
+        'link': 'mailto:leonid.mokrushin@ericsson.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  andreasK: {
+    'name': 'Andreas Korff',
+    'title': ' Director Business Development and Lead for Systems and Software Engineering (SSE) at PTC',
+    'picturePath': '/images/speakers/andreas_k.jpg',
+    'bio': [
+      "Andreas Korff has over 25 years of experience in the development of complex, real-time, safety- and mission-critical systems. Within PTC, his role as Director Business Development and Lead for Systems and Software Engineering (SSE) in Central Europe involves him in the successful coordination of market trends, customer needs and the capabilities of PTC products and staff about SSB. Being member of OMG, GI, and other standards bodies, he has written numerous articles, submissions, books and book contributions about UML, SysML, PLE and modelling methodologies like SPES."
+    ],
+    'contact': [
+      {
+        'link': 'mailto:akorff@ptc.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };
