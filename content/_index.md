@@ -74,12 +74,12 @@ speakersName = [
   "Christoph Bergner",
   "Erik Herzog",
   "Åsa Nordling Larsson",
-  "Jonas Westman",
   "Luis Ramirez",
   "Mario Carrasco",
   "Tarik Mlahi",
   "Leonid Mokrushin",
-  "Andreas Korff"
+  "Andreas Korff",
+  "Jim Amsden",
 ]
 speakersTitle = [
   "KTH Royal Institute of Technology",
@@ -96,12 +96,12 @@ speakersTitle = [
   "MID GmbH",
   "Saab Aeronautics",
   "Saab Aeronautics",
-  "Scania",
   "Koneksys",
   "Koneksys",
   "UNITE",
   "Ericsson",
-  "PTC"
+  "PTC",
+  "IBM",
 ]
 speakersImage = [
   "/images/speakers/jad_el.jpg",
@@ -118,12 +118,12 @@ speakersImage = [
   "/images/speakers/christoph_b.png",
   "/images/speakers/erik_h.png",
   "/images/speakers/asa_l.jpg",
-  "/images/img-placeholder.png",
   "/images/speakers/luis_r.jpg",
   "/images/speakers/mario.png",
   "/images/speakers/tarik_m.png",
   "/images/speakers/leo_m.jpg",
-  "/images/speakers/andreas_k.jpg"
+  "/images/speakers/andreas_k.jpg",
+  "/images/speakers/jim_amsden.jpg"
 ]
 speakersBio = [
   "jadE",
@@ -140,12 +140,12 @@ speakersBio = [
   "",
   "erikH",
   "asaL",
-  "",
   "luisR",
   "marioC",
   "tarikM",
   "leoM",
-  "andreasK"
+  "andreasK",
+  "jimA",
 ]
 
 legendTitle = [
@@ -247,7 +247,7 @@ duration2 = [
   "20min",
 ]
 title2 = [
-  "Hypermedia Made Easy",
+  "OSLC OP",
   "Lyo Introduction",
   "Lyo Designer Introduction",
   "OpenAPI Extensions for OSLC",
@@ -256,7 +256,7 @@ title2 = [
   "OSLC as enabler for seamless application integration",
 ]
 authors2 = [
-  "Mike Amundsen (CA Technologies)",
+  "Jim Amsden (IBM)",
   "Andrew Berezowsky (KTH Royal Institute of Technology)",
   "Andrew Berezowsky (KTH Royal Institute of Technology)",
   "Luis Ramirez (Koneksys)",
@@ -292,7 +292,7 @@ videoLink2 = [
   "",
 ]
 panelVariable2 = [
-  "PMikeA2020",
+  "",
   "",
   "",
   "PKoneksys",
@@ -322,8 +322,8 @@ duration3 = [
 title3 = [
   "Prolog OSLC SDK",
   "The Role of OSLC in the Enterprise PLM Landscape",
-  "Journey to be data driven",
   "Establishing Digital Continuity for End to End Collaboration",
+  "Hypermedia Made Easy",
   "Proof of Concept: Capella & IBM Jazz Integration based on OSLC",
   "Getting started with Solid using GraphQL and React",
   "Persistent UNITE: State of the Art OSLC Integrations",
@@ -331,8 +331,8 @@ title3 = [
 authors3 = [
   "Leonid Mokrushin (Ericsson)",
   "Erik Herzog (Saab Aeronautics)",
-  "Jonas Westman (Scania)",
   "Nicolas Figay (Airbus)",
+  "Mike Amundsen (CA Technologies)",
   "Ahmed EL-BERDHI (SII Group)",
   "Ruben Taelman (Ghent University)",
   "Tarik Mlahi (UNITE)",
@@ -340,8 +340,8 @@ authors3 = [
 type3 = [
   "vendor",
   "vendor",
-  "vendor",
   "discussion",
+  "techtalk",
   "vendor",
   "techtalk",
   "vendor",
@@ -367,8 +367,8 @@ videoLink3 = [
 panelVariable3 = [
   "PLeoM",
   "PErikH",
-  "PJonasW",
   "PNicolasF",
+  "PMikeA2020",
   "Pahmed",
   "PRubenT",
   "PTarikM",
