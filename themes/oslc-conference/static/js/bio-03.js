@@ -430,7 +430,7 @@ var bio = {
   },
   nicolasF: {
     'name': 'Nicolas Figay',
-    'title': '',
+    'title': 'System Architect at Airbus',
     'picturePath': '/images/speakers/nicolas_f.jpg',
     'bio': [
       "Nicolas Figay is an expert in the area of interoperability for PLM and MOM and an advanced engineering enterprise architect at Airbus Defence & Space, France. He received the engineering degree in Sciences for Information processing in 1990 (E.I.S.T.I., France) and was graduated PhD in Computer Sciences in 2009.",
