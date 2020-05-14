@@ -78,7 +78,8 @@ speakersName = [
   "Mario Carrasco",
   "Tarik Mlahi",
   "Leonid Mokrushin",
-  "Andreas Korff"
+  "Andreas Korff",
+  "Jim Amsden",
 ]
 speakersTitle = [
   "KTH Royal Institute of Technology",
@@ -99,7 +100,8 @@ speakersTitle = [
   "Koneksys",
   "UNITE",
   "Ericsson",
-  "PTC"
+  "PTC",
+  "IBM",
 ]
 speakersImage = [
   "/images/speakers/jad_el.jpg",
@@ -120,7 +122,8 @@ speakersImage = [
   "/images/speakers/mario.png",
   "/images/speakers/tarik_m.png",
   "/images/speakers/leo_m.jpg",
-  "/images/speakers/andreas_k.jpg"
+  "/images/speakers/andreas_k.jpg",
+  "/images/speakers/jim_amsden.jpg"
 ]
 speakersBio = [
   "jadE",
@@ -141,7 +144,8 @@ speakersBio = [
   "marioC",
   "tarikM",
   "leoM",
-  "andreasK"
+  "andreasK",
+  "jimA",
 ]
 
 legendTitle = [
@@ -243,7 +247,7 @@ duration2 = [
   "20min",
 ]
 title2 = [
-  "Hypermedia Made Easy",
+  "OSLC OP",
   "Lyo Introduction",
   "Lyo Designer Introduction",
   "OpenAPI Extensions for OSLC",
@@ -252,7 +256,7 @@ title2 = [
   "OSLC as enabler for seamless application integration",
 ]
 authors2 = [
-  "Mike Amundsen (CA Technologies)",
+  "Jim Amsden (IBM)",
   "Andrew Berezowsky (KTH Royal Institute of Technology)",
   "Andrew Berezowsky (KTH Royal Institute of Technology)",
   "Luis Ramirez (Koneksys)",
@@ -288,7 +292,7 @@ videoLink2 = [
   "",
 ]
 panelVariable2 = [
-  "PMikeA2020",
+  "",
   "",
   "",
   "PKoneksys",
@@ -319,6 +323,7 @@ title3 = [
   "Prolog OSLC SDK",
   "The Role of OSLC in the Enterprise PLM Landscape",
   "Establishing Digital Continuity for End to End Collaboration",
+  "Hypermedia Made Easy",
   "Proof of Concept: Capella & IBM Jazz Integration based on OSLC",
   "Getting started with Solid using GraphQL and React",
   "Persistent UNITE: State of the Art OSLC Integrations",
@@ -327,6 +332,7 @@ authors3 = [
   "Leonid Mokrushin (Ericsson)",
   "Erik Herzog (Saab Aeronautics)",
   "Nicolas Figay (Airbus)",
+  "Mike Amundsen (CA Technologies)",
   "Ahmed EL-BERDHI (SII Group)",
   "Ruben Taelman (Ghent University)",
   "Tarik Mlahi (UNITE)",
@@ -335,6 +341,7 @@ type3 = [
   "vendor",
   "vendor",
   "discussion",
+  "techtalk",
   "vendor",
   "techtalk",
   "vendor",
@@ -361,6 +368,7 @@ panelVariable3 = [
   "PLeoM",
   "PErikH",
   "PNicolasF",
+  "PMikeA2020",
   "Pahmed",
   "PRubenT",
   "PTarikM",
