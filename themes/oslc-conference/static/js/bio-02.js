@@ -433,11 +433,12 @@ var bio = {
     'title': '',
     'picturePath': '/images/speakers/nicolas_f.jpg',
     'bio': [
-      ""
+      "Nicolas Figay is an expert in the area of interoperability for PLM and MOM and an advanced engineering enterprise architect at Airbus Defence & Space, France. He received the engineering degree in Sciences for Information processing in 1990 (E.I.S.T.I., France) and was graduated PhD in Computer Sciences in 2009.",
+      "He has been involved as an international expert as well in standardization community (ISO SC4 TC184, ASD Strategic Standardization Group, liaison OSLC ISO TC184 SC4) than in research within the area of Product Data Exchange and Sharing (RISESTEP, SAVE), Interoperability of Technical Enterprise Application for Networked Collaborative Product Development (ATHENA), Model Driven Architecture/Model Driven Engineering (OpenDevFactory) or Dynamic Manufacturing Network (IMAGINE). He is also involved in the set-up of an open test bed platform on the Cloud for assessment of manufacturing standard and their implementation as project leader at SIP@SystemX. A more complete profile is available on LinkedIn. He can be reached at nicolas.figay@airbus.com"
     ],
     'contact': [
       {
-        'link': 'mailto:nicolas.figay@gmail.com',
+        'link': 'mailto:nicolas.figay@airbus.com',
         'icon': '<i class="fas fa-envelope"></i>'
       }
     ]
