@@ -134,7 +134,7 @@ speakersBio = [
   "robertB",
   "horstK",
   "peterL",
-  "",
+  "nicolasF",
   "mikeA",
   "andrewB",
   "",
