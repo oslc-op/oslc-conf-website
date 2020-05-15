@@ -181,7 +181,11 @@ duration1 = [
 ]
 title1 = [
   "Knowledge Graphs: History of the Main Ideas",
+<<<<<<< HEAD
   "State of OSLC support in commercial application",
+=======
+  "State of OSLC support in commercial applications",
+>>>>>>> 5c0a0d8f2c6b0a8af2ccc7c9cf4fd78a1fd809bf
   "Using OSLC to gain Insight into your Connected Engineering Data",
   "Enabling the Federated Single Source of truth using OSLC as standard in between Engineering tools",
   "OSLC the silver bullet for modelling interoperability?",
