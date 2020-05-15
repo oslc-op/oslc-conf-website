@@ -60,7 +60,7 @@ keynoteBio = [
 
 
 speakersName = [
-  "Jad El-Khoury",
+  "Jad El-khoury",
   "Ruben Taelman",
   "Andy Lapping",
   "Lutz Laemmer",
@@ -70,7 +70,7 @@ speakersName = [
   "Peter Lieber",
   "Nicolas Figay",
   "Mike Amundsen",
-  "Andrew Berezowsky",
+  "Andrew Berezovskyi",
   "Christoph Bergner",
   "Erik Herzog",
   "Åsa Nordling Larsson",
@@ -99,7 +99,7 @@ speakersTitle = [
   "Koneksys",
   "Koneksys",
   "UNITE",
-  "Ericsson",
+  "Ericsson Research",
   "PTC",
   "IBM",
 ]
@@ -181,7 +181,7 @@ duration1 = [
 ]
 title1 = [
   "Knowledge Graphs: History of the Main Ideas",
-  "State of OSLC Report",
+  "State of OSLC support in commercial application",
   "Using OSLC to gain Insight into your Connected Engineering Data",
   "Enabling the Federated Single Source of truth using OSLC as standard in between Engineering tools",
   "OSLC the silver bullet for modelling interoperability?",
@@ -189,7 +189,7 @@ title1 = [
 ]
 authors1 = [
   "Juan Sequeda (data.world)",
-  "Jad El-Khoury (KTH Royal Institute of Technology)",
+  "Jad El-khoury (KTH Royal Institute of Technology)",
   "Andy Lapping (IBM UK)",
   "Andreas Korff (PTC)",
   "Peter Lieber (Sparx Systems), Horst Kargl (Sparx Systems)",
@@ -247,8 +247,8 @@ duration2 = [
   "20min",
 ]
 title2 = [
-  "OSLC OP",
-  "Lyo Introduction",
+  "OSLC Open Project status",
+  "Eclipse Lyo Introduction",
   "Lyo Designer Introduction",
   "OpenAPI Extensions for OSLC",
   "PyOSLC the Python SDK for OSLC APIs",
@@ -256,9 +256,9 @@ title2 = [
   "OSLC as enabler for seamless application integration",
 ]
 authors2 = [
-  "Jim Amsden (IBM)",
-  "Andrew Berezowsky (KTH Royal Institute of Technology)",
-  "Andrew Berezowsky (KTH Royal Institute of Technology)",
+  "Jim Amsden (IBM), Andrew Berezovskyi (KTH Royal Institute of Technology)",
+  "Jad El-khoury (KTH Royal Institute of Technology)",
+  "Jad El-khoury (KTH Royal Institute of Technology)",
   "Luis Ramirez (Koneksys)",
   "Mario Carrasco (Koneksys)",
   "Christoph Bergner (MID)",
@@ -329,13 +329,13 @@ title3 = [
   "Persistent UNITE: State of the Art OSLC Integrations",
 ]
 authors3 = [
-  "Leonid Mokrushin (Ericsson)",
+  "Leonid Mokrushin (Ericsson Research)",
   "Erik Herzog (Saab Aeronautics)",
   "Nicolas Figay (Airbus)",
   "Mike Amundsen (CA Technologies)",
   "Ahmed EL-BERDHI (SII Group)",
   "Ruben Taelman (Ghent University)",
-  "Tarik Mlahi (UNITE)",
+  "Tarik Mlahi (Persistent)",
 ]
 type3 = [
   "vendor",
