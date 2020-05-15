@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/2018/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
+    <loc>/past-events/</loc>
+  </url>
+  
+  <url>
+    <loc>/program/</loc>
+  </url>
+  
+  <url>
+    <loc>/save-the-date/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/program/cross-discipline-lifecycle-collaboration-forum/</loc>
+  </url>
+  
+  <url>
+    <loc>/program/eclipse-lyo-2-4-0-and-beyond/</loc>
+  </url>
+  
+  <url>
+    <loc>/program/how-product-line-engineering-can-benefit-from-oslc/</loc>
+  </url>
+  
+  <url>
+    <loc>/program/lifecycle-integration-patterns/</loc>
+  </url>
+  
+  <url>
+    <loc>/program/elevating-the-meaning-of-data-and-operation-within-the-toolchain/</loc>
+  </url>
+  
+  <url>
+    <loc>/program/oslc-and-configuration-aware-links-between-alm-and-plm-systems/</loc>
+  </url>
+  
+  <url>
+    <loc>/program/oslc-through-the-formative-years/</loc>
+  </url>
+  
+  <url>
+    <loc>/program/oslc4js-open-source-javascript-client-and-server-components/</loc>
+  </url>
+  
+  <url>
+    <loc>/program/open-services-interoperability-and-hypermedia/</loc>
+  </url>
+  
+  <url>
+    <loc>/program/search-browse-and-lyo-validation/</loc>
+  </url>
+  
+  <url>
+    <loc>/program/solid-and-oslc-similar-stack-similar-goals/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/program/what-can-oslc-configuration-management-do-for-me/</loc>
+  </url>
+  
+</urlset>

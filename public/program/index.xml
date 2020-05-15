@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OSLC Fest</title>
+    <link>/program/</link>
+    <description>Recent content on OSLC Fest</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/program/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cross-Discipline Lifecycle Collaboration Forum – a linked Systems Engineering approach</title>
+      <link>/program/cross-discipline-lifecycle-collaboration-forum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/program/cross-discipline-lifecycle-collaboration-forum/</guid>
+      <description>Today’s challenge is to ensure efficient collaborative development processes while always keeping track of all dependencies within a product. Interdependencies between different engineering disciplines are increasing as products become smarter, more interconnected and feature complex yet individually configurable functions. Pure component-oriented development has been augmented by a functional orientation, where functional aspects of a product are the focal point regardless of whether they are implemented by mechanical, electrical/electronic or software components.</description>
+    </item>
+    
+    <item>
+      <title>Eclipse Lyo 2.4.0 and beyond</title>
+      <link>/program/eclipse-lyo-2-4-0-and-beyond/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/program/eclipse-lyo-2-4-0-and-beyond/</guid>
+      <description>Eclipse Lyo provides a reference SDK for implementing OSLC Servers and Clients. In the first part of the talk, we will introduce Lyo in general and present its latest components such as:
+ Lyo Designer as a model-based software engineering (MBSE) approach to modelling and generating code of the OSLC-based solutions Lyo Store, an object-resource mapping (OR*M) framework Lyo Validation, a library for validating RDF resources according to the OSLC Shapes &amp;amp; SHACL Shapes (presented in detail on Day 1 by Yash Khatri) Lyo TRS Client &amp;amp; Server to keep resources up-to-date across OSLC Servers  In the second part of the talk, we would like to engage with the community regarding the future of Eclipse Lyo:</description>
+    </item>
+    
+    <item>
+      <title>How Product Line Engineering can benefit from OSLC</title>
+      <link>/program/how-product-line-engineering-can-benefit-from-oslc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/program/how-product-line-engineering-can-benefit-from-oslc/</guid>
+      <description>Strategic variant management based on Product Line Engineering has to manage variability information across all (engineering) artifacts. As variability information is highly distributed throughout these artifacts in various engineering tools on one hand, but on the other hand is there is a high dependence between this information, there is a need to easily connect the bits and pieces in an easy way. OSLC provides a general concept of links between artifacts and also defines support concepts to provide the necessary user interface for link management.</description>
+    </item>
+    
+    <item>
+      <title>Lifecycle Integration Patterns</title>
+      <link>/program/lifecycle-integration-patterns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/program/lifecycle-integration-patterns/</guid>
+      <description>Have you ever wanted to see how the community is using OSLC in practice to address a given integration problem? The OSLC community is creating a new library of integration patterns to demonstrate how OSLC can be applied as a solution to common integration challenges. Join this talk to learn about the Lifecycle Integration Pattern Catalog including templates and examples. Learn how to define and contribute your own patterns and help the community demonstrate how to benefit from OSLC-based integration approaches.</description>
+    </item>
+    
+    <item>
+      <title>OSLC KM: elevating the meaning of data and operations within the toolchain</title>
+      <link>/program/elevating-the-meaning-of-data-and-operation-within-the-toolchain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/program/elevating-the-meaning-of-data-and-operation-within-the-toolchain/</guid>
+      <description>The use of different techniques and tools is a common practice to cover all stages in the systems development lifecycle, generating a very good number of system artefacts. Moreover, these artefacts are commonly encoded in different formats and can only be accessed, in most cases, through proprietary and non-standard protocols. In this context, the OSLC (Open Services for Lifecycle Collaboration) initiative pursues the creation of public specifications (data shapes) to exchange any artefact generated during the development lifecycle.</description>
+    </item>
+    
+    <item>
+      <title>OSLC and configuration-aware links between ALM and PLM systems</title>
+      <link>/program/oslc-and-configuration-aware-links-between-alm-and-plm-systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/program/oslc-and-configuration-aware-links-between-alm-and-plm-systems/</guid>
+      <description>OSLC has gained a strong position in the integration of systems, platforms, and tools in the ALM space, but ALM is not an island in industries that manufacture and construct physical products and systems. Product Lifecycle Management (PLM) systems remain the standard for managing the hardware engineering lifecycle, and the two, ALM and PLM, simply do not communicate well, if at all, in nearly every one of those organizations. Engineering, manufacturing, service, and operations organizations have tolerated the engineering domains being isolated in different practitioner tools and lifecycle management systems for many years but strong evidence is emerging that this tolerance is evaporating and being replaced by a range of emotions that tend to frighten ALM and PLM vendors alike, as well they should.</description>
+    </item>
+    
+    <item>
+      <title>OSLC through the formative years</title>
+      <link>/program/oslc-through-the-formative-years/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/program/oslc-through-the-formative-years/</guid>
+      <description>10 years ago, OSLC was just coming into existence. This presentation will explore the dynamics that led to OSLC&amp;rsquo;s formation, discussing the threads of technology and community, and how they wove together to deliver key elements of an open product lifecycle integration solution. We&amp;rsquo;ll then travel along OSLC&amp;rsquo;s evolution, remembering (or perhaps discovering) some of the steps along the way, with the goal of understanding OSLC&amp;rsquo;s contributions while absorbing lessons for the continuing journey.</description>
+    </item>
+    
+    <item>
+      <title>OSLC4JS Open Source JavaScript Client and Server Components</title>
+      <link>/program/oslc4js-open-source-javascript-client-and-server-components/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/program/oslc4js-open-source-javascript-client-and-server-components/</guid>
+      <description>OSLC4JS is an open source project that is intended to provide Express.js middleware components to simplify the development of Web applications that utilize OSLC for integration. The project has the following subcomponents:
+ OSLC Browser - Multi-column navigator and graphic explorer React Web app to efficiently navigate and explore any OSLC resources OSLC Client - A JavaScript client API supporting jazz.net apps (rootservices) and OSLC Discovery OSLC Service - Express middleware component to add OSLC REST API to a Web application OSLC Server - Sample OSLC server using OSLC Service and LDP Service LDP Service - Express middleware comnponent to add LDP REST API to a Web application LDP App - Sample Web application using LDP Service  This talk will summarize some of the integration challenges you may be facing, how OSLC4JS may help, and the goals and intended outcomes of the project.</description>
+    </item>
+    
+    <item>
+      <title>Open Services, Interoperability, and Hypermedia: A possible Future</title>
+      <link>/program/open-services-interoperability-and-hypermedia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/program/open-services-interoperability-and-hypermedia/</guid>
+      <description>This talk will focus on what it means to design and support &amp;ldquo;Open Services&amp;rdquo; and the role hypermedia might play in advancing open systems. Author, speaker, and trainer Mike Amundsen will pose a series of questions aimed at identifying characteristics of open, collaborative ecosystems. For example, what are the pillars of open, interoperable systems and what can the last 20 years of the WWW teach us about what works &amp;ndash; and what does not work &amp;ndash; when creating specifications for an open, collaborative system?</description>
+    </item>
+    
+    <item>
+      <title>Search &amp; Browse and Lyo Validation</title>
+      <link>/program/search-browse-and-lyo-validation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/program/search-browse-and-lyo-validation/</guid>
+      <description>Search and Browse is a cross domain data exploration web application for searching and exploring linked data. The main purposes of S&amp;amp;B is to textually and graphically explore data, view results of automated data analysis done on Linked data layer (eg. safety case exploration, progress monitoring, data quality etc), defining custom pages for merging use cases based on Linked Data etc. Lyo Validation is a Java based library that is used for validating RDF resources against constraints defined either in OSLC or SHACL Resource shapes.</description>
+    </item>
+    
+    <item>
+      <title>Solid and OSLC: similar stack, similar goals?</title>
+      <link>/program/solid-and-oslc-similar-stack-similar-goals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/program/solid-and-oslc-similar-stack-similar-goals/</guid>
+      <description>Solid is an ecosystem in which people can store data wherever they choose, while still using the applications they want. Such a decentralized approach requires interoperability, which in turn requires standards. Like OSLC, Solid has adopted the Linked Data Platform. An important question is how much we need to standardize, and how much freedom the network gets. Interestingly, Solid and OSLC share the same background and standards, but do we also share the same goals?</description>
+    </item>
+    
+    <item>
+      <title>What can OSLC Configuration Management do for me?</title>
+      <link>/program/what-can-oslc-configuration-management-do-for-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/program/what-can-oslc-configuration-management-do-for-me/</guid>
+      <description>This talk gives a brief introduction to the scope and status of OSLC Configuration Management, then explains why this is an important specification, why you should push your vendors to adopt it, and the benefits you gain when they do. We will look at some current implementations, and discuss some of the potential areas of improvement.</description>
+    </item>
+    
+  </channel>
+</rss>

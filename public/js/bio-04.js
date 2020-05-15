@@ -558,7 +558,7 @@ var bio = {
   },
   tarikM: {
     'name': 'Tarik Mlahi',
-    'title': ' Solution Architect at UNITE',
+    'title': ' Solution Architect at Persistent',
     'picturePath': '/images/speakers/tarik_m.png',
     'bio': [
       "Tarik Mlahi joined Persistent Systems as a solution architect at the start of 2018 to help grow customer engagement in France. He is engaging with clients and leveraging Persistent’s deep technical expertise to provide tailored solutions for clients as well as helping them improve efficiency and control in ELM areas and integrations.",
