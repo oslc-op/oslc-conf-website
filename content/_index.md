@@ -325,7 +325,7 @@ title3 = [
   "Establishing Digital Continuity for End to End Collaboration",
   "Hypermedia Made Easy",
   "Proof of Concept: Capella & IBM Jazz Integration based on OSLC",
-  "Getting started with Solid using GraphQL and React",
+  "A Technical View on the Solid Ecosystem",
   "Persistent UNITE: State of the Art OSLC Integrations",
 ]
 authors3 = [
