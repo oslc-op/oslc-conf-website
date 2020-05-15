@@ -338,11 +338,11 @@ authors3 = [
   "Tarik Mlahi (Persistent)",
 ]
 type3 = [
-  "vendor",
-  "vendor",
+  "techtalk",
+  "discussion",
   "discussion",
   "techtalk",
-  "vendor",
+  "discussion",
   "techtalk",
   "vendor",
 ]
