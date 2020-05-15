@@ -98,7 +98,7 @@ speakersTitle = [
   "Saab Aeronautics",
   "Koneksys",
   "Koneksys",
-  "UNITE",
+  "Persistent",
   "Ericsson Research",
   "PTC",
   "IBM",
