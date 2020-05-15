@@ -330,7 +330,7 @@ title3 = [
 ]
 authors3 = [
   "Leonid Mokrushin (Ericsson Research)",
-  "Erik Herzog (Saab Aeronautics)",
+  "Erik Herzog and Åsa Nordling Larsson (Saab Aeronautics)",
   "Nicolas Figay (Airbus)",
   "Mike Amundsen (CA Technologies)",
   "Ahmed EL-BERDHI (SII Group)",
