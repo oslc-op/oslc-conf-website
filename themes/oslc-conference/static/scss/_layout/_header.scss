@@ -29,6 +29,16 @@
         margin-right: 40px;
         display: flex;
 
+        &.youtube-link {
+          background: #FFF;
+          padding: 5px 10px;
+          border-radius: 4px;
+          
+          a {
+            color: #F00;
+          }
+        }
+
         a {
           font-size: 18px;
           color: $main-white;
@@ -110,6 +120,14 @@
 
     .logo {
       color: $main;
+    }
+
+    .youtube-link {
+      background: #F00 !important;
+
+      a {
+        color: #FFF !important;
+      }
     }
 
     .menu ul li a {
