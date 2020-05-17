@@ -4,7 +4,9 @@ bannerTitle1 = "OSLC FEST"
 bannerTitle2 = ""
 bannerTitle3 = "May 18 - 20, 2020"
 bannerTitle4 = "Virtual Conference"
-bannerActionText = "Check our Preliminary Program!"
+bannerActionText = "Join us live on YouTube"
+bannerActionLink = "https://www.youtube.com/user/OpenServicesDotNet"
+bannerActionFAIcon = "fab fa-youtube"
 bannerSideImage = "/images/connections.svg"
 bannerBackgroundImage = ""
 bannerSaveTheDate = "/calendar/OSLC-FEST-2020.ics"
@@ -76,6 +78,7 @@ speakersName = [
   "Åsa Nordling Larsson",
   "Luis Ramirez",
   "Mario Carrasco",
+  "Christian Muggeo",
   "Tarik Mlahi",
   "Leonid Mokrushin",
   "Andreas Korff",
@@ -98,6 +101,7 @@ speakersTitle = [
   "Saab Aeronautics",
   "Koneksys",
   "Koneksys",
+  "CONTACT Software",
   "Persistent",
   "Ericsson Research",
   "PTC",
@@ -120,6 +124,7 @@ speakersImage = [
   "/images/speakers/asa_l.jpg",
   "/images/speakers/luis_r.jpg",
   "/images/speakers/mario.png",
+  "/images/speakers/christian_m.png",
   "/images/speakers/tarik_m.png",
   "/images/speakers/leo_m.jpg",
   "/images/speakers/andreas_k.jpg",
@@ -142,6 +147,7 @@ speakersBio = [
   "asaL",
   "luisR",
   "marioC",
+  "christianM",
   "tarikM",
   "leoM",
   "andreasK",
@@ -260,7 +266,7 @@ authors2 = [
   "Jad El-khoury (KTH Royal Institute of Technology)",
   "Jad El-khoury (KTH Royal Institute of Technology)",
   "Luis Ramirez (Koneksys)",
-  "Mario Carrasco (Koneksys)",
+  "Christian Muggeo (Contact Software), Mario Carrasco (Koneksys)",
   "Christoph Bergner (MID)",
   "Lutz Laemmer (ProSTEP)",
 ]

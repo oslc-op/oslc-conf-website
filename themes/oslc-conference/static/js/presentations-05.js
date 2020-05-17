@@ -202,8 +202,8 @@ var presentations = {
       '<p>This will be a deep-tech session to show the capabilities of using OSLC to interact with model repositories on servers.</p>'
     ],
     'authors': [
-      bio.horstK,
-      bio.peterL
+      bio.peterL,
+      bio.horstK
     ]
   },
   PNicolasF: {
@@ -273,7 +273,7 @@ var presentations = {
     ]
   },
   PTarikM: {
-    'title': 'OpenAPI Extensions for OSLC',
+    'title': 'Persistent UNITE: State of the Art OSLC Integrations',
     'description': [
       '<p>The Persistent UNITE integration foundation is a family of lightweight integration plugins created for industrial organizations looking to accelerate their digital journeys. UNITE elegantly brings together IBM Enterprise Lifecycle Management (ELM), one of the leading ALM solutions on the market, with a growing portfolio of enterprise development tools, including:</p>',
       '<ul><li>UNITE for Jira®</li>',
@@ -292,6 +292,7 @@ var presentations = {
       '<p>The PyOSLC project aim to create a SDK for having the required elements for developing OSLC APIs in Python meeting the OSLC specs and having the capability to extend the features for other specific-domain applications.</p>'
     ],
     'authors': [
+      bio.christianM,
       bio.marioC
     ]
   },

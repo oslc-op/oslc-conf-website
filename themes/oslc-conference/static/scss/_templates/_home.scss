@@ -67,6 +67,20 @@
             text-shadow: none;
           }
         }
+
+        .youtube {
+          background-color: rgb(230, 72, 72);
+          border-color:#c99797;
+
+          &::before{
+            border-bottom-color:#f00;
+          }
+
+          &:hover {
+            border-color:#f00;
+            color: #FFF;
+          }
+        }
       }
     }
 
