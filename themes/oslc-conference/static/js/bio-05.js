@@ -598,5 +598,19 @@ var bio = {
         'icon': '<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  christianM: {
+    'name': 'Christian Muggeo',
+    'title': ' Product Manager, Teamlead Engineering Transformation at CONTACT Software',
+    'picturePath': '/images/speakers/christian_m.png',
+    'bio': [
+      "Christian is Product Manager and PLM Consultant at CONTACT Software. He is leading the Engineering Transformation Team, which adopts future trends as well as public-funded research results for the CONTACT Elements Platform. Besides this, Christian is Co-Chairing OMG ManTis DTF and is active member at GfSE (INCOSE Germany) with focus on PLM / MBSE Integration."
+    ],
+    'contact': [
+      {
+        'link': 'mailto:Christian.Muggeo@contact-software.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
   }
 };
