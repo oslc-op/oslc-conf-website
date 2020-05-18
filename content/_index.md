@@ -4,12 +4,28 @@ bannerTitle1 = "OSLC FEST"
 bannerTitle2 = ""
 bannerTitle3 = "May 18 - 20, 2020"
 bannerTitle4 = "Virtual Conference"
-bannerActionText = "Join us live on YouTube"
-bannerActionLink = "https://www.youtube.com/watch?v=FxMAyHqEay8"
-bannerActionFAIcon = "fab fa-youtube"
+dayList = [
+  "Watch Day 1",
+  "Watch Day 2 Live!",
+  "Watch Day 3 Live!",
+]
+dayListLink = [
+  "https://www.youtube.com/watch?v=FxMAyHqEay8",
+  "https://www.youtube.com/watch?v=tz35ecvqLlQ",
+  "https://youtu.be/t1AJg8HAEn4"
+]
+dayListClass = [
+  "youtube",
+  "youtube",
+  "",
+]
+timeLabel = "Each Day From 3PM to 5:20PM Central European Summer Time (CEST)"
+bannerActionText = ""
+bannerActionLink = ""
+bannerActionFAIcon = ""
 bannerSideImage = "/images/connections.svg"
 bannerBackgroundImage = ""
-bannerSaveTheDate = "/calendar/OSLC-FEST-2020.ics"
+bannerSaveTheDate = ""
 
 aboutParagraphsBold = [
   "Organizations are using OSLC to eliminate data silos by connecting data across their business to achieve the digital thread.",
