@@ -243,7 +243,7 @@ videoLink1 = [
 ]
 panelVariable1 = [
   "PJuanS",
-  "",
+  "PJad1",
   "PAndyL",
   "PAndreasK",
   "Psparx",
@@ -314,9 +314,9 @@ videoLink2 = [
   "",
 ]
 panelVariable2 = [
-  "",
-  "",
-  "",
+  "PAndrewJim",
+  "PJad2",
+  "PJad3",
   "PKoneksys",
   "PMarioC",
   "PChristophB",
