@@ -142,7 +142,7 @@ speakersBio = [
   "nicolasF",
   "mikeA",
   "andrewB",
-  "",
+  "christophB",
   "erikH",
   "asaL",
   "luisR",
