@@ -314,5 +314,44 @@ var presentations = {
     'authors': [
       bio.andreasK
     ]
+  },
+  PJad1: {
+    'title': 'State of OSLC support in commercial applications',
+    'description': [
+      '<p>In this presentation, Jad will present his findings from a recent survey of commercial software applications that provide some support for OSLC capabilities. The implementation trends of the OSLC standard will be discussed, hopefully leading to insights on the necessary development directions of the standard.</p>'
+    ],
+    'authors': [
+      bio.jadE
+    ]
+  },
+  PJad2: {
+    'title': 'Eclipse Lyo Introduction',
+    'description': [
+      '<p>Eclipse Lyo is the open-source project that supports Java developers with the development of OSLC servers and clients.</p>',
+      '<p>In this presentation, Jad will provide a walkthrough of Lyo\'s features, and how they can be used in the development of OSLC solutions. In this presentation, focus will be placed on Lyo\'s libraries and SDK. In the presentation that follows, Jad will present the Lyo Designer modelling application.</p>'
+    ],
+    'authors': [
+      bio.jadE
+    ]
+  },
+  PJad3: {
+    'title': 'Lyo Designer Introduction',
+    'description': [
+      '<p>Eclipse Lyo is the open-source project that supports Java developers with the development of OSLC servers and clients.</p>',
+      '<p>In this presentation, Jad will provide a walkthrough of Lyo\'s features, and how they can be used in the development of OSLC solutions. Following form the previous presentation on Lyo\'s libraries and SDK, Jad will here continue to present the Lyo Designer modelling application, which provides a model-based approach to building a complete OSLC-based toolchain.</p>'
+    ],
+    'authors': [
+      bio.jadE
+    ]
+  },
+  PAndrewJim: {
+    'title': 'OSLC Open Project status',
+    'description': [
+      '<p>In this talk, Andrew and Jim will present the journey the OLSC project undertook since the last OSLCFest to becoming an Open Project with less barriers to contribution. On behalf of the project board, they will share with you the spec progress made so far and open the curtain to what\'s in store for 2020.</p>'
+    ],
+    'authors': [
+      bio.jimA,
+      bio.andrewB
+    ]
   }
 };
