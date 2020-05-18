@@ -68,6 +68,18 @@
           }
         }
 
+        .centralized {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          margin-top: 15px;
+
+          .registration {
+            margin-right: 5px;
+            margin-top: 10px;
+          }
+        }
+
         .youtube {
           background-color: rgb(230, 72, 72);
           border-color:#c99797;
