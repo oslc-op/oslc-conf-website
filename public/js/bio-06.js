@@ -476,7 +476,7 @@ var bio = {
     'title': ' Owner MID GmbH, Germany',
     'picturePath': '/images/speakers/christoph_b.png',
     'bio': [
-      ""
+      "Christoph Bergner owner of MID GmbH Nuremberg, a midsize company (140 employees), that focusses on model-driven technologies. MID has recently published products that enable tool interoperability at scale (Smartfacts, Jira OSLC, Confluence OSLC) and model migration (Toolbus). Christoph engages in various initiatives for tool interoperability and is a frequent speaker at events. He is Co-Founder of various startups, among these the secure collaboration platform Stackfield."
     ],
     'contact': [
       {
