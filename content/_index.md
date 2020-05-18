@@ -228,10 +228,10 @@ type1 = [
 presentationLink1 = [
   "",
   "",
+  "/presentations/Andy_Lapping-Presentation.pptx",
   "",
   "",
-  "",
-  "",
+  "/presentations/Bridging_ALM-PLM_-OSLCFEST-Baillargeon.pdf",
 ]
 videoLink1 = [
   "",
