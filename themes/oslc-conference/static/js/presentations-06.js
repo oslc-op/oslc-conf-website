@@ -236,7 +236,8 @@ var presentations = {
   PChristophB: {
     'title': 'Beyond linking artifacts: “Federated Authoring” and “Dashboards” based on OSLC',
     'description': [
-      '<p>In this session Andy will present how OSLC connected engineering data from across the lifecycle may be visualized and analyzed using Engineering Insights, part of the IBM Engineering Lifecycle Management suite.</p>'
+      '<p>Many authoring tools in engineering are complex, hard to learn and not web-based while users often have a limited job to do and try to avoid working with heavy weight tools. OSLC can help to provide a focused and simplified web-environment to do certain tasks easily and without having to learn many tools.</p>',
+      '<p>The talk demos a Confluence page referencing various OSLC resources. The focus here is not on linking or consuming OSLC-based information. We want to compile a functional “dashboard” composed from OSLC resources in Confluence. Analysis, reports but also simple authoring functions help to work more efficiently with distributed engineering information.</p>'
     ],
     'authors': [
       bio.christophB
