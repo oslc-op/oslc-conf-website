@@ -6,7 +6,7 @@ bannerTitle3 = "May 18 - 20, 2020"
 bannerTitle4 = "Virtual Conference"
 dayList = [
   "Watch Day 1",
-  "Watch Day 2 Live!",
+  "Watch Day 2",
   "Watch Day 3 Live!",
 ]
 dayListLink = [
@@ -17,7 +17,7 @@ dayListLink = [
 dayListClass = [
   "youtube",
   "youtube",
-  "",
+  "youtube",
 ]
 timeLabel = "Each Day From 3PM to 5:20PM Central European Summer Time (CEST)"
 bannerActionText = ""
@@ -228,10 +228,10 @@ type1 = [
 presentationLink1 = [
   "",
   "",
+  "/presentations/Andy_Lapping-Presentation.pptx",
   "",
   "",
-  "",
-  "",
+  "/presentations/Bridging_ALM-PLM_-OSLCFEST-Baillargeon.pdf",
 ]
 videoLink1 = [
   "",
