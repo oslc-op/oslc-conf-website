@@ -99,6 +99,7 @@ speakersName = [
   "Leonid Mokrushin",
   "Andreas Korff",
   "Jim Amsden",
+  "Robert Hellebrand",
 ]
 speakersTitle = [
   "KTH Royal Institute of Technology",
@@ -122,6 +123,7 @@ speakersTitle = [
   "Ericsson Research",
   "PTC",
   "IBM",
+  "pure-systems",
 ]
 speakersImage = [
   "/images/speakers/jad_el.jpg",
@@ -144,7 +146,8 @@ speakersImage = [
   "/images/speakers/tarik_m.png",
   "/images/speakers/leo_m.jpg",
   "/images/speakers/andreas_k.jpg",
-  "/images/speakers/jim_amsden.jpg"
+  "/images/speakers/jim_amsden.jpg",
+  "/images/speakers/robert_h.jpg"
 ]
 speakersBio = [
   "jadE",
@@ -168,6 +171,7 @@ speakersBio = [
   "leoM",
   "andreasK",
   "jimA",
+  "robertH",
 ]
 
 legendTitle = [
@@ -331,8 +335,10 @@ start3 = [
   "16:20",
   "16:40",
   "17:00",
+  "17:20",
 ]
 duration3 = [
+  "20min",
   "20min",
   "20min",
   "20min",
@@ -349,6 +355,7 @@ title3 = [
   "Proof of Concept: Capella & IBM Jazz Integration based on OSLC",
   "A Technical View on the Solid Ecosystem",
   "Persistent UNITE: State of the Art OSLC Integrations",
+  "OSLC-enabled Product Line Engineering with pure::variants 5.0",
 ]
 authors3 = [
   "Leonid Mokrushin (Ericsson Research)",
@@ -358,6 +365,7 @@ authors3 = [
   "Ahmed EL-BERDHI (SII Group)",
   "Ruben Taelman (Ghent University)",
   "Tarik Mlahi (Persistent)",
+  "Robert Hellebrand (pure-systems)",
 ]
 type3 = [
   "techtalk",
@@ -366,6 +374,7 @@ type3 = [
   "techtalk",
   "discussion",
   "techtalk",
+  "vendor",
   "vendor",
 ]
 presentationLink3 = [
@@ -394,6 +403,7 @@ panelVariable3 = [
   "Pahmed",
   "PRubenT",
   "PTarikM",
+  "PRobertH",
 ]
 
 
