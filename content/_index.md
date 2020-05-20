@@ -234,12 +234,12 @@ presentationLink1 = [
   "/presentations/Bridging_ALM-PLM_-OSLCFEST-Baillargeon.pdf",
 ]
 videoLink1 = [
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
+  "https://www.youtube.com/watch?v=FxMAyHqEay8&t=185s",
+  "https://www.youtube.com/watch?v=FxMAyHqEay8&t=2560s",
+  "https://www.youtube.com/watch?v=FxMAyHqEay8&t=4048s",
+  "https://www.youtube.com/watch?v=FxMAyHqEay8&t=4850s",
+  "https://www.youtube.com/watch?v=FxMAyHqEay8&t=6111s",
+  "https://www.youtube.com/watch?v=FxMAyHqEay8&t=7173s",
 ]
 panelVariable1 = [
   "PJuanS",
@@ -305,13 +305,13 @@ presentationLink2 = [
   "",
 ]
 videoLink2 = [
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
+  "https://www.youtube.com/watch?v=tz35ecvqLlQ&t=202s",
+  "https://www.youtube.com/watch?v=tz35ecvqLlQ&t=1129s",
+  "https://www.youtube.com/watch?v=tz35ecvqLlQ&t=2459s",
+  "https://www.youtube.com/watch?v=tz35ecvqLlQ&t=3593s",
+  "https://www.youtube.com/watch?v=tz35ecvqLlQ&t=4860s",
+  "https://www.youtube.com/watch?v=tz35ecvqLlQ&t=6181s",
+  "https://www.youtube.com/watch?v=tz35ecvqLlQ&t=7354s",
 ]
 panelVariable2 = [
   "PAndrewJim",
