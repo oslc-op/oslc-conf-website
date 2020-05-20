@@ -7,7 +7,7 @@ bannerTitle4 = "Virtual Conference"
 dayList = [
   "Watch Day 1",
   "Watch Day 2",
-  "Watch Day 3 Live!",
+  "Watch Day 3",
 ]
 dayListLink = [
   "https://www.youtube.com/watch?v=FxMAyHqEay8",
@@ -95,7 +95,6 @@ speakersName = [
   "Luis Ramirez",
   "Mario Carrasco",
   "Christian Muggeo",
-  "Tarik Mlahi",
   "Leonid Mokrushin",
   "Andreas Korff",
   "Jim Amsden",
@@ -119,7 +118,6 @@ speakersTitle = [
   "Koneksys",
   "Koneksys",
   "CONTACT Software",
-  "Persistent",
   "Ericsson Research",
   "PTC",
   "IBM",
@@ -143,7 +141,6 @@ speakersImage = [
   "/images/speakers/luis_r.jpg",
   "/images/speakers/mario.png",
   "/images/speakers/christian_m.png",
-  "/images/speakers/tarik_m.png",
   "/images/speakers/leo_m.jpg",
   "/images/speakers/andreas_k.jpg",
   "/images/speakers/jim_amsden.jpg",
@@ -167,7 +164,6 @@ speakersBio = [
   "luisR",
   "marioC",
   "christianM",
-  "tarikM",
   "leoM",
   "andreasK",
   "jimA",
@@ -335,10 +331,8 @@ start3 = [
   "16:20",
   "16:40",
   "17:00",
-  "17:20",
 ]
 duration3 = [
-  "20min",
   "20min",
   "20min",
   "20min",
@@ -354,7 +348,6 @@ title3 = [
   "Hypermedia Made Easy",
   "Proof of Concept: Capella & IBM Jazz Integration based on OSLC",
   "A Technical View on the Solid Ecosystem",
-  "Persistent UNITE: State of the Art OSLC Integrations",
   "OSLC-enabled Product Line Engineering with pure::variants 5.0",
 ]
 authors3 = [
@@ -364,7 +357,6 @@ authors3 = [
   "Mike Amundsen (CA Technologies)",
   "Ahmed EL-BERDHI (SII Group)",
   "Ruben Taelman (Ghent University)",
-  "Tarik Mlahi (Persistent)",
   "Robert Hellebrand (pure-systems)",
 ]
 type3 = [
@@ -402,7 +394,6 @@ panelVariable3 = [
   "PMikeA2020",
   "Pahmed",
   "PRubenT",
-  "PTarikM",
   "PRobertH",
 ]
 
