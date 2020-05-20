@@ -612,5 +612,16 @@ var bio = {
         'icon': '<i class="fas fa-envelope"></i>'
       }
     ]
+  },
+  robertH: {
+    'name': 'Robert Hellebrand',
+    'title': 'Field Application Engineer, pure-systems',
+    'picturePath': '/images/speakers/robert_h.jpg',
+    'bio': [
+      "Robert Hellebrand is a Field Application Engineer at pure-systems GmbH. In presentations, webinars, trainings and workshops he shares his knowledge about   systematic reuse of engineering assets with customers of various domains, helping them with their challenges in efficiently reusing engineering assets and       making the transition from project- oriented development towards feature modelbased       product line engineering with pure:: variants.."
+    ],
+    'contact': [
+
+    ]
   }
 };

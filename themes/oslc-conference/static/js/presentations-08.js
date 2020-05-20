@@ -132,7 +132,7 @@ var presentations = {
     'authors': [
       bio.jimA
     ]
-  }, 
+  },
   // 2020 Presentation Abstracts add year at end if speaker is the same
   PMikeA2020: {
     'title': 'Hypermedia Made Easy',
@@ -352,6 +352,17 @@ var presentations = {
     'authors': [
       bio.jimA,
       bio.andrewB
+    ]
+  },
+  PRobertH: {
+    'title': 'OSLC-enabled Product Line Engineering with pure::variants 5.0',
+    'description': [
+      '<p>pure::variants is the leading product line engineering tool that enables its customers from automotive, aerospace & defense, medical, rails & transportation and other industries to increase engineering efficiency with a holistic variant management for their engineering assets.</p>',
+      '<p>With its latest release pure::variants includes a bundle of new OSLC capabilities that increase its connectivity with other engineering tools.</p>',
+      '<p>Join this presentation to get an overview of the new OSLC-related capabilities of pure::variants 5.0.</p>',
+    ],
+    'authors': [
+      bio.robertH
     ]
   }
 };
