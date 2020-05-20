@@ -7,7 +7,7 @@ bannerTitle4 = "Virtual Conference"
 dayList = [
   "Watch Day 1",
   "Watch Day 2",
-  "Watch Day 3 Live!",
+  "Watch Day 3",
 ]
 dayListLink = [
   "https://www.youtube.com/watch?v=FxMAyHqEay8",
