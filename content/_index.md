@@ -226,7 +226,7 @@ type1 = [
   "vendor",
 ]
 presentationLink1 = [
-  "",
+  "http://knowledgegraph.today/paper.html",
   "",
   "/presentations/Andy_Lapping-Presentation.pptx",
   "",
@@ -299,8 +299,8 @@ presentationLink2 = [
   "",
   "",
   "",
-  "",
-  "",
+  "https://1drv.ms/p/s!AnMSa6KFnUYAlmSVwSx7I7AhHBrb?e=Jyh3BM",
+  "https://www.slideshare.net/isccarrasco/pyoslc-sdk-oslcfest",
   "",
   "",
 ]
@@ -373,19 +373,19 @@ presentationLink3 = [
   "",
   "",
   "",
-  "",
+  "http://amundsen.com/talks/2020-05-oslcfest/2020-05-oslcfest.pdf",
   "",
   "",
   "",
 ]
 videoLink3 = [
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
+  "https://www.youtube.com/watch?v=t1AJg8HAEn4&t=93s",
+  "https://www.youtube.com/watch?v=t1AJg8HAEn4&t=1555s",
+  "https://www.youtube.com/watch?v=t1AJg8HAEn4&t=2700s",
+  "https://www.youtube.com/watch?v=t1AJg8HAEn4&t=4185s",
+  "https://www.youtube.com/watch?v=t1AJg8HAEn4&t=5615s",
+  "https://www.youtube.com/watch?v=t1AJg8HAEn4&t=6709s",
+  "https://www.youtube.com/watch?v=t1AJg8HAEn4&t=8029s",
 ]
 panelVariable3 = [
   "PLeoM",
