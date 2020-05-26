@@ -299,10 +299,10 @@ presentationLink2 = [
   "",
   "",
   "",
-  "https://1drv.ms/p/s!AnMSa6KFnUYAlmSVwSx7I7AhHBrb?e=Jyh3BM",
+  "https://1drv.ms/p/s!AnMSa6KFnUYAlmT6H1V8s2yoepvh",
   "https://www.slideshare.net/isccarrasco/pyoslc-sdk-oslcfest",
   "",
-  "",
+  "/presentations/PROSTEP_oslcfest_2020.pdf",
 ]
 videoLink2 = [
   "https://www.youtube.com/watch?v=tz35ecvqLlQ&t=202s",
