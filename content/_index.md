@@ -220,7 +220,7 @@ authors1 = [
 type1 = [
   "keynote",
   "techtalk",
-  "techtalk",
+  "vendor",
   "vendor",
   "vendor",
   "vendor",
