@@ -387,6 +387,15 @@ videoLink3 = [
   "https://www.youtube.com/watch?v=t1AJg8HAEn4&t=6709s",
   "https://www.youtube.com/watch?v=t1AJg8HAEn4&t=8029s",
 ]
+altVideoLink3 = [
+  "",
+  "",
+  "",
+  "",
+  "https://www.youtube.com/watch?v=m_ap9_BkqfU",
+  "",
+  "",
+]
 panelVariable3 = [
   "PLeoM",
   "PErikH",
