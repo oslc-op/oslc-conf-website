@@ -133,6 +133,7 @@
       {{ $authors := index $.Params.authors3 $index }}
       {{ $presentation := index $.Params.presentationLink3 $index }}
       {{ $video := index $.Params.videoLink3 $index }}
+      {{ $altVideo := index $.Params.altVideoLink3 $index }}
       {{ $panel := index $.Params.panelVariable3 $index }}
       <div class="program-item {{ $type }}">
         <div class="program-item--time-wrap">
@@ -162,6 +163,12 @@
             <div class="talk-video">
               <i class="fas fa-play"></i>
               <a target="_blank" href="{{ $video }}">Video</a>
+            </div>
+            {{ end }}
+            {{with $altVideo }}
+            <div class="talk-video">
+              <i class="fas fa-play"></i>
+              <a target="_blank" href="{{ $video }}">Recorded Demo</a>
             </div>
             {{ end }}
           </div>
