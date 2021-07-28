@@ -1,11 +1,18 @@
 +++
+bannerOverlay = "bg-overlay2"
+bannerTitle1 = "OSLC FEST"
+bannerTitle2 = ""
+bannerTitle3 = "May 18 - 20, 2020"
+bannerTitle4 = "Virtual Conference"
+
+
 header = [
   "About",
-  "Speakers (TBD)",
-  "Program (TBD)",
+  "Speakers",
+  "Program",
   "Organizers",
   "OSLCFest 2018",
-  "OSLCFest 2020"
+  "OSLCFest 2021"
 ]
 
 headerLinks = [
@@ -14,21 +21,25 @@ headerLinks = [
   "#program",
   "#organizers",
   "2018",
-  "2020"
+  ""
 ]
 
-bannerOverlay = "bg-overlay2"
-bannerTitle1 = "OSLC FEST"
-bannerTitle2 = ""
-bannerTitle3 = "November 1-2, 2021"
-bannerTitle4 = "Virtual Conference"
 dayList = [
+  "Watch Day 1",
+  "Watch Day 2",
+  "Watch Day 3",
 ]
 dayListLink = [
+  "https://www.youtube.com/watch?v=FxMAyHqEay8",
+  "https://www.youtube.com/watch?v=tz35ecvqLlQ",
+  "https://youtu.be/t1AJg8HAEn4"
 ]
 dayListClass = [
+  "youtube",
+  "youtube",
+  "youtube",
 ]
-timeLabel = ""
+timeLabel = "Each Day From 3PM to 5:20PM Central European Summer Time (CEST)"
 bannerActionText = ""
 bannerActionLink = ""
 bannerActionFAIcon = ""
