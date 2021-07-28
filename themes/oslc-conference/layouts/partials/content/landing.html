@@ -33,9 +33,11 @@
           </a>
           {{ end }}
         {{ else }}
-        <a href="#program" class="section--button registration button white hover--white">
-          {{ .Params.bannerActionText }}
-        </a>
+          {{ if .Params.bannerActionText }}
+          <a href="#program" class="section--button registration button white hover--white">
+            {{ .Params.bannerActionText }}
+          </a>
+          {{ end }}
         {{end}}
         {{if .Params.bannerSaveTheDate }}
           <a href="{{ .Params.bannerSaveTheDate }}"class="section--button button white no--hover">

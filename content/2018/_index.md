@@ -8,6 +8,26 @@ bannerActionText = "Check our videos and presentations in our Program table"
 bannerSideImage = "/images/connections.svg"
 bannerBackgroundImage = "/images/stockholm_sweden.jpg"
 
+header = [
+  "About",
+  "Speakers",
+  "Program",
+  "Sponsors",
+  "Organizers",
+  "OSLCFest 2020",
+  "OSLCFest 2021"
+]
+
+headerLinks = [
+  "#about",
+  "#speakers",
+  "#program",
+  "#sponsors",
+  "#organizers",
+  "2020",
+  ""
+]
+
 aboutParagraphsBold = [
     "Organizations are using OSLC to eliminate data silos by connecting data across their business to achieve the digital thread.",
     "Open Services for Lifecycle Collaboration (OSLC) is an initiative to standardize the backbone for the Web of data.",

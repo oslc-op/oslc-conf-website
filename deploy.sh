@@ -2,6 +2,10 @@
 
 echo "Starting Deployment"
 
+git checkout master
+git pull origin master
+git push origin master
+
 echo "Switch to Production"
 git checkout production
 
@@ -9,7 +13,7 @@ echo "Updating Production branch"
 git pull origin production
 
 echo "Merging changes from Master"
-git pull origin master
+git pull --no-edit origin master
 
 echo "Generate Hugo site"
 rm -rf public/
