@@ -20,7 +20,7 @@ headerLinks = [
 bannerOverlay = "bg-overlay2"
 bannerTitle1 = "OSLC FEST"
 bannerTitle2 = ""
-bannerTitle3 = "November 1-2, 2021"
+bannerTitle3 = "November 2-3, 2021"
 bannerTitle4 = "Virtual Conference"
 dayList = [
 ]
