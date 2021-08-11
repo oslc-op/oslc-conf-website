@@ -32,7 +32,7 @@ timeLabel = ""
 bannerActionText = ""
 bannerActionLink = ""
 bannerActionFAIcon = ""
-bannerSideImage = "/images/connections.svg"
+bannerSideImage = "/images/connections-new.svg"
 bannerBackgroundImage = ""
 bannerSaveTheDate = ""
 

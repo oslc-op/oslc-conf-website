@@ -5,7 +5,7 @@ bannerTitle2 = "OSLC and Linked Data Unconference"
 bannerTitle3 = "November 5 - 6, 2018"
 bannerTitle4 = "Stockholm, Sweden"
 bannerActionText = "Check our videos and presentations in our Program table"
-bannerSideImage = "/images/connections.svg"
+bannerSideImage = "/images/connections-new.svg"
 bannerBackgroundImage = "/images/stockholm_sweden.jpg"
 
 header = [

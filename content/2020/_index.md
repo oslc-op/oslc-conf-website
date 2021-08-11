@@ -43,7 +43,7 @@ timeLabel = "Each Day From 3PM to 5:20PM Central European Summer Time (CEST)"
 bannerActionText = ""
 bannerActionLink = ""
 bannerActionFAIcon = ""
-bannerSideImage = "/images/connections.svg"
+bannerSideImage = "/images/connections-new.svg"
 bannerBackgroundImage = ""
 bannerSaveTheDate = ""
 
