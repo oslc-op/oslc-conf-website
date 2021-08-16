@@ -37,7 +37,7 @@ bannerBackgroundImage = ""
 bannerSaveTheDate = ""
 
 aboutParagraphsBold = [
-  "Organizations are using OSLC to eliminate data silos by connecting data across their business to achieve the digital thread.",
+  "Organizations are using OSLC to eliminate data silos by connecting data across their business to achieve the digital thread as part of a digital engineering transformation.",
   "Open Services for Lifecycle Collaboration (OSLC) is an initiative to standardize the backbone for the Web of data.",
   "Open Services for Lifecycle Collaboration (OSLC) merges concepts of Linked Data and Hypermedia REST APIs",
   "OSLC is supported by products of many vendors",
@@ -45,7 +45,7 @@ aboutParagraphsBold = [
   "The OSLCFest is the #1 meeting of the year related to OSLC."
 ]
 aboutParagraphs = [
-  "OSLC has been used to support Application Lifecycle Management (ALM), integrated Model-Based Systems Engineering (MBSE) and Product Lifecycle Management (PLM).",
+  "OSLC has been used to support the integration of engineering domains such as Application Lifecycle Management (ALM), integrated Model-Based Systems Engineering (MBSE) and Product Lifecycle Management (PLM).",
   "How can we achieve a Google for data? How can we query seamlessly data from different databases seamlessly as if it were in one big global database? How can we establish links between data of different databases and how should we manage them? Similar questions have already been solved for documents by the World Wide Web. But what about data? The Web has radically changed how we find and consume information in the form of documents. The next step in this evolution is a Web of data.",
   "to enable the Web of data. OSLC provides open standards to achieve a uniform interface to different data sources (e.g. different databases, repositories, applications, files) and enable the connectivity of data between different data sources.",
   "such as IBM, Mentor Graphics, PTC, Tasktop, Kovair, Sodius, Maplessoft, smartfacts, and many more. These solutions amongst others radically improve requirements traceability and collaboration in the design of complex systems.",
