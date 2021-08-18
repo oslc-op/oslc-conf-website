@@ -27,9 +27,7 @@
         justify-content: center;
         flex-direction: column;
 
-        h1,
-        h2,
-        h3 {
+        h1, h2, h3 {
           color: $main-white;
           font-weight: normal;
           margin: 0;
@@ -131,6 +129,29 @@
       &::before {
         border-right-width: 50px;
         border-bottom-width: 92px;
+      }
+    }
+  }
+
+  &.call {
+    
+    .container {
+      align-items: flex-start;
+    }
+
+    p {
+      a {
+        text-decoration: underline;
+      }
+    }
+
+    ul{
+      padding-left: 24px;
+
+      li {
+        margin-bottom: 16px;
+        font-weight: 300;
+        font-size: 18px;
       }
     }
   }
