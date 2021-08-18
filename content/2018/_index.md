@@ -12,7 +12,6 @@ header = [
   "About",
   "Speakers",
   "Program",
-  "Sponsors",
   "Organizers",
   "OSLCFest 2020",
   "OSLCFest 2021"
@@ -22,7 +21,6 @@ headerLinks = [
   "#about",
   "#speakers",
   "#program",
-  "#sponsors",
   "#organizers",
   "2020",
   ""
