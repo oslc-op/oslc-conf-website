@@ -134,6 +134,29 @@
       }
     }
   }
+
+  &.call {
+    
+    .container {
+      align-items: flex-start;
+    }
+
+    p {
+      a {
+        text-decoration: underline;
+      }
+    }
+
+    ul{
+      padding-left: 24px;
+
+      li {
+        margin-bottom: 16px;
+        font-weight: 300;
+        font-size: 18px;
+      }
+    }
+  }
 }
 
 
