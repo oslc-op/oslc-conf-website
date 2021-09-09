@@ -1,4 +1,18 @@
 var bio = {
+  eranG: {
+    'name': 'Eran Gery',
+    'title': 'Global Industry solutions lead, IBM Engineering Lifecycle Management',
+    'picturePath': '/images/speakers/eran_g.jpg',
+    'bio': [
+      'Eran Gery is a Global lead for IBM Engineering Lifecycle Solutions.  Eran leads the engineering practices and solution architectures applying IBM ELM to industrial domains, mostly Aerospace and Defense, Automotive, and Medical Devices. Eran’s expertise includes Systems and Software Engineering practices, Engineering Lifecycle Management, Model Based Engineering, and Product Line Engineering. Eran’s current focus is implementation of Digital Engineering Leveraging the OSLC standard.',
+      'Eran has over 25 years of experience within the complex systems domain. Eran was also the the principal architect of the Rhapsody MBSE product at IBM, after 5 years as an embedded systems developer in a defense company. Eran is also an active member of the SysML V2 specification teams in the OMG.'],
+    'contact': [
+      {
+        'link': 'mailto:eran.gery@il.ibm.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
   mikeA: {
     'name': 'Mike Amundsen',
     'title': 'Lead API Architect, API Academy, CA Technologies',

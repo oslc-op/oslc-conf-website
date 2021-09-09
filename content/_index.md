@@ -2,7 +2,7 @@
 header = [
   "Call for Presentations",
   "About",
-  "Speakers (TBD)",
+  "Speakers",
   "Program (TBD)",
   "Organizers",
   "OSLCFest 2018",
@@ -52,7 +52,7 @@ aboutParagraphs = [
   "to enable the Web of data. OSLC provides open standards to achieve a uniform interface to different data sources (e.g. different databases, repositories, applications, files) and enable the connectivity of data between different data sources.",
   "such as IBM, Siemens, PTC, Tasktop, Kovair, Sodius, Maplessoft, MID, pure-systems, and many more. These solutions amongst others radically improve requirements traceability and collaboration in the design of complex systems.",
   "everything about existing and upcoming OSLC solutions, open-source projects and standards. In contrast to a traditional conference, this conference will facilitate the informal exchange of information and ideas between participants!",
-  "The 2nd OSLCFest will take place virtually on May 18-20, 2020. The event will be broadcast on YouTubeLive. More info about the broadcast will be shared soon."
+  "The 3nd OSLCFest will take place virtually on Nov 2-4, 2021. The event will be broadcast on YouTubeLive. More info about the broadcast will be shared soon."
 ]
 
 whoIcon = [
@@ -179,6 +179,43 @@ speakersBio = [
   "andreasK",
   "jimA",
   "robertH",
+]
+
+invitedName = [
+  "Jad El-khoury",
+  "Andrew Berezovskyi",
+  "Christoph Bergner",
+  "Erik Herzog",
+  "Jim Amsden",
+  "Eran Gery",
+  "Axel Reichwein",
+]
+invitedTitle = [
+  "KTH Royal Institute of Technology",
+  "KTH Royal Institute of Technology",
+  "MID GmbH",
+  "Saab Aeronautics",
+  "IBM",
+  "IBM",
+  "Koneksys",
+]
+invitedImage = [
+  "/images/speakers/jad_el.jpg",
+  "/images/speakers/andrew_berezovskyi.jpg",
+  "/images/speakers/christoph_b.png",
+  "/images/speakers/erik_h.png",
+  "/images/speakers/jim_amsden.jpg",
+  "/images/speakers/eran_g.jpg",
+  "/images/speakers/axel.png",
+]
+invitedBio = [
+  "jadE",
+  "andrewB",
+  "christophB",
+  "erikH",
+  "jimA",
+  "eranG",
+  "axelR",
 ]
 
 legendTitle = [
