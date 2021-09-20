@@ -24,11 +24,11 @@
       <div>
         {{ if .Params.bannerActionLink }}
           {{ if .Params.bannerActionFAIcon }}
-          <a href="{{.Params.bannerActionLink}}" class="section--button registration button white hover--white youtube">
+          <a href="{{.Params.bannerActionLink}}" target="_blank" class="section--button registration button white hover--white youtube">
             {{ .Params.bannerActionText }} <i class="{{.Params.bannerActionFAIcon}}" style="font-size: 20px; margin-left: 5px;"></i>
           </a>
           {{ else}}
-          <a href="{{.Params.bannerActionLink}}" class="section--button registration button white hover--white">
+          <a href="{{.Params.bannerActionLink}}" target="_blank" class="section--button registration button white hover--white">
             {{ .Params.bannerActionText }}
           </a>
           {{ end }}
@@ -40,7 +40,7 @@
           {{ end }}
         {{end}}
         {{if .Params.bannerSaveTheDate }}
-          <a href="{{ .Params.bannerSaveTheDate }}"class="section--button button white no--hover">
+          <a href="{{ .Params.bannerSaveTheDate }}" class="section--button button white no--hover">
             <i class="far fa-calendar-plus"></i> Save the Date!
           </a>
         {{ end }}
