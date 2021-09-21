@@ -201,7 +201,7 @@ partnersClass = [
 organizers = [
     "/images/KTH_logo.png",
     "/images/KONEKSYS_logo.png",
-    "/images/oasis_logo.png",
+    "/images/oasis_logo-new.png",
     "/images/ICES_logo.png",
     "/images/oslc_logo.png"
 ]
