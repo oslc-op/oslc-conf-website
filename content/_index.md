@@ -456,7 +456,7 @@ panelVariable3 = [
 
 
 organizers = [
-    "/images/oasis_logo.png",
+    "/images/oasis_logo-new.png",
     "/images/oslc_logo_labled.png",
 ]
 organizersLink = [
@@ -465,5 +465,6 @@ organizersLink = [
 ]
 organizersClass = [
     "",
+    "circle"
 ]
 +++
