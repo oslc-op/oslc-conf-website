@@ -1,16 +1,14 @@
 +++
 header = [
-  "Call for Presentations",
   "About",
   "Speakers",
-  "Program (TBD)",
+  "Program",
   "Organizers",
   "OSLCFest 2018",
   "OSLCFest 2020"
 ]
 
 headerLinks = [
-  "#call",
   "#about",
   "#speakers",
   "#program",
@@ -74,113 +72,6 @@ whoDescription = [
   "Startups, Students, Investors, Thought leaders"
 ]
 
-keynoteName = [
-  "Juan Sequeda",
-]
-keynoteTitle = [
-  "Principal Scientist at data.world",
-]
-keynoteImage = [
-  "/images/speakers/juan_s.jpg",
-]
-keynoteBio = [
-  "juanS",
-]
-
-
-speakersName = [
-  "Jad El-khoury",
-  "Ruben Taelman",
-  "Andy Lapping",
-  "Lutz Laemmer",
-  "Ahmed EL-BERDHI",
-  "Robert Baillargeon",
-  "Horst Kargl",
-  "Peter Lieber",
-  "Nicolas Figay",
-  "Mike Amundsen",
-  "Andrew Berezovskyi",
-  "Christoph Bergner",
-  "Erik Herzog",
-  "Åsa Nordling Larsson",
-  "Luis Ramirez",
-  "Mario Carrasco",
-  "Christian Muggeo",
-  "Leonid Mokrushin",
-  "Andreas Korff",
-  "Jim Amsden",
-  "Robert Hellebrand",
-]
-speakersTitle = [
-  "KTH Royal Institute of Technology",
-  "Ghent University",
-  "IBM UK",
-  "ProSTEP",
-  "SII Group",
-  "SodiusWillert",
-  "Sparx Systems",
-  "Sparx Systems",
-  "Airbus",
-  "Lead API Architect, API Academy, CA Technologies",
-  "KTH Royal Institute of Technology",
-  "MID GmbH",
-  "Saab Aeronautics",
-  "Saab Aeronautics",
-  "Koneksys",
-  "Koneksys",
-  "CONTACT Software",
-  "Ericsson Research",
-  "PTC",
-  "IBM",
-  "pure-systems",
-]
-speakersImage = [
-  "/images/speakers/jad_el.jpg",
-  "/images/speakers/ruben_t.jpg",
-  "/images/speakers/andy_l.jpg",
-  "/images/speakers/lutz_l.jpg",
-  "/images/speakers/ahmed.jpg",
-  "/images/speakers/robert_b.jpg",
-  "/images/speakers/horst_k.jpg",
-  "/images/speakers/peter_l.jpg",
-  "/images/speakers/nicolas_f.jpg",
-  "/images/speakers/mike_amundsen.png",
-  "/images/speakers/andrew_berezovskyi.jpg",
-  "/images/speakers/christoph_b.png",
-  "/images/speakers/erik_h.png",
-  "/images/speakers/asa_l.jpg",
-  "/images/speakers/luis_r.jpg",
-  "/images/speakers/mario.png",
-  "/images/speakers/christian_m.png",
-  "/images/speakers/leo_m.jpg",
-  "/images/speakers/andreas_k.jpg",
-  "/images/speakers/jim_amsden.jpg",
-  "/images/speakers/robert_h.jpg"
-]
-speakersBio = [
-  "jadE",
-  "rubenT",
-  "andyL",
-  "lutzL",
-  "ahmedE",
-  "robertB",
-  "horstK",
-  "peterL",
-  "nicolasF",
-  "mikeA",
-  "andrewB",
-  "christophB",
-  "erikH",
-  "asaL",
-  "luisR",
-  "marioC",
-  "christianM",
-  "leoM",
-  "andreasK",
-  "jimA",
-  "robertH",
-]
-
 invitedName = [
   "Jad El-khoury",
   "Andrew Berezovskyi",
@@ -218,240 +109,315 @@ invitedBio = [
   "axelR",
 ]
 
+speakersName = [
+  "Andy Lapping",
+  "Robert Baillargeon",
+  "Horst Kargl",
+  "Åsa Nordling Larsson",
+  "Mario Carrasco",
+  "Andreas Korff",
+  "Robert Hellebrand",
+  "Frank Patz-Brockmann",
+]
+speakersTitle = [
+  "IBM UK",
+  "SodiusWillert",
+  "Sparx Systems",
+  "Saab Aeronautics",
+  "Koneksys",
+  "PTC",
+  "pure-systems",
+  "Contact-Software",
+]
+speakersImage = [
+  "/images/speakers/andy_l.jpg",
+  "/images/speakers/robert_b.jpg",
+  "/images/speakers/horst_k.jpg",
+  "/images/speakers/asa_l.jpg",
+  "/images/speakers/mario.png",
+  "/images/speakers/andreas_k.jpg",
+  "/images/speakers/robert_h.jpg",
+  "/images/speakers/frank-patz.png",
+]
+speakersBio = [
+  "andyL",
+  "robertB",
+  "horstK",
+  "asaL",
+  "marioC",
+  "andreasK",
+  "robertH",
+  "frankP",
+]
+
 legendTitle = [
-  "Keynote",
-  "Technical Talk",
-  "End User Organization",
-  "Vendor Demo",
+  "Business Value",
+  "New tools/Domains",
+  "OSLC in action",
+  "Extended technology",
+  "OSLC data model"
 ]
 legendStyle = [
   "keynote",
   "techtalk",
-  "discussion",
   "vendor",
+  "discussion",
+  "break",
 ]
-time = "All times are in the Central European Summer Time (CEST)"
+time = "All times are in the Coordinated Universal Time (UTC)"
 
-day1 = "Day 1# May 18, 2020"
+day1 = "Day 1# Nov 02, 2021"
 start1 = [
+  "14:00",
+  "14:30",
   "15:00",
-  "15:40",
+  "15:30",
   "16:00",
-  "16:20",
-  "16:40",
+  "16:30",
   "17:00",
+  "17:30",
 ]
 duration1 = [
-  "40min",
-  "20min",
-  "20min",
-  "20min",
-  "20min",
-  "20min",
+  "30min",
+  "30min",
+  "30min",
+  "30min",
+  "30min",
+  "30min",
+  "30min",
+  "30min"
 ]
 title1 = [
-  "Knowledge Graphs: History of the Main Ideas",
-  "State of OSLC support in commercial applications",
-  "Using OSLC to gain Insight into your Connected Engineering Data",
-  "Enabling the Federated Single Source of truth using OSLC as standard in between Engineering tools",
-  "OSLC the silver bullet for modelling interoperability?",
-  "Bridging to PLM with OSLC",
+  "OSLC as a backbone for digital engineering",
+  "State of the OSLC Open Project",
+  "MBSE in the Digital Thread with Capella Models Exposed to OSLC-compliant ALM and Requirements Management Tools",
+  "Cross lifecycle analytics and reporting based on OSLC TRS",
+  "Latest PyOSLC Improvements",
+  "Developing an OSLC client with the OSLC API from Sparx Systems",
+  "Deploying OSLC In the Enterprise",
+  "OSLC from the Perspective of a Data Integrator",
 ]
 authors1 = [
-  "Juan Sequeda (data.world)",
-  "Jad El-khoury (KTH Royal Institute of Technology)",
-  "Andy Lapping (IBM UK)",
-  "Andreas Korff (PTC)",
-  "Peter Lieber (Sparx Systems), Horst Kargl (Sparx Systems)",
-  "Robert Baillargeon (SodiusWillert)",
+  "Eran Gery",
+  "Andrii Berezovskyi and Jim Amsden",
+  "Laurent Delaigue",
+  "Andy Lapping",
+  "Frank Patz-Brockmann and Mario Jiménez Carrasco",
+  "Horst Kargl",
+  "Robert Baillargeon, Sébastien Boucard and François-Régis Jaunatre",
+  "Torbjörn Holm and Nigel Shaw",
 ]
 type1 = [
   "keynote",
+  "",
   "techtalk",
   "vendor",
+  "discussion",
+  "techtalk",
   "vendor",
-  "vendor",
-  "vendor",
+  "break",
 ]
 presentationLink1 = [
-  "http://knowledgegraph.today/paper.html",
-  "",
-  "/presentations/Andy_Lapping-Presentation.pptx",
   "",
   "",
-  "/presentations/Bridging_ALM-PLM_-OSLCFEST-Baillargeon.pdf",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
 ]
 videoLink1 = [
-  "https://www.youtube.com/watch?v=FxMAyHqEay8&t=185s",
-  "https://www.youtube.com/watch?v=FxMAyHqEay8&t=2560s",
-  "https://www.youtube.com/watch?v=FxMAyHqEay8&t=4048s",
-  "https://www.youtube.com/watch?v=FxMAyHqEay8&t=4850s",
-  "https://www.youtube.com/watch?v=FxMAyHqEay8&t=6111s",
-  "https://www.youtube.com/watch?v=FxMAyHqEay8&t=7173s",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
 ]
 panelVariable1 = [
-  "PJuanS",
-  "PJad1",
-  "PAndyL",
-  "PAndreasK",
-  "Psparx",
-  "ProbertB",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
 ]
-day2 = "Day 2# May 19, 2020"
+day2 = "Day 2# Nov 03, 2021"
 start2 = [
+  "14:00",
+  "14:30",
   "15:00",
-  "15:20",
-  "15:40",
+  "15:30",
   "16:00",
-  "16:20",
-  "16:40",
+  "16:30",
   "17:00",
+  "17:30",
 ]
 duration2 = [
-  "20min",
-  "20min",
-  "20min",
-  "20min",
-  "20min",
-  "20min",
-  "20min",
+  "30min",
+  "30min",
+  "30min",
+  "30min",
+  "30min",
+  "30min",
+  "30min",
+  "30min"
 ]
 title2 = [
-  "OSLC Open Project status",
-  "Eclipse Lyo Introduction",
-  "Lyo Designer Introduction",
-  "OpenAPI Extensions for OSLC",
-  "PyOSLC the Python SDK for OSLC APIs",
-  "Beyond linking artifacts: “Federated Authoring” and “Dashboards” based on OSLC",
-  "OSLC as enabler for seamless application integration",
+  "Keeping up with the pace of opportunity",
+  "Using OSLC for managing traceability into the details of a software project",
+  "Navigating Versions in the Enterprise",
+  "Leveraging OSLC and Linked Data for the Creation of Assurance Cases",
+  "OSLC for Data Science Applications",
+  "Using OSLC for a Closed-Loop Digital Twin Demonstrator",
+  "Knowledge graph for Multi brand engineering collaboration",
+  "OSLC for DevOps event-based automation",
 ]
 authors2 = [
-  "Jim Amsden (IBM), Andrew Berezovskyi (KTH Royal Institute of Technology)",
-  "Jad El-khoury (KTH Royal Institute of Technology)",
-  "Jad El-khoury (KTH Royal Institute of Technology)",
-  "Luis Ramirez (Koneksys)",
-  "Christian Muggeo (Contact Software), Mario Carrasco (Koneksys)",
-  "Christoph Bergner (MID)",
-  "Lutz Laemmer (ProSTEP)",
+  "Erik Herzog and Åsa Nordling Larsson",
+  "Christoph Bergner",
+  "Robert Baillargeon",
+  "Damir Nesic",
+  "Jim Amsden",
+  "Thomas Zimmermann",
+  "Sunil Kaklij",
+  "Guillermo Garcia Grao",
 ]
 type2 = [
-  "techtalk",
-  "techtalk",
-  "techtalk",
+  "keynote",
   "techtalk",
   "vendor",
+  "keynote",
+  "discussion",
   "vendor",
-  "vendor",
+  "break",
+  "keynote"
 ]
 presentationLink2 = [
   "",
   "",
   "",
-  "https://1drv.ms/p/s!AnMSa6KFnUYAlmT6H1V8s2yoepvh",
-  "https://www.slideshare.net/isccarrasco/pyoslc-sdk-oslcfest",
   "",
-  "/presentations/PROSTEP_oslcfest_2020.pdf",
+  "",
+  "",
+  "",
+  ""
 ]
 videoLink2 = [
-  "https://www.youtube.com/watch?v=tz35ecvqLlQ&t=202s",
-  "https://www.youtube.com/watch?v=tz35ecvqLlQ&t=1129s",
-  "https://www.youtube.com/watch?v=tz35ecvqLlQ&t=2459s",
-  "https://www.youtube.com/watch?v=tz35ecvqLlQ&t=3593s",
-  "https://www.youtube.com/watch?v=tz35ecvqLlQ&t=4860s",
-  "https://www.youtube.com/watch?v=tz35ecvqLlQ&t=6181s",
-  "https://www.youtube.com/watch?v=tz35ecvqLlQ&t=7354s",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
 ]
 panelVariable2 = [
-  "PAndrewJim",
-  "PJad2",
-  "PJad3",
-  "PKoneksys",
-  "PMarioC",
-  "PChristophB",
-  "PLutzL",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
 ]
-day3 = "Day 3# May 20, 2020"
+day3 = "Day 3# Nov 04, 2021"
 start3 = [
+  "14:00",
+  "14:30",
   "15:00",
-  "15:20",
-  "15:40",
+  "15:30",
   "16:00",
-  "16:20",
-  "16:40",
+  "16:30",
   "17:00",
+  "17:30",
 ]
 duration3 = [
-  "20min",
-  "20min",
-  "20min",
-  "20min",
-  "20min",
-  "20min",
-  "20min",
+  "30min",
+  "30min",
+  "30min",
+  "30min",
+  "30min",
+  "30min",
+  "30min",
+  "30min"
 ]
 title3 = [
-  "Prolog OSLC SDK",
-  "The Role of OSLC in the Enterprise PLM Landscape",
-  "Establishing Digital Continuity for End to End Collaboration",
-  "Hypermedia Made Easy",
-  "Proof of Concept: Capella & IBM Jazz Integration based on OSLC",
-  "A Technical View on the Solid Ecosystem",
-  "OSLC-enabled Product Line Engineering with pure::variants 5.0",
+  "INCOSE Digital Engineering Information Exchange Working Group",
+  "OSLC Reference Implementation: From zero to 4 OSLC servers in 20 minutes",
+  "Hot to use OSLC Links Bidirectionally",
+  "Quetzal: an OSLC API generation framework based on OpenAPI",
+  "The challenges of connecting data in the world of Infrastructure",
+  "Applied Category Theory for Scalable Data Integration and Semantic Interoperability",
+  "Global Configurations in Product Line Engineering",
+  "Fundamental OSLC Concepts for Distributed Link Creation",
 ]
 authors3 = [
-  "Leonid Mokrushin (Ericsson Research)",
-  "Erik Herzog and Åsa Nordling Larsson (Saab Aeronautics)",
-  "Nicolas Figay (Airbus)",
-  "Mike Amundsen (CA Technologies)",
-  "Ahmed EL-BERDHI (SII Group)",
-  "Ruben Taelman (Ghent University)",
-  "Robert Hellebrand (pure-systems)",
+  "Sean McGervey",
+  "Andrii Berezovskyi and Jad El-Khoury",
+  "Andreas Korff",
+  "Juan Quintanar, Juan Quintanar and Juan Quintanar",
+  "Graham Bleakley",
+  "Kenny MacKenzie and Ryan Wisnesky",
+  "Robert Hellebrand",
+  "Axel Reichwein",
 ]
 type3 = [
-  "techtalk",
-  "discussion",
-  "discussion",
-  "techtalk",
-  "discussion",
-  "techtalk",
+  "keynote",
   "vendor",
+  "techtalk",
+  "discussion",
+  "keynote",
+  "break",
+  "techtalk",
   "vendor",
 ]
 presentationLink3 = [
   "",
   "",
   "",
-  "http://amundsen.com/talks/2020-05-oslcfest/2020-05-oslcfest.pdf",
   "",
   "",
   "",
+  "",
+  ""
 ]
 videoLink3 = [
-  "https://www.youtube.com/watch?v=t1AJg8HAEn4&t=93s",
-  "https://www.youtube.com/watch?v=t1AJg8HAEn4&t=1555s",
-  "https://www.youtube.com/watch?v=t1AJg8HAEn4&t=2700s",
-  "https://www.youtube.com/watch?v=t1AJg8HAEn4&t=4185s",
-  "https://www.youtube.com/watch?v=t1AJg8HAEn4&t=5615s",
-  "https://www.youtube.com/watch?v=t1AJg8HAEn4&t=6709s",
-  "https://www.youtube.com/watch?v=t1AJg8HAEn4&t=8029s",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
 ]
 altVideoLink3 = [
   "",
   "",
   "",
   "",
-  "https://www.youtube.com/watch?v=m_ap9_BkqfU",
   "",
   "",
+  "",
+  ""
 ]
 panelVariable3 = [
-  "PLeoM",
-  "PErikH",
-  "PNicolasF",
-  "PMikeA2020",
-  "Pahmed",
-  "PRubenT",
-  "PRobertH",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
 ]
 
 
