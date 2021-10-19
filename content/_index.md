@@ -363,7 +363,7 @@ authors3 = [
   "Sean McGervey",
   "Andrii Berezovskyi and Jad El-Khoury",
   "Andreas Korff",
-  "Juan Quintanar, Juan Quintanar and Juan Quintanar",
+  "Juan Quintanar",
   "Graham Bleakley",
   "Kenny MacKenzie and Ryan Wisnesky",
   "Robert Hellebrand",
