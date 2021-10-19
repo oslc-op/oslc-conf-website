@@ -13,16 +13,14 @@
     </div>
     <div class="content--section--wrapper">
 
-      {{ partial "content/call.html" . }}
-
       {{ partial "content/about.html" . }}
 
       {{ partial "content/invited-speakers.html" . }}
 
+      {{ partial "content/speakers.html" . }}
+
       <section id="program-anchor" class="content--section full connected">
-        <div class="container wrapper wrapper-default">
-          <h3 class="section--title">Program (TBD)</h3>
-        </div>
+        {{ partial "program-table.html" . }}
       </section>
 
      {{ partial "content/organizers.html" . }}

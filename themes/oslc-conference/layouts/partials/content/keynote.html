@@ -1,11 +1,11 @@
-<section class="content--section full connected">
+<section id="speakers-anchor" class="content--section full connected">
   <div class="container wrapper wrapper-default">
-    <h3 class="section--title">Speakers</h3>
-    <div class="section--gallery">
-      {{ range $index, $name := .Params.speakersName }}
-      {{ $title := index $.Params.speakersTitle $index }}
-      {{ $image := index $.Params.speakersImage $index }}
-      {{ $bio := index $.Params.speakersBio $index }}
+    <h3 class="section--title">Keynote Speakers</h3>
+    <div class="section--gallery align-top">
+      {{ range $index, $name := .Params.keynoteName }}
+      {{ $title := index $.Params.keynoteTitle $index }}
+      {{ $image := index $.Params.keynoteImage $index }}
+      {{ $bio := index $.Params.keynoteBio $index }}
       {{ if $bio }}
       <div class="gallery--item has-info" data-bio="{{ $bio }}" onclick="openInfo(this)">
       {{ else }}
