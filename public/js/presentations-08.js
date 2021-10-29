@@ -364,5 +364,256 @@ var presentations = {
     'authors': [
       bio.robertH
     ]
+  },
+  PChristophB2021: {
+    'title': 'Using OSLC for managing traceability into the details of a software project',
+    'description':[
+      '<p>There is a lot more you can do with OSLC than bidirectional linking of artifacts from the AM, CCM, RM, QM domain.</p>',
+      '<p>The talk shows how to establish robust links between detailed parts of software code (e.g. Java classes, functions, interfaces) and...</p>',
+      '<ul><li>Architecture artifacts from Cameo, EA, Rhapsody</li>',
+      '<li>Requirements from codeBeamer, DOORS Next, Jama Connect</li>',
+      '<li>Test cases from codeBeamer, Engineering Test Management</li>',
+      '<li>Issues from Jira</li></ul>',
+      '<p>Eclipse, Visual Studio or Jetbrains MPS can be used as IDEs. The links are robust and sustain branching, merging, refactoring of the code.</p>',
+      '<p>As a result you see SysML diagrams, requirements, etc. in your IDE and the linked implemented code of classes, functions and interfaces in your SysML tool.</p>',
+      '<p>You can also generate detailed traceability reports, that show which SysML use cases or requirements are implemented in which Java function in which namespace and are persisted in which physical file.</p>'
+    ],
+    'authors': [
+      bio.christophB
+    ]
+  },
+  PErikH2021: {
+    'title':'Keeping up with the pace of opportunity',
+    'description':[
+      '<p>Saab has been in the Aerospace domain since 1937. It has produced a long lineage of state of the art jet powered fighter aircraft, from the J29 Flying barrel, over icons like the J35 Draken, J37 Viggen, to the current JAS 39 Gripen. Traditionally, development has been a close partnership between the Saab and Sweden. Exports has been scarce and international collaboration rarely pursued. Over the last decade this has changed drastically. The Gripen E is being developed in collaboration with Brazil, the GlobalEye AEW maiden customer is the UAE and Saab did partner with Boeing to develop the new T-7 Redhawk trainer. Clearly, international collaboration and exports is the way ahead. This change also mean that there is a change from a highly predictable environment to one of sudden opportunities. To be competitive the organisation need to be aligned with international best practice and able to quickly adopts the latest methods and tools. There is a need for a tool architecture that allow for rapid changes while maintaining low acquisition and maintenance costs. As a result an architectural pattern promoting the adoption of engineering discipline specific development environments with OSLC as the key standard for inter-environment integration. Apart from introducing the architectural pattern the talk will also outline Saab\'s activities demonstrating and promoting the value of OSLC</p>'
+    ],
+    'authors': [
+      bio.erikH,
+      bio.asaL
+    ]
+  },
+  PAndrewJim2021: {
+    'title':'State of the OSLC Open Project',
+    'description':[
+      '<p>Last year, we announced at OSLCfest the transition of various OSLC activities under Technical Commitees and the Member Section to the OSLC Open Project. This year we will give a status update reporting on the work done, compare the results with the OSLC community expectations gathered last year in a poll, and discuss the status of the project in general. We will present the publication of 4 OASIS Standards, 2 Project Specifications, and 2 Project Specification Drafts.</p>'
+    ],
+    'authors': [
+      bio.andrewB,
+      bio.jimA
+    ]
+  },
+  PAndrewJad2021: {
+    'title':'OSLC Reference Implementation: From zero to 4 OSLC servers in 20 minutes',
+    'description':[
+      '<p>OSLC Open Project provides an open-source reference implementation of a toolchain consisting of 4 OSLC servers implementing the AM, CM, QM, and RM specifications (Architecture Management, Change Management, Quality Management, and Requirements Management respectively). The servers are implemented using the latest versions of the Eclipse Lyo SDK and modelling tool for building OSLC client and server applications. In this talk, we will do a project walk-through, describing the integration scenario, the structure of the codebase and an overview of relevant Eclipse Lyo concepts. We will use an online Gitpod environment that allows you to build and run 4 server applications without installing anything locally, so that you can follow along!</p>'
+    ],
+    'authors': [
+      bio.andrewB,
+      bio.jadE
+    ]
+  },
+  PEranG2021: {
+    'title':'OSLC as a backbone for digital engineering',
+    'description':[
+      '<p>Digital engineering (DE) promotes usage of digital tools to essentially establish a "document-free" digital fabric where data can be consistently used across different viewpoints and sources. An imminent challenge is how to integrate engineering data coming from different sources and tools, such that digital threads and data consistency are established, and useful viewpoints and insights can be digitally created.</p>',
+      '<p>In this talk we will explain the DE challenges and explain and illustrate how OSLC services can address them.</p>'
+    ],
+    'authors': [
+      bio.eranG
+    ]
+  },
+  PRobertH2021: {
+    'title':'Deploying OSLC In the Enterprise',
+    'description':[
+      '<p>OSLC provides the opportunity for connecting repositories in the enterprise. By using standard components of the web, OSLC leverages your browser to be the gateway of accessing data and embedding interfaces across the enterprise.</p>',
+      '<p>The mechanisms we use in OSLC to embed content are also the means for ads, pop-ups, and other security concerns introduced on the internet. Our browsers have become smarter, and they now can interfere with desired OSLC interactions if our repositories are not configured carefully. So how do teams pragmatically deploy OSLC in the enterprise? How do they have a repository be both deeply integrated and secure? We will detail our practical experience integrating OSLC capabilities in the enterprise to connect to diverse tooling. Critically we will explore how the cloud, network devices, and even cookie management are critical in your successful and secure deployment in the enterprise.</p>'
+    ],
+    'authors': [
+      bio.robertB,
+      bio.sebastienB,
+      bio.fancoisR
+    ]
+  },
+  PTorbjornH2021: {
+    'title':'OSLC from the Perspective of a Data Integrator',
+    'description':[
+      '<p>Eurostep has had a focus on data representation and exchange standardisation since the organisation was founded in 1994. This presentation focuses on how OSLC and linking technology compares and extend the traditional information model based representations and outlines the strengths and weaknesses of the respective approach as well as presents the potential in combining the two approaches.</p>'
+    ],
+    'authors': [
+      bio.torbjornH,
+      bio.nigelS
+    ]
+  },
+  PDamirN: {
+    'title':'Leveraging OSLC and Linked Data for the Creation of Assurance Cases',
+    'description':[
+      '<p>Technologies such as intelligent transport systems, or autonomous vehicles, are driving an increase in complexity in the automotive domain. In turn, these developments are placing an increased pressure on assurance activities for properties such as safety or cybersecurity. To that end, existing and upcoming standards and legislation, e.g. ISO26262, ISO 21434, or ISO 5083, are requiring the creation of an assurance case in order to explicitly argue for safety or cybersecurity of a system. Since such argument involves claims about all aspects of the system lifecycle, the information required to produce an assurance case also spans across the whole lifecycle. Coupled with the typical size of an assurance case, i.e. hundreds of interdependent claims with references to concrete engineering artefacts, creation and maintenance of assurance cases without some degree of automation is a daunting task.</p>',
+      '<p>This talk presents the Scania\'s long-term vision, but also the current results, for the creation of assurance cases. The key enabler for the approach is a federated toolchain, based on OSLC principles, that manages the necessary information according to a commonly agreed information model. Given such support, the assurance-case tool allows the users to work in a data-driven way by defining assurance-case patterns directly in terms of the information objects from the common information-model. As a result, the creation of concrete assurance cases becomes the task of automatically instantiating the defined patterns with instances of the common information model, i.e. with concrete engineering artefacts exposed as linked data. Finally, to decide whether the claims of a concrete assurance case are true or false, the assurance-case tool executes a number different analyses over the available engineering artefact, i.e. linked data.</p>'
+    ],
+    'authors': [
+      bio.damirN
+    ]
+  },
+  PJuanQ: {
+    'title':'Coatl: an OSLC API generation framework based on OpenAPI',
+    'description':[
+      '<p>Implementing an OSLC API from scratch is complicated; it requires several skills like transforming raw data into RDF format, implementing several OSLC-compliant endpoints, and optionally implementing Jazz-specific resources for integration with IBM ELM. However, as OSLC concepts are standardized, the implementations of OSLC APIs have a lot of common code. Furthermore, many data sources that require OSLC APIs, such as software applications or databases, already have REST APIs.</p>',
+      '<p>Coatl is a framework helping developers add OSLC APIs to data sources that already have REST APIs. Inspired by GraphQL-wrappers for REST APIs, Coatl is an OSLC-wrapper for REST APIs based on an OpenAPI definition describing how existing REST API resources are mapped to the generated OSLC API resources, Coatl uses Swagger Codegen to generate the OSLC API code. For developers with prior knowledge of OSLC concepts and specifications, Coatl would significantly reduce the effort of implementing OSLC APIs.</p>'
+    ],
+    'authors': [
+      bio.juanQ
+    ]
+  },
+  PGrahamB: {
+    'title':'The challenges of connecting data in the world of Infrastructure',
+    'description':[
+      '<p>Most people typically think of Infrastructure and civil engineering projects as being about project management and pouring concrete, this could not be further from the truth. Infrastructure and civil engineering are highly digitised, with numerous data sources, such as, Primavera(P6) for project management, Building Information Model data (3,4 and 5D BIM), Geographical Information System data, telemetry data, requirements, and technical assurance evidence etc. This data is invariably in different data formats and the tools are completely federated. This sort of environment provides large challenges to bringing data together to realise the opportunities that the numerous types of Digital Twins (that are expected to be supported) are expected to bring.</p>',
+      '<p>This presentation will describe the challenges faced by infrastructure in bringing this information together and how they manage the situation at present. This author feels that the current state of tools in use in infrastructure today provides an opportunity for the OSLC community to influence and properly support the concepts of single source of truth and data visualization across this domain.</p>'
+    ],
+    'authors': [
+      bio.grahamB
+    ]
+  },
+  PSeanM: {
+    'title':'INCOSE Digital Engineering Information Exchange Working Group',
+    'description':[
+      '<p>The INCOSE Digital Engineering Information Exchange Working Group (DEIXWG) has been working closely with the US DoD, industry partners, and academic organizations to advance a critical aspect of Digital Engineering: how to exchange digital work products between organizations in a semantically-meaningful way. Since its inception in late 2017 due to the support of OSD(R&E), the DEIXWG has been modeling a conceptual ontology for describing digital work products and the information they contain. With that ontology in hand, the DEIXWG has been soliciting stakeholder needs from the broader community in the form of desired information exchange scenarios that require combining data from a variety of different digital sources. This presentation will provide an overview of the DEIXWG\'s ongoing activities and a look ahead at future efforts.</p>'
+    ],
+    'authors': [
+      bio.seanM
+    ]
+  },
+  PHorstK2021: {
+    'title':'Developing an OSLC client with the OSLC API from Sparx Systems',
+    'description':[
+      '<p>In this demonstration we will show the OSLC implementation of Sparx Systems to integrate tools with the Modelling Tool Enterprise Architect from Sparx Systems. We show how the Restful OSLC API from SparxSystems can be used to retrieve model data and search, create and manipulate the model. A simple application is used as a show case which explains how to build an application based on OSLC as a data backend. The audience will get hands on information about how a OSLC client can be implemented using Sparx Systems Restful OSLC API.</p>'
+    ],
+    'authors': [
+      bio.horstK
+    ]
+  },
+  PAndyL2021: {
+    'title':'Cross lifecycle analytics and reporting based on OSLC TRS',
+    'description':[
+      '<p>While OSLC is well known as a cross-applications linking protocol, its capability to enable global analytics and reporting appears to be yet fairly unknown. In this presentation, we explain and demonstrate how OSLC TRS can be leveraged to construct global analytics and reporting across all the OSLC data providers, such as requirements, test and planning. We will demonstrate central reporting and analytics implementations that perform various analytics such as change impact analysis, coverage analysis, and various development KPIs such as readiness indicators.</p>'
+    ],
+    'authors': [
+      bio.andyL
+    ]
+  },
+  PKennyM2021: {
+    'title':'Applied Category Theory for Scalable Data Integration and Semantic Interoperability',
+    'description':[
+      '<p>Every engineering organization struggles to exchange data reliably between their many application databases. Attempting to build integrations between all relevant systems is impractical with current mainstream practices, because of the quadratic relationship between applications and the number of integrations between them. To avoid the exploding cost of scaling ad-hoc integrations, organizations may attempt to standardize the application semantics. This approach hasn\'t worked in practice because it\'s impractical to get many people from diverse domains to agree on a single perspective, and nuanced domain-specific meaning is always sacrificed.</p>',
+      '<p>Category Theory is a mathematical language for encoding and computing semantic structures across contexts, and has been used by mathematicians and scientists to formally communicate meaning across domains. Recent developments out of MIT have worked out how to apply the approach to data schemas and are leading to a paradigm shift in semantic data interoperability. There are several benefits, but two key benefits are compositionality and machine verification. Integrations can be added together and checked for integrity, which means that a quadratic number of integrations can be inferred from a linear input with mathematical guarantees that data won\'t be corrupted. A third benefit is that the approach is agnostic to any specific data structure and can interoperate across all of them (SQL, XML, Json, Graph, RDF, etc).</p>'
+    ],
+    'authors': [
+      bio.kennyM,
+      bio.ryanM
+    ]
+  },
+  PGarciaG2021: {
+    'title':'OSLC for DevOps event-based automation',
+    'description':[
+      '<p>My name is Guillermo García, I\'m a PhD student at Universidad Politécnica de Madrid (UPM - https://www.upm.es/), in the Intelligent Systems Research Group (GSI - https://gsi.upm.es/en). For the past few months, I\'ve been working on ways of integrating DevOps with semantic technologies to enable automation of different workflows and processes. I\'ve been studying the OSLC specifications and the possibilities they can bring to the field.</p>',
+      '<p>The idea of my presentation is to give the audience an overview of the challenges faced when implementing DevOps where OSLC could be very beneficial. Two specific issues will be tackled: vendor lock-in and task automation. The first one could be approached by proposing a standard for service interfaces so they can be seamlessly integrated together. A Linked Data specification like OLSC could provide such a standard without sacrificing flexibility. For the challenge of task automation, specifications like TRS and OSLC Automation could be used to model the events and actions provided by a service. This would allow us to create an automation framework where events and actions between services are standardized and independent of the service internal implementation.</p>',
+      '<p>We expect to show the audience new ways of applying OSLC to the DevOps domain and how specifications like OSLC Automation and OSLC Actions could be very useful in this context. We will also provide an example implementation with two services with simple events and actions automated between them. We hope all of this can be of interest and that it helps in expanding the OSLC ecosystem.</p>'
+    ],
+    'authors': [
+      bio.garciaG
+    ]
+  },
+  PFrankP2021: {
+    'title':'Latest PyOSLC Improvements',
+    'description':[
+      '<p>PyOSLC is an SDK to implement OSLC APIs in Python. The first version of PyOSLC supported domain-independent OSLC resources for discovery as well as requirements as the only domain-specific resource. The current work on PyOSLC supports the development of OSLC APIs for any domain-specific resources. A developer only needs to have a basic understanding of OSLC concepts to implement some predefined adapter methods which will then be used by PyOSLC to create a complete OSLC API. A developer thereby does not need to modify nor manage any code related to the translation of Python objects into RDF, nor any code related to the REST API endpoints.</p>',
+      '<p>Furthermore, PyOSLC now supports two options to deploy an OSLC API. Initially, the OSLC API could only be deployed on a standalone WSGI-compatible server. Now, as an additional deployment option, OSLC API endpoints created by PyOSLC can be added to an existing REST API by adding a few lines of Python code. Initially, PyOSLC was using the Flask framework for the implementation of REST API endpoints. Now, PyOSLC is a Web framework independent of Flask such that it can be compatible with any WSGI-compatible REST API framework such as Django or Bottle.</p>'
+    ],
+    'authors': [
+      bio.frankP,
+      bio.marioC
+    ]
+  },
+  PRobertB2021: {
+    'title':'Navigating Versions in the Enterprise',
+    'description':[
+      '<p>Configuration Management is an activity attributed to our Software Engineers but is a common need for all engineering disciplines. When linking between artifacts across disciplines, the need for configuration management becomes even more critical. The creation of a digital thread mandates we must compose configurations from these unique disciplines. Rather than copy artifacts to one repository, OSLC enables an enterprise configuration to leverage local configurations from distributed repositories. These collective enterprise configurations allow the navigation of the links; to the correct object and the correct version of the object. This session will focus on the practical application of enterprise configurations and how they enable the digital thread, connect concepts across siloed boundaries, and allow common engineering tasks more robustly.</p>'
+    ],
+    'authors': [
+      bio.robertB
+    ]
+  },
+  PThomasZ: {
+    'title':'Using OSLC for a Closed-Loop Digital Twin Demonstrator',
+    'description':[
+      '<p>As part of worldwide efforts towards clean aviation, the development of hybrid-electric propulsion is one of the most popular approaches for regional and short-haul aircraft. Together with industry partners, Fraunhofer IPK is leveraging an existing experimental aircraft architecture to MBSE and demonstrate digital twin usage across the development and manufacturing lifecycle.In order to support the establishment of novel architectures, we leverage co-simulation with open standards to allow for the ad-hoc generation of digital masters utilizing descriptive MBSE models. The digital master contains various system and domain models and provides the digital system representation, which is later merged with real-life data (the "digital shadow") to establish the digital twin. In conjunction with FMI/FMU for co-simulating heterogenious models authored in multiple tools, OSLC provides an open standard supported by various commercial tools, but also open source solutions as well as in-house tools. This way we are able to establish a closed-loop connecting requirements, systems architecting and simulation, in order to enable early virtual systems integration. OSLC already supports various existing concepts, such as configuration management, requirements management etc. This allows for a scalable solution to support the evolving demonstrator environment. The possibility to easily add our own concepts and rely on an extensive community provides a scalable and reliable solution for traceability and linking across various tools, including our own demonstrator components. OSLC complements our FMU/FMI based co-simulation environment and offers the flexibility to add and change functionalities and maintain our vendor-indepenent approach for system modeling and simulation.</p>'
+    ],
+    'authors': [
+      bio.thomasZ
+    ]
+  },
+  PSunilK: {
+    'title':'Knowledge graph for Multi brand engineering collaboration',
+    'description':[
+      '<p>Knowledge graph and associated technologies has been an emerging trend and we at Scania are also trying to benefit from it. Scania is a world-leading provider of transport solutions and is part of TRATON GROUP. In one of the initiatives where Scania engineers need to collaborate on R&D Engineering information with its Partner brand engineers such as MAN Truck and Bus and Navistar International, We have developed a solution that uses RDF and OSLC technology. When Scania shares vehicle components and related information with its partners. it is required to share and keep track of technical info such as part numbers , technical documents, product structures including its equivalent information at partner brands. so that information can be traced , cross referenced and used for performing updates. This process requires object referencing. e.g. Scania part number – MAN part number – Navistar Part number and unique relation is described by its specific versions and status. also this relations are extended with unlock for sharing rules and document cross references. Since it is a multi-brand scenario keeping track of such information is needed by all brands and hence we developed a common solution that supports such use cases and provides a single source of truth. We find it very useful to use RDF and Triple store to develop such an information model that is dynamic and connects many information layers and also stores the information accordingly. Earlier we tried a solution with a traditional relational data model and No SQL DB. but soon it became too complex to handle multi-brand scenarios and maintain. We decided to replace the data layer with Graph technology using RDF and are very satisfied with the result so far. Partner engineers are benefited in their daily work, feel more confident and trust the data quality delivered by knowledge graphs and can rely on finding unknown or missing data traces . It helps to perform information analysis, rectify the problem and do needful resolution. We are happy to demonstrate the use case and solution components.</p>'
+    ],
+    'authors': [
+      bio.sunilK
+    ]
+  },
+  PLaurentD: {
+    'title':'MBSE in the Digital Thread with Capella Models Exposed to OSLC-compliant ALM and Requirements Management Tools',
+    'description':[
+      '<p>Capella is a widely adopted open-source MBSE solution that allows systems architects to design the architecture of systems, software and hardware.</p>',
+      '<p>Guided by a field-proven methodology, Capella users produce models containing both the design elements and the diagrams that describe a system according to different perspectives : operational, functional and non functional, logical, physical.</p>',
+      '<p>In order to connect these MBSE models to other project artifacts, such as requirements, tasks, issues, change requests, test cases, releases, and so on, Obeo has developed Publication for Capella, a solution that exposes Capella models on a server accessible by OSLC-compliant ALM and requirements management tools.</p>',
+      '<p>Directly from these tools, a user can navigate through the Capella model elements that have been published on the Publication for Capella server, and establish traceability links from work items.</p>',
+      '<p>A demo will show the integration between Publication for Capella and two ALM platforms: Siemens Polarion and IBM Jazz.</p>'
+    ],
+    'authors': [
+      bio.laurentD
+    ]
+  },
+  PRobertHellebrand2021: {
+    'title':'Global Configurations in Product Line Engineering',
+    'description':[
+      '<p>pure::variants is the leading product line engineering tool that enables its customers from automotive, aerospace & defense, medical, rails & transportation and other industries to increase engineering efficiency with a holistic variant management for their engineering assets.</p>',
+      '<p>This requires pure::variants to be well-integrated into the whole engineering tool landscape and to interoperate with the engineering data management in place.</p>',
+      '<p>Join this presentation to get an overview of the OSLC capabilities of pure::variants that integrate variant management assets into Global Configurations as well as integrating Global Configurations into a holistic variant management strategy to make evolution of engineering assets across multiple variants manageable.</p>'
+    ],
+    'authors': [
+      bio.robertH
+    ]
+  },
+  PAndreasK2021: {
+    'title':'How to use OSLC Links Bidirectionally',
+    'description':[
+      '<p>OSLC Links are, by definition, unidirectional. However, Engineering Process Norms like A-SPICE or Safety Norms like ISO26262 require bi-directional Traceability. The option to use 2 independent links from both directions seems to be simple, but could result in very difficult workflows and means also that the user has to create and maintain them.</p>',
+      '<p>PTC developed and implemented the capability to use unidirectional links also from the reverse direction, called "Reverse Lookup". Basically it is using a query "who is connected to me?" It is available for both Windchill RV&S and Windchill Modeler and is already in practical use in projects.</p>',
+      '<p>We will present this tool capability for both PTC SSE tools in a typical project environment within the SPES System-of-Systems methodology.</p>'
+    ],
+    'authors': [
+      bio.andreasK
+    ]
+  },
+  PAxelR2021: {
+    'title':'Fundamental OSLC Concepts for Distributed Link Creation',
+    'description':[
+      '<p>Many different software applications are needed to describe and simulate many different aspects of a complex system. Achieving traceability in a multi-application context requires linking data across applications. However, this cannot be done by engineers in the most user-friendly manner within their familiar software applications without a distributed link creation paradigm. This presentation will address the key ideas of Open Services for Lifecycle Collaboration (OSLC) to realize a distributed link creation strategy including embeddable search dialogs, APIs adopting the Open World Assumption, and decoupling of link creation from link analysis.</p>'
+    ],
+    'authors': [
+      bio.axelR
+    ]
+  },
+  PMotiB2021: {
+    'title':'Extending OSLC into the Digital Thread',
+    'description':[
+      '<p>SBE Vision has leading technology in the Digital Thread arena that enables ontology-first, hub-and-spoke linking and interoperability across the enterprise. OSLC interoperability is a critical element of the Digital Engineering ecosystem. SBE supports the OSLC 3.0 standard with general purpose consumer and provider container microservices. SBE will demonstrate its deep integration of ELM (DOORS Next w/GC) with Siemens Teamcenter, IBM Rhapsody, and Dassault Cameo. This demonstration will highlight SBE\'s strong OSLC support that is seamlessly interwoven with synchronization and transformation capabilities to provide comprehensive coverage of a wide variety of common use cases.</p>'
+    ],
+    'authors': [
+      bio.motiB,
+      bio.josephS,
+      bio.davidV
+    ]
   }
 };
