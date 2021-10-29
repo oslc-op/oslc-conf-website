@@ -353,7 +353,7 @@ title3 = [
   "INCOSE Digital Engineering Information Exchange Working Group",
   "OSLC Reference Implementation: From zero to 4 OSLC servers in 20 minutes",
   "Hot to use OSLC Links Bidirectionally",
-  "Quetzal: an OSLC API generation framework based on OpenAPI",
+  "Coatl: an OSLC API generation framework based on OpenAPI",
   "The challenges of connecting data in the world of Infrastructure",
   "Applied Category Theory for Scalable Data Integration and Semantic Interoperability",
   "Global Configurations in Product Line Engineering",
