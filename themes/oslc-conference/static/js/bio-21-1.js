@@ -637,5 +637,181 @@ var bio = {
     'contact': [
 
     ]
+  },
+  fancoisR: {
+    'name': 'François-Régis Jaunatre',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+
+    ]
+  },
+  torbjornH: {
+    'name': 'Torbjörn Holm',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+
+    ]
+  },
+  nigelS: {
+    'name': 'Nigel Shaw',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+
+    ]
+  },
+  damirN: {
+    'name': 'Damir Nesic',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+
+    ]
+  },
+  juanQ: {
+    'name': 'Juan Quintanar',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+
+    ]
+  },
+  grahamB: {
+    'name': 'Graham Bleakley',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+
+    ]
+  },
+  seanM: {
+    'name': 'Sean McGervey',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+
+    ]
+  },
+  kennyM: {
+    'name': 'Kenny MacKenzie',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+
+    ]
+  },
+  ryanM: {
+    'name': 'Ryan Wisnesky',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+
+    ]
+  },
+  garciaG: {
+    'name': 'Guillermo Garcia Grao',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+
+    ]
+  },
+  thomasZ: {
+    'name': 'Thomas Zimmermann',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+
+    ]
+  },
+  sunilK: {
+    'name': 'Sunil Kaklij',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+
+    ]
+  },
+  laurentD: {
+    'name': 'Laurent Delaigue',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+
+    ]
+  },
+  motiB: {
+    'name': 'Moti Berovin',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+
+    ]
+  },
+  josephS: {
+    'name': 'Joseph Sorci',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+
+    ]
+  },
+  davidV: {
+    'name': 'David Vredenburgh',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+
+    ]
   }
 };

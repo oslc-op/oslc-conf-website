@@ -238,14 +238,14 @@ videoLink1 = [
   ""
 ]
 panelVariable1 = [
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  ""
+  "PEranG2021",
+  "PAndrewJim2021",
+  "PLaurentD",
+  "PAndyL2021",
+  "PFrankP2021",
+  "PHorstK2021",
+  "PRobertH2021",
+  "PTorbjornH2021"
 ]
 day2 = "Day 2# Nov 03, 2021"
 start2 = [
@@ -273,7 +273,7 @@ title2 = [
   "Using OSLC for managing traceability into the details of a software project",
   "Navigating Versions in the Enterprise",
   "Leveraging OSLC and Linked Data for the Creation of Assurance Cases",
-  "OSLC for Data Science Applications",
+  "Extending OSLC into the Digital Thread",
   "Using OSLC for a Closed-Loop Digital Twin Demonstrator",
   "Knowledge graph for Multi brand engineering collaboration",
   "OSLC for DevOps event-based automation",
@@ -283,7 +283,7 @@ authors2 = [
   "Christoph Bergner",
   "Robert Baillargeon",
   "Damir Nesic",
-  "Jim Amsden",
+  "Moti Berovin, Joseph Sorci and David Vredenburgh",
   "Thomas Zimmermann",
   "Sunil Kaklij",
   "Guillermo Garcia Grao",
@@ -319,14 +319,14 @@ videoLink2 = [
   ""
 ]
 panelVariable2 = [
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  ""
+  "PErikH2021",
+  "PChristophB2021",
+  "PRobertB2021",
+  "PDamirN",
+  "PMotiB2021",
+  "PThomasZ",
+  "PSunilK",
+  "PGarciaG2021"
 ]
 day3 = "Day 3# Nov 04, 2021"
 start3 = [
@@ -410,14 +410,14 @@ altVideoLink3 = [
   ""
 ]
 panelVariable3 = [
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  ""
+  "PSeanM",
+  "PAndrewJad2021",
+  "PAndreasK2021",
+  "PJuanQ",
+  "PGrahamB",
+  "PKennyM2021",
+  "PRobertHellebrand2021",
+  "PAxelR2021"
 ]
 
 
