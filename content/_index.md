@@ -72,7 +72,7 @@ whoDescription = [
   "Startups, Students, Investors, Thought leaders"
 ]
 
-invitedName = [
+speakersName = [
   "Jad El-khoury",
   "Andrew Berezovskyi",
   "Christoph Bergner",
@@ -80,36 +80,6 @@ invitedName = [
   "Jim Amsden",
   "Eran Gery",
   "Axel Reichwein",
-]
-invitedTitle = [
-  "KTH Royal Institute of Technology",
-  "KTH Royal Institute of Technology",
-  "MID GmbH",
-  "Saab Aeronautics",
-  "IBM",
-  "IBM",
-  "Koneksys",
-]
-invitedImage = [
-  "/images/speakers/jad_el.jpg",
-  "/images/speakers/andrew_berezovskyi.jpg",
-  "/images/speakers/christoph_b.png",
-  "/images/speakers/erik_h.png",
-  "/images/speakers/jim_amsden.jpg",
-  "/images/speakers/eran_g.jpg",
-  "/images/speakers/axel.png",
-]
-invitedBio = [
-  "jadE",
-  "andrewB",
-  "christophB",
-  "erikH",
-  "jimA",
-  "eranG",
-  "axelR",
-]
-
-speakersName = [
   "Andy Lapping",
   "Robert Baillargeon",
   "Horst Kargl",
@@ -120,6 +90,13 @@ speakersName = [
   "Frank Patz-Brockmann",
 ]
 speakersTitle = [
+  "KTH Royal Institute of Technology",
+  "KTH Royal Institute of Technology",
+  "MID GmbH",
+  "Saab Aeronautics",
+  "IBM",
+  "IBM",
+  "Koneksys",
   "IBM UK",
   "SodiusWillert",
   "Sparx Systems",
@@ -130,6 +107,13 @@ speakersTitle = [
   "Contact-Software",
 ]
 speakersImage = [
+  "/images/speakers/jad_el.jpg",
+  "/images/speakers/andrew_berezovskyi.jpg",
+  "/images/speakers/christoph_b.png",
+  "/images/speakers/erik_h.png",
+  "/images/speakers/jim_amsden.jpg",
+  "/images/speakers/eran_g.jpg",
+  "/images/speakers/axel.png",
   "/images/speakers/andy_l.jpg",
   "/images/speakers/robert_b.jpg",
   "/images/speakers/horst_k.jpg",
@@ -140,6 +124,13 @@ speakersImage = [
   "/images/speakers/frank-patz.png",
 ]
 speakersBio = [
+  "jadE",
+  "andrewB",
+  "christophB",
+  "erikH",
+  "jimA",
+  "eranG",
+  "axelR",
   "andyL",
   "robertB",
   "horstK",
