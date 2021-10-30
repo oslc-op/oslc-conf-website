@@ -88,6 +88,10 @@ speakersName = [
   "Andreas Korff",
   "Robert Hellebrand",
   "Frank Patz-Brockmann",
+  "Juan Quintanar Gómez",
+  "Kenny MacKenzie",
+  "Ryan Wisnesky",
+  "Laurent Delaigue",
 ]
 speakersTitle = [
   "KTH Royal Institute of Technology",
@@ -103,8 +107,12 @@ speakersTitle = [
   "Saab Aeronautics",
   "Koneksys",
   "PTC",
-  "pure-systems",
-  "Contact-Software",
+  "pure-systems GmbH",
+  "Contact-Software GmbH",
+  "Koneksys",
+  "Conexus AI",
+  "Conexus AI",
+  "Obeo"
 ]
 speakersImage = [
   "/images/speakers/jad_el.jpg",
@@ -121,7 +129,11 @@ speakersImage = [
   "/images/speakers/mario.png",
   "/images/speakers/andreas_k.jpg",
   "/images/speakers/robert_h.jpg",
-  "/images/speakers/frank-patz.png",
+  "/images/speakers/frankpatz.jpg",
+  "/images/speakers/juan.png",
+  "/images/speakers/kennyM.jpg",
+  "/images/speakers/ryan.jpeg",
+  "/images/speakers/laurent.jpg",
 ]
 speakersBio = [
   "jadE",
@@ -139,6 +151,10 @@ speakersBio = [
   "andreasK",
   "robertH",
   "frankP",
+  "juanQ",
+  "kennyM",
+  "ryanM",
+  "laurentD",
 ]
 
 legendTitle = [
@@ -195,7 +211,7 @@ authors1 = [
   "Andy Lapping",
   "Frank Patz-Brockmann and Mario Jiménez Carrasco",
   "Horst Kargl",
-  "Robert Baillargeon, Sébastien Boucard and François-Régis Jaunatre",
+  "Robert Baillargeon, Sébastien Boucard",
   "Torbjörn Holm and Nigel Shaw",
 ]
 type1 = [
