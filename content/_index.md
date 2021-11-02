@@ -92,6 +92,10 @@ speakersName = [
   "Kenny MacKenzie",
   "Ryan Wisnesky",
   "Laurent Delaigue",
+  "Guillermo Garcia Grao",
+  "Damir Nešić",
+  "Graham Bleakley",
+  "Thomas Zimmermann"
 ]
 speakersTitle = [
   "KTH Royal Institute of Technology",
@@ -112,7 +116,11 @@ speakersTitle = [
   "Koneksys",
   "Conexus AI",
   "Conexus AI",
-  "Obeo"
+  "Obeo",
+  "Technical University of Madrid",
+  "Scania CV AB",
+  "Costain UK Ltd.",
+  "Fraunhofer Institute for Production Systems and Design Technology"
 ]
 speakersImage = [
   "/images/speakers/jad_el.jpg",
@@ -134,6 +142,10 @@ speakersImage = [
   "/images/speakers/kennyM.jpg",
   "/images/speakers/ryan.jpeg",
   "/images/speakers/laurent.jpg",
+  "/images/speakers/garcia.jpeg",
+  "/images/speakers/damir.jpg",
+  "/images/speakers/graham.jpg",
+  "/images/speakers/thomas.jpg",
 ]
 speakersBio = [
   "jadE",
@@ -155,6 +167,10 @@ speakersBio = [
   "kennyM",
   "ryanM",
   "laurentD",
+  "garciaG",
+  "damirN",
+  "grahamB",
+  "thomasZ",
 ]
 
 legendTitle = [
