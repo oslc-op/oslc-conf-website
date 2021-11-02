@@ -666,14 +666,17 @@ var bio = {
     ]
   },
   damirN: {
-    'name': 'Damir Nesic',
-    'title': '',
-    'picturePath':  '/images/speakers/placeholder.jpg',
+    'name': 'Damir Nešić',
+    'title': 'Method Developer, Scania CV AB',
+    'picturePath':  '/images/speakers/damir.jpg',
     'bio': [
-      ""
+      "I currently hold the position of a method developer in Scania CV AB in the group responsible for the digital thread and management systems (e.g. for safety, cybersecurity, etc.) that support the development of embedded systems. Prior to this position I was on a position of a method developer within the central safety group. Prior to Scania CV AB, between 2015 and 2020, I was a PhD at KTH (mechatronics division) with the topic revolving around safety of highly-configurable systems. Before the PhD studies I spent several years on the position of an R&D engineer for embedded systems within the medical domain. I got my masters in embedded systems in 2012 from the University of Nis, Serbia."
     ],
     'contact': [
-
+      {
+        'link': 'mailto:damir.nesic@scania.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
     ]
   },
   juanQ: {
@@ -692,13 +695,16 @@ var bio = {
   },
   grahamB: {
     'name': 'Graham Bleakley',
-    'title': '',
-    'picturePath':  '/images/speakers/placeholder.jpg',
+    'title': 'Systems Engineering Technical Director, Costain UK Ltd.',
+    'picturePath':  '/images/speakers/graham.jpg',
     'bio': [
-      ""
+      "Graham Bleakley Ph.D. is the Systems Engineering Technical Director at Costain where he helps them develop their systems engineering capability as part of the Digital Engineering team. Since joining Costain he has been involved helping major Rail and Infrastructure projects to develop digital ways of working based on Systems Engineering processes and technologies. Prior to joining Costain he worked for IBM for 12 years deploying MBSE and the supporting tool infrastructure across large organizations."
     ],
     'contact': [
-
+      {
+        'link': 'mailto:graham.bleakley@costain.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
     ]
   },
   seanM: {
@@ -746,24 +752,30 @@ var bio = {
   },
   garciaG: {
     'name': 'Guillermo Garcia Grao',
-    'title': '',
-    'picturePath':  '/images/speakers/placeholder.jpg',
+    'title': 'PhD student at the Technical University of Madrid',
+    'picturePath':  '/images/speakers/garcia.jpeg',
     'bio': [
       ""
     ],
     'contact': [
-
+      {
+        'link': 'mailto:g.ggrao@upm.es',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
     ]
   },
   thomasZ: {
     'name': 'Thomas Zimmermann',
-    'title': '',
-    'picturePath':  '/images/speakers/placeholder.jpg',
+    'title': 'Research Associate, Fraunhofer Institute for Production Systems and Design Technology',
+    'picturePath':  '/images/speakers/thomas.jpg',
     'bio': [
-      ""
+      "Thomas C. Zimmermann, studied Aerospace Engineering at the TU Berlin and Systems Engineering at the Stevens Institute of Tech. in Hoboken, NJ, USA and then worked for several years in the aerospace industry in the field of systems development. Since 2018, he has been working as a research associate in the Virtual Product Development business unit at the Fraunhofer Institute for Production Systems and Design Technology IPK Berlin in the Model-Based Development department. His research focuses on model-based systems engineering, behavior modeling, simulation, and system testing."
     ],
     'contact': [
-
+      {
+        'link': 'mailto:Thomas.zimmermann@ipk.fraunhofer.de',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
     ]
   },
   sunilK: {
