@@ -201,7 +201,7 @@ title1 = [
   "Cross lifecycle analytics and reporting based on OSLC TRS",
   "Latest PyOSLC Improvements",
   "Developing an OSLC client with the OSLC API from Sparx Systems",
-  "Deploying OSLC In the Enterprise",
+  "Extending OSLC into the Digital Thread",
   "OSLC from the Perspective of a Data Integrator",
 ]
 authors1 = [
@@ -211,7 +211,7 @@ authors1 = [
   "Andy Lapping",
   "Frank Patz-Brockmann and Mario Jiménez Carrasco",
   "Horst Kargl",
-  "Robert Baillargeon, Sébastien Boucard",
+  "Moti Berovin, Joseph Sorci and David Vredenburgh",
   "Torbjörn Holm and Nigel Shaw",
 ]
 type1 = [
@@ -251,7 +251,7 @@ panelVariable1 = [
   "PAndyL2021",
   "PFrankP2021",
   "PHorstK2021",
-  "PRobertH2021",
+  "PMotiB2021",
   "PTorbjornH2021"
 ]
 day2 = "Day 2# Nov 03, 2021"
@@ -278,9 +278,9 @@ duration2 = [
 title2 = [
   "Keeping up with the pace of opportunity",
   "Using OSLC for managing traceability into the details of a software project",
-  "Navigating Versions in the Enterprise",
   "Leveraging OSLC and Linked Data for the Creation of Assurance Cases",
-  "Extending OSLC into the Digital Thread",
+  "Navigating Versions in the Enterprise",
+  "Deploying OSLC In the Enterprise",
   "Using OSLC for a Closed-Loop Digital Twin Demonstrator",
   "Knowledge graph for Multi brand engineering collaboration",
   "OSLC for DevOps event-based automation",
@@ -288,9 +288,9 @@ title2 = [
 authors2 = [
   "Erik Herzog and Åsa Nordling Larsson",
   "Christoph Bergner",
-  "Robert Baillargeon",
   "Damir Nesic",
-  "Moti Berovin, Joseph Sorci and David Vredenburgh",
+  "Robert Baillargeon",
+  "Robert Baillargeon, Sébastien Boucard",
   "Thomas Zimmermann",
   "Sunil Kaklij",
   "Guillermo Garcia Grao",
@@ -328,9 +328,9 @@ videoLink2 = [
 panelVariable2 = [
   "PErikH2021",
   "PChristophB2021",
-  "PRobertB2021",
   "PDamirN",
-  "PMotiB2021",
+  "PRobertB2021",
+  "PRobertH2021",
   "PThomasZ",
   "PSunilK",
   "PGarciaG2021"
