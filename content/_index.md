@@ -96,7 +96,11 @@ speakersName = [
   "Damir Nešić",
   "Graham Bleakley",
   "Thomas Zimmermann",
-  "Sunil Kaklij"
+  "Sunil Kaklij",
+  "Sean McGervey",
+  "Tamara Hambrick",
+  "Celia Tseng",
+  "Terri Chan"
 ]
 speakersTitle = [
   "KTH Royal Institute of Technology",
@@ -122,7 +126,11 @@ speakersTitle = [
   "Scania CV AB",
   "Costain UK Ltd.",
   "Fraunhofer Institute for Production Systems and Design Technology",
-  "Scania CV AB"
+  "Scania CV AB",
+  "DEIXWG",
+  "DEIXWG",
+  "DEIXWG",
+  "DEIXWG"
 ]
 speakersImage = [
   "/images/speakers/jad_el.jpg",
@@ -149,6 +157,10 @@ speakersImage = [
   "/images/speakers/graham.jpg",
   "/images/speakers/thomas.jpg",
   "/images/speakers/sunil.jpg",
+  "/images/speakers/seanM.jpg",
+  "/images/speakers/tamara.jpg",
+  "/images/speakers/celia.jpg",
+  "/images/speakers/terri.jpg",
 ]
 speakersBio = [
   "jadE",
@@ -174,7 +186,11 @@ speakersBio = [
   "damirN",
   "grahamB",
   "thomasZ",
-  "sunilK"
+  "sunilK",
+  "seanM",
+  "tamara",
+  "celia",
+  "terri"
 ]
 
 legendTitle = [
@@ -387,7 +403,7 @@ title3 = [
   "Fundamental OSLC Concepts for Distributed Link Creation",
 ]
 authors3 = [
-  "Sean McGervey",
+  "Sean McGervey, Tamara Hambrick, Celia Tseng, Terri Chan",
   "Andrii Berezovskyi and Jad El-Khoury",
   "Andreas Korff",
   "Juan Quintanar",
