@@ -95,7 +95,8 @@ speakersName = [
   "Guillermo Garcia Grao",
   "Damir Nešić",
   "Graham Bleakley",
-  "Thomas Zimmermann"
+  "Thomas Zimmermann",
+  "Sunil Kaklij"
 ]
 speakersTitle = [
   "KTH Royal Institute of Technology",
@@ -120,7 +121,8 @@ speakersTitle = [
   "Technical University of Madrid",
   "Scania CV AB",
   "Costain UK Ltd.",
-  "Fraunhofer Institute for Production Systems and Design Technology"
+  "Fraunhofer Institute for Production Systems and Design Technology",
+  "Scania CV AB"
 ]
 speakersImage = [
   "/images/speakers/jad_el.jpg",
@@ -146,6 +148,7 @@ speakersImage = [
   "/images/speakers/damir.jpg",
   "/images/speakers/graham.jpg",
   "/images/speakers/thomas.jpg",
+  "/images/speakers/sunil.jpg",
 ]
 speakersBio = [
   "jadE",
@@ -171,6 +174,7 @@ speakersBio = [
   "damirN",
   "grahamB",
   "thomasZ",
+  "sunilK"
 ]
 
 legendTitle = [
