@@ -261,7 +261,7 @@ type1 = [
   "break",
 ]
 presentationLink1 = [
-  "",
+  "/presentation/OSLC_as_a_backboke_for_digital_engineering.pdf",
   "",
   "",
   "",
@@ -342,7 +342,7 @@ type2 = [
   "keynote"
 ]
 presentationLink2 = [
-  "",
+  "/presentations/keeping_up_with_the_pace_of_opportunity.pdf",
   "",
   "",
   "",
