@@ -780,13 +780,16 @@ var bio = {
   },
   sunilK: {
     'name': 'Sunil Kaklij',
-    'title': '',
-    'picturePath':  '/images/speakers/placeholder.jpg',
+    'title': 'Lead Architect, Product Development IT',
+    'picturePath':  '/images/speakers/sunil.jpg',
     'bio': [
-      ""
+      "Sunil Kaklij is an enterprise solution architect with 14+ years of strong professional background as a software development engineer & technical consultant. He is a visionary, passionate and skilled strategic leader working with a wide spectrum of tools and technologies such as Product Configuration, ALM / PLM / ERP tools, Cloud, Security, networking, open-source, Java / .Net solutions,  APIs, IoT, Streaming, RDF / OSLC,  etc. He has a high degree of international relations and working experience with customers & partner companies.  He is focused on improving Business efficiency in particular within the product development context to support innovation, modularity, and safety. Digital Thread, Digital Twin, and Digital Trust are key drivers for his work. He is currently engaged in the development of global enterprise solutions for common product configuration and multi-brand engineering data exchange within the TRATON group. He works in close collaboration with business domain experts, partners, vendors, and solution engineering teams. Excited and motivated by emerging technologies and new business opportunities."
     ],
     'contact': [
-
+      {
+        'link': 'mailto:Sunil.kaklij@scania.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
     ]
   },
   laurentD: {
