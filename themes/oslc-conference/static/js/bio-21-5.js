@@ -709,10 +709,43 @@ var bio = {
   },
   seanM: {
     'name': 'Sean McGervey',
-    'title': '',
-    'picturePath':  '/images/speakers/placeholder.jpg',
+    'title': 'DEIXWG Chairperson',
+    'picturePath':  '/images/speakers/seanM.jpg',
     'bio': [
-      ""
+      "Sean McGervey is a Systems Engineer at the Johns Hopkins University Applied Physics Laboratory, where he was Architecture Lead on a Major Defense Acquisition Program (ACAT-1) for the US Navy and is a key contributor to efforts supporting the Digital Engineering Transformation of APL’s DoD Sponsors.  Sean founded and leads the APL MBSE Community of Practice, teaches three courses in MBSE at APL, and teaches the “Applied Analytics for MBSE” course for JHU’s graduate program in Systems Engineering.  Sean is also Chairperson of the INCOSE Digital Engineering Information Exchange Working Group (DEIXWG), a key element of the broader effort to drive forward OSD’s Digital Engineering initiative.  Prior to joining APL, Sean worked for 15 years in the Systems Engineering Department at Northrop Grumman Mission Systems in Baltimore, Maryland.  While there, Sean practiced MBSE on multiple programs and founded the Northrop Grumman Corporate Model-Based Engineering (MBE) Community of Practice."
+    ],
+    'contact': [
+
+    ]
+  },
+  tamara: {
+    'name': 'Tamara Hambrick',
+    'title': 'DEIXWG Co-Chair Digital Viewpoint Model (DVM) Lead',
+    'picturePath':  '/images/speakers/tamara.jpg',
+    'bio': [
+      "Tamara Hambrick serves as Systems Engineering Control director within the Systems Engineering and Integration Integrated Product Team for the Strategic Deterrent Systems Division of Northrop Grumman Space Systems. In this role, Hambrick is responsible for leading engineers and managers in the implementation of model-based systems engineering for architecture models, integration approach, readiness assessments, and product quality metrics development and monitoring.Hambrick is a leader in driving technical innovation, influencing change and developing the next generation of thought leaders, advocates and practitioners in model based systems engineering for the last 15 years. She has held model-based advisory and IPT leadership roles for radar, open electronic warfare, avionics, cyber, space, and missile defense programs.Hambrick holds a bachelor’s degree in engineering science from Pennsylvania State University, as well as a master’s certificate in systems engineering from Johns Hopkins University, and a graduate certificate in architecture and systems engineering from Massachusetts Institute of Technology."
+    ],
+    'contact': [
+
+    ]
+  },
+  celia: {
+    'name': 'Celia Tseng',
+    'title': 'DEIXWG Co-Chair Standards Framework Lead',
+    'picturePath':  '/images/speakers/celia.jpg',
+    'bio': [
+      "Celia is a systems engineer with 16 years of experience in missile defense, radar systems and command and control systems. She has a masters degree in systems engineering from Cornell University (2004) and is a certified systems engineering professional (INCOSE CSEP), certified system modeling professional (OMG OCSMP), and certified agile scrum master (SAFe). Celia had experience throughout the development lifecycle in the capacity of system qualification lead, system IPT lead, systems modeling lead, and cost account manager. Celia is also co-chair of the joint INCOSE/ NDIA Digital Engineering Information Exchange Working group and work across industries on MBSE adoption best practices. She is currently a systems engineer in Raytheon Technologies."
+    ],
+    'contact': [
+
+    ]
+  },
+  terri: {
+    'name': 'Terri Chan',
+    'title': 'DEIXWG Technical Lead',
+    'picturePath':  '/images/speakers/terri.jpg',
+    'bio': [
+      "Terri Chan is a Sr. Systems Engineer in the Boeing Commercial Airplane Product Development organization, focusing on Architecture Integration across the lifecycle with dynamic functional modeling.  She has over twenty years of experience, beginning at JPL on the Cassini: Mission to Saturn program and future network architecture integrator of the Air Force Satellite Control Network.  Terri has worked across the product lifecycle on military programs from conceptual design through integration/testing and operations.  She has also consulted executive leadership as a competitive intelligence analyst, where the benchmarking of model capabilities for the enterprise played a pivotal role in the current MBE transformation strategy.  In 2020, Terri was invited to join the University of Washington Masters of Industrial and Systems Engineering Executive Advisory Board, transforming the MISE program to meet current and future needs especially for technology employers in the Puget Sound area."
     ],
     'contact': [
 
