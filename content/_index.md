@@ -430,7 +430,7 @@ presentationLink3 = [
   "",
   "",
   "",
-  ""
+  "/presentations/Fundamental_OSLC_Concepts_for_Distributed_Link_Creation.pdf"
 ]
 videoLink3 = [
   "",
