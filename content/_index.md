@@ -345,8 +345,8 @@ presentationLink2 = [
   "/presentations/keeping_up_with_the_pace_of_opportunity.pdf",
   "",
   "",
-  "",
-  "",
+  "/presentations/20211103_OSLCFest-Configurations.pdf",
+  "/presentations/20211103_OSLCFest-Enterprise.pdf",
   "",
   "",
   ""
