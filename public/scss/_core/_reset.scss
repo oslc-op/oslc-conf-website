@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	background: $main-white;
-	transition: all .5s ease;
+	transition: all 450ms ease;
 	
 	&.main {
 		background: $main;
