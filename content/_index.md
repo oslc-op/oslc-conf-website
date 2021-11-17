@@ -427,7 +427,7 @@ presentationLink3 = [
   "",
   "",
   "",
-  "",
+  "/presentations/Integration_Challenges_in_Infrastructure.pdf",
   "",
   "",
   "/presentations/Fundamental_OSLC_Concepts_for_Distributed_Link_Creation.pdf"
