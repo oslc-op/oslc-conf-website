@@ -263,10 +263,10 @@ type1 = [
 presentationLink1 = [
   "/presentation/OSLC_as_a_backboke_for_digital_engineering.pdf",
   "",
+  "/presentations/Exposing_Capella_Models_to_OSLC_Consumers.pdf",
   "",
-  "",
-  "",
-  "",
+  "/presentations/PyOSLC_SDK.pdf",
+  "/presentations/developing_an_oslc_client_with_the_oslc_api_from_sparx_systems.pdf",
   "",
   ""
 ]
@@ -343,13 +343,13 @@ type2 = [
 ]
 presentationLink2 = [
   "/presentations/keeping_up_with_the_pace_of_opportunity.pdf",
-  "",
+  "/presentations/managing_traceability.pdf",
   "",
   "/presentations/20211103_OSLCFest-Configurations.pdf",
   "/presentations/20211103_OSLCFest-Enterprise.pdf",
-  "",
-  "",
-  ""
+  "/presentations/using_oslc_for_a_closed-loop_digital_twin_demonstrator.pptx",
+  "/presentations/Knowledge_graph_for_ Multi_brand_engineering_collaboration.pdf",
+  "/presentations/OSLC_for_DevOps_event-based_automation.pdf"
 ]
 videoLink2 = [
   "",
@@ -395,7 +395,7 @@ duration3 = [
 title3 = [
   "INCOSE Digital Engineering Information Exchange Working Group",
   "OSLC Reference Implementation: From zero to 4 OSLC servers in 20 minutes",
-  "Hot to use OSLC Links Bidirectionally",
+  "How to use OSLC Links Bidirectionally",
   "Coatl: an OSLC API generation framework based on OpenAPI",
   "The challenges of connecting data in the world of Infrastructure",
   "Applied Category Theory for Scalable Data Integration and Semantic Interoperability",
@@ -426,11 +426,17 @@ presentationLink3 = [
   "",
   "",
   "",
-  "",
+  "/presentations/Coatl.pdf",
   "/presentations/Integration_Challenges_in_Infrastructure.pdf",
+<<<<<<< Updated upstream
   "",
   "",
   ""
+=======
+  "/presentations/Category_Theory_for_Semantic Data_Interoperability.pdf",
+  "/presentations/Global_Configurations.pptx",
+  "/presentations/Fundamental_OSLC_Concepts_for_Distributed_Link_Creation.pdf"
+>>>>>>> Stashed changes
 ]
 videoLink3 = [
   "",
