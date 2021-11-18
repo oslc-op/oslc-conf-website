@@ -428,15 +428,9 @@ presentationLink3 = [
   "",
   "/presentations/Coatl.pdf",
   "/presentations/Integration_Challenges_in_Infrastructure.pdf",
-<<<<<<< Updated upstream
-  "",
-  "",
-  ""
-=======
   "/presentations/Category_Theory_for_Semantic Data_Interoperability.pdf",
   "/presentations/Global_Configurations.pptx",
   "/presentations/Fundamental_OSLC_Concepts_for_Distributed_Link_Creation.pdf"
->>>>>>> Stashed changes
 ]
 videoLink3 = [
   "",
