@@ -262,7 +262,7 @@ type1 = [
 ]
 presentationLink1 = [
   "/presentation/OSLC_as_a_backboke_for_digital_engineering.pdf",
-  "",
+  "/presentations/OSLCfest-OP.pdf",
   "/presentations/Exposing_Capella_Models_to_OSLC_Consumers.pdf",
   "",
   "/presentations/PyOSLC_SDK.pdf",
@@ -344,7 +344,7 @@ type2 = [
 presentationLink2 = [
   "/presentations/keeping_up_with_the_pace_of_opportunity.pdf",
   "/presentations/managing_traceability.pdf",
-  "",
+  "/presentations/Leveraging-OSLC-and-Linked-Data-for-the-Creation-of-Assurance-Cases.pptx",
   "/presentations/20211103_OSLCFest-Configurations.pdf",
   "/presentations/20211103_OSLCFest-Enterprise.pdf",
   "/presentations/using_oslc_for_a_closed-loop_digital_twin_demonstrator.pptx",
@@ -424,7 +424,7 @@ type3 = [
 ]
 presentationLink3 = [
   "",
-  "",
+  "/presentations/OSLCfest-Lyo.pdf",
   "",
   "/presentations/Coatl.pdf",
   "/presentations/Integration_Challenges_in_Infrastructure.pdf",
