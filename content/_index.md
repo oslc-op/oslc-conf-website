@@ -29,8 +29,8 @@ dayListLink = [
 dayListClass = [
 ]
 timeLabel = ""
-bannerActionText = "Register for Free Here"
-bannerActionLink = "https://kth-se.zoom.us/meeting/register/u5UvcemsqzIqH93W9_2H2zebLlOPJoKPT3JH"
+bannerActionText = "Check videos and presentations"
+bannerActionLink = "#program"
 bannerActionFAIcon = ""
 bannerSideImage = "/images/connections-new.svg"
 bannerBackgroundImage = ""
@@ -271,14 +271,14 @@ presentationLink1 = [
   ""
 ]
 videoLink1 = [
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  ""
+  "https://www.youtube.com/watch?v=cjSDOL7k2EI&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=1",
+  "https://www.youtube.com/watch?v=cHZsvL7FI2s&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=2",
+  "https://www.youtube.com/watch?v=JPiGgNoD8Xo&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=3",
+  "https://www.youtube.com/watch?v=UtQVGDQHPmQ&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=4",
+  "https://www.youtube.com/watch?v=c_Xqq5zK2Do&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=5",
+  "https://www.youtube.com/watch?v=D04bODoJzg4&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=6",
+  "https://www.youtube.com/watch?v=bEoBfwlKlgU&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=7",
+  "https://www.youtube.com/watch?v=tFqYWZk-pKU&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=8"
 ]
 panelVariable1 = [
   "PEranG2021",
@@ -353,13 +353,13 @@ presentationLink2 = [
 ]
 videoLink2 = [
   "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  ""
+  "https://www.youtube.com/watch?v=EIVi3mn4fIo&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=9",
+  "https://www.youtube.com/watch?v=wwgbyZaNSZY&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=10",
+  "https://www.youtube.com/watch?v=7_I20ycpfFY&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=11",
+  "https://www.youtube.com/watch?v=RDFChkqZPgA&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=12",
+  "https://www.youtube.com/watch?v=0_gdHcib9jc&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=13",
+  "https://www.youtube.com/watch?v=DrFQlQrUC3w&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=14",
+  "https://www.youtube.com/watch?v=1zxw0Yve1K0&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=15"
 ]
 panelVariable2 = [
   "PErikH2021",
@@ -433,14 +433,14 @@ presentationLink3 = [
   "/presentations/Fundamental_OSLC_Concepts_for_Distributed_Link_Creation.pdf"
 ]
 videoLink3 = [
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  ""
+  "https://www.youtube.com/watch?v=YYMIHHV2wUM&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=16",
+  "https://www.youtube.com/watch?v=IJ7FunqW0rE&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=17",
+  "https://www.youtube.com/watch?v=cg4fjaiAWTo&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=18",
+  "https://www.youtube.com/watch?v=GPmkeYoWnXs&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=19",
+  "https://www.youtube.com/watch?v=eZe9VPhXXUY&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=20",
+  "https://www.youtube.com/watch?v=O_K6oLQSyfw&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=21",
+  "https://www.youtube.com/watch?v=IN-vs5nA-5M&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=22",
+  "https://www.youtube.com/watch?v=0384qsHEq60&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=23"
 ]
 altVideoLink3 = [
   "",
