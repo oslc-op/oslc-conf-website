@@ -1,16 +1,16 @@
 +++
-header = [
-  "About",
-  "OSLCFest 2018",
-  "OSLCFest 2020",
-  "OSLCFest 2021"
-]
-
 headerLinks = [
   "#about",
   "2018",
   "2020",
   "2021"
+]
+
+header = [
+  "About",
+  "OSLCFest 2018",
+  "OSLCFest 2020",
+  "OSLCFest 2021"
 ]
 
 bannerOverlay = "bg-overlay2"
