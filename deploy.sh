@@ -29,3 +29,6 @@ git push origin production
 echo "Updating server code"
 SCRIPT="cd ../var/www/oslcfest.org; git pull; exit"
 ssh -A root@167.99.229.27 "${SCRIPT}"
+
+echo "Switching to master"
+git checkout master
