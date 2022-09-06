@@ -1,6 +1,7 @@
 +++
 headerLinks = [
   "#about",
+  "#organizers",
   "2018",
   "2020",
   "2021"
@@ -8,6 +9,7 @@ headerLinks = [
 
 header = [
   "About",
+  "Organizers",
   "OSLCFest 2018",
   "OSLCFest 2020",
   "OSLCFest 2021"
