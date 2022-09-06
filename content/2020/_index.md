@@ -12,7 +12,8 @@ header = [
   "Program",
   "Organizers",
   "OSLCFest 2018",
-  "OSLCFest 2021"
+  "OSLCFest 2021",
+  "OSLCFest 2022"
 ]
 
 headerLinks = [
@@ -21,6 +22,7 @@ headerLinks = [
   "#program",
   "#organizers",
   "2018",
+  "2021",
   ""
 ]
 

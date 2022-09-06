@@ -1,22 +1,28 @@
 +++
 header = [
   "About",
+  "Speakers",
+  "Program",
+  "Organizers",
   "OSLCFest 2018",
   "OSLCFest 2020",
-  "OSLCFest 2021"
+  "OSLCFest 2022"
 ]
 
 headerLinks = [
   "#about",
+  "#speakers",
+  "#program",
+  "#organizers",
   "2018",
   "2020",
-  "2021"
+  ""
 ]
 
 bannerOverlay = "bg-overlay2"
 bannerTitle1 = "OSLC FEST"
 bannerTitle2 = ""
-bannerTitle3 = "November 15-17, 2022"
+bannerTitle3 = "November 2-4, 2021"
 bannerTitle4 = "Virtual Conference"
 dayList = [
 ]
@@ -24,9 +30,9 @@ dayListLink = [
 ]
 dayListClass = [
 ]
-timeLabel = "Speakers and Program coming soon!"
-bannerActionText = ""
-bannerActionLink = ""
+timeLabel = ""
+bannerActionText = "Check videos and presentations"
+bannerActionLink = "#program"
 bannerActionFAIcon = ""
 bannerSideImage = "/images/connections-new.svg"
 bannerBackgroundImage = ""
