@@ -47,7 +47,12 @@
       {{ end }}
       </div>
       {{ if .Params.timeLabel }}
-        <h4 class="text-shadow" style="color: #FFF">{{ .Params.timeLabel }}</h4>
+        <h4 class="text-shadow" style="color: #FFF">
+        {{ if .Params.linkTimeLabel }}
+        <a href={{ .Params.linkTimeLabel }} target="_blank">{{ .Params.proposalLabel }}</a>
+        {{ end }}
+        {{ .Params.timeLabel }}
+        </h4>
       {{ end }}
     </div>
   </div>
