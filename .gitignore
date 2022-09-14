@@ -18,3 +18,5 @@ coverage*.out
 
 GoBuilds
 dist
+
+.hugo_build.lock
