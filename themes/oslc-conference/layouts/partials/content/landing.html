@@ -9,8 +9,8 @@
       {{ if .Params.bannerTitle2 }}
       <h2 class="text-shadow big subtitle">{{ .Params.bannerTitle2 }}</h2>
       {{ end }}
-      <h2 class="text-shadow big">{{ .Params.bannerTitle3 }}</h2>
-      <h3 class="text-shadow big alt">{{ .Params.bannerTitle4 }}</h3>
+      <h2 class="text-shadow big subtitle">{{ .Params.bannerTitle3 }}</h2>
+      <h3 class="text-shadow big alt subtitle">{{ .Params.bannerTitle4 }}</h3>
       {{ if .Params.dayList }}
       <div class="centralized">
         {{ range $index, $label := .Params.dayList }}
@@ -34,7 +34,7 @@
           {{ end }}
         {{ else }}
           {{ if .Params.bannerActionText }}
-          <a href="#program" class="section--button registration button white hover--white">
+<a href="#program" class="section--button registration button white hover--white">
             {{ .Params.bannerActionText }}
           </a>
           {{ end }}
@@ -47,12 +47,12 @@
       {{ end }}
       </div>
       {{ if .Params.timeLabel }}
-        <h4 class="text-shadow" style="color: #FFF">
-        {{ if .Params.linkTimeLabel }}
-        <a href={{ .Params.linkTimeLabel }} target="_blank">{{ .Params.proposalLabel }}</a>
-        {{ end }}
+      <div class="centralized">
+        <a href={{ .Params.linkTimeLabel }} target="_blank"
+        class="section--button registration button white hover--white youtube">
         {{ .Params.timeLabel }}
-        </h4>
+        </a>
+        </div>
       {{ end }}
     </div>
   </div>
