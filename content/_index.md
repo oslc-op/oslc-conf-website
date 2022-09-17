@@ -16,9 +16,9 @@ header = [
 ]
 
 bannerOverlay = "bg-overlay2"
-bannerTitle1 = "OSLC FEST"
+bannerTitle1 = "OSLC FEST 2022"
 bannerTitle2 = "Making digital threads real!"
-bannerTitle3 = "November 15-17, 2022"
+bannerTitle3 = "November 15-17"
 bannerTitle4 = "Virtual Conference"
 dayList = [
 ]
