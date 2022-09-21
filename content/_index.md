@@ -49,7 +49,7 @@ aboutParagraphs = [
   "to enable the Web of data. OSLC provides open standards to achieve a uniform interface to different data sources (e.g. different databases, repositories, applications, files) and enable the connectivity of data between different data sources.",
   "such as IBM, Siemens, PTC, Tasktop, Kovair, Sodius, Maplessoft, MID, pure-systems, and many more. These solutions amongst others radically improve requirements traceability and collaboration in the design of complex systems.",
   "everything about existing and upcoming OSLC solutions, open-source projects and standards. In contrast to a traditional conference, this conference will facilitate the informal exchange of information and ideas between participants!",
-  "The 3nd OSLCFest will take place virtually on Nov 2-4, 2021. The event will be broadcast on YouTubeLive. More info about the broadcast will be shared soon."
+  "The 4th OSLCFest will take place virtually on Nov 15-17, 2022. The event will be broadcast on YouTubeLive. More info about the broadcast will be shared soon."
 ]
 
 whoIcon = [
