@@ -26,7 +26,7 @@ dayListLink = [
 ]
 dayListClass = [
 ]
-timeLabel = "Submit your presentation proposal before October 21, 2022"
+timeLabel = "Submit your presentation proposal before October 28, 2022"
 linkTimeLabel = "https://easychair.org/conferences/?conf=oslcfest2022"
 bannerActionText = ""
 bannerActionLink = ""
