@@ -291,7 +291,7 @@ panelVariable1 = [
  # "PMotiB2021",
  # "PTorbjornH2021"
 ]
-day2 = "Day 2# Nov 16, 2021"
+day2 = "Day 2# Nov 16, 2022"
 start2 = [
   "13:00",
   "13:30",
