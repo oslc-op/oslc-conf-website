@@ -28,14 +28,14 @@ dayListLink = [
 ]
 dayListClass = [
 ]
-timeLabel = "Submit your presentation proposal before November 2, 2022"
-linkTimeLabel = "https://easychair.org/conferences/?conf=oslcfest2022"
+timeLabel = "Save the Date!"
+linkTimeLabel = "https://kth-se.zoom.us/meeting/register/u5UldeyspzMuGdZmOrEzSIkuQxCNgR1uP54S"
 bannerActionText = ""
 bannerActionLink = ""
 bannerActionFAIcon = ""
 bannerSideImage = "/images/connections-new.svg"
 bannerBackgroundImage = ""
-bannerSaveTheDate = "https://kth-se.zoom.us/meeting/register/u5UldeyspzMuGdZmOrEzSIkuQxCNgR1uP54S"
+bannerSaveTheDate = ""
 
 aboutParagraphsBold = [
   "Organizations are using OSLC to eliminate data silos by connecting data across their business to achieve the digital thread as part of a digital engineering transformation.",
