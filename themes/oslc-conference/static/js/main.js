@@ -37,8 +37,6 @@ function openInfo(source) {
 }
 
 function openPanel(source) {
-    console.log("source:" + source)
-    console.log("data-bio:" + $(source).attr('data-bio'))
 	presentation = $(source).attr('data-bio');
 	$('#infoPanel .item-title').html(presentations[presentation].title);
 	$('#infoPanel .info--bio').children().remove();
