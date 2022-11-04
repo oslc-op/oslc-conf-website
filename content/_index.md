@@ -236,7 +236,7 @@ title1 = [
   "SysML v2 to Go",
 ]
 authors1 = [
-  "Hanns Schulz-Mirbach",
+  "Hanns Schulz-Mirbach, Carina Schaefer and Jayakumar Palanivel",
   "Eran Gery",
   "Speaker from Bosch",
   "Erik Herzog",
@@ -274,7 +274,8 @@ videoLink1 = [
  # "https://www.youtube.com/watch?v=tFqYWZk-pKU&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=8"
 ]
 panelVariable1 = [
- # "PEranG2021",
+  "PHansS",
+  "PEranG2022",
  # "PAndrewJim2021",
  # "PLaurentD",
  # "PAndyL2021",
@@ -347,6 +348,12 @@ videoLink2 = [
  # "https://www.youtube.com/watch?v=1zxw0Yve1K0&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=15"
 ]
 panelVariable2 = [
+  "",
+  "PPatrickO",
+  "",
+  "",
+  "PJimT",
+  "",
  # "PErikH2021",
  # "PChristophB2021",
  # "PDamirN",
@@ -363,8 +370,10 @@ start3 = [
   "16:00",
   "16:30",
   "17:00",
+  "17:30",
 ]
 duration3 = [
+  "30min",
   "30min",
   "30min",
   "30min",
@@ -377,13 +386,15 @@ title3 = [
   "How is the OSLC Research Building the Semantic Web of Software Assets as Linked Data?",
   "OSCL for Cognitive Cross-Checking of System Models",
   "Connecting REST API Resources with Kiwi",
+  "OSLC as an Enabler of Systems Lifecycle Management"
 ]
 authors3 = [
-  "Chen Rui",
-  "Jan Fiedor",
-  "Bruno Marcelo",
+  "Chen Rui, Lu Jinzhi, Wang Guoxin and Wu Shouxuan",
+  "Jan Fiedor and Ondřej Vašíček",
+  "Bruno Marcelo Ferreira, Rafael Torres, Fábio Basso, Rafael Z. Frantz, Diego Kreutz, Elder Rodrigues and Maicon Bernardino",
   "Carlos Insaurralde",
   "Hemlata Sharma",
+  "Yogish Kode",
 ]
 type3 = [
  # "keynote",
@@ -426,6 +437,12 @@ altVideoLink3 = [
  # ""
 ]
 panelVariable3 = [
+  "",
+  "PJanF",
+  "",
+  "PCarlosI",
+  "PHemlataS",
+  "PYogishK"
  # "PSeanM",
  # "PAndrewJad2021",
  # "PAndreasK2021",

@@ -871,5 +871,110 @@ var bio = {
     'contact': [
 
     ]
-  }
+  },
+  yogishK: {
+      'name': 'Yogish Kode',
+        'title': '',
+        'picturePath':  '/images/speakers/placeholder.jpg',
+        'bio': [
+          ""
+        ],
+        'contact': [
+
+      ]
+  },
+  carlosI: {
+    'name': 'Carlos Insaurralde',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+    ]
+  },
+  hemlataS: {
+    'name': 'Hemlata Sharma',
+    'title': 'Data Scientist and Machine Learning Engineer',
+    'picturePath':  '/images/speakers/hemlata.png',
+    'bio': [
+          ""
+    ],
+    'contact': [
+      {
+        'link': 'mailto:hemlata.sharma@koneksys.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
+    ]
+  },
+  hannsS: {
+    'name': 'Hanns Schulz-Mirbach',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+      ],
+    'contact': [
+    ]
+  },
+  carinaS: {
+    'name': 'Carina Schaefer',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+    ]
+  },
+  jayakumarP: {
+    'name': 'Jayakumar Palanivel',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+    ]
+  },
+  jimT: {
+    'name': 'Jim Tung',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+    ]
+  },
+  janF: {
+    'name': 'Jan Fiedor',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+          ""
+    ],
+    'contact': [
+      ]
+  },
+  ondrejV: {
+    'name': 'Ondřej Vašíček',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+    ]
+  },
+    patrickO: {
+      'name': 'Patrick Ollerton',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+          ""
+    ],
+    'contact': [
+      ]
+},
 };

@@ -422,6 +422,16 @@ var presentations = {
       bio.eranG
     ]
   },
+  PEranG2022: {
+    'title':'OSLC Profiles',
+    'description':[
+      '<p>Linking profiles are non-normative supplement to OSLC specifications, aim to ensure interoperability between OSLC enabled applications for linking use cases. It is important to note that OSLC interoperability is not automatically implied by OSLC specifications, as the specifications allow for high degree of conformance variability. Linking use cases result in establishing OSLC links across OSLC resources in different applications, possibly within the same OSLC domain or across domains. For example, a requirements provider from one vendor establishes traceability links to a requirements provider from another vendor. A cross domain example would be a PLM BOM application establishing traceability links to a requirements application by a different vendor. The cross vendors emphasis is because this is the context for interoperability challenges. Linking use cases may vary in capability as described later in this document, but all linking use cases require to establish connection between the consumer application and the provider application, and ability to select a resource with the provider to link with a resource of the consumer, and storage of the link in one of the applications. From that point onwards there is a variability across the use cases related to bi-directional navigability (are both applications aware of the link) and also behaviors that depend if the application supports configuration management or not. The introduction of the profile comes to help users qualify whether two OSLC applications meet compatibility level to perform a set of use OSLC linking cases, and software vendors on how to build/consume OSLC linking related services that ensure interoperability.</p>',
+      '<p>In this presentation we will provide an overview to the linking profiles. how they are specified. and how they assist in creating inter-operable OSLC implementations for linking</p>'
+    ],
+    'authors': [
+      bio.eranG
+    ]
+  },
   PRobertH2021: {
     'title':'Deploying OSLC In the Enterprise',
     'description':[
@@ -614,5 +624,82 @@ var presentations = {
       bio.josephS,
       bio.davidV
     ]
-  }
+  },
+  PYogishK: {
+    'title': 'OSLC as an Enabler of Systems Lifecycle Management',
+    'description':[
+        '<p>The Information Technology landscape that enables Systems Lifecycle Management can be construed as a System of Systems comprising of several sub-systems - Requirements Management System, MBSE Tools, Verification and Validation System, Product Data Management System, Manufacturing Execution Systems, ERP - to name a few. Customers acquire various subsystems at different points in time resulting in islands of product data. In this talk we provide an overview on how we leverage OSLC in conjunction with Glide to deliver a Systems Lifecycle Management platform.</p>'
+    ],
+    'authors': [
+        bio.yogishK,
+    ]
+  },
+  PCarlosI: {
+    'title': 'OSCL for Cognitive Cross-Checking of System Models',
+    'description':[
+        '<p>While multidisciplinary projects of complex engineering systems are rapidly growing the market has had a slack response to provide comprehensive development frameworks and relevant support tools to minimize team downtime and potential problems on design decisions. These drawbacks are mainly due to inefficient and ineffective collaboration among stakeholders from multiple disciplines as they usually use representation models and modelling languages of diverse nature. This undermines the model-based design consistency by making it difficult to integrate the different views of the same system in real time and realize cross-disciplinary impact on models. This presentation shares experience on the use of OSCL to propose a cognitive design framework for the above issue. The proposed approach increases design autonomy in the system development lifecycle by smartly feeding design outputs (from requirements analysis as well as modelling and simulation) from each stakeholder with design inputs from other stakeholders. A case study based on avionics system is presented as application example.</p>'
+    ],
+    'authors': [
+      bio.carlosI,
+    ]
+  },
+  PHemlataS: {
+    'title': 'Connecting REST API Resources with Kiwi',
+    'description':[
+        '<p>Kiwi helps seamlessly connect resources that live in isolated, containerized applications. Kiwi enables the connection of data or resources from different organizations or applications that are containerized in different microservices (ex: REST APIs on Kubernetes) without any modification to the micro-services. A graph database stores the connected resources so users can leverage the full potential of linked data to achieve a digital thread.</p>',
+        '<p>Kiwi does this using sidecar proxies. For every REST API, a kiwi-sidecar proxy exists. They act as port-forwarders for their REST APIs. They also provide endpoints for link creation and link discovery. These proxies are containers that can be deployed easily alongside applications running on Kubernetes and require very little configuration.</p>',
+        '<p>This presentation will explain the need for Kiwi and the underlying technologies on which it is built, in addition to a demo showcasing the capabilities of Kiwi.</p>'
+    ],
+    'authors': [
+      bio.hemlataS,
+    ]
+  },
+  PHansS:{
+    'title': 'Enterprise Data Dependency Management',
+    'description':[
+      '<p>Enterprise data dependency management (EDDM) enables the management of data dependencies across an enterprise. EDDM provides the capabilities of linking data, automatically detect changes on the link endpoints and baselining of data link sets. </p>',
+      '<p>EDDM enables end users to utilize data links between business objects, irrespective of the data containers used to manage them. Link endpoint change detection informs users in case of changes of any of the link endpoints after link creation. And EDDM baselines implement immutable and named sets of EDDM links to preserve them for future reference. </p>',
+      '<p>The solution architecture for EDDM consists of a pair of EDDM server and client for each data container and one central EDDM server. The EDDM server of a data container enables querying for business objects and offers preview and delegated user interfaces (UI\'s) for data viewing. The EDDM client is natively embedded in the user interface of the data container and enables the creation and update of EDDM links, it also supports bulk operations on sets of EDDM links. The EDDM central server enables EDDM service discovery, manages the central link repository and handles translations from and to symbolic EDDM links to ensure long term link stability.</p>',
+      '<p>EDDM has been implemented at Dräger within the AWS cloud environment of the Dräger PLM platform and is available for company wide use. The solution architecture utilizes various AWS services (among them the graph database AWS Neptune for the central link repository).</p>',
+      '<p>Currently EDDM is enabled for the Dräger PLM platform (based on Aras Innovator ), the test management system (based on IBM Engineering test management), the requirements management system (based on IBM DOORS Next), the Dräger standard operating procedures management system (based on GBTEC BIC Cloud) and the Dräger FMEA system (based on PLATO e1ns). Other Dräger data containers will be enabled for EDDM to implement the company wide digital thread.</p>',
+      '<p>EDDM uses OSLC in various parts of its solution architecture. Whenever data containers already support OSLC these capabilities are directly used. Otherwise, a custom OSLC adapter is used to provide OSLC capabilities for the data container. We will discuss benefits and limitations of OSLC we have experienced during the implementation of EDDM.</p>',
+    ],
+    'authors': [
+      bio.hannsS,
+      bio.carinaS,
+      bio.jayakumarP,
+    ]
+  },
+  PJimT:{
+    'title': 'Digital Thread for the Evolution of Model-Based Design',
+    'description':[
+      '<p>\"Software-defined\" is increasingly becoming the tagline for how organizations across industries describe their offerings, including vehicles, aerospace systems, industrial machines, and more. However, it\'s more than just a phrase; beneath that tagline lies a significant shift in development processes, development tools, and development-team mindset. As Model-Based Design evolves to address these shifts, it must also adapt to different approaches to lifecycle management and maintaining the digital thread. In this talk, Jim Tung will explore some key aspects of this change.</p>',
+    ],
+    'authors': [
+      bio.jimT,
+    ]
+  },
+  PJanF:{
+    'title': 'Making Analysis Tools More Accessible Using an OSLC-based Service-Oriented Architecture',
+    'description':[
+        '<p>In the presentation, we will describe our service-oriented architecture which allows developers to easily introduce new analysis tools to their users and the users to immediately be able to use these tools from their applications.</p>',
+        '<p>The architecture consists of three main components: (1) Unite, a universal OSLC adapter able to transform any non-interactive command line tool into an OSLC-compliant web service, (2) UniC, a Java-based and Eclipse-compatible Client for Unite which can be configured for any tool transformed by Unite due to its flexible and highly extensible architecture, and (3) Eclipse Arrowhead, an IoT framework enabling automatic discovery of services provided by the analysis tools through Unite.</p>',
+        '<p>We will also discuss our experience with deploying this architecture in Honeywell where four different OSLC clients are used to interact with multiple analysis tools transformed by Unite for over a year now.</p>',
+        '<p>The goal of the presentation is to show the audience how they can easily make an OSLC-compliant web service from their own command line tool and quickly connect it with, e.g., Eclipse IDE so any user can easily start using the tool. They will also learn how one can utilize Eclipse Arrowhead so Unite clients can always have an up-to-date list of analysis tools currently available on the network.</p>',
+        '<p>Jan Fiedor is a model-based development engineer at Honeywell, external researcher at FIT BUT, and the developer of UniC, with papers at well-known international research and industrial conferences such as ICST, ISSTA, FSE, or INCOSE IS. Ondrej Vasicek is a Ph.D. student, Honeywell intern, and the developer of Unite whose paper on Unite was recently accepted at ESEC/FSE 2022.</p>',
+    ],
+    'authors': [
+      bio.janF,
+      bio.ondrejV,
+    ]
+  },
+  PPatrickO:{
+    'title': 'Enabling the Digital Engineering Thread at PTC',
+    'description':[
+        '<p>Most engineering and manufacturing companies today have complex tool chains comprising various applications from multiple vendors, including PTC. As a result, there is huge demand for robust, reliable software integrations that can enable and improve digital engineering and design. This session will describe why and how PTC enabled the digital engineering thread within our own software tools Windchill RV&S, Windchill Modeler and Windchill PLM, as well as implementing integrations with 3rd party software such as IBM DOORS Next.</p>',
+      ],
+    'authors': [
+      bio.patrickO,
+    ]
+  },
 };
