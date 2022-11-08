@@ -909,32 +909,45 @@ var bio = {
   },
   hannsS: {
     'name': 'Hanns Schulz-Mirbach',
-    'title': '',
-    'picturePath':  '/images/speakers/placeholder.jpg',
+      'title': 'Head of IT Competence Center Product Lifecycle Management',
+      'picturePath':  '/images/speakers/SchulzMirbach.jpg',
     'bio': [
-      ""
+        "Hanns Schulz-Mirbach ensures together with his team at Dräger the delivery of all IT services utilized in product development. That includes an enterprise PLM platform together with more than 40 IT services for meachanical and electrical engineering and software development. Prior to joining Dräger he held engineering management positions at Philips Healthcare and ABB. He has a masters degree in physics and a PhD in electrical engineering."
       ],
     'contact': [
+        {
+            'link': 'mailto:hanns.schulz-mirbach@draeger.com',
+            'icon': '<i class="fas fa-envelope"></i>'
+        }
+
     ]
   },
   carinaS: {
-    'name': 'Carina Schaefer',
-    'title': '',
-    'picturePath':  '/images/speakers/placeholder.jpg',
+    'name': 'Carina Monique Schaefer',
+    'title': 'IT Program Manager',
+    'picturePath':  '/images/speakers/CarinaSchaefer.jpg',
     'bio': [
-      ""
+        "Carina is an experienced project manager. With her passion for technology, she has contributed in the development of technology and products in the financial, healthcare, automotive and IT industries. At Dräger she is the owner of the project management process and the project lead of the Enterprise Data Dependency Management (EDDM) system. Besides ensuring stakeholder satisfaction, organizing teams and coordinating solution of project issues, Carina founded a robotics course where children learn basic mechanics and programming in order to bring their own ideas to life."
     ],
     'contact': [
+        {
+            'link': 'mailto:carina.schaefer@draeger.com',
+            'icon': '<i class="fas fa-envelope"></i>'
+        }
     ]
   },
   jayakumarP: {
     'name': 'Jayakumar Palanivel',
-    'title': '',
-    'picturePath':  '/images/speakers/placeholder.jpg',
+      'title': 'Senior Manager, PLM Solutions Lead',
+      'picturePath':  '/images/speakers/jayakumar.jpg',
     'bio': [
-      ""
+        "Jayakumar Palanivel has 22 years of experience in PLM domain. His current focus includes Digital Thread Enablement, MBSE and Product Sustainability among other things."
     ],
     'contact': [
+        {
+            'link': 'mailto:Jayakumar.Palanivel@wipro.com',
+            'icon': '<i class="fas fa-envelope"></i>'
+        }
     ]
   },
   jimT: {
@@ -967,14 +980,116 @@ var bio = {
     'contact': [
     ]
   },
-    patrickO: {
-      'name': 'Patrick Ollerton',
-    'title': '',
-    'picturePath':  '/images/speakers/placeholder.jpg',
+  patrickO: {
+    'name': 'Patrick Ollerton',
+    'title': 'Product Manager for Windchill Modeler',
+    'picturePath':  '/images/speakers/pollerton.jpg',
     'bio': [
-          ""
+        "Patrick has a Bachelor's degree in Product Design Management and a Masters Degree in Innovative Manufacturing and spent the early part of his career working in design engineering with software tools such as PTC's Windchill PLM, Creo and Pro/ENGINEER CAD. He has been a consultant, trainer, process and product manager for a variety of software products. His current role is Product Manager for Windchill Modeler, PTC's model-based system engineering solution, part of which is driving improvements in their software integrations to enable the digital engineering thread."
     ],
     'contact': [
+        {
+            'link': 'mailto:pollerton@ptc.com',
+            'icon': '<i class="fas fa-envelope"></i>'
+        }
+
       ]
+  },
+  timW: {
+      'name': 'Tim Weilkiens',
+      'title': '',
+      'picturePath':  '/images/speakers/TimWeilkiens.jpg',
+      'bio': [
+          ""
+      ],
+      'contact': [
+          {
+              'link': 'mailto:tim.weilkiens@oose.de',
+              'icon': '<i class="fas fa-envelope"></i>'
+          }
+
+      ]
+
+  },
+    ruiC: {
+      'name': 'Rui Chen',
+        'title': 'Master Student',
+        'picturePath':  '/images/speakers/RuiChen.jpg',
+        'bio': [
+          "Rui Chen is a master student at School of Mechanical Engineering, Beijing Institute of Technology. She received her B.E. degree in Industrial Engineering from Hefei University of Technology, Hefei, China, in 2021. Her research interests include model-based systems engineering tool-chain design and service-oriented data interpretation."
+        ],
+        'contact': [
+          {
+              'link': 'mailto:chenrui200009@gmail.com',
+              'icon': '<i class="fas fa-envelope"></i>'
+          }
+
+      ]
+
+    },
+    brunoM: {
+      'name': 'Bruno Marcelo Soares Ferreira',
+        'title': 'Adjunct Professor',
+        'picturePath':  '/images/speakers/BrunoMarcelo.jpg',
+        'bio': [
+          "I am an MSc student in Software Engineering at Programa de Pós-Graduação em Engenharia de Software (PPGES), Federal University of Pampa (Unipampa), Brazil. I work as an adjunct professor at Unipampa, and my research investigates tool integration in Continuous Software Engineering using the OSLC standard."
+        ],
+        'contact': [
+          {
+              'link': 'mailto:brunoferreira@unipampa.edu.br',
+              'icon': '<i class="fas fa-envelope"></i>'
+          }
+
+      ]
+
+    },
+    edG: {
+      'name': 'Ed Gentry',
+        'title': 'Product Owner',
+        'picturePath':  '/images/speakers/edgentry.jpg',
+        'bio': [
+          "With over 20 years of experience in the application lifecycle management industry, he has held senior leadership positions at two major ALM vendors. As a consultant he has supported clients in several industries. Currently, he is product owner of SmartFacts at MID, where he is focused on assisting clients achieve vendor independent cross-domain traceability across their digital landscape."
+        ],
+        'contact': [
+          {
+              'link': 'mailto:e.gentry@mid.de',
+              'icon': '<i class="fas fa-envelope"></i>'
+          }
+
+      ]
+
+    },
+    jensK: {
+      'name': 'Jens Krueger',
+        'title': 'Competence Unit Manager  PLM Strategy & Architecture; Head of Global Automotive Engineering Competency',
+    'picturePath':  '/images/speakers/JensKrueger.jpg',
+    'bio': [
+          "Studied computer science & business administration with a pre-PDM diploma thesis on „technical databases.",
+          "Worked for 8 years in the engineering IT of an international tier 1 automotive supplier, the major part as the project manager for the global PDM project.",
+          "Works since 1998 for NTT DATA (previously known as Softlab / Cirquent) in Munich as a consultant and manager in the competence center Engineering Consulting. Currently, he manages the competence unit “PLM Strategy & Architecture.",
+          "Focus topics are enterprise architecture incl. integration architecture, systems engineering, ALM and PLM for customers in automotive and aerospace."
+    ],
+    'contact': [
+          {
+              'link': 'mailto:jens.krueger@nttdata.com',
+              'icon': '<i class="fas fa-envelope"></i>'
+          }
+
+      ]
+
 },
+    martinU: {
+      'name': 'Martin Ulrich',
+        'title': 'PLM Architect',
+        'picturePath':  '/images/speakers/MartinUlrich.jpg',
+        'bio': [
+          "Martin Ulrich is a PLM architect with over 25 years of experience in the area of PLM. Methods and tools to develop electric/electronics in vehicles, PDM, PLM with a high focus on process support in Product Lifecycle were some of his focus area’s in the past. Martin’s expertise includes Systems and Software Engineering practices, Product Lifecycle Management, Model Based Engineering, and Product Line Engineering."
+        ],
+        'contact': [
+          {
+              'link': 'mailto:martin.ulrich@de.bosch.com',
+              'icon': '<i class="fas fa-envelope"></i>'
+          }
+      ]
+    },
 };

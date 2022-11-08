@@ -702,4 +702,14 @@ var presentations = {
       bio.patrickO,
     ]
   },
+    PMartinU:{
+      'title': 'Cross Domain Configuration Management – a New Way to Think PLM in Engineering',
+        'description':[
+          '<p>The Bosch Group is a leading global supplier of technology and services. The Bosch Group’s strategic objective is to facilitate connected living with products and solutions that either contain artificial intelligence (AI) or have been developed or manufactured with its help. The capability to manage steadily increasing product complexity with higher amount of product decomposition levels is vital to meet these objectives. As a side effect the complexity of the organization will increase, resulting in a higher need to facilitate collaboration, also on cross-domain system level.</p>',
+          '<p>In today’s world work products in engineering are still predominantly document-based. In this talk we will focus on the digitalization of the most important work product in engineering to support the digital thread: the project- and product related configurations. Managing these configurations (engineering BOM) are the core of any PLM-system. We will discuss a new approach to implement a highly modular PLM-system supporting interoperability in a brown field engineering landscape based on OSLC Configuration Management, which we refer to as Cross Domain Configuration Management (CDCM). Beyond others the following aspects will be highlighted: MBSE-support, configuration-aware traceability links, design principles and integration to the digital thread.</p>',
+          ],
+        'authors': [
+          bio.martinU,
+          ]
+    },
 };
