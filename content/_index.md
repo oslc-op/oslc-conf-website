@@ -88,6 +88,7 @@ speakersName = [
   "Juan Quintanar Gómez",
   "Riu Chen",
   "Bruno Marcelo Soares Ferreira",
+  "Hemlata M Sharma",
 ]
 speakersTitle = [
   "Drägerwerk AG & Co. KGaA",
@@ -104,6 +105,7 @@ speakersTitle = [
   "Koneksys",
   "School of Mechanical Engineering, Beijing Institute of Technology",
   "Federal University of Pampa",
+  "Koneksys",
 ]
 speakersImage = [
   "/images/speakers/CarinaSchaefer.jpg",
@@ -120,6 +122,7 @@ speakersImage = [
   "/images/speakers/juan.png",
   "/images/speakers/RuiChen.jpg",
   "/images/speakers/BrunoMarcelo.jpg",
+  "/images/speakers/hemlata.png",
 ]
 speakersBio = [
   "carinaS",
@@ -136,6 +139,7 @@ speakersBio = [
   "juanQ",
   "ruiC",
   "brunoM",
+  "hemlataS",
 ]
 
 legendTitle = [
