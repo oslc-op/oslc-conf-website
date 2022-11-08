@@ -993,9 +993,9 @@ let bio = {
   timW: {
     'name': 'Tim Weilkiens',
     'title': '',
-    'picturePath':  '/images/speakers/TimWeilkiens.jpg',
+    'picturePath': '/images/speakers/TimWeilkiens.jpg',
     'bio': [
-      ""
+      "Tim is a member of the executive board of the German consulting company oose, an MBSE coach, and an active member of the OMG and INCOSE communities. He is one of the co-leads of the SysML Submission Team, which works on the specification of SysML v2, and is also a co-author of the SysML v1 specification."
     ],
     'contact': [
       {
@@ -1018,6 +1018,36 @@ let bio = {
       }
     ]
   },
+  luZ: {
+    'name': 'Lu Jinzhi',
+    'title': '',
+    'picturePath': '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+    ]
+  },
+  wangG: {
+    'name': 'Wang Guoxin',
+    'title': '',
+    'picturePath': '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+    ]
+  },
+  wuS: {
+    'name': 'Wu Shouxuan',
+    'title': '',
+    'picturePath': '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+    ]
+  },
   brunoM: {
     'name': 'Bruno Marcelo Soares Ferreira',
     'title': 'Adjunct Professor',
@@ -1030,6 +1060,68 @@ let bio = {
         'link': 'mailto:brunoferreira@unipampa.edu.br',
         'icon': '<i class="fas fa-envelope"></i>'
       }
+    ]
+  },
+  rafaelT: {
+    'name': 'Rafael Torres',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+    ]
+  },
+  fabioB: {
+    //  Rafael Z. Frantz, Diego Kreutz, Elder Rodrigues and Maicon Bernardino (Federal University of Pampa)
+    'name': 'Fábio Basso',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+    ]
+  },
+  rafaelZ: {
+    //  , Diego Kreutz, Elder Rodrigues and Maicon Bernardino (Federal University of Pampa)
+    'name': 'Rafael Z. Frantz',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+    ]
+  },
+  diegoK: {
+    'name': 'Diego Kreutz',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+    ]
+  },
+  elderR: {
+    'name': 'Elder Rodrigues',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
+    ]
+  },
+  maiconB: {
+    'name': 'Maicon Bernardino',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [
     ]
   },
   edG: {
@@ -1075,6 +1167,26 @@ let bio = {
         'link': 'mailto:martin.ulrich@de.bosch.com',
         'icon': '<i class="fas fa-envelope"></i>'
       }
+    ]
+  },
+  grayB: {
+    'name': 'Gray Bachelor',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [      
+    ]
+  },
+  fabriceM: {
+    'name': 'Fabrice Mendes',
+    'title': '',
+    'picturePath':  '/images/speakers/placeholder.jpg',
+    'bio': [
+      ""
+    ],
+    'contact': [      
     ]
   },
 };

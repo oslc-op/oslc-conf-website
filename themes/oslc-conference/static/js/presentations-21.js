@@ -1,4 +1,4 @@
-var presentations = {
+let presentations = {
   PjohnW: {
     'title': 'OSLC through the formative years',
     'description': [
@@ -625,6 +625,7 @@ var presentations = {
       bio.davidV
     ]
   },
+  // 2022 Presentation Abstracts add year at end if speaker is the same
   PYogishK: {
     'title': 'OSLC as an Enabler of Systems Lifecycle Management',
     'description':[
@@ -637,7 +638,7 @@ var presentations = {
   PCarlosI: {
     'title': 'OSCL for Cognitive Cross-Checking of System Models',
     'description':[
-        '<p>While multidisciplinary projects of complex engineering systems are rapidly growing the market has had a slack response to provide comprehensive development frameworks and relevant support tools to minimize team downtime and potential problems on design decisions. These drawbacks are mainly due to inefficient and ineffective collaboration among stakeholders from multiple disciplines as they usually use representation models and modelling languages of diverse nature. This undermines the model-based design consistency by making it difficult to integrate the different views of the same system in real time and realize cross-disciplinary impact on models. This presentation shares experience on the use of OSCL to propose a cognitive design framework for the above issue. The proposed approach increases design autonomy in the system development lifecycle by smartly feeding design outputs (from requirements analysis as well as modelling and simulation) from each stakeholder with design inputs from other stakeholders. A case study based on avionics system is presented as application example.</p>'
+      '<p>While multidisciplinary projects of complex engineering systems are rapidly growing the market has had a slack response to provide comprehensive development frameworks and relevant support tools to minimize team downtime and potential problems on design decisions. These drawbacks are mainly due to inefficient and ineffective collaboration among stakeholders from multiple disciplines as they usually use representation models and modelling languages of diverse nature. This undermines the model-based design consistency by making it difficult to integrate the different views of the same system in real time and realize cross-disciplinary impact on models. This presentation shares experience on the use of OSCL to propose a cognitive design framework for the above issue. The proposed approach increases design autonomy in the system development lifecycle by smartly feeding design outputs (from requirements analysis as well as modelling and simulation) from each stakeholder with design inputs from other stakeholders. A case study based on avionics system is presented as application example.</p>'
     ],
     'authors': [
       bio.carlosI,
@@ -646,9 +647,9 @@ var presentations = {
   PHemlataS: {
     'title': 'Connecting REST API Resources with Kiwi',
     'description':[
-        '<p>Kiwi helps seamlessly connect resources that live in isolated, containerized applications. Kiwi enables the connection of data or resources from different organizations or applications that are containerized in different microservices (ex: REST APIs on Kubernetes) without any modification to the micro-services. A graph database stores the connected resources so users can leverage the full potential of linked data to achieve a digital thread.</p>',
-        '<p>Kiwi does this using sidecar proxies. For every REST API, a kiwi-sidecar proxy exists. They act as port-forwarders for their REST APIs. They also provide endpoints for link creation and link discovery. These proxies are containers that can be deployed easily alongside applications running on Kubernetes and require very little configuration.</p>',
-        '<p>This presentation will explain the need for Kiwi and the underlying technologies on which it is built, in addition to a demo showcasing the capabilities of Kiwi.</p>'
+      '<p>Kiwi helps seamlessly connect resources that live in isolated, containerized applications. Kiwi enables the connection of data or resources from different organizations or applications that are containerized in different microservices (ex: REST APIs on Kubernetes) without any modification to the micro-services. A graph database stores the connected resources so users can leverage the full potential of linked data to achieve a digital thread.</p>',
+      '<p>Kiwi does this using sidecar proxies. For every REST API, a kiwi-sidecar proxy exists. They act as port-forwarders for their REST APIs. They also provide endpoints for link creation and link discovery. These proxies are containers that can be deployed easily alongside applications running on Kubernetes and require very little configuration.</p>',
+      '<p>This presentation will explain the need for Kiwi and the underlying technologies on which it is built, in addition to a demo showcasing the capabilities of Kiwi.</p>'
     ],
     'authors': [
       bio.hemlataS,
@@ -682,11 +683,11 @@ var presentations = {
   PJanF:{
     'title': 'Making Analysis Tools More Accessible Using an OSLC-based Service-Oriented Architecture',
     'description':[
-        '<p>In the presentation, we will describe our service-oriented architecture which allows developers to easily introduce new analysis tools to their users and the users to immediately be able to use these tools from their applications.</p>',
-        '<p>The architecture consists of three main components: (1) Unite, a universal OSLC adapter able to transform any non-interactive command line tool into an OSLC-compliant web service, (2) UniC, a Java-based and Eclipse-compatible Client for Unite which can be configured for any tool transformed by Unite due to its flexible and highly extensible architecture, and (3) Eclipse Arrowhead, an IoT framework enabling automatic discovery of services provided by the analysis tools through Unite.</p>',
-        '<p>We will also discuss our experience with deploying this architecture in Honeywell where four different OSLC clients are used to interact with multiple analysis tools transformed by Unite for over a year now.</p>',
-        '<p>The goal of the presentation is to show the audience how they can easily make an OSLC-compliant web service from their own command line tool and quickly connect it with, e.g., Eclipse IDE so any user can easily start using the tool. They will also learn how one can utilize Eclipse Arrowhead so Unite clients can always have an up-to-date list of analysis tools currently available on the network.</p>',
-        '<p>Jan Fiedor is a model-based development engineer at Honeywell, external researcher at FIT BUT, and the developer of UniC, with papers at well-known international research and industrial conferences such as ICST, ISSTA, FSE, or INCOSE IS. Ondrej Vasicek is a Ph.D. student, Honeywell intern, and the developer of Unite whose paper on Unite was recently accepted at ESEC/FSE 2022.</p>',
+      '<p>In the presentation, we will describe our service-oriented architecture which allows developers to easily introduce new analysis tools to their users and the users to immediately be able to use these tools from their applications.</p>',
+      '<p>The architecture consists of three main components: (1) Unite, a universal OSLC adapter able to transform any non-interactive command line tool into an OSLC-compliant web service, (2) UniC, a Java-based and Eclipse-compatible Client for Unite which can be configured for any tool transformed by Unite due to its flexible and highly extensible architecture, and (3) Eclipse Arrowhead, an IoT framework enabling automatic discovery of services provided by the analysis tools through Unite.</p>',
+      '<p>We will also discuss our experience with deploying this architecture in Honeywell where four different OSLC clients are used to interact with multiple analysis tools transformed by Unite for over a year now.</p>',
+      '<p>The goal of the presentation is to show the audience how they can easily make an OSLC-compliant web service from their own command line tool and quickly connect it with, e.g., Eclipse IDE so any user can easily start using the tool. They will also learn how one can utilize Eclipse Arrowhead so Unite clients can always have an up-to-date list of analysis tools currently available on the network.</p>',
+      '<p>Jan Fiedor is a model-based development engineer at Honeywell, external researcher at FIT BUT, and the developer of UniC, with papers at well-known international research and industrial conferences such as ICST, ISSTA, FSE, or INCOSE IS. Ondrej Vasicek is a Ph.D. student, Honeywell intern, and the developer of Unite whose paper on Unite was recently accepted at ESEC/FSE 2022.</p>',
     ],
     'authors': [
       bio.janF,
@@ -696,20 +697,130 @@ var presentations = {
   PPatrickO:{
     'title': 'Enabling the Digital Engineering Thread at PTC',
     'description':[
-        '<p>Most engineering and manufacturing companies today have complex tool chains comprising various applications from multiple vendors, including PTC. As a result, there is huge demand for robust, reliable software integrations that can enable and improve digital engineering and design. This session will describe why and how PTC enabled the digital engineering thread within our own software tools Windchill RV&S, Windchill Modeler and Windchill PLM, as well as implementing integrations with 3rd party software such as IBM DOORS Next.</p>',
-      ],
+      '<p>Most engineering and manufacturing companies today have complex tool chains comprising various applications from multiple vendors, including PTC. As a result, there is huge demand for robust, reliable software integrations that can enable and improve digital engineering and design. This session will describe why and how PTC enabled the digital engineering thread within our own software tools Windchill RV&S, Windchill Modeler and Windchill PLM, as well as implementing integrations with 3rd party software such as IBM DOORS Next.</p>',
+    ],
     'authors': [
       bio.patrickO,
     ]
   },
-    PMartinU:{
-      'title': 'Cross Domain Configuration Management – a New Way to Think PLM in Engineering',
-        'description':[
-          '<p>The Bosch Group is a leading global supplier of technology and services. The Bosch Group’s strategic objective is to facilitate connected living with products and solutions that either contain artificial intelligence (AI) or have been developed or manufactured with its help. The capability to manage steadily increasing product complexity with higher amount of product decomposition levels is vital to meet these objectives. As a side effect the complexity of the organization will increase, resulting in a higher need to facilitate collaboration, also on cross-domain system level.</p>',
-          '<p>In today’s world work products in engineering are still predominantly document-based. In this talk we will focus on the digitalization of the most important work product in engineering to support the digital thread: the project- and product related configurations. Managing these configurations (engineering BOM) are the core of any PLM-system. We will discuss a new approach to implement a highly modular PLM-system supporting interoperability in a brown field engineering landscape based on OSLC Configuration Management, which we refer to as Cross Domain Configuration Management (CDCM). Beyond others the following aspects will be highlighted: MBSE-support, configuration-aware traceability links, design principles and integration to the digital thread.</p>',
-          ],
-        'authors': [
-          bio.martinU,
-          ]
-    },
+  PMartinU:{
+    'title': 'Cross Domain Configuration Management – a New Way to Think PLM in Engineering',
+    'description':[
+      '<p>The Bosch Group is a leading global supplier of technology and services. The Bosch Group’s strategic objective is to facilitate connected living with products and solutions that either contain artificial intelligence (AI) or have been developed or manufactured with its help. The capability to manage steadily increasing product complexity with higher amount of product decomposition levels is vital to meet these objectives. As a side effect the complexity of the organization will increase, resulting in a higher need to facilitate collaboration, also on cross-domain system level.</p>',
+      '<p>In today’s world work products in engineering are still predominantly document-based. In this talk we will focus on the digitalization of the most important work product in engineering to support the digital thread: the project- and product related configurations. Managing these configurations (engineering BOM) are the core of any PLM-system. We will discuss a new approach to implement a highly modular PLM-system supporting interoperability in a brown field engineering landscape based on OSLC Configuration Management, which we refer to as Cross Domain Configuration Management (CDCM). Beyond others the following aspects will be highlighted: MBSE-support, configuration-aware traceability links, design principles and integration to the digital thread.</p>',
+    ],
+    'authors': [
+      bio.martinU,
+    ]
+  },
+  ProbertB2022: {
+    'title': 'When to Link and why we might not want to Sync',
+    'description': [
+      '<p>Too often we talk about linked data we assume that the motivations for this style of integration are understood. This includes both the good values and the challenging points. The alternative to linked data, synchronizing data, has similarly inverted appeal. Pragmatically, we as engineers will use both. It, however, is wickedly valuable to understand linked data\'s, and OSLC in particular, business values so we choose wisely in our methods of connections and compositions.</p>',
+      '<p>In this session we will illustrate the values of OSLC integrations as compared to synchronized solutions. Our goal is to illuminate the options and the values. Performance, data ownership, security, deployment concerns and other architecture values will be discussed with pragmatic engineering team applications to show differences. Some example OSLC solutions will be shown to illustrate specific points.</p>'
+    ],
+    'authors': [
+      bio.robertB
+    ]
+  },
+  PErikH2022: {
+    'title': 'Clearly OSLC is the Answer - But what are the Questions?',
+    'description': [
+      '<p>We have all joined OSLC Fest since we convinced that the standard generate unique value, or at least we are a little curious of its capabilities. But, why is OSLC not used everywhere and by everyone? The underlying reasons are of course in part technical, but also social. In this presentation we look at a number of perceived weaknesses in the standard and the standard community with proposals how we as a group can address them.</p>',
+      '<p>The following aspects will be addressed in the presentation:</p>',
+      '<p><ul>',
+      '<li>The lack of visible end-user commitment</li>',
+      '<li>A perceived closedness of the standards group</li>',
+      '<li>The openness of the standard</li>',
+      '<li>Lack of examples turning implementations to an adventure</li>',
+      '<li>The small size of the standards group</li>',
+      '</ul></p>',
+      '<p>Of course the weaknesses identified shall not be viewed as criticism, rather a call to action. Let\'s make a commitment to address the questions to ensure that users understand the unique value of OSLC and its applicability within the corporate landscape.</p>',
+    ],
+    'authors': [
+      bio.erikH,
+    ]
+  },
+  PJuanQ2022: {
+    'title':'OSLC APIs Generated by Koatl',
+    'description':[
+      '<p>Nowadays data interoperability is necessary to maintain proper communication across departments that use different applications within an organization. OSLC specifications can be adopted by vendor tools to achieve the digital thread, for example, REST APIs can combine these specifications with the aim of linking data via OSLC-Enabled capabilities.</p>',
+      '<p>In order to speed up OSLC API creation Koneksys has used a software factory named Koatl to generate OSLC APIs for applications having a REST API. This presentation will introduce the capabilities of these OSLC APIs including support for OSLC Core features, configuration management, Tracked Resource Set, and Authentication. These OSLC APIs are also interoperable with IBM ELM applications including IBM GCM. The presentation will also present how link editors can be created for Web applications as Web browser extensions, in order to provide a high degree of UI customization while also reusing as much as possible a common code base.</p>',
+    ],
+    'authors': [
+      bio.juanQ
+    ]
+  },
+  PTimW: {
+    'title':'SysML v2 to Go',
+    'description':[
+      '<p>SysML v2 may not be on everyone\'s lips yet, but it is on many people\'s. It is a big thing on the horizon. In this talk, I will briefly introduce SysML v2, including the SysML v2 API and its current state. You\'ll learn about the making of SysML v2, the architecture of the language, a few special features, and take away how you can easily try SysML v2 today.</p>',
+    ],
+    'authors': [
+      bio.timW
+    ]
+  },
+  PEdG: {
+    'title':'Accelerating OSLC Integrations with genOSLC',
+    'description':[
+      '<p>Exposing OSLC interfaces for existing tools is fraught with challenges. Existing solutions offer some support, but much implementation effort is often still required for a fully functional interface. This presentation will introduce genOSLC, a development framework from MID, which dramatically reduces the development effort to realize the OSLC standard. Only requiring the implementation of one Java interface and a resource preview, genOSLC exposes a complete OSLC interface, including local configurations, TRS feeds, and ResourceShapes. It features a dynamic meta-modal, OAuth 1.0A support, and a UI plugin for displaying and creating links.</p>',
+    ],
+    'authors': [
+      bio.edG
+    ]
+  },
+  PRuiC: {
+    'title':'OSLC Supports Model Integration in Model-Based Systems Engineering: KARMA Approach',
+    'description':[
+      '<p>When using Model-Based Systems Engineering (MBSE) to develop complex systems, models using different syntax and semantics typically implemented in a heterogeneous environment which leads to difficulties to realize the data integration across the entire lifecycle. Specifically, seamless exchange between models of different modeling tools is needed to support system lifecycle activities such as requirement analysis, system design, verification and validation. To cope with the above situation, we have proposed a service-oriented approach to support model integration for model-based systems engineering, especially between architecture design and system verification. First a set of semantic mapping rules to translate KARMA model architecture, Modelica model architecture and APIs into Open Service of Lifecycle Collaboration (OSLC) core model. Then OSLC adapter is developed to transform models and APIs into web-based services. The services are deployed by a service discovering plug-in within system modeling tool MetaGraph for model information exchange. We illustrate the approach by a case study on physical architecture modeling and simulation modeling for a six degree of freedom robot (RobotR3) system. The results show that our approach is effective in model and data integration.</p>',
+    ],
+    'authors': [
+      bio.ruiC,
+      bio.luZ,
+      bio.wangG,
+      bio.wuS,
+    ]
+  },
+  PGrayB: {
+    'title':'Stitching a Product Digital Thread with OSLC',
+    'description':[
+      '<p>There is new interest in the Community about supporting product lifecycle scenarios with OSLC.</p>',
+      '<p>Here we offer some perspectives from project experience of supporting product related activities with OSLC, including extending digital threads for products and variants. We will show some short demos. In addition we\'ll share some ideas ahead for the renewed OSLC Community workstream.</p>',
+      '<p>We offer this for discussion and to welcome participation in the new workstream.</p>',
+    ],
+    'authors': [
+      bio.grayB,
+      bio.fabriceM,
+    ]
+  },
+  PJensK: {
+    'title':'Integration Architecture for the Automotive Digital Thread',
+    'description':[
+      '<p>Jens will talk of the digital thread using automotive as an example including digital lifecycle management topics such as over-the-air software updates. I would also touch upon integration architecture (incl. OSCL) and how it relates to the digital thread. The audience will understand the business challenges and benefits of OSLC using automotive as an innovative and complex domain.</p>',
+    ],
+    'authors': [
+      bio.jensK,
+    ]
+  },
+  PBrunoM: {
+    'title':'How is the OSLC Research Building the Semantic Web of Software Assets as Linked Data?',
+    'description':[
+      '<p>Open Services for Lifecycle Collaboration (OSLC) is an open standard for tool interoperability, which allows data federation throughout Software Engineering (SE) application lifecycles. The OSLC community was founded in 2008, and contributed with a standard for tracing artifacts and tools in geral. In the Software Engineering context, this standard is found on many automation and continuous integration tools such as Jenkins and Github Actions, and also on Continuous Software Engineering environments such as IBM Jazz. Although many research effort have been dedicated to establish OSLC as a standard for linked data to for software lifecycles, the literature misses a study characterizing how these contributions are building a distributed net of linked information about software assets.</p>',
+      '<p>Objective: To provide this characterization, our main goal is to map the state-of-the-art and practice on the adoption of OSLC in SE lifecycles.</p>',
+      '<p>Method: In this paper, we present a Systematic Mapping Study (SMS) by analyzing 59 primary studies and addressing integration issues such as SE toolchains.</p>',
+      '<p>Results: Our findings show that OSLC has been mostly applied to the safety-critical industry and often employed in Requirements, Analysis & Design, Change & Configuration Management and Test domains.</p>',
+      '<p>Conclusions: The main advantages of OSLC are related to linked data, involving not only tool adapters for point-to-point integrations, but also proposing solutions for tool replacement in the toolchain, as well as including modifications of OSLC domain specifications and solutions for automated activities for tool integration.</p>',
+    ],
+    'authors': [
+      bio.brunoM,
+      bio.rafaelT,
+      bio.fabioB,
+      bio.rafaelZ,
+      bio.diegoK,
+      bio.elderR,
+      bio.maiconB,
+
+
+    ]
+  },
 };
