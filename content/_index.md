@@ -88,7 +88,7 @@ speakersName = [
   "Ed Gentry",
   "Robert Baillargeon",
   "Juan Quintanar Gómez",
-  "Riu Chen",
+  "Rui Chen",
   "Bruno Marcelo Soares Ferreira",
   "Hemlata M Sharma",
 ]
