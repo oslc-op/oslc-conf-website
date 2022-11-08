@@ -909,7 +909,7 @@ let bio = {
     'title': 'Head of IT Competence Center Product Lifecycle Management',
     'picturePath':  '/images/speakers/SchulzMirbach.jpg',
     'bio': [
-        "Hanns Schulz-Mirbach ensures together with his team at Dräger the delivery of all IT services utilized in product development. That includes an enterprise PLM platform together with more than 40 IT services for meachanical and electrical engineering and software development. Prior to joining Dräger he held engineering management positions at Philips Healthcare and ABB. He has a masters degree in physics and a PhD in electrical engineering."
+        "Hanns Schulz-Mirbach ensures together with his team at Dräger the delivery of all IT services utilized in product development. That includes an enterprise PLM platform together with more than 40 IT services for mechanical and electrical engineering and software development. Prior to joining Dräger he held engineering management positions at Philips Healthcare and ABB. He has a masters degree in physics and a PhD in electrical engineering."
       ],
     'contact': [
       {
