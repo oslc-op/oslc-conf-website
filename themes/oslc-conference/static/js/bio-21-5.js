@@ -958,22 +958,34 @@ let bio = {
   },
   janF: {
     'name': 'Jan Fiedor',
-    'title': '',
-    'picturePath':  '/images/speakers/placeholder.jpg',
+    'title': 'Model-based Development Engineer, Researcher',
+    'picturePath':  '/images/speakers/janfiedor.png',
     'bio': [
-          ""
+      "Jan Fiedor is a Model-based development engineer at Honeywell International s.r.o. and an external researcher at Brno University of Technology. He obtained his Ph.D. in the area of software safety analysis, focusing on dynamic analysis of concurrent programs, where he is continuing his work in various European projects. At Honeywell, he is broadening his focus to model-based system engineering, applying his knowledge from the software world to the general system context. He strongly believes that the collaboration between academia and industry will move the world forward."
     ],
     'contact': [
+      {
+        'link': 'mailto:ifiedor@fit.vutbr.cz',
+        'icon': '<i class="fas fa-envelope"></i>'
+      },
+      {
+        'link': 'mailto:jan.fiedor@honeywell.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      },
     ]
   },
   ondrejV: {
     'name': 'Ondřej Vašíček',
-    'title': '',
-    'picturePath':  '/images/speakers/placeholder.jpg',
+    'title': 'Ph.D. Student & Software Engineer',
+    'picturePath':  '/images/speakers/ondrej.jpg',
     'bio': [
-      ""
+      "Ondřej is a Ph.D. student at the Brno University of Technology in Czech Republic and a part-time Software Engineer at Honeywell International. He is the developer of Unite, an adapter for transforming analysis tools to OSLC-compliant web services, and has experience with developing other OSLC adapters. A paper about Unite was recently accepted at the ESEC/FSE 2022 conference. Apart from OSLC, Ondřej is working on research in the area of validation and verification, MBSE, and requirements specifications."
     ],
     'contact': [
+      {
+        'link': 'mailto:ivasicek@fit.vutbr.cz',
+        'icon': '<i class="fas fa-envelope"></i>'
+      }
     ]
   },
   patrickO: {
@@ -1186,7 +1198,7 @@ let bio = {
     'bio': [
       ""
     ],
-    'contact': [      
+    'contact': [
     ]
   },
 };

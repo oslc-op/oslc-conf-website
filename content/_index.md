@@ -89,6 +89,8 @@ speakersName = [
   "Robert Baillargeon",
   "Juan Quintanar Gómez",
   "Rui Chen",
+  "Jan Fiedor",
+  "Ondřej Vašíček",
   "Bruno Marcelo Soares Ferreira",
   "Hemlata M Sharma",
 ]
@@ -106,6 +108,8 @@ speakersTitle = [
   "SodiusWillert",
   "Koneksys",
   "School of Mechanical Engineering, Beijing Institute of Technology",
+  "Honeywell, Brno University of Technology",
+  "Brno University of Technology & Honeywell International",
   "Federal University of Pampa",
   "Koneksys",
 ]
@@ -123,6 +127,8 @@ speakersImage = [
   "/images/speakers/robert_b.jpg",
   "/images/speakers/juan.png",
   "/images/speakers/RuiChen.jpg",
+  "/images/speakers/janfiedor.png",
+  "/images/speakers/ondrej.jpg",
   "/images/speakers/BrunoMarcelo.jpg",
   "/images/speakers/hemlata.png",
 ]
@@ -140,6 +146,8 @@ speakersBio = [
   "robertB",
   "juanQ",
   "ruiC",
+  "janF",
+  "ondrejV",
   "brunoM",
   "hemlataS",
 ]
@@ -337,7 +345,7 @@ title3 = [
 ]
 authors3 = [
   "Chen Rui, Lu Jinzhi, Wang Guoxin and Wu Shouxuan (Beijing Institute of Technology)",
-  "Jan Fiedor and Ondřej Vašíček",
+  "Jan Fiedor and Ondřej Vašíček (Brno University of Technology & Honeywell International)",
   "Bruno Marcelo Ferreira, Rafael Torres, Fábio Basso, Rafael Z. Frantz, Diego Kreutz, Elder Rodrigues and Maicon Bernardino (Federal University of Pampa)",
   "Carlos Insaurralde",
   "Hemlata Sharma (Koneksys)",
