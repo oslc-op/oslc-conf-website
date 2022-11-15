@@ -948,12 +948,16 @@ let bio = {
   },
   jimT: {
     'name': 'Jim Tung',
-    'title': '',
-    'picturePath':  '/images/speakers/placeholder.jpg',
+    'title': 'MathWorks Fellow',
+    'picturePath':  '/images/speakers/jimtung.jpg',
     'bio': [
-      ""
+      "Jim Tung is a 30-year veteran of MathWorks, focusing on business and technology strategy, and working with key customers and partners. Jim previously held the positions of vice president of marketing and vice president of business development. Prior to joining MathWorks, Jim held management positions at Lotus Development and Keithley DAS, a pioneering manufacturer of PC-based data acquisition systems."
     ],
     'contact': [
+      {
+        'link': 'mailto:jim@mathworks.com',
+        'icon': '<i class="fas fa-envelope"></i>'
+      },
     ]
   },
   janF: {
