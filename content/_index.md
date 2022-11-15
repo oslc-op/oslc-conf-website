@@ -221,14 +221,7 @@ presentationLink1 = [
   "",
   "/presentations/clearly_oslc_is_the_answer_but_what_are_the_questions.pdf",
   "/presentations/integration_architecture_for_the_automotive_digital_thread.pdf",
- # "/presentation/OSLC_as_a_backboke_for_digital_engineering.pdf",
- # "/presentations/OSLCfest-OP.pdf",
- # "/presentations/Exposing_Capella_Models_to_OSLC_Consumers.pdf",
- # "",
- # "/presentations/PyOSLC_SDK.pdf",
- # "/presentations/developing_an_oslc_client_with_the_oslc_api_from_sparx_systems.pdf",
- # "",
- # ""
+  "/presentations/sysml_v2_to_go.pdf",
 ]
 videoLink1 = [
  # "https://www.youtube.com/watch?v=cjSDOL7k2EI&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=1",
