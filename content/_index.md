@@ -216,6 +216,11 @@ type1 = [
  # "break",
 ]
 presentationLink1 = [
+  "",
+  "",
+  "",
+  "/presentations/clearly_oslc_is_the_answer_but_what_are_the_questions.pdf",
+  "/presentations/integration_architecture_for_the_automotive_digital_thread.pdf",
  # "/presentation/OSLC_as_a_backboke_for_digital_engineering.pdf",
  # "/presentations/OSLCfest-OP.pdf",
  # "/presentations/Exposing_Capella_Models_to_OSLC_Consumers.pdf",
