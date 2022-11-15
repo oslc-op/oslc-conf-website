@@ -127,7 +127,7 @@ speakersImage = [
   "/images/speakers/pollerton.jpg",
   "/images/speakers/edgentry.jpg",
   "/images/speakers/robert_b.jpg",
-  "/images/speakers/jimtung2.jpg",
+  "/images/speakers/jimtung.jpg",
   "/images/speakers/juan.png",
   "/images/speakers/RuiChen.jpg",
   "/images/speakers/janfiedor.png",
