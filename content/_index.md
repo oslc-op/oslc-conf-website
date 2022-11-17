@@ -216,9 +216,9 @@ type1 = [
  # "break",
 ]
 presentationLink1 = [
+  "/presentations/EDDM_OSLC-Fest-2022.pdf",
   "",
-  "",
-  "",
+  "/presentations/CDCM_OSLCFest-2022.pptx",
   "/presentations/clearly_oslc_is_the_answer_but_what_are_the_questions.pdf",
   "/presentations/integration_architecture_for_the_automotive_digital_thread.pdf",
   "/presentations/sysml_v2_to_go.pdf",
