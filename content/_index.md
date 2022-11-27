@@ -30,9 +30,9 @@ dayListLink = [
 ]
 dayListClass = [
 ]
-timeLabel = "Register here!"
+timeLabel = ""
 linkTimeLabel = "https://kth-se.zoom.us/meeting/register/u5UldeyspzMuGdZmOrEzSIkuQxCNgR1uP54S"
-bannerActionText = ""
+bannerActionText = "Check presentations"
 bannerActionLink = ""
 bannerActionFAIcon = ""
 bannerSideImage = "/images/connections-new.svg"
