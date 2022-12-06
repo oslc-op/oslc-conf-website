@@ -285,14 +285,12 @@ type2 = [
  # "keynote"
 ]
 presentationLink2 = [
- # "/presentations/keeping_up_with_the_pace_of_opportunity.pdf",
- # "/presentations/managing_traceability.pdf",
- # "/presentations/Leveraging-OSLC-and-Linked-Data-for-the-Creation-of-Assurance-Cases.pptx",
- # "/presentations/20211103_OSLCFest-Configurations.pdf",
- # "/presentations/20211103_OSLCFest-Enterprise.pdf",
- # "/presentations/using_oslc_for_a_closed-loop_digital_twin_demonstrator.pptx",
- # "/presentations/Knowledge_graph_for_ Multi_brand_engineering_collaboration.pdf",
- # "/presentations/OSLC_for_DevOps_event-based_automation.pdf"
+  "",
+  "",
+  "",
+  "",
+  "",
+  "/presentations/koatl_generated oslc_apis_oslc_fest_2022.pdf",
 ]
 videoLink2 = [
  # "",
@@ -364,14 +362,12 @@ type3 = [
  # "vendor",
 ]
 presentationLink3 = [
- # "",
- # "/presentations/OSLCfest-Lyo.pdf",
- # "",
- # "/presentations/Coatl.pdf",
- # "/presentations/Integration_Challenges_in_Infrastructure.pdf",
- # "/presentations/Category_Theory_for_Semantic Data_Interoperability.pdf",
- # "/presentations/Global_Configurations.pptx",
- # "/presentations/Fundamental_OSLC_Concepts_for_Distributed_Link_Creation.pdf"
+  "",
+  "",
+  "",
+  "",
+  "/presentations/oslc_fest_kiwi.pdf",
+  "",
 ]
 videoLink3 = [
  # "https://www.youtube.com/watch?v=YYMIHHV2wUM&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=16",
