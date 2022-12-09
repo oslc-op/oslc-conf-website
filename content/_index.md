@@ -365,7 +365,7 @@ presentationLink3 = [
   "",
   "",
   "",
-  "",
+  "/presentations/oslc_for_cognitive_cross_checking_of_system_models.pdf",
   "/presentations/oslc_fest_kiwi.pdf",
   "",
 ]
