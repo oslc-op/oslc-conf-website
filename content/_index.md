@@ -32,7 +32,7 @@ dayListClass = [
 ]
 timeLabel = ""
 linkTimeLabel = "https://kth-se.zoom.us/meeting/register/u5UldeyspzMuGdZmOrEzSIkuQxCNgR1uP54S"
-bannerActionText = "Check presentations"
+bannerActionText = "Check presentations and videos"
 bannerActionLink = ""
 bannerActionFAIcon = ""
 bannerSideImage = "/images/connections-new.svg"
@@ -224,14 +224,12 @@ presentationLink1 = [
   "/presentations/sysml_v2_to_go.pdf",
 ]
 videoLink1 = [
- # "https://www.youtube.com/watch?v=cjSDOL7k2EI&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=1",
- # "https://www.youtube.com/watch?v=cHZsvL7FI2s&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=2",
- # "https://www.youtube.com/watch?v=JPiGgNoD8Xo&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=3",
- # "https://www.youtube.com/watch?v=UtQVGDQHPmQ&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=4",
- # "https://www.youtube.com/watch?v=c_Xqq5zK2Do&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=5",
- # "https://www.youtube.com/watch?v=D04bODoJzg4&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=6",
- # "https://www.youtube.com/watch?v=bEoBfwlKlgU&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=7",
- # "https://www.youtube.com/watch?v=tFqYWZk-pKU&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=8"
+  "https://youtu.be/qVyXNHmIp7Y",
+  "https://youtu.be/OHdU_gntKc8",
+  "https://youtu.be/XiH0_YfMYA8",
+  "https://youtu.be/znE_Wjf4eg8",
+  "https://youtu.be/X4bIPnWeHjY",
+  "https://youtu.be/OZSusDBvE9k",
 ]
 panelVariable1 = [
   "PHansS",
@@ -293,14 +291,13 @@ presentationLink2 = [
   "/presentations/koatl_generated oslc_apis_oslc_fest_2022.pdf",
 ]
 videoLink2 = [
- # "",
- # "https://www.youtube.com/watch?v=EIVi3mn4fIo&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=9",
- # "https://www.youtube.com/watch?v=wwgbyZaNSZY&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=10",
- # "https://www.youtube.com/watch?v=7_I20ycpfFY&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=11",
- # "https://www.youtube.com/watch?v=RDFChkqZPgA&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=12",
- # "https://www.youtube.com/watch?v=0_gdHcib9jc&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=13",
- # "https://www.youtube.com/watch?v=DrFQlQrUC3w&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=14",
- # "https://www.youtube.com/watch?v=1zxw0Yve1K0&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=15"
+
+  "https://youtu.be/nuBSLlq98uE",
+  "https://youtu.be/e2auZQwAwSI",
+  "https://youtu.be/Q0wDCb4Yp44",
+  "https://youtu.be/4zBS9WWfqYg",
+  "https://youtu.be/WrhW0o7KNe4",
+  "https://youtu.be/TNCCoJDuWSQ",
 ]
 panelVariable2 = [
   "PGrayB",
@@ -370,11 +367,11 @@ presentationLink3 = [
   "",
 ]
 videoLink3 = [
- # "https://www.youtube.com/watch?v=YYMIHHV2wUM&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=16",
- # "https://www.youtube.com/watch?v=IJ7FunqW0rE&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=17",
- # "https://www.youtube.com/watch?v=cg4fjaiAWTo&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=18",
- # "https://www.youtube.com/watch?v=GPmkeYoWnXs&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=19",
- # "https://www.youtube.com/watch?v=eZe9VPhXXUY&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=20",
+  "https://youtu.be/tmdLA9RPNto",
+  "https://youtu.be/0eLtzFNAkKQ",
+  "https://youtu.be/FHdpqnVncWE",
+  "https://youtu.be/ZgNIWDqUUNw",
+  "https://youtu.be/ZCwRtVQJoqQ",
  # "https://www.youtube.com/watch?v=O_K6oLQSyfw&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=21",
  # "https://www.youtube.com/watch?v=IN-vs5nA-5M&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=22",
  # "https://www.youtube.com/watch?v=0384qsHEq60&list=PLpqpu1CS6Rj4JHr8YkcLbWL6j8lw7w8pr&index=23"
