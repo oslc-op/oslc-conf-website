@@ -1,0 +1,41 @@
+name: Deploy to DO
+
+on:
+  push:
+    branches: [master, main, trunk]
+  workflow_dispatch:
+    
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.ref }}
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.97.0"
+          # extended: true
+
+      - name: Set up SSH
+        uses: webfactory/ssh-agent@v0.8.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Hugo Deploy
+        run: |
+          git config --global user.email "webmaster@open-services.net"
+          git config --global user.name "GH Deploy Action"
+          # just a test
+          ssh -o "StrictHostKeyChecking=no" -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_PRINCIPAL }} 'cd /var/www/oslc-conf-website ; git log --name-status HEAD^..HEAD'
+          ./deploy.sh ${{ secrets.SSH_PRINCIPAL }} ${{ secrets.SSH_PORT }}
