@@ -3,6 +3,7 @@
 echo "Starting Deployment"
 
 git checkout master
+rm -rf public/
 git pull origin master
 git push origin master
 
@@ -10,14 +11,14 @@ echo "Switch to Production"
 git checkout production
 
 echo "Updating Production branch"
-git pull origin production
+git pull --rebase=false  origin production
 
 echo "Merging changes from Master"
-git pull --no-edit origin master
+git pull --rebase=false --no-edit -s recursive -X theirs origin master
 
 echo "Generate Hugo site"
 rm -rf public/
-hugo
+hugo -b http://oslcfest.org/ -t oslc-conference
 
 echo "Commiting changes"
 git add -A
@@ -27,8 +28,8 @@ echo "Pushing changes to repository"
 git push origin production
 
 echo "Updating server code"
-SCRIPT="cd ../var/www/oslcfest.org; git pull; exit"
-ssh -A root@167.99.229.27 "${SCRIPT}"
+SCRIPT="cd ../var/www/oslc-conf-website; git pull; exit"
+ssh -A -p "${2:-22}" "${1}" "${SCRIPT}"
 
 echo "Switching to master"
 git checkout master
