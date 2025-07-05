@@ -18,7 +18,7 @@ git pull --rebase=false --no-edit -s recursive -X theirs origin main
 
 echo "Generate Hugo site"
 rm -rf public/
-hugo -b http://oslcfest.org/ -t oslc-conference
+hugo -b https://oslcfest.open-services.net/ -t oslc-conference
 
 echo "Commiting changes"
 git add -A
