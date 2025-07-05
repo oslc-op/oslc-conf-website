@@ -28,7 +28,7 @@ echo "Pushing changes to repository"
 git push origin production
 
 echo "Updating server code"
-SCRIPT="cd ../var/www/oslc-conf-website; git checkout production ; git pull; exit"
+SCRIPT="cd ../var/www/oslc-conf-website; git fetch ; git checkout production ; git pull origin production ; exit"
 ssh -A -p "${2:-22}" "${1}" "${SCRIPT}"
 
 echo "Switching to main"
