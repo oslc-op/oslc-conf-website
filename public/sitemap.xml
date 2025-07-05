@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://oslcfest.org/2018/</loc>
+    <loc>https://oslcfest.open-services.net/2018/</loc>
   </url><url>
-    <loc>http://oslcfest.org/2020/</loc>
+    <loc>https://oslcfest.open-services.net/2020/</loc>
   </url><url>
-    <loc>http://oslcfest.org/2021/</loc>
+    <loc>https://oslcfest.open-services.net/2021/</loc>
   </url><url>
-    <loc>http://oslcfest.org/</loc>
+    <loc>https://oslcfest.open-services.net/</loc>
   </url><url>
-    <loc>http://oslcfest.org/call-for-presentations/</loc>
+    <loc>https://oslcfest.open-services.net/call-for-presentations/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>http://oslcfest.org/categories/</loc>
+    <loc>https://oslcfest.open-services.net/categories/</loc>
   </url><url>
-    <loc>http://oslcfest.org/tags/</loc>
+    <loc>https://oslcfest.open-services.net/tags/</loc>
   </url>
 </urlset>
