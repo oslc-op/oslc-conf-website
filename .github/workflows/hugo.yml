@@ -26,4 +26,4 @@ jobs:
           hugo-version: "0.97.0"
           # extended: true
       - name: Build
-        run: hugo -b http://oslcfest.org/ -t oslc-conference
+        run: hugo -b https://oslcfest.open-services.net/ -t oslc-conference
